@@ -82,6 +82,28 @@ DEFAULT_CONFIG = {
         "simulation": 1.0,
         "modeling": 1.0,
     },
+    "keyword_settings": {
+        "max_keywords_per_paper": 8,
+        "daily_report_keywords": 5,
+        "telegram_keywords": 3,
+    },
+    "keyword_explanations": {
+        "multiphysics": "指热-力-电-化学等多个物理场耦合求解，可用于评估场间耦合效应与失效机制。",
+        "molecular dynamics": "基于原子相互作用的时间演化模拟，用于揭示微观机理与参数敏感性。",
+        "phase-field crystal": "相场晶体模型，适合描述原子尺度周期结构与缺陷长期演化。",
+        "fatigue": "关注循环载荷下损伤累积、裂纹萌生与扩展过程。",
+        "tensile": "关注拉伸工况下应力-应变响应、屈服行为和断裂特征。",
+        "dislocation": "位错是塑性变形核心载体，位错演化直接影响材料强塑性与疲劳行为。",
+        "crack": "裂纹相关研究通常用于评估断裂风险与寿命边界。",
+        "interatomic potential": "原子势函数决定 MD 模拟精度与可迁移性，是材料模拟的关键基础。",
+        "finite element": "有限元用于连续介质尺度求解，可与微观模型形成多尺度桥接。",
+        "machine learning": "机器学习用于势函数构建、代理建模或特征提取，可提高精度与效率。",
+        "stress-strain": "应力-应变关系用于量化材料本构、屈服与硬化行为。",
+        "cyclic loading": "循环加载用于研究疲劳损伤演化和寿命预测。",
+        "thermo-mechanical": "热-力耦合可捕捉温度场对变形和损伤行为的影响。",
+        "electrochemical": "电化学耦合常用于电池/腐蚀等场景，研究扩散-应力-反应协同机制。",
+        "lammps": "LAMMPS 是常用分子动力学平台，强调可复现的原子尺度模拟流程。",
+    },
     "taxonomy": {
         "multiphysics_coupling": [
             "multiphysics",
@@ -314,6 +336,196 @@ def extract_tags(text: str, taxonomy: dict[str, list[str]]) -> list[str]:
     return sorted(set(tags))
 
 
+def normalize_keyword(keyword: str) -> str:
+    out = compact_whitespace(keyword.lower())
+    out = out.replace("_", " ")
+    out = out.replace("phase field", "phase-field")
+    return out
+
+
+def keyword_pattern(keyword: str) -> str:
+    escaped = re.escape(normalize_keyword(keyword))
+    escaped = escaped.replace(r"\ ", r"\s+")
+    escaped = escaped.replace(r"\-", r"[-\s]?")
+    return escaped
+
+
+def count_term_hits(text: str, keyword: str) -> int:
+    pattern = keyword_pattern(keyword)
+    return len(re.findall(pattern, text, flags=re.IGNORECASE))
+
+
+def build_keyword_explanation(keyword: str, cfg_map: dict[str, str]) -> str:
+    norm = normalize_keyword(keyword)
+    if norm in cfg_map:
+        return cfg_map[norm]
+
+    if any(k in norm for k in ("fatigue", "cyclic")):
+        return "该关键词与循环载荷损伤和寿命评估相关，建议重点关注损伤演化参数。"
+    if any(k in norm for k in ("crack", "fracture")):
+        return "该关键词对应断裂相关机制，建议关注裂纹判据、扩展路径和失效阈值。"
+    if any(k in norm for k in ("molecular dynamics", "atomistic", "interatomic")):
+        return "该关键词对应原子尺度模拟方法，建议记录势函数、时间步长和边界条件。"
+    if any(k in norm for k in ("phase-field", "pfc")):
+        return "该关键词对应相场类模型，建议关注自由能构造和演化方程设置。"
+    if any(k in norm for k in ("tensile", "stress", "strain")):
+        return "该关键词对应力学响应分析，建议重点提取本构与载荷路径信息。"
+    if any(k in norm for k in ("multiphysics", "coupled", "thermo", "electro")):
+        return "该关键词对应多场耦合问题，建议关注耦合项、控制方程与场变量映射。"
+    if "machine learning" in norm:
+        return "该关键词对应数据驱动方法，建议关注训练数据来源和泛化能力。"
+    return "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+
+
+def extract_keywords_with_explanations(
+    paper: Paper, cfg: dict[str, Any], labels: dict[str, str]
+) -> list[dict[str, Any]]:
+    text = f"{paper.title}\n{paper.summary}"
+    max_kw = int(cfg.get("keyword_settings", {}).get("max_keywords_per_paper", 8) or 8)
+    max_kw = max(3, max_kw)
+
+    keyword_weights = cfg.get("keyword_weights", {})
+    taxonomy = cfg.get("taxonomy", {})
+    expl_raw = cfg.get("keyword_explanations", {})
+    expl_map = {normalize_keyword(k): str(v) for k, v in expl_raw.items()}
+
+    merged: dict[str, dict[str, Any]] = {}
+
+    def add_candidate(term: str, base_score: float, source: str) -> None:
+        term = compact_whitespace(term)
+        if not term:
+            return
+        hits = count_term_hits(text, term)
+        if hits <= 0:
+            return
+        norm = normalize_keyword(term)
+        phrase_bonus = min(1.2, 0.15 * max(0, len(norm.split()) - 1))
+        score = float(base_score) + 0.5 * min(hits, 4) + phrase_bonus
+        current = merged.get(norm)
+        if current is None or score > current["score"]:
+            merged[norm] = {
+                "keyword": term,
+                "score": round(score, 4),
+                "hits": hits,
+                "source": source,
+            }
+
+    for term, weight in keyword_weights.items():
+        add_candidate(term, float(weight), "keyword_weights")
+
+    for terms in taxonomy.values():
+        for term in terms:
+            add_candidate(str(term), 1.2, "taxonomy")
+
+    for term in expl_map:
+        add_candidate(term, 1.0, "explanation_map")
+
+    for tag in paper.tags:
+        label = labels.get(tag, tag)
+        norm = normalize_keyword(label)
+        if norm not in merged:
+            merged[norm] = {
+                "keyword": label,
+                "score": 1.1,
+                "hits": 1,
+                "source": "topic_tag",
+            }
+
+    items = sorted(
+        merged.values(),
+        key=lambda x: (float(x["score"]), int(x["hits"]), len(str(x["keyword"]))),
+        reverse=True,
+    )
+
+    if not items:
+        title_tokens = re.findall(r"[A-Za-z][A-Za-z0-9\-]{3,}", paper.title)
+        stop = {
+            "with",
+            "from",
+            "into",
+            "using",
+            "based",
+            "model",
+            "models",
+            "analysis",
+            "approach",
+            "study",
+            "effect",
+            "effects",
+        }
+        token_count: dict[str, int] = {}
+        for t in title_tokens:
+            n = normalize_keyword(t)
+            if n in stop:
+                continue
+            token_count[n] = token_count.get(n, 0) + 1
+        for token, cnt in sorted(token_count.items(), key=lambda kv: kv[1], reverse=True)[:max_kw]:
+            items.append(
+                {
+                    "keyword": token,
+                    "score": 1.0,
+                    "hits": cnt,
+                    "source": "title_token",
+                }
+            )
+
+    final_items: list[dict[str, Any]] = []
+    for item in items[:max_kw]:
+        kw = str(item["keyword"])
+        final_items.append(
+            {
+                "keyword": kw,
+                "score": float(item["score"]),
+                "hits": int(item["hits"]),
+                "source": str(item["source"]),
+                "explanation": build_keyword_explanation(kw, expl_map),
+            }
+        )
+    return final_items
+
+
+def infer_focus_areas(
+    *, tags: list[str], keywords: list[dict[str, Any]], text: str, topic_labels: dict[str, str]
+) -> list[str]:
+    lowered = text.lower()
+    keyword_text = " ".join(normalize_keyword(str(k.get("keyword", ""))) for k in keywords)
+    blob = f"{lowered} {keyword_text}"
+
+    rules = [
+        (
+            "多物理耦合与跨场耦合机制",
+            ["multiphysics", "coupled", "thermo", "electrochemical", "fluid-structure"],
+        ),
+        ("分子动力学与原子尺度机制", ["molecular dynamics", "atomistic", "interatomic", "lammps"]),
+        ("相场晶体与组织演化", ["phase-field", "phase field", "pfc", "amplitude expansion"]),
+        ("疲劳损伤与断裂演化", ["fatigue", "cyclic", "crack", "fracture"]),
+        ("拉伸响应与本构行为", ["tensile", "stress-strain", "strain hardening", "uniaxial", "deformation"]),
+        ("数据驱动与机器学习建模", ["machine learning", "data-driven", "neural", "surrogate"]),
+    ]
+
+    focus: list[str] = []
+    for label, needles in rules:
+        if any(n in blob for n in needles):
+            focus.append(label)
+
+    for tag in tags:
+        maybe = topic_labels.get(tag)
+        if maybe and maybe not in focus:
+            focus.append(f"{maybe}（主题归类）")
+
+    if not focus:
+        focus = ["通用材料模拟与数值建模"]
+    return focus
+
+
+def published_year(value: str) -> str:
+    d = parse_datetime(value)
+    if d:
+        return str(d.year)
+    m = re.search(r"\b(\d{4})\b", value or "")
+    return m.group(1) if m else "Unknown"
+
+
 def dedupe_entries(entries: list[Paper]) -> list[Paper]:
     merged: dict[str, Paper] = {}
     for paper in entries:
@@ -530,10 +742,12 @@ def maybe_summarize_with_llm(
             output_text = parse_response_text(raw)
             if output_text:
                 return output_text.strip(), "llm"
+    except urllib.error.HTTPError as err:
+        return build_fallback_summary(paper, labels), f"fallback_http_{err.code}"
+    except urllib.error.URLError:
+        return build_fallback_summary(paper, labels), "fallback_network"
     except Exception:
-        # Fallback if the API call fails.
-        pass
-    return build_fallback_summary(paper, labels), "fallback"
+        return build_fallback_summary(paper, labels), "fallback_error"
 
 
 def parse_response_text(payload: dict[str, Any]) -> str:
@@ -561,6 +775,7 @@ def build_daily_reminder_message(
     report_path: Path,
     max_items: int,
     db: dict[str, Any] | None = None,
+    keyword_limit: int = 3,
 ) -> str:
     date_label = dt.date.today().isoformat()
     lines = [f"今日论文阅读提醒（{date_label}）", ""]
@@ -569,15 +784,26 @@ def build_daily_reminder_message(
         lines.append("")
         for idx, paper in enumerate(selected[:max_items], start=1):
             brief = {}
+            record: dict[str, Any] = {}
             if db and paper.paper_id in db:
-                maybe_brief = db[paper.paper_id].get("brief_cn", {})
+                record = db[paper.paper_id]
+                maybe_brief = record.get("brief_cn", {})
                 if isinstance(maybe_brief, dict):
                     brief = maybe_brief
             if not brief:
                 brief = build_cn_brief(paper, labels)
+            keyword_items = record.get("keyword_details", []) if record else []
+            focus_areas = record.get("focus_areas", []) if record else []
+            keyword_names = [str(x.get("keyword", "")) for x in keyword_items if str(x.get("keyword", "")).strip()]
+            keyword_preview = ", ".join(keyword_names[: max(1, keyword_limit)])
+            focus_preview = "；".join(str(x) for x in focus_areas[:2]) if focus_areas else ""
             lines.append(f"{idx}. {truncate_text(paper.title, 120)}")
             lines.append(f"   做了什么：{truncate_text(brief['what_done'], 140)}")
             lines.append(f"   意义：{truncate_text(brief['meaning'], 140)}")
+            if keyword_preview:
+                lines.append(f"   关键词：{truncate_text(keyword_preview, 140)}")
+            if focus_preview:
+                lines.append(f"   侧重点：{truncate_text(focus_preview, 140)}")
             lines.append(f"   链接：{paper.link}")
             lines.append("")
         lines.append("建议：今天优先精读前 2 篇，并把关键参数和边界条件补进笔记。")
@@ -670,6 +896,7 @@ def maybe_send_daily_reminder(
 
     max_items = int(notify_cfg.get("max_items", 5) or 5)
     max_items = max(1, max_items)
+    telegram_kw = int(cfg.get("keyword_settings", {}).get("telegram_keywords", 3) or 3)
     message = build_daily_reminder_message(
         selected=selected,
         daily_limit=daily_limit,
@@ -677,16 +904,24 @@ def maybe_send_daily_reminder(
         report_path=report_path,
         max_items=max_items,
         db=db,
+        keyword_limit=max(1, telegram_kw),
     )
     claw_cfg = notify_cfg.get("clawbot", {})
     return send_via_clawbot(message=message, claw_cfg=claw_cfg, dry_run=dry_run)
 
 
 def write_paper_note(
-    path: Path, paper: Paper, summary_text: str, brief_cn: dict[str, str] | None = None
+    path: Path,
+    paper: Paper,
+    summary_text: str,
+    brief_cn: dict[str, str] | None = None,
+    keyword_details: list[dict[str, Any]] | None = None,
+    focus_areas: list[str] | None = None,
 ) -> None:
     ensure_dirs(path.parent)
     brief_cn = brief_cn or {}
+    keyword_details = keyword_details or []
+    focus_areas = focus_areas or []
     lines = [
         f"# {paper.title}",
         "",
@@ -704,13 +939,41 @@ def write_paper_note(
         f"- 关键结果: {brief_cn.get('finding', 'N/A')}",
         f"- 对你的意义: {brief_cn.get('meaning', 'N/A')}",
         "",
+        "## 关键词与解释",
+    ]
+    if keyword_details:
+        for item in keyword_details:
+            kw = str(item.get("keyword", "N/A"))
+            expl = str(item.get("explanation", "N/A"))
+            score = float(item.get("score", 0.0))
+            hits = int(item.get("hits", 0))
+            lines.append(f"- {kw} (score={score:.2f}, hits={hits}): {expl}")
+    else:
+        lines.append("- N/A")
+
+    lines.extend(
+        [
+            "",
+            "## 研究侧重点",
+        ]
+    )
+    if focus_areas:
+        for focus in focus_areas:
+            lines.append(f"- {focus}")
+    else:
+        lines.append("- N/A")
+
+    lines.extend(
+        [
+            "",
         "## Structured Summary",
         summary_text.strip(),
         "",
         "## Raw Abstract",
         paper.summary.strip() or "N/A",
         "",
-    ]
+        ]
+    )
     path.write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -727,8 +990,13 @@ def write_daily_report(
             note_rel = db[paper.paper_id]["note_path"]
             label_list = [labels.get(tag, tag) for tag in paper.tags]
             brief = db.get(paper.paper_id, {}).get("brief_cn", {})
+            keyword_details = db.get(paper.paper_id, {}).get("keyword_details", [])
+            focus_areas = db.get(paper.paper_id, {}).get("focus_areas", [])
+            keyword_names = [str(x.get("keyword", "")) for x in keyword_details if str(x.get("keyword", "")).strip()]
             done_cn = truncate_text(str(brief.get("what_done", "N/A")), 160)
             meaning_cn = truncate_text(str(brief.get("meaning", "N/A")), 160)
+            kw_preview = truncate_text(", ".join(keyword_names[:5]), 200) if keyword_names else "N/A"
+            focus_preview = truncate_text("；".join(focus_areas[:3]), 200) if focus_areas else "N/A"
             lines.extend(
                 [
                     f"## {idx}. {paper.title}",
@@ -739,6 +1007,8 @@ def write_daily_report(
                     f"- Note: {note_rel}",
                     f"- 做了什么: {done_cn}",
                     f"- 对你的意义: {meaning_cn}",
+                    f"- 关键词: {kw_preview}",
+                    f"- 研究侧重点: {focus_preview}",
                     "",
                 ]
             )
@@ -787,12 +1057,117 @@ def rebuild_knowledge_map(
     map_path.write_text("\n".join(lines), encoding="utf-8")
 
 
+def rebuild_focus_year_summary(
+    summary_path: Path, db: dict[str, Any], topic_labels: dict[str, str]
+) -> None:
+    ensure_dirs(summary_path.parent)
+    records = list(db.values())
+
+    by_year: dict[str, int] = {}
+    by_focus: dict[str, int] = {}
+    by_year_focus: dict[str, dict[str, int]] = {}
+    keyword_count: dict[str, int] = {}
+    topic_count: dict[str, int] = {}
+
+    for r in records:
+        year = published_year(str(r.get("published", "")))
+        by_year[year] = by_year.get(year, 0) + 1
+
+        tags = [str(x) for x in r.get("tags", []) if str(x).strip()]
+        for tag in tags:
+            topic_count[tag] = topic_count.get(tag, 0) + 1
+
+        focus_areas = [str(x) for x in r.get("focus_areas", []) if str(x).strip()]
+        if not focus_areas:
+            for tag in tags:
+                if tag in topic_labels:
+                    focus_areas.append(f"{topic_labels[tag]}（主题归类）")
+        if not focus_areas:
+            focus_areas = ["通用材料模拟与数值建模"]
+
+        for focus in focus_areas:
+            by_focus[focus] = by_focus.get(focus, 0) + 1
+            if year not in by_year_focus:
+                by_year_focus[year] = {}
+            by_year_focus[year][focus] = by_year_focus[year].get(focus, 0) + 1
+
+        keywords = [str(x) for x in r.get("keywords", []) if str(x).strip()]
+        if not keywords:
+            for x in r.get("keyword_details", []):
+                kw = str(x.get("keyword", "")).strip()
+                if kw:
+                    keywords.append(kw)
+        for kw in keywords:
+            keyword_count[kw] = keyword_count.get(kw, 0) + 1
+
+    lines = ["# 论文研究侧重点与年份汇总", ""]
+    lines.extend(
+        [
+            "该汇总由 `data/paper_db.json` 自动重建。",
+            "",
+            "## 总览",
+            f"- 论文总数: {len(records)}",
+            f"- 最近更新: {now_utc().isoformat()}",
+            "",
+        ]
+    )
+
+    lines.append("## 按年份统计")
+    if by_year:
+        for year, count in sorted(by_year.items(), key=lambda kv: kv[0], reverse=True):
+            lines.append(f"- {year}: {count}")
+    else:
+        lines.append("- N/A")
+    lines.append("")
+
+    lines.append("## 按研究侧重点统计")
+    if by_focus:
+        for focus, count in sorted(by_focus.items(), key=lambda kv: kv[1], reverse=True):
+            lines.append(f"- {focus}: {count}")
+    else:
+        lines.append("- N/A")
+    lines.append("")
+
+    lines.append("## 按主题标签统计")
+    if topic_count:
+        for tag, count in sorted(topic_count.items(), key=lambda kv: kv[1], reverse=True):
+            label = topic_labels.get(tag, tag)
+            lines.append(f"- {label}: {count}")
+    else:
+        lines.append("- N/A")
+    lines.append("")
+
+    lines.append("## 高频关键词 (Top 30)")
+    if keyword_count:
+        for kw, count in sorted(keyword_count.items(), key=lambda kv: kv[1], reverse=True)[:30]:
+            lines.append(f"- {kw}: {count}")
+    else:
+        lines.append("- N/A")
+    lines.append("")
+
+    lines.append("## 年份-侧重点分布")
+    if by_year_focus:
+        for year in sorted(by_year_focus.keys(), reverse=True):
+            lines.append(f"### {year}")
+            focus_map = by_year_focus[year]
+            for focus, count in sorted(focus_map.items(), key=lambda kv: kv[1], reverse=True):
+                lines.append(f"- {focus}: {count}")
+            lines.append("")
+    else:
+        lines.append("- N/A")
+        lines.append("")
+
+    summary_path.write_text("\n".join(lines), encoding="utf-8")
+
+
 def entry_to_db_record(
     paper: Paper,
     note_path: Path,
     status: str = "auto",
     summary_source: str = "fallback",
     brief_cn: dict[str, str] | None = None,
+    keyword_details: list[dict[str, Any]] | None = None,
+    focus_areas: list[str] | None = None,
 ) -> dict[str, Any]:
     return {
         "id": paper.paper_id,
@@ -809,6 +1184,9 @@ def entry_to_db_record(
         "note_path": str(note_path),
         "summary_source": summary_source,
         "brief_cn": brief_cn or {},
+        "keyword_details": keyword_details or [],
+        "keywords": [str(x.get("keyword", "")) for x in (keyword_details or []) if str(x.get("keyword", "")).strip()],
+        "focus_areas": focus_areas or [],
         "last_seen_at": now_utc().isoformat(),
     }
 
@@ -860,6 +1238,7 @@ def cmd_update(args: argparse.Namespace) -> int:
     notes_dir = root / "data" / "notes"
     daily_dir = root / "reports" / "daily"
     map_path = root / "reports" / "knowledge_system.md"
+    focus_summary_path = root / "reports" / "focus_year_summary.md"
 
     cfg = load_config(config_path)
     db = load_db(db_path)
@@ -898,6 +1277,7 @@ def cmd_update(args: argparse.Namespace) -> int:
     if not all_entries:
         print("No entries fetched from arXiv. Knowledge map will still be rebuilt.")
         rebuild_knowledge_map(map_path=map_path, db=db, topic_labels=labels)
+        rebuild_focus_year_summary(summary_path=focus_summary_path, db=db, topic_labels=labels)
         return 0
 
     deduped = dedupe_entries(all_entries)
@@ -907,14 +1287,30 @@ def cmd_update(args: argparse.Namespace) -> int:
     for paper in selected:
         note_path = notes_dir / f"{slugify(paper.paper_id)}.md"
         summary_text, summary_source = maybe_summarize_with_llm(paper, cfg=cfg, labels=labels)
+        keyword_details = extract_keywords_with_explanations(paper=paper, cfg=cfg, labels=labels)
+        focus_areas = infer_focus_areas(
+            tags=paper.tags,
+            keywords=keyword_details,
+            text=f"{paper.title}\n{paper.summary}",
+            topic_labels=labels,
+        )
         brief_cn = refine_brief_with_summary(build_cn_brief(paper, labels), summary_text)
-        write_paper_note(path=note_path, paper=paper, summary_text=summary_text, brief_cn=brief_cn)
+        write_paper_note(
+            path=note_path,
+            paper=paper,
+            summary_text=summary_text,
+            brief_cn=brief_cn,
+            keyword_details=keyword_details,
+            focus_areas=focus_areas,
+        )
         db[paper.paper_id] = entry_to_db_record(
             paper=paper,
             note_path=note_path,
             status="auto",
             summary_source=summary_source,
             brief_cn=brief_cn,
+            keyword_details=keyword_details,
+            focus_areas=focus_areas,
         )
 
     # Refresh last_seen timestamp for already-known entries that appeared today.
@@ -926,6 +1322,7 @@ def cmd_update(args: argparse.Namespace) -> int:
 
     save_db(db_path, db)
     rebuild_knowledge_map(map_path=map_path, db=db, topic_labels=labels)
+    rebuild_focus_year_summary(summary_path=focus_summary_path, db=db, topic_labels=labels)
     report_path = daily_dir / f"{dt.date.today().isoformat()}.md"
     write_daily_report(report_path=report_path, selected=selected, db=db, labels=labels)
 
@@ -945,6 +1342,7 @@ def cmd_update(args: argparse.Namespace) -> int:
     print(f"New papers added today: {len(selected)}")
     print(f"DB path: {db_path}")
     print(f"Knowledge map: {map_path}")
+    print(f"Focus-year summary: {focus_summary_path}")
     print(f"Daily report: {report_path}")
     if ok:
         print(f"Notify: {notify_msg}")
@@ -966,6 +1364,7 @@ def cmd_ingest_known(args: argparse.Namespace) -> int:
     db_path = root / "data" / "paper_db.json"
     notes_dir = root / "data" / "notes"
     map_path = root / "reports" / "knowledge_system.md"
+    focus_summary_path = root / "reports" / "focus_year_summary.md"
     csv_path = Path(args.csv).resolve()
 
     cfg = load_config(config_path)
@@ -1027,21 +1426,49 @@ def cmd_ingest_known(args: argparse.Namespace) -> int:
                 "finding": notes or "暂无详细结论记录。",
                 "meaning": "用于补全你的长期论文体系，并与每日新论文建立关联。",
             }
-            write_paper_note(path=note_path, paper=paper, summary_text=summary_text, brief_cn=brief_cn)
+            keyword_details = extract_keywords_with_explanations(paper=paper, cfg=cfg, labels=labels)
+            if not keyword_details:
+                keyword_details = [
+                    {
+                        "keyword": "known_import",
+                        "score": 1.0,
+                        "hits": 1,
+                        "source": "known_import",
+                        "explanation": "该条目来自已读论文导入，用于补齐历史知识体系。",
+                    }
+                ]
+            focus_areas = infer_focus_areas(
+                tags=paper.tags,
+                keywords=keyword_details,
+                text=f"{paper.title}\n{paper.summary}",
+                topic_labels=labels,
+            )
+            write_paper_note(
+                path=note_path,
+                paper=paper,
+                summary_text=summary_text,
+                brief_cn=brief_cn,
+                keyword_details=keyword_details,
+                focus_areas=focus_areas,
+            )
             db[paper.paper_id] = entry_to_db_record(
                 paper=paper,
                 note_path=note_path,
                 status="known",
                 summary_source="known_import",
                 brief_cn=brief_cn,
+                keyword_details=keyword_details,
+                focus_areas=focus_areas,
             )
             imported += 1
 
     save_db(db_path, db)
     rebuild_knowledge_map(map_path=map_path, db=db, topic_labels=labels)
+    rebuild_focus_year_summary(summary_path=focus_summary_path, db=db, topic_labels=labels)
     print(f"Imported known papers: {imported}")
     print(f"DB path: {db_path}")
     print(f"Knowledge map: {map_path}")
+    print(f"Focus-year summary: {focus_summary_path}")
     return 0
 
 

@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 33
-- Last rebuilt: 2026-02-28T16:41:50.094384+00:00
+- Total papers in library: 37
+- Last rebuilt: 2026-02-28T16:55:48.092117+00:00
 
 ## Multiphysics Coupling
 - [Tracking the Lithiation State of Li$_x$Si from Machine-Learned XPS Binding Energies](https://arxiv.org/abs/2602.23028v1) | 2026-02-26T14:09:00Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.23028v1.md`
@@ -32,8 +32,10 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Strain-Rate- and Line-Length-Dependent Screw Dislocation Glide Mechanisms in BCC Refractory Metals and Alloys](https://arxiv.org/abs/2602.16883v1) | 2026-02-18T21:10:16Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16883v1.md`
 - [Design Principles for Fluid Molecular Ferroelectrics](https://arxiv.org/abs/2602.16649v1) | 2026-02-18T17:45:26Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16649v1.md`
 - [When Is Structural Lubricity Load Independent? The Role of Contact Geometry and Elastic Compliance](https://arxiv.org/abs/2602.16474v1) | 2026-02-18T14:05:10Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16474v1.md`
+- [Unveiling and quantifying the topology-dependent pre-melting of nanoparticles](https://arxiv.org/abs/2602.16250v1) | 2026-02-18T07:58:57Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16250v1.md`
 - [Stochastic Modeling of Anisotropic Strength Surfaces from Atomistic Simulations](https://arxiv.org/abs/2602.16007v1) | 2026-02-17T20:58:06Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16007v1.md`
 - [Fast and accurate quasi-atom method for simultaneous atomistic and continuum simulation of solids](https://arxiv.org/abs/2602.14867v1) | 2026-02-16T16:00:58Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.14867v1.md`
+- [Stacking-Tunable Electronic Properties in Recently Synthesized Hydrogen-Substituted Graphdiyne](https://arxiv.org/abs/2602.14168v1) | 2026-02-15T14:39:08Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.14168v1.md`
 - [Dynamical screening effects on formation of swift heavy ions damage in GaN](https://arxiv.org/abs/2602.14066v1) | 2026-02-15T09:33:56Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.14066v1.md`
 - [Physics-Informed Glass-Structure Descriptors for Assessing the Intrinsic Reactivity of Mixed Amorphous-Crystalline Precursors in Alkali-Activated Materials](https://arxiv.org/abs/2602.13101v1) | 2026-02-13T17:05:36Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.13101v1.md`
 - [Mechanism-driven CO2 Capture and Activation on Two-dimensional Transition-metal Diborides](https://arxiv.org/abs/2602.12562v1) | 2026-02-13T03:21:47Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.12562v1.md`
@@ -47,6 +49,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Phase-Field Crystal
 - [Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1) | 2026-02-15T23:32:39Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.14348v1.md`
+- [Mesoscale modeling of deformations and defects in thin crystalline sheets](https://arxiv.org/abs/2309.11371v3) | 2023-09-20T14:54:08Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2309.11371v3.md`
 - [Amplitude phase-field crystal model for the hexagonal close-packed lattice](https://arxiv.org/abs/2307.02955v1) | 2023-07-06T12:40:50Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2307.02955v1.md`
 
 ## Metal Fatigue Simulation
@@ -58,9 +61,11 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Work-hardening exhaustion as the origin of low toughness in L-PBF alloys: A case study on the role of intrinsic vs. extrinsic defects in SS316L](https://arxiv.org/abs/2602.18954v1) | 2026-02-21T20:24:28Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.18954v1.md`
 - [Fracture Properties of Green Nano Fibrous Network with Random and Aligned Fibre Distribution: A Hierarchical Molecular Dynamics and Peridynamics Approach](https://arxiv.org/abs/2602.17740v1) | 2026-02-19T10:49:39Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.17740v1.md`
 - [Stochastic Modeling of Anisotropic Strength Surfaces from Atomistic Simulations](https://arxiv.org/abs/2602.16007v1) | 2026-02-17T20:58:06Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16007v1.md`
+- [Topological constraints suppress shear localization in granular chain ensembles](https://arxiv.org/abs/2602.09588v1) | 2026-02-10T09:40:37Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.09588v1.md`
 - [From Connectivity to Rupture: A Coarse-Grained Stochastic Network Dynamics Approach to Polymer Network Mechanics](https://arxiv.org/abs/2602.08089v1) | 2026-02-08T19:14:52Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.08089v1.md`
 - [Enhanced Elevated-Temperature Strength in Refractory Complex Concentrated Alloys via Temperature-Induced Transition from Screw-to-Edge Dislocation Control](https://arxiv.org/abs/2602.06225v1) | 2026-02-05T22:04:35Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.06225v1.md`
 - [Atomistic and data-driven insights into the local slip resistances in random refractory multi-principal element alloys](https://arxiv.org/abs/2602.04827v1) | 2026-02-04T18:15:07Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.04827v1.md`
 - [Fully Coupled Multiphysics Modelling of Fracture Behaviour in Silicon Particles During Lithiation Delithiation Using the Phase Field Method](https://arxiv.org/abs/2601.01443v1) | 2026-01-04T09:12:19Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2601.01443v1.md`
 - [High-Temperature Deformation Behavior of Co-Free Non-Equiatomic CrMnFeNi Alloy](https://arxiv.org/abs/2601.00619v1) | 2026-01-02T09:23:26Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2601.00619v1.md`
 - [Fast machine learned $α$-Fe-H interatomic potential for hydrogen embrittlement](https://arxiv.org/abs/2511.21464v1) | 2025-11-26T14:56:02Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2511.21464v1.md`
+- [Mesoscale modeling of deformations and defects in thin crystalline sheets](https://arxiv.org/abs/2309.11371v3) | 2023-09-20T14:54:08Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2309.11371v3.md`

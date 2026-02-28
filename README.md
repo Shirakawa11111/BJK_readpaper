@@ -17,6 +17,8 @@ Automate daily paper discovery and maintain a living research system for:
 6. Writes a daily report under `reports/daily/YYYY-MM-DD.md`.
 7. Generates Chinese per-paper briefs ("what it did / why it matters to your work").
 8. Sends a daily Chinese reading reminder to Telegram via `clawdbot` (configurable).
+9. Extracts keywords with explanations per paper and stores them in notes/database.
+10. Rebuilds `reports/focus_year_summary.md` to summarize research focus and year trends.
 
 ## Quick start
 
@@ -95,6 +97,8 @@ Default target example is numeric chat id `5717971233` (recommended).
 Reminder content includes Chinese brief for each paper:
 - 做了什么
 - 对你的意义
+- 关键词（精简）
+- 研究侧重点（精简）
 
 Manual test:
 
@@ -114,5 +118,6 @@ python3 paper_agent.py update --root . --config config.json --limit 5 --notify
 │   └── paper_db.json
 └── reports
     ├── daily
+    ├── focus_year_summary.md
     └── knowledge_system.md
 ```
