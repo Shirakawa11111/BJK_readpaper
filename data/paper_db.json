@@ -1,1 +1,900 @@
-{}
+{
+  "2601.01443v1": {
+    "id": "2601.01443v1",
+    "title": "Fully Coupled Multiphysics Modelling of Fracture Behaviour in Silicon Particles During Lithiation Delithiation Using the Phase Field Method",
+    "summary": "In this study, a multiphysics model fully coupling mass transport, deformation, phase field, and fatigue damage was developed to investigate the cracking and fracturing behaviours of Si particles during the single lithiation-delithiation cycle and fatigue damage during multiple cycles. The effects of particle diameter, charge rate, and pre-existing notches on the failure behaviour of Si particles were systematically analysed. The results showed that the increase in charge rate, particle diameter, and pre-existing notch length leads to larger cracking rates and faster fracturing of the particle. Then, a validated contour map of Si particle's fracture behaviours was developed. Additionally, the influence of pre-existing notch length and charge rate on fatigue damage was examined, and it was found that longer pre-existing notch length and larger charge rate can shorten the particle's cyclic life. Finally, to alleviate the particle fracture, nanopores were introduced in the particle, and the influence of porosity on the fracture behaviours was investigated. The results showed that nanopores can reduce expansion, dissipate global tensile stresses and elongate the crack propagation path. The developed computational framework established a predictive relationship between stress diffusion coupling theory and particle-level degradation, guiding future design and manufacturing of failure-resistant Si-based anodes for lithium-ion batteries.",
+    "authors": [
+      "Jie Yang",
+      "Wei Tan"
+    ],
+    "published": "2026-01-04T09:12:19Z",
+    "updated": "2026-01-04T09:12:19Z",
+    "link": "https://arxiv.org/abs/2601.01443v1",
+    "tags": [
+      "metal_fatigue",
+      "multiphysics_coupling",
+      "tensile_simulation"
+    ],
+    "score": 13.9667,
+    "status": "auto",
+    "source_topic": "tensile_simulation",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2601.01443v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093466+00:00"
+  },
+  "2602.12558v1": {
+    "id": "2602.12558v1",
+    "title": "Electrohydrodynamic instability of Cu, W and Ti metal nanomelts under radiofrequency E-fields from multiphysics molecular dynamics simulations with coarse-grained density field analysis",
+    "summary": "Employing both electrodynamics coupled with molecular dynamics (ED-MD) simulations for atomistic models and the dynamic instability theory of electrocapillary wave, we investigate the structure evolutions and thermal runaway process of Cu, Ti and W nanotips with radii of curvature of 1 nm and 5 nm under various radiofrequency electric field conditions. The associated critical parameters including the critical electric field, spatial and temporal scales of the electrohydrodynamic instability of molten apexes are obtained by proposing the workflows that utilize the atomistic models in ED-MD simulations to calculate kinematic viscosity tensor components and mass density spatial distributions for the nanomelts with electric fields. Our current ED-MD simulations for nanotips show a non-monotonical variation of the time delay versus the electric field frequency for metal nanotips, and the presence of a critical rf electric field amplitude triggering the thermal runaway regardless of the field frequency. The calculated mass densities and kinematic viscosities of nanomelts for metal nanotips are found to be drastically different to those of bulk liquid metals at the melting point. Specifically, the viscosity of nanomelt under the rf electric field is revealed to be several orders of magnitude higher than the bulk liquid metal, resulting in substantial increase of spatial and temporal scales in the instability theory of electrocapillary wave within the viscosity-dominated regime, compared to the results of ED-MD simulations for Cu and Ti metals, while good agreement between the two methods on the critical wavelength and time delay of thermal runway is found for W nanotips.",
+    "authors": [
+      "Shangyong Wua",
+      "Rui Chua",
+      "Wenqian Konga",
+      "Hongyu Zhanga",
+      "Le Shia",
+      "Kai Wua",
+      "Yonghong Chenga",
+      "Guodong Menga",
+      "Bing Xiaoa"
+    ],
+    "published": "2026-02-13T03:12:59Z",
+    "updated": "2026-02-13T03:12:59Z",
+    "link": "https://arxiv.org/abs/2602.12558v1",
+    "tags": [
+      "molecular_dynamics",
+      "multiphysics_coupling"
+    ],
+    "score": 12.7,
+    "status": "auto",
+    "source_topic": "multiphysics_coupling",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.12558v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093472+00:00"
+  },
+  "2602.14348v1": {
+    "id": "2602.14348v1",
+    "title": "Dislocation dynamics on deformable surfaces",
+    "summary": "We develop a fully coupled theoretical description of dislocation dynamics on deformable crystalline surfaces, using continuum modeling and the amplitude-phase-field crystal (APFC) framework extended to curved geometries. We derive a general kinematic expression for dislocation velocity directly from the complex-amplitude evolution equations, which is also applicable to deformed surfaces through curvature-modified differential operators. From numerical simulations, we show that even small out-of-plane deformations reshape the phenomenology of defect motion through curvature-induced self-propulsion, modified glide directions, and non-classical defect-defect interactions. Our results show how surface geometry profoundly influences defect dynamics and establish the surface-APFC model as a powerful framework for predicting and interpreting curvature-defect coupling across a wide range of systems, from stiff but deformable layers to soft matter surfaces and membranes that retain crystalline order.",
+    "authors": [
+      "Marcello De Donno",
+      "Luiza Angheluta",
+      "Marco Salvalaglio"
+    ],
+    "published": "2026-02-15T23:32:39Z",
+    "updated": "2026-02-15T23:32:39Z",
+    "link": "https://arxiv.org/abs/2602.14348v1",
+    "tags": [
+      "multiphysics_coupling",
+      "phase_field_crystal"
+    ],
+    "score": 12.4,
+    "status": "auto",
+    "source_topic": "phase_field_crystal",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.14348v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093476+00:00"
+  },
+  "2602.16883v1": {
+    "id": "2602.16883v1",
+    "title": "Strain-Rate- and Line-Length-Dependent Screw Dislocation Glide Mechanisms in BCC Refractory Metals and Alloys",
+    "summary": "Plastic flow in body-centered cubic (BCC) metals and dilute/concentrated alloys is governed by the motion of <111> screw dislocations, whose glide is often impeded by cross-kinks (jogs). While existing strengthening models typically treat depinning as defect-assisted cutting or dislocation bowing, the combined strain-rate and dislocation-line-length dependence of cross-kink stability and effective obstacle spacing remains insufficiently resolved at the atomistic scale. Here, we combine conventional molecular dynamics and strain-boost hyperdynamics to investigate screw-dislocation glide in pure Nb and Mo, dilute Nb-Mo alloys, and equiatomic NbMo at 300 K over strain rates from 10^3 to 10^7 s^-1 and dislocation line lengths from 15 to 50 nm. We first demonstrate that low-strain-rate simulations require sufficiently long dislocation lines to capture consistent cross-kink behavior and strength-determining pinning events. Using the 50~nm configurations, we show that cross-kinks form not only in concentrated alloys but also in pure BCC metals, with their stability governed by the relative rates of kink nucleation and migration on primary and cross-slip planes, which differ between Nb- and Mo-rich systems due to distinct core structures and non-Schmid responses. At high strain rates, depinning proceeds predominantly via vacancy-interstitial cluster formation. In contrast, at low strain rates and long line lengths, alternative pathways emerge, including lateral cross-kink migration, three-dimensional forward--backward cross-slip, and prismatic loop formation. The effective obstacle spacing controlling the critical resolved shear stress therefore emerges from coupled thermodynamic roughening and kinetic evolution. These findings highlight the intrinsically rate-, length-, and chemistry-dependent nature of screw-dislocation strengthening in BCC alloys.",
+    "authors": [
+      "Subhendu Chakraborty",
+      "Liang Qi"
+    ],
+    "published": "2026-02-18T21:10:16Z",
+    "updated": "2026-02-18T21:10:16Z",
+    "link": "https://arxiv.org/abs/2602.16883v1",
+    "tags": [
+      "molecular_dynamics",
+      "multiphysics_coupling"
+    ],
+    "score": 11.4,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16883v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093491+00:00"
+  },
+  "2602.08089v1": {
+    "id": "2602.08089v1",
+    "title": "From Connectivity to Rupture: A Coarse-Grained Stochastic Network Dynamics Approach to Polymer Network Mechanics",
+    "summary": "We introduce a coarse-grained stochastic network dynamics (CGSND) framework for modeling deformation and rupture in polymer networks. The method replaces explicit molecular dynamics (MD) or coarse-grained molecular dynamics (CGMD) with network-level evolution rules while retaining chain entropic elasticity and force-controlled bond failure. Under uniaxial loading, CGSND reproduces the characteristic nonlinear stress--stretch response of elastomeric networks, including a well-defined ultimate tensile strength and post-peak softening due to progressive bond rupture. Comparison with coarse-grained molecular dynamics (CGMD) simulations shows that CGSND captures the qualitative form of the stress response and the onset of catastrophic damage despite its rate-independent formulation. Analysis of rupture kinetics reveals a pronounced peak in the bond-breaking hazard rate near the ultimate tensile strength in both approaches. In addition, the distribution of broken segment lengths remains statistically indistinguishable from the initial network, indicating that rupture is not biased toward short or long chains. Finally, the evolution of the Gini coefficient of bond force magnitudes reveals strong force localization preceding failure. These results demonstrate that CGSND provides a computationally efficient and physically interpretable framework for connecting force localization and rupture kinetics to macroscopic failure in polymer networks.",
+    "authors": [
+      "Shaswat Mohanty",
+      "Wei Cai"
+    ],
+    "published": "2026-02-08T19:14:52Z",
+    "updated": "2026-02-08T19:14:52Z",
+    "link": "https://arxiv.org/abs/2602.08089v1",
+    "tags": [
+      "molecular_dynamics",
+      "tensile_simulation"
+    ],
+    "score": 10.6667,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.08089v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093469+00:00"
+  },
+  "2602.18954v1": {
+    "id": "2602.18954v1",
+    "title": "Work-hardening exhaustion as the origin of low toughness in L-PBF alloys: A case study on the role of intrinsic vs. extrinsic defects in SS316L",
+    "summary": "Laser powder bed fusion (L-PBF) additive manufacturing offers a remarkable balance of strength and ductility across many structural alloys. However, L-PBF alloys often display much lower fracture toughness, in some cases up to 70% below conventionally wrought counterparts. The reasons for this toughness paradox have remained elusive, since conventional tools cannot directly visualize sub-surface microscale deformation processes that govern crack growth. Here we apply scanning 3D X-ray diffraction and phase contrast tomography to simultaneously capture microstructural evolution with 1 micron resolution near an advancing crack tip, utilizing 316L stainless steel as a model system. We demonstrate that the toughness paradox is not solely a consequence of extrinsic processing defects or residual stresses, but rather an intrinsic failure to relax crack-tip stresses via plasticity. While wrought material facilitates stable crack-tip blunting through localized dislocation accumulation, the L-PBF material undergoes premature work-hardening saturation that triggers extreme stress partitioning and high stress triaxiality. This results in a transition from ductile blunting to a sharp, unstable fracture mode. These findings identify work-hardening exhaustion as a systemic vulnerability inherent to L-PBF microstructures, where the exceptional initial dislocation density required for high yield strength acts as a saturation ceiling for damage tolerance. This work provides a physical basis for adapting damage models to L-PBF metals and challenges the assumption that high tensile ductility guarantees fracture resistance in rapidly solidified components.",
+    "authors": [
+      "KenHee Ryou",
+      "Yaozhong Zhang",
+      "James A. D. Ball",
+      "Dan Rubio-Ejchel",
+      "Dillon Jobes",
+      "Buhari Ibrahim",
+      "Charles Romain",
+      "Henry Proudhon",
+      "Jerard V. Gordon"
+    ],
+    "published": "2026-02-21T20:24:28Z",
+    "updated": "2026-02-21T20:24:28Z",
+    "link": "https://arxiv.org/abs/2602.18954v1",
+    "tags": [
+      "metal_fatigue",
+      "tensile_simulation"
+    ],
+    "score": 10.3,
+    "status": "auto",
+    "source_topic": "tensile_simulation",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.18954v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093495+00:00"
+  },
+  "2602.17740v1": {
+    "id": "2602.17740v1",
+    "title": "Fracture Properties of Green Nano Fibrous Network with Random and Aligned Fibre Distribution: A Hierarchical Molecular Dynamics and Peridynamics Approach",
+    "summary": "Polylactic acid (PLA) nanofibrous networks have gained substantial interest across various engineering and scientific disciplines, such as tissue engineering, drug delivery, and filtration, due to their unique and multifunctional attributes, including biodegradability, tunable mechanical properties, and surface functionality. However, predicting their mechanical behaviour remains challenging due to their structural complexity, multiscale features, and variability in material properties. This study presents a hierarchical approach to investigate fracture phenomena in both aligned and randomly oriented nanofibrous networks by integrating atomistic modelling and nonlocal continuum mechanics, namely peridynamics. At the nanoscale, all-atom molecular dynamics simulations are employed to apply tensile loads to freestanding pristine and silver-doped PLA nanofibres, where key mechanical properties such as Young's modulus, Poisson's ratio, and critical energy release rate are determined. A new method is introduced to transfer data from molecular dynamics to peridynamics by ensuring convergence of the tensile response of a single fiber in both frameworks. This nano-to-micro coupling technique is then used to examine the Young's modulus, fracture toughness in modes I and II, and crack propagation in PLA nanofibrous networks. The proposed framework can also incorporate the effects of surface coating and fiber arrangements on the measured properties. This research paves the way for the development of stronger and more durable eco-friendly nanofibrous networks with optimised performance.",
+    "authors": [
+      "Razie Izadi",
+      "Raj Das",
+      "Nicholas Fantuzzi",
+      "Patrizia Trovalusci"
+    ],
+    "published": "2026-02-19T10:49:39Z",
+    "updated": "2026-02-19T10:49:39Z",
+    "link": "https://arxiv.org/abs/2602.17740v1",
+    "tags": [
+      "molecular_dynamics",
+      "tensile_simulation"
+    ],
+    "score": 10.2,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.17740v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093493+00:00"
+  },
+  "2602.12562v1": {
+    "id": "2602.12562v1",
+    "title": "Mechanism-driven CO2 Capture and Activation on Two-dimensional Transition-metal Diborides",
+    "summary": "The urgent need to mitigate rising atmospheric CO2 levels motivates the search for stable, efficient, and tunable adsorbent materials. In this study, we employ first-principles density functional theory to investigate the adsorption of CO2 molecules on two-dimensional hexagonal transition-metal diboride monolayers, M2B2 (M = Sc, Y, Ti, Zr, Nb). The adsorption energies, structural distortions, and bonding characteristics are systematically analyzed to understand how the metal center governs CO2 activation. The calculated adsorption energies range from -1.84 to -2.16 eV (or -1.98 to -4.42 eV), with Ti2B2 and Sc2B2 exhibiting the strongest CO2 binding, while Y2B2, Zr2B2, and Nb2B2 show moderately strong chemisorption. Adsorption induces significant molecular activation, evidenced by elongated C-O bonds (1.27-1.29 Angstrom) and bent O-C-O angles (129-132 degrees), compared to the linear gas-phase configuration (1.17 Angstrom, 180 degrees). Charge analysis further reveals substantial electron transfer from the monolayer to CO2, consistent with strong chemisorption and structural deformation. Correspondingly, the shift toward less negative IpCOHP(Ef) values indicates a pronounced weakening of the internal C-O bonds, reflecting increased population of antibonding pi* orbitals. Ab initio molecular dynamics simulations show that the activated CO2 species is thermally sensitive: while most M2B2 surfaces retain stable adsorption at 300 K, Ti2B2 drives spontaneous CO2 dissociation into CO and O, revealing a temperature-assisted activation pathway. These findings highlight how the choice of transition metal tunes electronic interactions, adsorption energetics, and activation pathways on M2B2 surfaces. Overall, this work identifies two-dimensional transition-metal diborides as promising candidates for next-generation CO2 capture and activation technologies.",
+    "authors": [
+      "Jakkapat Seeyangnok",
+      "Rungkiat Nganglumpoon",
+      "Joongjai Panpranot",
+      "Udomsilp Pinsook"
+    ],
+    "published": "2026-02-13T03:21:47Z",
+    "updated": "2026-02-13T03:21:47Z",
+    "link": "https://arxiv.org/abs/2602.12562v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 10.2,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.12562v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093473+00:00"
+  },
+  "2602.06225v1": {
+    "id": "2602.06225v1",
+    "title": "Enhanced Elevated-Temperature Strength in Refractory Complex Concentrated Alloys via Temperature-Induced Transition from Screw-to-Edge Dislocation Control",
+    "summary": "Refractory complex concentrated alloys (RCCAs) show promise for high-temperature applications but often lose strength due to screw-dislocation-controlled plasticity. We demonstrate a temperature-driven transition from screw- to edge-dislocation-controlled deformation in a single-phase NbTaTiV RCCA. Tensile tests from 298-1573 K reveal a pronounced intermediate-temperature strength plateau and yield strengths surpassing other ductile RCCAs and the Ni-based superalloy CMSX-4 above 1273 K. In-situ neutron diffraction, TEM, and molecular dynamics identify a crossover near ~900 K, where edge dislocation glide stabilized by V-induced lattice distortion dominates, enabling enhanced strength retention and a clear design strategy for ultrahigh-temperature applications.",
+    "authors": [
+      "Tamanna Zakia",
+      "Ayeman Nahin",
+      "Dunji Yu",
+      "Jacob Pustelnik",
+      "Juntan Li",
+      "Mason Kincheloe",
+      "Lia Amalia",
+      "Yan Chen",
+      "Peter K. Liaw",
+      "Haixuan Xu",
+      "Mingwei Zhang"
+    ],
+    "published": "2026-02-05T22:04:35Z",
+    "updated": "2026-02-05T22:04:35Z",
+    "link": "https://arxiv.org/abs/2602.06225v1",
+    "tags": [
+      "molecular_dynamics",
+      "tensile_simulation"
+    ],
+    "score": 10.0667,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.06225v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093468+00:00"
+  },
+  "2601.00619v1": {
+    "id": "2601.00619v1",
+    "title": "High-Temperature Deformation Behavior of Co-Free Non-Equiatomic CrMnFeNi Alloy",
+    "summary": "Cobalt-free high-entropy alloys (HEAs) have garnered interest for nuclear structural applications due to their good mechanical performance, thermal stability, and resistance to radiation-induced degradation, while avoiding long-lived Co radioisotopes. This study presents an experimental and computational investigation of the plastic deformation behavior of a non-equatomic CrMnFeNi alloy, designed to maintain a stability of fcc phase in a large domain of temperatures and to balance stacking fault (SF) energies for enhanced strain hardening and ductility. Tensile tests reveal a temperature-dependent reduction in mechanical strength, attributed to thermally activated deformation mechanisms and microstructural evolution. Molecular dynamics simulations of single- and polycrystals capture dislocation activity, SF formation, and twin nucleation as a function of strain and temperature. Electron backscatter diffraction (EBSD) confirms twin formation and grain boundary activity. The Schmid factor mapping is drawn to interpret local slip activity and anisotropic deformation behavior. The absence of Co leads to enhanced high-temperature strength compared to the Cantor alloy.",
+    "authors": [
+      "F. J. Dominguez-Gutierrez",
+      "M. Frelek-Kozak",
+      "G. Markovic",
+      "M. A. Strozyk",
+      "A. Daramola",
+      "M. Traversier",
+      "A. Fraczkiewicz",
+      "A. Zaborowska",
+      "T. Khvan",
+      "I. Jozwik",
+      "L. Kurpaska"
+    ],
+    "published": "2026-01-02T09:23:26Z",
+    "updated": "2026-01-02T09:23:26Z",
+    "link": "https://arxiv.org/abs/2601.00619v1",
+    "tags": [
+      "molecular_dynamics",
+      "tensile_simulation"
+    ],
+    "score": 9.9,
+    "status": "auto",
+    "source_topic": "tensile_simulation",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2601.00619v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093464+00:00"
+  },
+  "2602.16007v1": {
+    "id": "2602.16007v1",
+    "title": "Stochastic Modeling of Anisotropic Strength Surfaces from Atomistic Simulations",
+    "summary": "This work develops a unified framework for inferring, representing, and statistically characterizing an anisotropic strength surface directly from molecular dynamics data. Large-scale tensile loading simulations are used to generate failure data across all principal stress ratios and loading orientations, facilitated by a data-driven mapping between imposed strain-rate tensors and resulting stresses. The orientation-dependent strength surface is then represented using a constrained parametric formulation in which the surface parameters vary smoothly with loading angle through a low-dimensional functional encoding. To deploy the framework, we specifically consider the case of monocrystalline graphene, which is a prototypical two-dimensional material that has been extensively characterized, both experimentally and computationally, in the literature. For defective graphene, multiple random realizations of vacancy defect distributions are used to construct a stochastic ensemble of angular strength surfaces. Because each anisotropic strength surface requires substantial atomistic sampling to construct, the resulting ensemble is inherently limited in size, motivating the use of compact encoding, dimensionality reduction, and probabilistic modeling to characterize strength variability. Dimensionality reduction via Principal Component Analysis reveals a condensed latent representation of the fitted, encoded surfaces, where a Gaussian mixture model is employed to capture defect-induced variability, including rare outlier behaviors arising from clustered vacancy defects. Sampling from this probabilistic model enables the generation of new, physically admissible strength surfaces and the construction of confidence intervals in both parameter space and stress space. (Abstract shortened to meet arXiv limits.)",
+    "authors": [
+      "Alexander Bonacci",
+      "John Dolbow",
+      "Johann Guilleminot"
+    ],
+    "published": "2026-02-17T20:58:06Z",
+    "updated": "2026-02-17T20:58:06Z",
+    "link": "https://arxiv.org/abs/2602.16007v1",
+    "tags": [
+      "molecular_dynamics",
+      "tensile_simulation"
+    ],
+    "score": 9.6667,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16007v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093483+00:00"
+  },
+  "2602.15500v1": {
+    "id": "2602.15500v1",
+    "title": "From Coils to Surface Recession: Fully Coupled Simulation of Ablation in ICP Wind Tunnels",
+    "summary": "This work presents a fully coupled, multiphysics computational framework for predicting the thermo-chemical material response of thermal protection systems in inductively coupled plasma (ICP) wind tunnels. The framework integrates a high-fidelity Navier-Stokes plasma solver, an electromagnetic field solver, and a discontinuous-Galerkin material response solver using a partitioned coupling strategy. This enables an ab initio, end-to-end simulation of the 350 kW Plasmatron X facility at the University of Illinois Urbana-Champaign (UIUC), including plasma generation, electromagnetic heating, near-wall thermochemistry, and time-accurate material ablation. The model captures key ICP physics such as vortex-mode recirculation, Joule-heating-driven plasma formation, and Lorentz-force-induced flow confinement, and accurately predicts the transition from subsonic to supersonic jet behavior at low pressures. Validation against cold-wall calorimetry and graphite ablation experiments shows that predicted stagnation-point heat fluxes fall well within experimental uncertainty, while fully coupled simulations accurately reproduce measured stagnation temperature histories and recession rates with errors below 12% and 10%, respectively. Remaining discrepancies during early transient heating are attributed to uncertainties in power-coupling efficiency, equilibrium ablation modeling, and material property datasets. Overall, the framework demonstrates strong predictive capability for ICP wind tunnel environments and provides a foundation for improved design, interpretation, and planning of hypersonic material testing campaigns.",
+    "authors": [
+      "Sanjeev Kumar",
+      "Alessandro Munafo",
+      "Blaine Vollmer",
+      "Daniel J. Bodony",
+      "Gregory S. Elliott",
+      "Kelly A. Stephani",
+      "Sean Kearney",
+      "Marco Panesi"
+    ],
+    "published": "2026-02-17T11:13:00Z",
+    "updated": "2026-02-17T11:13:00Z",
+    "link": "https://arxiv.org/abs/2602.15500v1",
+    "tags": [
+      "multiphysics_coupling"
+    ],
+    "score": 9.6333,
+    "status": "auto",
+    "source_topic": "multiphysics_coupling",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.15500v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093478+00:00"
+  },
+  "2602.20058v1": {
+    "id": "2602.20058v1",
+    "title": "The effect of the A-site cation on the phase transition temperature of metal halide perovskites",
+    "summary": "A key challenge for the practical application of metal halide perovskites (MHPs) is the instability of the desired perovskite phase relative to the optically non-active $δ$ phase. To determine the phase stability, we previously developed a procedure to compute the harmonic free energy as a function of temperature, which was suited for CsPbI$_3$ but fails when Cs is replaced by organic cations due to their rotational freedom. Herein we propose a multistep thermodynamic integration (TI) approach that corrects the harmonic free energy to obtain the Gibbs free energy. Given the abundance of local minima in these materials, we employ replica exchange to prevent simulations from getting trapped, while introducing an intermediate potential energy surface to improve convergence and reduce computational cost. Benchmarking energy and forces from different exchange-correlation functionals and dispersion methods against high-level RPA+HF calculations identifies PBE+D3(BJ) as the best trade-off between accuracy, computational efficiency, and precision. To perform molecular dynamics simulations within the TI framework, it was necessary to train a machine learning potential using the MACE architecture on ab initio data calculated with density functional theory. Our results show that, for all three materials, the free energy difference between the $γ$ and $δ$ phases exhibits a very similar temperature dependence. This suggests that phase stability is primarily governed by differences in ground-state energy, rather than by material-specific thermal effects. Beyond these three materials, our methodology provides a robust framework for investigating the phase behavior of other MHPs, paving the way for the discovery of more stable perovskites.",
+    "authors": [
+      "Tom Braeckevelt",
+      "Sander Vandenhaute",
+      "Sven M. J. Rogge",
+      "Johan Hofkens",
+      "Veronique Van Speybroeck"
+    ],
+    "published": "2026-02-23T17:13:35Z",
+    "updated": "2026-02-23T17:13:35Z",
+    "link": "https://arxiv.org/abs/2602.20058v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 9.2667,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.20058v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093496+00:00"
+  },
+  "2602.14867v1": {
+    "id": "2602.14867v1",
+    "title": "Fast and accurate quasi-atom method for simultaneous atomistic and continuum simulation of solids",
+    "summary": "We report a novel hybrid method of simultaneous atomistic simulation of solids in critical regions (contacts surfaces, cracks areas, etc.), along with continuum modeling of other parts. The continuum is treated in terms of quasi-atoms of different size, comprising composite medium. The parameters of interaction potential between the quasi-atoms are optimized to match elastic properties of the composite medium to those of the atomic one. The optimization method coincides conceptually with the online Machine Learning (ML) methods, making it computationally very efficient. Such an approach allows a straightforward application of standard software packages for molecular dynamics (MD), supplemented by the ML-based optimizer. The new method is applied to model systems with a simple, pairwise Lennard-Jones potential, as well with multi-body Tersoff potential, describing covalent bonds. Using LAMMPS software we simulate collision of particles of different size. Comparing simulation results, obtained by the novel method, with full-atomic simulations, we demonstrate its accuracy, validity and overwhelming superiority in computational speed. Furthermore, we compare our method with other hybrid methods, specifically, with the closest one -- AtC (Atomic to Continuum) method. We demonstrate a significant superiority of our approach in computational speed and implementation convenience. Finally, we discuss a possible extension of the method for modeling other phenomena.",
+    "authors": [
+      "Artem Chuprov",
+      "Egor E. Nuzhin",
+      "Alexey A. Tsukanov",
+      "Nikolay V. Brilliantov"
+    ],
+    "published": "2026-02-16T16:00:58Z",
+    "updated": "2026-02-16T16:00:58Z",
+    "link": "https://arxiv.org/abs/2602.14867v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 9.1,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.14867v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093477+00:00"
+  },
+  "2602.13101v1": {
+    "id": "2602.13101v1",
+    "title": "Physics-Informed Glass-Structure Descriptors for Assessing the Intrinsic Reactivity of Mixed Amorphous-Crystalline Precursors in Alkali-Activated Materials",
+    "summary": "Rapid and reliable assessment of the intrinsic reactivity of amorphous aluminosilicates is critical for their application in alkali-activated materials (AAMs) and blended cements. Although physics-informed glass-structure descriptors have demonstrated strong structure-reactivity relationships for predominantly amorphous systems, their extension to heterogeneous precursors with mixed crystalline-amorphous phases has been limited. Here, quantitative X-ray diffraction combined with bulk compositional analysis was used to reconstruct the effective amorphous compositions of five fly ashes (FAs) and three ground granulated blast-furnace slags (GGBSs). These compositions served as inputs for molecular dynamics simulations employing a melt-and-quench approach to generate atomic-scale structural models of the glassy phases. Based on these structures, the previously introduced descriptors, i.e., average metal oxygen dissociation energy and average metal oxygen bond strength, were refined to cover a broader compositional space spanning SiO2-Al2O3-TiO2-Fe2O3-CaO-MgO-MnO-Na2O-K2O. The refined descriptors exhibit strong inverse correlations with multiple independent reactivity indicators, including cumulative heat release from isothermal calorimetry, bound water content from thermogravimetric analysis, and compressive strength, for both single precursors and binary FA-GGBS blends activated with NaOH. These results demonstrate that physics-informed glass-structure descriptors can be extended from ideal amorphous systems to heterogeneous mixed-phase precursors and capture relative intrinsic reactivity trends in alkaline solutions. The proposed framework provides a transferable, structure-informed basis for comparative assessment of precursor reactivity that complements experimental testing and may inform precursor screening and mix designs for AAM and blended cement systems.",
+    "authors": [
+      "Zhu Pan",
+      "Xinru Li",
+      "Yucheng Wang",
+      "Samira Hossain",
+      "Kai Gong"
+    ],
+    "published": "2026-02-13T17:05:36Z",
+    "updated": "2026-02-13T17:05:36Z",
+    "link": "https://arxiv.org/abs/2602.13101v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 8.9333,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.13101v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093474+00:00"
+  },
+  "2511.21464v1": {
+    "id": "2511.21464v1",
+    "title": "Fast machine learned $α$-Fe-H interatomic potential for hydrogen embrittlement",
+    "summary": "In this work, we present a machine-learned interatomic potential for the $α$-Fe-H system based on the tabulated Gaussian Approximation Potential (tabGAP) formalism. Trained on a Density Functional Theory (DFT) dataset of atomic configurations, energies, forces, and virials, the potential is designed to address the issue of H-induced acceleration of mechanical failure of metals, generally known as hydrogen embrittlement (HE). The proposed potential is shown to outperform the widely used classical and machine-learned interatomic potentials in fundamental properties of the $α$-Fe-H system. We show that the tabGAP model reproduces H-point defect properties, H-dislocation interaction, H-H interaction, and elastic constants with nearly DFT-level accuracy at a computational cost that is competitive with the efficient classical Embedded Atom Method (EAM) potentials. We further demonstrate the utility of the tabGAP model in molecular dynamics simulations of tensile tests of a perfect, and a $(111)[11\\bar{2}]$-notched $α$-Fe structure with and without the load of H atoms. The simulations show evidence of HE via observation of accelerated decohesion of Fe atoms at the tip of the notch, and an increase in vacancy concentration driven by H-dislocation interactions. Hence, the results of the presented simulations support the hypotheses of hydrogen-enhanced decohesion (HEDE) alongside hydrogen-enhanced strain induced vacancies (HESIV) as important mechanisms for H-induced mechanical failure of iron systems.",
+    "authors": [
+      "Eetu Makkonen",
+      "Alvaro Lopez-Cazalilla",
+      "Flyura Djurabekova"
+    ],
+    "published": "2025-11-26T14:56:02Z",
+    "updated": "2025-11-26T14:56:02Z",
+    "link": "https://arxiv.org/abs/2511.21464v1",
+    "tags": [
+      "molecular_dynamics",
+      "tensile_simulation"
+    ],
+    "score": 8.7,
+    "status": "auto",
+    "source_topic": "tensile_simulation",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2511.21464v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093461+00:00"
+  },
+  "2602.10034v1": {
+    "id": "2602.10034v1",
+    "title": "Multiscale Modeling of Metal/Oxide/Metal Conductive Bridging Random Access Memory Cells: from Ab Initio to Finite Element Calculations",
+    "summary": "We present a multiscale simulation framework to compute the current vs. voltage (I-V ) characteristics of metal/oxide/metal structures building the core of conductive bridging random access memory (CBRAM) cells and to shed light on their resistance switching properties. The approach relies on a finite element model whose input material parameters are extracted either from ab initio or from machine-learned empirical calculations. The applied techniques range from molecular dynamics and nudged elastic band to electronic and thermal quantum transport. Such an approach drastically reduces the number of fitting parameters needed and makes the resulting modeling environment more accurate than traditional ones. The developed computational framework is then applied to the investigation of an Ag/a-SiO2/Pt CBRAM, reproducing experimental data very well. Moreover, the relevance of Joule heating is assessed by considering various cell geometries. It is found that self-heating manifests itself in devices with thin conductive filaments with few-nanometer diameters and at current concentrations in the 10s-microampere range. With the proposed methodology it is now possible to explore the potential of not-yet fabricated memory cells and to reliably optimize their design.",
+    "authors": [
+      "Jan Aeschlimann",
+      "Fabian Durch",
+      "Christoph Weilenmann",
+      "Alexandros Emboras",
+      "Mathieu Luisier",
+      "Juerg Leuthold"
+    ],
+    "published": "2026-02-10T17:57:46Z",
+    "updated": "2026-02-10T17:57:46Z",
+    "link": "https://arxiv.org/abs/2602.10034v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 8.6333,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.10034v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093470+00:00"
+  },
+  "2602.22995v1": {
+    "id": "2602.22995v1",
+    "title": "Influence of Hydrogen on Dislocation Relaxation in BCC Iron: Atomistic Mechanisms and Implications",
+    "summary": "In this study, the influence of pure dislocation and hydrogen-dislocation interactions on anelastic response or internal friction relaxation peaks in bcc-iron was investigated. These relaxations are primarily governed by thermally activated kink nucleation and kink migration events. An atomistic multiscale framework, coupling molecular dynamics (MD) and kinetic Monte Carlo (KMC) simulations, was developed to investigate the underlying atomistic mechanisms behind dislocation-relaxation peaks. MD simulations revealed that the presence of hydrogen atoms near the dislocation core facilitates the kink nucleation process by reducing the nucleation barrier while enhancing the barrier for dislocation migration. The KMC model captured Snoek-Koster peaks arising from the Cottrell atmosphere formed by hydrogen atoms and clusters around the dislocation core, providing insights into the atomistic mechanisms controlling these relaxations. Furthermore, the proposed computational scheme elucidated a unique linear relationship between hydrogen content and the internal friction loss factor, offering a methodology for hydrogen detection and quantification.",
+    "authors": [
+      "Sanjay Manda",
+      "Madhur Gupta",
+      "Saurabh Kumar",
+      "Junaid Akhter",
+      "P. J. Guruprasad",
+      "Indradev Samajdar",
+      "Ajay S. Panwar"
+    ],
+    "published": "2026-02-26T13:37:25Z",
+    "updated": "2026-02-26T13:37:25Z",
+    "link": "https://arxiv.org/abs/2602.22995v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 8.4333,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.22995v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093502+00:00"
+  },
+  "2512.00907v2": {
+    "id": "2512.00907v2",
+    "title": "Magnetic Tactile-Driven Soft Actuator for Intelligent Grasping and Firmness Evaluation",
+    "summary": "Soft robots are powerful tools for manipulating delicate objects, yet their adoption is hindered by two gaps: the lack of integrated tactile sensing and sensor signal distortion caused by actuator deformations. This paper addresses these challenges by introducing the SoftMag actuator: a magnetic tactile-sensorized soft actuator. Unlike systems relying on attached sensors or treating sensing and actuation separately, SoftMag unifies them through a shared architecture while confronting the mechanical parasitic effect, where deformations corrupt tactile signals. A multiphysics simulation framework models this coupling, and a neural-network-based decoupling strategy removes the parasitic component, restoring sensing fidelity. Experiments including indentation, quasi-static and step actuation, and fatigue tests validate the actuator's performance and decoupling effectiveness. Building upon this foundation, the system is extended into a two-finger SoftMag gripper, where a multi-task neural network enables real-time prediction of tri-axial contact forces and position. Furthermore, a probing-based strategy estimates object firmness during grasping. Validation on apricots shows a strong correlation (Pearson r over 0.8) between gripper-estimated firmness and reference measurements, confirming the system's capability for non-destructive quality assessment. Results demonstrate that combining integrated magnetic sensing, learning-based correction, and real-time inference enables a soft robotic platform that adapts its grasp and quantifies material properties. The framework offers an approach for advancing sensorized soft actuators toward intelligent, material-aware robotics.",
+    "authors": [
+      "Chengjin Du",
+      "Federico Bernabei",
+      "Zhengyin Du",
+      "Sergio Decherchi",
+      "Matteo Lo Preti",
+      "Lucia Beccai"
+    ],
+    "published": "2025-11-30T14:18:29Z",
+    "updated": "2025-12-02T22:21:00Z",
+    "link": "https://arxiv.org/abs/2512.00907v2",
+    "tags": [
+      "metal_fatigue",
+      "multiphysics_coupling"
+    ],
+    "score": 8.3,
+    "status": "auto",
+    "source_topic": "multiphysics_coupling",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2512.00907v2.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093462+00:00"
+  },
+  "2511.15725v1": {
+    "id": "2511.15725v1",
+    "title": "Process Microstructure Coupling in Reduced Gravity Laser Welding via Open-Source Multiphysics Simulation Framework",
+    "summary": "Supplying spare parts from Earth for in space repair is economically prohibitive and logistically slow, posing a major barrier to sustainable space operations. As lunar and Martian missions accelerate in the coming decades, the feasibility of in-situ repair methods, particularly laser based welding, must be rigorously evaluated. The micro scale physics governing weld quality are fundamentally altered by variations in gravity and ambient pressure, yet their coupled influence across different welding regimes remains poorly understood. This work introduces a fully open-source thermo-fluid-microstructure modeling framework with computational fluid dynamics (CFD) and cellular automata (CA) to quantify how gravitational conditions reshape weld pool behavior across multiple welding regimes and spatial scales. The framework further enables prediction of the resulting microstructure from imposed process parameters, providing an accessible pathway for future research in in space manufacturing (ISM). As a demonstration, the article analyzes laser welding of Al6061 across three process regimes (conduction, transition, and keyhole) and four gravitational environments (Earth, Moon, Mars, and International Space Station (ISS)). Analysis reveals that reduced gravity suppresses buoyancy-driven convection, thereby altering melt pool geometries. Vacuum conditions increase laser energy deposition, while microgravity promotes equiaxed grain formation via reduced melt convection. The framework captures keyhole dynamics, thermal histories, and grain morphologies with high fidelity, validated against experimental data. These findings establish process microstructure relationships critical for reliable metallic fabrication in space and provide a reproducible platform for future in-space manufacturing research.",
+    "authors": [
+      "Rakibul Islam Kanak",
+      "Taslima Hossain Sanjana",
+      "Apurba Sarker",
+      "Sourav Saha"
+    ],
+    "published": "2025-11-16T07:27:51Z",
+    "updated": "2025-11-16T07:27:51Z",
+    "link": "https://arxiv.org/abs/2511.15725v1",
+    "tags": [
+      "multiphysics_coupling"
+    ],
+    "score": 8.2,
+    "status": "auto",
+    "source_topic": "multiphysics_coupling",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2511.15725v1.md",
+    "summary_source": "fallback",
+    "last_seen_at": "2026-02-28T16:41:50.093458+00:00"
+  },
+  "2602.23028v1": {
+    "id": "2602.23028v1",
+    "title": "Tracking the Lithiation State of Li$_x$Si from Machine-Learned XPS Binding Energies",
+    "summary": "X-ray Photoelectron Spectroscopy (XPS) is a powerful technique to probe chemical states and interfacial processes in battery materials, but a quantitative interpretation is often hindered by the complex, heterogeneous microstructures that form during operation and dominate electrochemical cycling. Silicon based anodes represent a paradigmatic example in Li batteries, as (de)lithiation proceeds through the formation of strongly disordered Li$_x$Si phases and crystal-amorphous transformations that are hard to characterize. Here, we introduce a computational framework that combines machine-learning (ML) prediction of core-level binding energies to large-scale atomistic simulations -- Grand Canonical Monte Carlo (GCMC) complemented with molecular dynamics (MD), driven by a ML potential -- for a systematic sampling of lithiation states and local atomic environments. This approach yields stoichiometry maps that match the characteristic experimental trends observed in operando and ex situ XPS measurements, including the distinctive Si $2p$ spectroscopic signatures associated with the crystal-to-amorphous disordering driving early delithiation.",
+    "authors": [
+      "Michael Alejandro Hernandez Bertran",
+      "Davide Tisi",
+      "Federico Grasselli",
+      "Michele Ceriotti",
+      "Elisa Molinari",
+      "Deborah Prezzi"
+    ],
+    "published": "2026-02-26T14:09:00Z",
+    "updated": "2026-02-26T14:09:00Z",
+    "link": "https://arxiv.org/abs/2602.23028v1",
+    "tags": [
+      "molecular_dynamics",
+      "multiphysics_coupling"
+    ],
+    "score": 8.1333,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.23028v1.md",
+    "summary_source": "fallback",
+    "brief_cn": {
+      "what_done": "X-ray Photoelectron Spectroscopy (XPS) is a powerful technique to probe chemical states and interfacial processes in battery materials, but a quantitative interpretation is often hindered by the complex, heterogeneous...",
+      "method": "原子尺度分子动力学模拟",
+      "finding": "Silicon based anodes represent a paradigmatic example in Li batteries, as (de)lithiation proceeds through the formation of strongly disordered Li$_x$Si phases and crystal-amorphous transformations that are hard to cha...",
+      "meaning": "可用于完善你分子动力学参数设定、势函数选择和微观机理解释。 可补充你在多物理耦合建模与场间耦合机制方面的方法库。",
+      "topics": "Molecular Dynamics, Multiphysics Coupling"
+    },
+    "last_seen_at": "2026-02-28T16:41:50.093502+00:00"
+  },
+  "2602.22440v1": {
+    "id": "2602.22440v1",
+    "title": "An Information-theoretic Collective Variable for Configurational Entropy",
+    "summary": "Entropy governs molecular self-assembly, phase transitions, and material stability, yet remains challenging to quantify and directly control in molecular systems. Here, we demonstrate that the computable information density (CID), a data compression-based information theoretic metric, provides an instantaneous general measure of configurational entropy in molecular dynamics simulations, reflecting both local and long-range structural organization. We validate the CID across systems of increasing complexity, beginning with single-component Lennard-Jones melting before examining binary phase separation, polymer condensation and dispersion, and assembly of amorphous carbon networks at multiple densities. Unlike conventional order parameters, CID requires no a priori knowledge of relevant structural features and captures entropic signatures across a variety of molecular systems and discretization resolutions. By establishing entropy as a directly accessible structural metric, this framework lays a foundation for future entropy-driven materials design and optimization strategies.",
+    "authors": [
+      "Ashley Z. Guo",
+      "Kaelyn Chang",
+      "Nicholas J. Corrente"
+    ],
+    "published": "2026-02-25T21:58:37Z",
+    "updated": "2026-02-25T21:58:37Z",
+    "link": "https://arxiv.org/abs/2602.22440v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 8.1333,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.22440v1.md",
+    "summary_source": "fallback",
+    "brief_cn": {
+      "what_done": "Entropy governs molecular self-assembly, phase transitions, and material stability, yet remains challenging to quantify and directly control in molecular systems.",
+      "method": "原子尺度分子动力学模拟",
+      "finding": "Here, we demonstrate that the computable information density (CID), a data compression-based information theoretic metric, provides an instantaneous general measure of configurational entropy in molecular dynamics sim...",
+      "meaning": "可用于完善你分子动力学参数设定、势函数选择和微观机理解释。",
+      "topics": "Molecular Dynamics"
+    },
+    "last_seen_at": "2026-02-28T16:41:50.093501+00:00"
+  },
+  "2602.21575v1": {
+    "id": "2602.21575v1",
+    "title": "Computational Frameworks for Patterned Two-Dimensional Magnetism",
+    "summary": "Patterned two-dimensional (2D) magnetic nanostructures constitute geometry-engineered spin systems in which exchange, anisotropy, dipolar coupling, and finite-size effects operate on comparable energy scales. Spatial modulation of continuous magnetic films produces confinement-driven critical behavior, compensation phenomena, metastable switching pathways, and topologically non-trivial textures such as vortices and skyrmions. Computational modeling plays a central role in resolving this complexity, enabling quantitative construction of thermodynamic phase diagrams and analysis of geometry-dependent stability regimes. This review synthesizes theoretical and numerical frameworks for patterned 2D magnetism, including classical spin models, stochastic spin dynamics, rare-event methods, and multiscale parameterization informed by first-principles calculations. Representative systems-nanodot and antidot arrays, artificial spin-ice lattices, exchange-modulated heterostructures, and patterned van der Waals magnets- illustrate how geometry functions as an effective thermodynamic control parameter. Emerging directions in nonequilibrium modeling, multiphysics coupling, and scalable data-centric workflows are discussed in the context of predictive phase mapping. Patterned 2D magnetism thus exemplifies the convergence of geometry-controlled materials engineering and computational statistical physics, with phase stability and controlled spin textures at the core of next-generation spintronic architectures.",
+    "authors": [
+      "Soham Chandra",
+      "Soumyajit Sarkar"
+    ],
+    "published": "2026-02-25T04:57:54Z",
+    "updated": "2026-02-25T04:57:54Z",
+    "link": "https://arxiv.org/abs/2602.21575v1",
+    "tags": [
+      "multiphysics_coupling"
+    ],
+    "score": 8.1,
+    "status": "auto",
+    "source_topic": "multiphysics_coupling",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.21575v1.md",
+    "summary_source": "fallback",
+    "brief_cn": {
+      "what_done": "Patterned two-dimensional (2D) magnetic nanostructures constitute geometry-engineered spin systems in which exchange, anisotropy, dipolar coupling, and finite-size effects operate on comparable energy scales.",
+      "method": "多物理耦合求解",
+      "finding": "Spatial modulation of continuous magnetic films produces confinement-driven critical behavior, compensation phenomena, metastable switching pathways, and topologically non-trivial textures such as vortices and skyrmions.",
+      "meaning": "可补充你在多物理耦合建模与场间耦合机制方面的方法库。",
+      "topics": "Multiphysics Coupling"
+    },
+    "last_seen_at": "2026-02-28T16:41:50.093498+00:00"
+  },
+  "2602.14066v1": {
+    "id": "2602.14066v1",
+    "title": "Dynamical screening effects on formation of swift heavy ions damage in GaN",
+    "summary": "We used a multiscale model to study the damage caused by swift heavy ions in GaN. The model combines Monte Carlo and molecular dynamics simulations to analyze the material response to the excitation initiated by a projectile. We found that the most appropriate simulation approach couples the dynamical screening of charges of target atoms during the scattering of fast electrons with the Tersoff-Brenner interatomic potential describing atomic dynamics in the excited target. The simulations demonstrate the formation of damaged ion tracks with an amorphous core, containing voids filled with nitrogen. The core is surrounded by a damaged crystalline region containing edge dislocations, consistent with experimental observations.",
+    "authors": [
+      "S. V. Moskalets",
+      "R. A. Rymzhanov",
+      "A. E. Volkov"
+    ],
+    "published": "2026-02-15T09:33:56Z",
+    "updated": "2026-02-15T09:33:56Z",
+    "link": "https://arxiv.org/abs/2602.14066v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 8.0667,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.14066v1.md",
+    "summary_source": "fallback",
+    "brief_cn": {
+      "what_done": "We used a multiscale model to study the damage caused by swift heavy ions in GaN.",
+      "method": "原子尺度分子动力学模拟；位错演化分析",
+      "finding": "The model combines Monte Carlo and molecular dynamics simulations to analyze the material response to the excitation initiated by a projectile.",
+      "meaning": "可用于完善你分子动力学参数设定、势函数选择和微观机理解释。",
+      "topics": "Molecular Dynamics"
+    },
+    "last_seen_at": "2026-02-28T16:41:50.093475+00:00"
+  },
+  "2602.19592v1": {
+    "id": "2602.19592v1",
+    "title": "Improving Reliability of Machine Learned Interatomic Potentials With Physics-Informed Pretraining",
+    "summary": "Machine learned interatomic potentials (MLIPs) have emerged as powerful tools for molecular dynamics (MD) simulations with their competitive accuracy and computational efficiency. However, MLIPs are often observed to exhibit un-physical behavior when encountering configurations which deviate significantly from their training data distribution, leading to simulation instabilities and unreliable dynamics, thus limiting the reliability of MLIPs for materials simulations. We present a physics-informed pretraining strategy that leverages simple physical potentials which can improve the robustness and stability of graph-based MLIPs for MD simulations. We demonstrate this approach by deploying a pretraining-finetuning pipeline where MLIPs are initially pretrained on data labelled with embedded atom model potentials and subsequently finetuned on the quantum mechanical ground truth data. By evaluating across three diverse material systems (phosphorus, silica, and a subset of Materials Project) and three representative MLIP architectures (CGCNN, M3GNet, and TorchMD-NET), we find that this physics-informed pretraining consistently improves both prediction accuracy as well as stability in MD compared to the baselines.",
+    "authors": [
+      "Qianyu Zheng",
+      "Victor Fung"
+    ],
+    "published": "2026-02-23T08:36:15Z",
+    "updated": "2026-02-23T08:36:15Z",
+    "link": "https://arxiv.org/abs/2602.19592v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 8.0333,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.19592v1.md",
+    "summary_source": "fallback",
+    "brief_cn": {
+      "what_done": "Machine learned interatomic potentials (MLIPs) have emerged as powerful tools for molecular dynamics (MD) simulations with their competitive accuracy and computational efficiency.",
+      "method": "原子尺度分子动力学模拟",
+      "finding": "However, MLIPs are often observed to exhibit un-physical behavior when encountering configurations which deviate significantly from their training data distribution, leading to simulation instabilities and unreliable...",
+      "meaning": "可用于完善你分子动力学参数设定、势函数选择和微观机理解释。",
+      "topics": "Molecular Dynamics"
+    },
+    "last_seen_at": "2026-02-28T16:41:50.093495+00:00"
+  },
+  "2602.04827v1": {
+    "id": "2602.04827v1",
+    "title": "Atomistic and data-driven insights into the local slip resistances in random refractory multi-principal element alloys",
+    "summary": "Refractory multi-principal element alloys (RMPEAs) have attracted growing interest for their exceptional high-temperature strength, yet their complex compositions hinder a mechanistic understanding of plastic deformation. Here, we perform atomistic simulations to determine local slip resistances (LSRs) of edge and screw dislocations on primary BCC slip planes in 12 equal-molar RMPEAs. Machine learning is employed to uncover relationships between LSR and underlying material properties, enabling systematic assessment of compositional effects on dislocation behavior. Based on these insights, we develop a thermally activated, dislocation-based model to predict macroscopic yield stress. We find that increasing the fraction of hexagonal close-packed elements above 50% significantly reduces unstable stacking fault energy, ideal shear strength, and screw LSR across all slip planes. Higher elastic anisotropy further lowers these quantities, while lattice distortion modifies relative slip resistances between dislocation characters and slip systems. By combining an autoencoder with a random forest model, we identify elastic constants and lattice distortion as the dominant factors controlling LSR. The resulting framework accurately predicts tensile yield stress in BCC RMPEAs and provides guidance for alloy design.",
+    "authors": [
+      "Wu-Rong Jian",
+      "Arjun S. Kulathuvayal",
+      "Hanfeng Zhai",
+      "Anshu Raj",
+      "Xiaohu Yao",
+      "Yanqing Su",
+      "Shuozhi Xu",
+      "Irene J. Beyerlein"
+    ],
+    "published": "2026-02-04T18:15:07Z",
+    "updated": "2026-02-04T18:15:07Z",
+    "link": "https://arxiv.org/abs/2602.04827v1",
+    "tags": [
+      "molecular_dynamics",
+      "tensile_simulation"
+    ],
+    "score": 8.0333,
+    "status": "auto",
+    "source_topic": "tensile_simulation",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.04827v1.md",
+    "summary_source": "fallback",
+    "brief_cn": {
+      "what_done": "该论文围绕“Atomistic and data-driven insights into the local slip resistances in random refractory multi-principal element alloys”展开，针对Molecular Dynamics, Tensile / Deformation Simulation相关问题进行建模与分析。",
+      "method": "拉伸/变形工况；位错演化分析",
+      "finding": "结果给出了拉伸变形响应与关键力学指标变化趋势。",
+      "meaning": "可用于完善你分子动力学参数设定、势函数选择和微观机理解释。 可用于优化拉伸模拟中的本构拟合、边界条件与失效判据。",
+      "topics": "Molecular Dynamics, Tensile / Deformation Simulation"
+    },
+    "last_seen_at": "2026-02-28T16:41:50.093467+00:00"
+  },
+  "2307.02955v1": {
+    "id": "2307.02955v1",
+    "title": "Amplitude phase-field crystal model for the hexagonal close-packed lattice",
+    "summary": "The phase field crystal model allows the study of materials on atomic length and diffusive time scales. It accounts for elastic and plastic deformation in crystal lattices, including several processes such as growth, dislocation dynamics, and microstructure evolution. The amplitude expansion of the phase field crystal model (APFC) describes the atomic density by a small set of Fourier modes with slowly-varying amplitudes characterizing lattice deformations. This approach allows for tackling large, three-dimensional systems. However, it has been used mostly for modeling basic lattice symmetries. In this work, we present a coarse-grained description of the hexagonal closed-packed (HCP) lattice that supports lattice deformation and defects. It builds on recent developments of the APFC model and introduces specific modeling aspects for this crystal structure. After illustrating the general modeling framework, we show that the proposed approach allows for simulating relatively large three-dimensional HCP systems hosting complex defect networks.",
+    "authors": [
+      "Marcello De Donno",
+      "Marco Salvalaglio"
+    ],
+    "published": "2023-07-06T12:40:50Z",
+    "updated": "2023-07-06T12:40:50Z",
+    "link": "https://arxiv.org/abs/2307.02955v1",
+    "tags": [
+      "phase_field_crystal"
+    ],
+    "score": 8.0,
+    "status": "auto",
+    "source_topic": "phase_field_crystal",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2307.02955v1.md",
+    "summary_source": "fallback",
+    "brief_cn": {
+      "what_done": "该论文围绕“Amplitude phase-field crystal model for the hexagonal close-packed lattice”展开，针对Phase-Field Crystal相关问题进行建模与分析。",
+      "method": "相场晶体模型；位错演化分析",
+      "finding": "结果给出了拉伸变形响应与关键力学指标变化趋势。",
+      "meaning": "可补充你在相场晶体框架下的缺陷演化和组织演变建模思路。",
+      "topics": "Phase-Field Crystal"
+    },
+    "last_seen_at": "2026-02-28T16:41:50.093454+00:00"
+  },
+  "2602.18712v1": {
+    "id": "2602.18712v1",
+    "title": "A ReaxFF-based thermomechanical analysis of N-carbophenes: phase-change, thermal expansion, and high temperature synthesis pathway",
+    "summary": "N-carbophenes are a class of two-dimensional covalent organic frameworks with potential for solid-state gas storage and as 2D topological materials. Previous studies have demonstrated that variations in their bonding, topology, and functionalization enable the tuning of their chemical, electrical, and mechanical properties. Yet, the thermal stability and high-temperature behavior of pristine and functionalized N-carbophenes remain unexplored. Using ReaxFF-based reactive molecular dynamics (RMD) simulations with extensive statistical validation, we performed temperature-ramp MD simulations of pristine and functionalized N-carbophenes. We demonstrate that N-carbophenes remain stable up to temperatures above 1000 K. The phase-change onset temperatures decrease as the N-phenylene chain length increases in pristine N-carbophenes, attributed to increasing antiaromaticity in the central phenylene segments, thereby contributing to the foundational understanding of aromatic versus antiaromatic bonding in 2D carbon networks, a topic of considerable interest in theoretical chemistry. Pristine N-carbophenes exhibit negative area thermal expansion (NATE), whereas functional groups modulate this, leading to either negative or positive expansion. Functional groups remain stably bonded well above the transition temperature. We also show that a temperature-induced phase transition from graphenylene (2-carbophene) to γ-graphyne is possible. Our results provide upper bounds on N-carbophene stability, clarify the relationships between structure and thermal properties, and identify a new transformation pathway. These results will have applications in tunable band gaps, porous architectures, or chemically accessible sites.",
+    "authors": [
+      "Chad E. Junkermeier",
+      "Kat Lavarez",
+      "R. Martin Adra",
+      "Valeria Aparicio Diaz",
+      "Heather Osterstock",
+      "Pal Casinto",
+      "M. Verano",
+      "Ricardo Paupitz",
+      "Adri C. T. van Duin"
+    ],
+    "published": "2026-02-21T04:17:32Z",
+    "updated": "2026-02-21T04:17:32Z",
+    "link": "https://arxiv.org/abs/2602.18712v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 7.9667,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.18712v1.md",
+    "summary_source": "fallback",
+    "brief_cn": {
+      "what_done": "该论文围绕“A ReaxFF-based thermomechanical analysis of N-carbophenes: phase-change, thermal expansion, and high temperature synthesis pathway”展开，针对Molecular Dynamics相关问题进行建模与分析。",
+      "method": "原子尺度分子动力学模拟",
+      "finding": "结果提供了原子尺度机理解释，可辅助参数选型和机理验证。",
+      "meaning": "可用于完善你分子动力学参数设定、势函数选择和微观机理解释。",
+      "topics": "Molecular Dynamics"
+    },
+    "last_seen_at": "2026-02-28T16:41:50.093494+00:00"
+  },
+  "2602.16474v1": {
+    "id": "2602.16474v1",
+    "title": "When Is Structural Lubricity Load Independent? The Role of Contact Geometry and Elastic Compliance",
+    "summary": "Using molecular dynamics simulations of an incommensurate Au(111)/graphite interface, we investigate the conditions under which structural lubricity produces load-independent friction. We show that strict load independence occurs only in laterally infinite, area-filling contacts, where dissipation is governed by phonon-mediated viscous coupling and the shear stress scales linearly with sliding velocity. Finite contacts with explicit boundary terminations exhibit substantially higher friction yet remain load independent up to a critical load. Load dependence arises only when elastic out-of-plane deformation near the contact line exceeds a critical amplitude, activating additional dissipation channels. These results demonstrate that contact geometry and local elastic compliance, rather than normal load itself, determine the onset and breakdown of load-independent structural lubricity.",
+    "authors": [
+      "Hongyu Gao"
+    ],
+    "published": "2026-02-18T14:05:10Z",
+    "updated": "2026-02-18T14:05:10Z",
+    "link": "https://arxiv.org/abs/2602.16474v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 7.9667,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16474v1.md",
+    "summary_source": "fallback",
+    "brief_cn": {
+      "what_done": "该论文围绕“When Is Structural Lubricity Load Independent? The Role of Contact Geometry and Elastic Compliance”展开，针对Molecular Dynamics相关问题进行建模与分析。",
+      "method": "原子尺度分子动力学模拟",
+      "finding": "结果给出了拉伸变形响应与关键力学指标变化趋势。",
+      "meaning": "可用于完善你分子动力学参数设定、势函数选择和微观机理解释。",
+      "topics": "Molecular Dynamics"
+    },
+    "last_seen_at": "2026-02-28T16:41:50.093488+00:00"
+  },
+  "2602.22390v1": {
+    "id": "2602.22390v1",
+    "title": "A Reduced Order Model approach for First-Principles Molecular Dynamics Computations",
+    "summary": "To leverage the redundancy between the electronic structure computed at each step of first-principles molecular dynamics, we present a data-driven modeling framework for Kohn-Sham Density Functional Theory that bypasses the explicit optimization of electronic wavefunctions. We sample a priori representative atomic configurations and construct a low-dimensional basis that efficiently approximates the electronic structure subspace. Subsequently, we employ this reduced basis in a direct solver for the electronic single particle density matrix, thereby enabling the efficient determination of ground state without iterative wavefunction optimization. We demonstrate the efficacy of our approach in a Born-Oppenheimer molecular dynamics of a water molecule, showing that the resulting simulations accurately reproduce key structural properties, such as bond lengths and bond angle, obtained from full first-principles molecular dynamics. This work highlights the potential of data-driven approaches to develop efficient electronic structure solvers for first-principles simulations.",
+    "authors": [
+      "Siu Wun Cheung",
+      "Youngsoo Choi",
+      "Jean-Luc Fattebert",
+      "Jonas Kaufman",
+      "Daniel Osei-Kuffuor"
+    ],
+    "published": "2026-02-25T20:36:41Z",
+    "updated": "2026-02-25T20:36:41Z",
+    "link": "https://arxiv.org/abs/2602.22390v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 7.9333,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.22390v1.md",
+    "summary_source": "fallback",
+    "brief_cn": {
+      "what_done": "该论文围绕“A Reduced Order Model approach for First-Principles Molecular Dynamics Computations”展开，针对Molecular Dynamics相关问题进行建模与分析。",
+      "method": "原子尺度分子动力学模拟",
+      "finding": "结果提供了原子尺度机理解释，可辅助参数选型和机理验证。",
+      "meaning": "可用于完善你分子动力学参数设定、势函数选择和微观机理解释。",
+      "topics": "Molecular Dynamics"
+    },
+    "last_seen_at": "2026-02-28T16:41:50.093500+00:00"
+  },
+  "2602.21419v1": {
+    "id": "2602.21419v1",
+    "title": "Electrostatic Gating of Ionic Conductance Through Heterogeneous van der Waals Nanopores",
+    "summary": "Nanofluidic ionic transistors typically require gate voltages above 1 V and operate only at sub millimolar ionic strengths, limiting their biocompatible applications. We demonstrate ionic transistors consisting of single sub 10 nm nanopores drilled in van der Waals (vdW) heterostructures with internal gate electrodes made of few layer graphene. These devices deliver up to 10fold current modulation at gate voltages as low as 0.3 V in 10 mM KCl, and 2fold modulation at near physiological 100 mM KCl. Baseline conductance with no gate shows surface charge dominated transport below 100 mM KCl consistent with negatively charged hBN walls and 5 nm opening of the pores. The surface charge and the electrochemical asymmetry introduced by the three electrode configuration govern the device behavior: negative gate voltage (VG) enriches ionic concentrations and enhances current, whereas positive VG induces a local depletion zone that suppresses transport. The current modulation by VG is dependent on the polarity of the transmembrane potential and leads to ion current rectification. Molecular dynamics simulations of a nanopore in a hBN graphene hBN stack reveal confinement and surface charge dependent suppression of relative permittivity of interfacial water. Continuum modeling with radially varying interfacial water permittivity reproduces the asymmetric IV characteristics and explains how the embedded gate sculpts local potential and ion concentrations. By enabling sub 0.5 V control of ionic transport at up to 100 mM salt concentrations, these devices address a key barrier in nanofluidics and open the pathway to low power ionic circuits and biosensing.",
+    "authors": [
+      "Aaron H. Barajas-Aguilar",
+      "Matthew Schiel",
+      "Ethan Cao",
+      "DaVante Cain",
+      "Margaret L. Berrens",
+      "Fikret Aydin",
+      "Tuan Anh Pham",
+      "Javier Sanchez-Yamagishi",
+      "Zuzanna S. Siwy"
+    ],
+    "published": "2026-02-24T22:46:30Z",
+    "updated": "2026-02-24T22:46:30Z",
+    "link": "https://arxiv.org/abs/2602.21419v1",
+    "tags": [
+      "molecular_dynamics",
+      "multiphysics_coupling"
+    ],
+    "score": 7.9,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.21419v1.md",
+    "summary_source": "fallback",
+    "brief_cn": {
+      "what_done": "该论文围绕“Electrostatic Gating of Ionic Conductance Through Heterogeneous van der Waals Nanopores”展开，针对Molecular Dynamics, Multiphysics Coupling相关问题进行建模与分析。",
+      "method": "原子尺度分子动力学模拟",
+      "finding": "结果提供了原子尺度机理解释，可辅助参数选型和机理验证。",
+      "meaning": "可用于完善你分子动力学参数设定、势函数选择和微观机理解释。 可补充你在多物理耦合建模与场间耦合机制方面的方法库。",
+      "topics": "Molecular Dynamics, Multiphysics Coupling"
+    },
+    "last_seen_at": "2026-02-28T16:41:50.093497+00:00"
+  },
+  "2602.16912v1": {
+    "id": "2602.16912v1",
+    "title": "Quantifying Chirality in Helical Polymers via a Geometric Extension of the Kremer-Grest Model",
+    "summary": "Chirality in polymeric systems enables a wide range of emergent optical, mechanical, and transport phenomena, yet a unified framework that quantitatively connects molecular-scale geometry to chiral behavior remains lacking. Existing theoretical descriptions typically emphasize either continuum models, such as the helical wormlike chain (HWLC), which neglect intermolecular interactions, or mesophase-level theories, which obscure the role of molecular geometry. In this work, we introduce a comprehensive framework for quantifying chirality in helical polymers by extending the Kremer-Grest bead-spring model to explicitly map intrinsic curvature and torsion onto bond angle and dihedral potentials. We establish direct theoretical relationships between helical parameters such as pitch and radius, and connect them to a normalized, dimensionless chirality characteristic, $χ$ that captures local geometric correlations absent from conventional HWLC descriptions. Furthermore, using molecular dynamics simulations, we systematically quantify the influence of excluded volume interactions and thermal fluctuations on helical geometry and chirality, dispelling the common assumption that monotonic increases in chirality are associated only with decreasing pitch. Finally, we present a coarse-graining procedure that facilitates a direct comparison between experimental helical polymers and the Kremer-Grest helical chain, demonstrating quantitative agreement across a diverse set of polymer classes. This unified geometric and particle-based description provides a predictive roadmap for selecting and engineering chiral Kremer-Grest models and offers a general platform for designing polymeric materials with controlled and tunable chirality.",
+    "authors": [
+      "Michael Grant",
+      "Poornima Padmanabhan"
+    ],
+    "published": "2026-02-18T21:57:24Z",
+    "updated": "2026-02-18T21:57:24Z",
+    "link": "https://arxiv.org/abs/2602.16912v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 7.9,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16912v1.md",
+    "summary_source": "fallback",
+    "brief_cn": {
+      "what_done": "该论文围绕“Quantifying Chirality in Helical Polymers via a Geometric Extension of the Kremer-Grest Model”展开，针对Molecular Dynamics相关问题进行建模与分析。",
+      "method": "原子尺度分子动力学模拟",
+      "finding": "结果提供了原子尺度机理解释，可辅助参数选型和机理验证。",
+      "meaning": "可用于完善你分子动力学参数设定、势函数选择和微观机理解释。",
+      "topics": "Molecular Dynamics"
+    },
+    "last_seen_at": "2026-02-28T16:41:50.093492+00:00"
+  },
+  "2602.16649v1": {
+    "id": "2602.16649v1",
+    "title": "Design Principles for Fluid Molecular Ferroelectrics",
+    "summary": "Fluid molecular ferroelectrics are a new class of organic materials where ferroelectricity is found in conjunction with 3D fluidity whilst still retaining spontaneous polarization values comparable to their traditional solid state counterparts. One of the major challenges for soft condensed matter physics is predicting whether a fluid molecular material will form ferroelectric phase with nematic or smectic order. Through the synthesis of forty five systematically varied molecules, and by analogy to solid molecular ferroelectrics, is it shown that subtle hydrogen fluorine substitution allows for tuneable syn-parallel pairing motifs resulting in either specific pairings leading too geometrically constrained lamellar order or diversified pairings stabilising nematic ordering. Large-scale, fully atomistic molecular dynamics simulations reveal that smectic ferroelectricity emerges from discrete lateral pairing modes, whereas nematic phases arise from a multiplicity of equivalent polar configurations. Together, these findings establish experimentally validated design principles for fluid molecular ferroelectrics and provide a predictive framework for engineering functional polar fluids.",
+    "authors": [
+      "Calum J Gibb",
+      "Jordan Hobbs",
+      "William C Ogle",
+      "Richard J Mandle"
+    ],
+    "published": "2026-02-18T17:45:26Z",
+    "updated": "2026-02-18T17:45:26Z",
+    "link": "https://arxiv.org/abs/2602.16649v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 7.9,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16649v1.md",
+    "summary_source": "fallback",
+    "brief_cn": {
+      "what_done": "该论文围绕“Design Principles for Fluid Molecular Ferroelectrics”展开，针对Molecular Dynamics相关问题进行建模与分析。",
+      "method": "原子尺度分子动力学模拟",
+      "finding": "结果提供了原子尺度机理解释，可辅助参数选型和机理验证。",
+      "meaning": "可用于完善你分子动力学参数设定、势函数选择和微观机理解释。",
+      "topics": "Molecular Dynamics"
+    },
+    "last_seen_at": "2026-02-28T16:41:50.093490+00:00"
+  }
+}

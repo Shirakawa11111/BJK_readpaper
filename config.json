@@ -88,5 +88,15 @@
     "phase_field_crystal": "Phase-Field Crystal",
     "metal_fatigue": "Metal Fatigue Simulation",
     "tensile_simulation": "Tensile / Deformation Simulation"
+  },
+  "notify": {
+    "enabled": true,
+    "send_when_no_new": true,
+    "max_items": 5,
+    "clawbot": {
+      "binary": "/opt/homebrew/bin/clawdbot",
+      "channel": "telegram",
+      "target": "5717971233"
+    }
   }
 }

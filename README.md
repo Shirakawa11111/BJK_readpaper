@@ -15,12 +15,20 @@ Automate daily paper discovery and maintain a living research system for:
 4. Updates database `data/paper_db.json`.
 5. Rebuilds `reports/knowledge_system.md` as your continuously updated topic system.
 6. Writes a daily report under `reports/daily/YYYY-MM-DD.md`.
+7. Generates Chinese per-paper briefs ("what it did / why it matters to your work").
+8. Sends a daily Chinese reading reminder to Telegram via `clawdbot` (configurable).
 
 ## Quick start
 
 ```bash
 python3 paper_agent.py init --root . --config config.json
 python3 paper_agent.py update --root . --config config.json
+```
+
+Dry-run notification test (no actual Telegram send):
+
+```bash
+python3 paper_agent.py update --root . --config config.json --notify --notify-dry-run
 ```
 
 ## Add your known papers
@@ -46,8 +54,9 @@ python3 paper_agent.py ingest-known --root . --config config.json --csv ./known_
 
 ## Optional LLM summary
 
-If `OPENAI_API_KEY` is set, the script attempts structured LLM summaries via `llm.endpoint`.
-Otherwise it falls back to deterministic abstract-based summaries.
+If `OPENAI_API_KEY` is set, the script attempts structured Chinese LLM summaries via `llm.endpoint`.
+Otherwise it falls back to deterministic Chinese abstract-based summaries.
+The script also auto-loads env vars from `~/.clawdbot/.env` for cron/headless runs.
 
 ```bash
 export OPENAI_API_KEY="YOUR_KEY"
@@ -72,6 +81,25 @@ Run every day at 09:00:
 
 ```cron
 0 9 * * * /Users/bojingkai/Desktop/Read_paper/run_daily.sh >> /Users/bojingkai/Desktop/Read_paper/reports/cron.log 2>&1
+```
+
+## Telegram reminder via clawbot
+
+The reminder uses:
+- `notify.enabled`
+- `notify.clawbot.binary`
+- `notify.clawbot.channel`
+- `notify.clawbot.target`
+
+Default target example is numeric chat id `5717971233` (recommended).
+Reminder content includes Chinese brief for each paper:
+- 做了什么
+- 对你的意义
+
+Manual test:
+
+```bash
+python3 paper_agent.py update --root . --config config.json --limit 5 --notify
 ```
 
 ## Folder layout

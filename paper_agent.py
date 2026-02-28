@@ -18,6 +18,7 @@ import hashlib
 import json
 import os
 import re
+import subprocess
 import textwrap
 import urllib.error
 import urllib.parse
@@ -30,6 +31,7 @@ from typing import Any
 
 ARXIV_API = "https://export.arxiv.org/api/query"
 ATOM_NS = {"atom": "http://www.w3.org/2005/Atom"}
+DEFAULT_ENV_FILE = Path("~/.clawdbot/.env").expanduser()
 
 
 DEFAULT_CONFIG = {
@@ -123,6 +125,16 @@ DEFAULT_CONFIG = {
         "metal_fatigue": "Metal Fatigue Simulation",
         "tensile_simulation": "Tensile / Deformation Simulation",
     },
+    "notify": {
+        "enabled": True,
+        "send_when_no_new": True,
+        "max_items": 5,
+        "clawbot": {
+            "binary": "/opt/homebrew/bin/clawdbot",
+            "channel": "telegram",
+            "target": "5717971233",
+        },
+    },
 }
 
 
@@ -181,6 +193,27 @@ def deep_merge(dst: dict[str, Any], src: dict[str, Any]) -> None:
             deep_merge(dst[key], value)
         else:
             dst[key] = value
+
+
+def load_env_file(path: Path) -> None:
+    if not path.exists():
+        return
+    try:
+        for raw in path.read_text(encoding="utf-8").splitlines():
+            line = raw.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, val = line.split("=", 1)
+            key = key.strip()
+            val = val.strip().strip('"').strip("'")
+            if key and key not in os.environ:
+                os.environ[key] = val
+    except Exception:
+        return
+
+
+def load_default_envs() -> None:
+    load_env_file(DEFAULT_ENV_FILE)
 
 
 def parse_arxiv_id(entry_id: str) -> str:
@@ -301,84 +334,168 @@ def select_new_papers(
     return unseen[:daily_limit]
 
 
-def build_fallback_summary(paper: Paper, labels: dict[str, str]) -> str:
-    topics = [labels.get(tag, tag) for tag in paper.tags]
-    if not topics:
-        topics = ["General simulation / materials modeling"]
-    abstract = paper.summary.strip()
-    abstract_preview = abstract[:1000] + ("..." if len(abstract) > 1000 else "")
-    return textwrap.dedent(
-        f"""\
-        1) Core Question
-        - {paper.title}
-
-        2) Why It Matters
-        - Likely relevant to: {", ".join(topics)}.
-
-        3) Method Signals (from abstract)
-        - {infer_method_signal(abstract)}
-
-        4) What To Track
-        - Data/benchmark used
-        - Boundary conditions and loading assumptions
-        - Transferability to your material system
-
-        5) Abstract Snapshot
-        - {abstract_preview}
-        """
-    ).strip()
+def split_sentences(text: str) -> list[str]:
+    normalized = compact_whitespace(text)
+    if not normalized:
+        return []
+    parts = re.split(r"(?<=[\.\!\?。！？;；])\s+", normalized)
+    return [p.strip() for p in parts if p.strip()]
 
 
-def infer_method_signal(abstract: str) -> str:
+def infer_method_signal_cn(abstract: str) -> str:
     lowered = abstract.lower()
     hints = []
     patterns = [
-        ("molecular dynamics", "Atomistic MD workflow"),
-        ("phase-field crystal", "Phase-field-crystal formulation"),
-        ("finite element", "Finite-element modeling"),
-        ("crack", "Crack initiation/growth focus"),
-        ("fatigue", "Fatigue loading analysis"),
-        ("tensile", "Tensile/deformation setup"),
-        ("multiphysics", "Multiphysics coupled simulation"),
+        ("molecular dynamics", "原子尺度分子动力学模拟"),
+        ("phase-field crystal", "相场晶体模型"),
+        ("phase field crystal", "相场晶体模型"),
+        ("finite element", "有限元建模"),
+        ("crack", "裂纹起裂/扩展分析"),
+        ("fatigue", "疲劳循环加载分析"),
+        ("tensile", "拉伸/变形工况"),
+        ("multiphysics", "多物理耦合求解"),
+        ("dislocation", "位错演化分析"),
     ]
     for needle, label in patterns:
         if needle in lowered:
             hints.append(label)
     if hints:
-        return "; ".join(hints)
-    return "Method cues are weak; check equations/setup section directly."
+        return "；".join(hints)
+    return "摘要中方法线索较弱，建议优先查看方法与模型假设部分。"
+
+
+def infer_research_value_cn(tags: list[str]) -> str:
+    reason_map = {
+        "multiphysics_coupling": "可补充你在多物理耦合建模与场间耦合机制方面的方法库。",
+        "molecular_dynamics": "可用于完善你分子动力学参数设定、势函数选择和微观机理解释。",
+        "phase_field_crystal": "可补充你在相场晶体框架下的缺陷演化和组织演变建模思路。",
+        "metal_fatigue": "可直接服务于金属疲劳寿命预测、裂纹演化与循环载荷分析。",
+        "tensile_simulation": "可用于优化拉伸模拟中的本构拟合、边界条件与失效判据。",
+    }
+    reasons = [reason_map[t] for t in tags if t in reason_map]
+    if reasons:
+        return " ".join(dict.fromkeys(reasons))
+    return "可作为材料模拟通用参考，帮助你补全“模型-参数-结果解释”的知识链条。"
+
+
+def infer_finding_signal_cn(abstract: str) -> str:
+    lowered = abstract.lower()
+    if any(k in lowered for k in ("outperform", "improve", "higher accuracy", "better")):
+        return "结果显示该方法在精度或稳定性上优于对比基线。"
+    if any(k in lowered for k in ("fatigue", "crack", "fracture")):
+        return "结果聚焦疲劳/裂纹演化机制，可用于失效分析与寿命评估。"
+    if any(k in lowered for k in ("tensile", "stress-strain", "deformation")):
+        return "结果给出了拉伸变形响应与关键力学指标变化趋势。"
+    if any(k in lowered for k in ("phase-field crystal", "phase field crystal", "pfc")):
+        return "结果体现了微观结构或缺陷演化规律，对组织演变建模有参考价值。"
+    if any(k in lowered for k in ("molecular dynamics", "atomistic")):
+        return "结果提供了原子尺度机理解释，可辅助参数选型和机理验证。"
+    return "摘要显示其给出了可复现的模型/仿真结果，建议细读结果与讨论章节获取定量结论。"
+
+
+def parse_cn_sections(summary_text: str) -> dict[str, str]:
+    patterns = {
+        "what_done": r"1\)\s*论文做了什么\s*(.*?)(?=\n\s*2\)|\Z)",
+        "method": r"2\)\s*用了什么方法\s*(.*?)(?=\n\s*3\)|\Z)",
+        "finding": r"3\)\s*得到什么结果\s*(.*?)(?=\n\s*4\)|\Z)",
+        "meaning": r"4\)\s*对我研究的意义\s*(.*?)(?=\n\s*5\)|\Z)",
+    }
+    out: dict[str, str] = {}
+    for key, pattern in patterns.items():
+        m = re.search(pattern, summary_text, flags=re.IGNORECASE | re.DOTALL)
+        if m:
+            value = compact_whitespace(m.group(1).strip(" -\n\t"))
+            if value:
+                out[key] = value
+    return out
+
+
+def build_cn_brief(paper: Paper, labels: dict[str, str]) -> dict[str, str]:
+    abstract = paper.summary.strip()
+    topics = [labels.get(tag, tag) for tag in paper.tags] or ["通用材料模拟"]
+    method = infer_method_signal_cn(abstract)
+    what_done = f"该论文围绕“{paper.title}”展开，针对{', '.join(topics)}相关问题进行建模与分析。"
+    finding = infer_finding_signal_cn(abstract)
+    return {
+        "what_done": truncate_text(what_done, 220),
+        "method": method,
+        "finding": truncate_text(finding, 220),
+        "meaning": truncate_text(infer_research_value_cn(paper.tags), 220),
+        "topics": ", ".join(topics),
+    }
+
+
+def refine_brief_with_summary(brief: dict[str, str], summary_text: str) -> dict[str, str]:
+    sections = parse_cn_sections(summary_text)
+    if not sections:
+        return brief
+    updated = dict(brief)
+    for key in ("what_done", "method", "finding", "meaning"):
+        value = sections.get(key)
+        if value:
+            updated[key] = truncate_text(value, 220)
+    return updated
+
+
+def build_fallback_summary(paper: Paper, labels: dict[str, str]) -> str:
+    brief = build_cn_brief(paper, labels)
+    abstract = paper.summary.strip() or "N/A"
+    abstract_preview = truncate_text(abstract, 1000)
+    return textwrap.dedent(
+        f"""\
+        1) 论文做了什么
+        - {brief["what_done"]}
+
+        2) 核心方法
+        - {brief["method"]}
+
+        3) 关键结果
+        - {brief["finding"]}
+
+        4) 对你研究的意义
+        - {brief["meaning"]}
+        - 主题归类: {brief["topics"]}
+
+        5) 摘要快照
+        - {abstract_preview}
+        """
+    ).strip()
 
 
 def maybe_summarize_with_llm(
     paper: Paper, cfg: dict[str, Any], labels: dict[str, str]
-) -> str:
+) -> tuple[str, str]:
     llm_cfg = cfg.get("llm", {})
     if not llm_cfg.get("enabled", True):
-        return build_fallback_summary(paper, labels)
+        return build_fallback_summary(paper, labels), "fallback"
 
     api_key_env = llm_cfg.get("api_key_env", "OPENAI_API_KEY")
     api_key = os.getenv(api_key_env, "")
     if not api_key:
-        return build_fallback_summary(paper, labels)
+        return build_fallback_summary(paper, labels), "fallback"
 
     endpoint = llm_cfg.get("endpoint", "https://api.openai.com/v1/responses")
     model = llm_cfg.get("model", "gpt-4.1-mini")
     temperature = llm_cfg.get("temperature", 0.2)
     prompt = textwrap.dedent(
         f"""\
-        You are helping maintain a research map for materials simulation.
-        Summarize this paper in concise English, using exactly these sections:
-        1) Core Question
-        2) Key Method
-        3) Main Findings
-        4) Relevance To My Topics
-        5) Next Actions
+        你是材料模拟方向的论文助理，请用中文输出，严格按以下结构总结：
+        1) 论文做了什么
+        2) 用了什么方法
+        3) 得到什么结果
+        4) 对我研究的意义
+        5) 下一步阅读建议
 
-        Paper title: {paper.title}
-        Published: {paper.published}
-        Authors: {", ".join(paper.authors)}
-        Suggested tags: {", ".join(labels.get(tag, tag) for tag in paper.tags) or "N/A"}
-        Abstract:
+        要求：
+        - 每部分 1-3 条，精炼具体，避免空话。
+        - 优先提取模型类型、边界条件、载荷方式、关键变量、可复现实验/仿真线索。
+        - 第4部分必须结合我的方向：多物理耦合、分子动力学、相场晶体、金属疲劳、拉伸模拟。
+
+        论文标题: {paper.title}
+        发布时间: {paper.published}
+        作者: {", ".join(paper.authors)}
+        主题标签: {", ".join(labels.get(tag, tag) for tag in paper.tags) or "N/A"}
+        摘要:
         {paper.summary}
         """
     ).strip()
@@ -390,7 +507,7 @@ def maybe_summarize_with_llm(
             {
                 "role": "system",
                 "content": [
-                    {"type": "input_text", "text": "Return plain text only. Be precise and concise."}
+                    {"type": "input_text", "text": "只输出中文纯文本，不要使用 Markdown 代码块。"}
                 ],
             },
             {"role": "user", "content": [{"type": "input_text", "text": prompt}]},
@@ -412,11 +529,11 @@ def maybe_summarize_with_llm(
             raw = json.loads(resp.read().decode("utf-8"))
             output_text = parse_response_text(raw)
             if output_text:
-                return output_text.strip()
+                return output_text.strip(), "llm"
     except Exception:
         # Fallback if the API call fails.
         pass
-    return build_fallback_summary(paper, labels)
+    return build_fallback_summary(paper, labels), "fallback"
 
 
 def parse_response_text(payload: dict[str, Any]) -> str:
@@ -430,8 +547,146 @@ def parse_response_text(payload: dict[str, Any]) -> str:
     return ""
 
 
-def write_paper_note(path: Path, paper: Paper, summary_text: str) -> None:
+def truncate_text(value: str, max_len: int) -> str:
+    if len(value) <= max_len:
+        return value
+    return value[: max_len - 3].rstrip() + "..."
+
+
+def build_daily_reminder_message(
+    *,
+    selected: list[Paper],
+    daily_limit: int,
+    labels: dict[str, str],
+    report_path: Path,
+    max_items: int,
+    db: dict[str, Any] | None = None,
+) -> str:
+    date_label = dt.date.today().isoformat()
+    lines = [f"今日论文阅读提醒（{date_label}）", ""]
+    if selected:
+        lines.append(f"今天新增待读：{len(selected)} 篇（目标 {daily_limit} 篇）")
+        lines.append("")
+        for idx, paper in enumerate(selected[:max_items], start=1):
+            brief = {}
+            if db and paper.paper_id in db:
+                maybe_brief = db[paper.paper_id].get("brief_cn", {})
+                if isinstance(maybe_brief, dict):
+                    brief = maybe_brief
+            if not brief:
+                brief = build_cn_brief(paper, labels)
+            lines.append(f"{idx}. {truncate_text(paper.title, 120)}")
+            lines.append(f"   做了什么：{truncate_text(brief['what_done'], 140)}")
+            lines.append(f"   意义：{truncate_text(brief['meaning'], 140)}")
+            lines.append(f"   链接：{paper.link}")
+            lines.append("")
+        lines.append("建议：今天优先精读前 2 篇，并把关键参数和边界条件补进笔记。")
+    else:
+        lines.extend(
+            [
+                "今天没有筛选到新的未读论文。",
+                "建议：复盘最近 3 篇笔记，更新你的“模型-参数-结论”体系表。",
+            ]
+        )
+    lines.extend(["", f"今日日报：{report_path}"])
+    message = "\n".join(lines).strip()
+    if len(message) > 3800:
+        message = message[:3700].rstrip() + "\n...\n（消息过长，已截断。完整内容见今日日报）"
+    return message
+
+
+def send_via_clawbot(
+    *,
+    message: str,
+    claw_cfg: dict[str, Any],
+    dry_run: bool,
+    timeout_sec: int = 60,
+) -> tuple[bool, str]:
+    binary = str(claw_cfg.get("binary", "clawdbot")).strip()
+    channel = str(claw_cfg.get("channel", "telegram")).strip()
+    target = str(claw_cfg.get("target", "")).strip()
+    if not binary:
+        return False, "notify.clawbot.binary is empty"
+    if not target:
+        return False, "notify.clawbot.target is empty"
+
+    cmd = [
+        binary,
+        "message",
+        "send",
+        "--channel",
+        channel,
+        "--target",
+        target,
+        "--message",
+        message,
+    ]
+    if dry_run:
+        cmd.append("--dry-run")
+    cmd.append("--json")
+
+    try:
+        proc = subprocess.run(
+            cmd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            timeout=timeout_sec,
+            check=False,
+        )
+    except FileNotFoundError:
+        return False, f"clawbot binary not found: {binary}"
+    except subprocess.TimeoutExpired:
+        return False, "clawbot send timeout"
+
+    out = (proc.stdout or "").strip()
+    err = (proc.stderr or "").strip()
+    if proc.returncode != 0:
+        return False, err or out or f"clawbot send failed, exit={proc.returncode}"
+    return True, out or "sent"
+
+
+def maybe_send_daily_reminder(
+    *,
+    cfg: dict[str, Any],
+    db: dict[str, Any],
+    selected: list[Paper],
+    daily_limit: int,
+    labels: dict[str, str],
+    report_path: Path,
+    force_notify: bool | None,
+    dry_run: bool,
+) -> tuple[bool, str]:
+    notify_cfg = cfg.get("notify", {})
+    enabled = bool(notify_cfg.get("enabled", False))
+    if force_notify is not None:
+        enabled = bool(force_notify)
+    if not enabled:
+        return True, "notification disabled"
+
+    send_when_no_new = bool(notify_cfg.get("send_when_no_new", True))
+    if not selected and not send_when_no_new:
+        return True, "no new papers and send_when_no_new=false"
+
+    max_items = int(notify_cfg.get("max_items", 5) or 5)
+    max_items = max(1, max_items)
+    message = build_daily_reminder_message(
+        selected=selected,
+        daily_limit=daily_limit,
+        labels=labels,
+        report_path=report_path,
+        max_items=max_items,
+        db=db,
+    )
+    claw_cfg = notify_cfg.get("clawbot", {})
+    return send_via_clawbot(message=message, claw_cfg=claw_cfg, dry_run=dry_run)
+
+
+def write_paper_note(
+    path: Path, paper: Paper, summary_text: str, brief_cn: dict[str, str] | None = None
+) -> None:
     ensure_dirs(path.parent)
+    brief_cn = brief_cn or {}
     lines = [
         f"# {paper.title}",
         "",
@@ -442,6 +697,12 @@ def write_paper_note(path: Path, paper: Paper, summary_text: str) -> None:
         f"- Link: {paper.link}",
         f"- Tags: {', '.join(paper.tags) if paper.tags else 'N/A'}",
         f"- Relevance score: {paper.score}",
+        "",
+        "## 中文速览",
+        f"- 做了什么: {brief_cn.get('what_done', 'N/A')}",
+        f"- 方法: {brief_cn.get('method', 'N/A')}",
+        f"- 关键结果: {brief_cn.get('finding', 'N/A')}",
+        f"- 对你的意义: {brief_cn.get('meaning', 'N/A')}",
         "",
         "## Structured Summary",
         summary_text.strip(),
@@ -465,6 +726,9 @@ def write_daily_report(
         for idx, paper in enumerate(selected, start=1):
             note_rel = db[paper.paper_id]["note_path"]
             label_list = [labels.get(tag, tag) for tag in paper.tags]
+            brief = db.get(paper.paper_id, {}).get("brief_cn", {})
+            done_cn = truncate_text(str(brief.get("what_done", "N/A")), 160)
+            meaning_cn = truncate_text(str(brief.get("meaning", "N/A")), 160)
             lines.extend(
                 [
                     f"## {idx}. {paper.title}",
@@ -473,6 +737,8 @@ def write_daily_report(
                     f"- Score: {paper.score}",
                     f"- Link: {paper.link}",
                     f"- Note: {note_rel}",
+                    f"- 做了什么: {done_cn}",
+                    f"- 对你的意义: {meaning_cn}",
                     "",
                 ]
             )
@@ -522,7 +788,11 @@ def rebuild_knowledge_map(
 
 
 def entry_to_db_record(
-    paper: Paper, note_path: Path, status: str = "auto", summary_source: str = "fallback"
+    paper: Paper,
+    note_path: Path,
+    status: str = "auto",
+    summary_source: str = "fallback",
+    brief_cn: dict[str, str] | None = None,
 ) -> dict[str, Any]:
     return {
         "id": paper.paper_id,
@@ -538,6 +808,7 @@ def entry_to_db_record(
         "source_topic": paper.source_topic,
         "note_path": str(note_path),
         "summary_source": summary_source,
+        "brief_cn": brief_cn or {},
         "last_seen_at": now_utc().isoformat(),
     }
 
@@ -635,14 +906,15 @@ def cmd_update(args: argparse.Namespace) -> int:
 
     for paper in selected:
         note_path = notes_dir / f"{slugify(paper.paper_id)}.md"
-        summary_text = maybe_summarize_with_llm(paper, cfg=cfg, labels=labels)
-        summary_source = "llm" if os.getenv(cfg.get("llm", {}).get("api_key_env", "OPENAI_API_KEY")) else "fallback"
-        write_paper_note(note_path=note_path, paper=paper, summary_text=summary_text)
+        summary_text, summary_source = maybe_summarize_with_llm(paper, cfg=cfg, labels=labels)
+        brief_cn = refine_brief_with_summary(build_cn_brief(paper, labels), summary_text)
+        write_paper_note(path=note_path, paper=paper, summary_text=summary_text, brief_cn=brief_cn)
         db[paper.paper_id] = entry_to_db_record(
             paper=paper,
             note_path=note_path,
             status="auto",
             summary_source=summary_source,
+            brief_cn=brief_cn,
         )
 
     # Refresh last_seen timestamp for already-known entries that appeared today.
@@ -657,12 +929,27 @@ def cmd_update(args: argparse.Namespace) -> int:
     report_path = daily_dir / f"{dt.date.today().isoformat()}.md"
     write_daily_report(report_path=report_path, selected=selected, db=db, labels=labels)
 
+    ok, notify_msg = maybe_send_daily_reminder(
+        cfg=cfg,
+        db=db,
+        selected=selected,
+        daily_limit=daily_limit,
+        labels=labels,
+        report_path=report_path,
+        force_notify=args.notify,
+        dry_run=bool(args.notify_dry_run),
+    )
+
     print(f"Fetched entries: {len(all_entries)}")
     print(f"Deduped entries: {len(deduped)}")
     print(f"New papers added today: {len(selected)}")
     print(f"DB path: {db_path}")
     print(f"Knowledge map: {map_path}")
     print(f"Daily report: {report_path}")
+    if ok:
+        print(f"Notify: {notify_msg}")
+    else:
+        print(f"[WARN] Notify failed: {notify_msg}")
     return 0
 
 
@@ -724,22 +1011,29 @@ def cmd_ingest_known(args: argparse.Namespace) -> int:
             note_path = notes_dir / f"{slugify(paper.paper_id)}.md"
             summary_text = textwrap.dedent(
                 f"""\
-                1) Core Question
-                - Imported from known-paper list.
+                1) 论文做了什么
+                - 该条目来自你的已读论文清单导入。
 
-                2) Why Kept In System
-                - This paper was marked as already known by user.
+                2) 为什么纳入体系
+                - 你已明确标记为“已了解论文”，用于建立连续知识图谱。
 
-                3) Notes
-                - {notes or "No extra notes provided."}
+                3) 你的备注
+                - {notes or "暂未提供额外备注。"}
                 """
             ).strip()
-            write_paper_note(note_path, paper, summary_text=summary_text)
+            brief_cn = {
+                "what_done": "这篇论文由你的已读清单导入。",
+                "method": "待你补充该论文采用的核心模型与参数设置。",
+                "finding": notes or "暂无详细结论记录。",
+                "meaning": "用于补全你的长期论文体系，并与每日新论文建立关联。",
+            }
+            write_paper_note(path=note_path, paper=paper, summary_text=summary_text, brief_cn=brief_cn)
             db[paper.paper_id] = entry_to_db_record(
                 paper=paper,
                 note_path=note_path,
                 status="known",
                 summary_source="known_import",
+                brief_cn=brief_cn,
             )
             imported += 1
 
@@ -769,6 +1063,14 @@ def build_parser() -> argparse.ArgumentParser:
     p_update = sub.add_parser("update", help="Fetch and process today's papers.")
     add_common(p_update)
     p_update.add_argument("--limit", type=int, default=0, help="Override daily paper limit.")
+    p_update.add_argument("--notify", dest="notify", action="store_true", help="Force-enable reminder send.")
+    p_update.add_argument("--no-notify", dest="notify", action="store_false", help="Disable reminder send.")
+    p_update.add_argument(
+        "--notify-dry-run",
+        action="store_true",
+        help="Build and route reminder in dry-run mode (no actual send).",
+    )
+    p_update.set_defaults(notify=None, notify_dry_run=False)
     p_update.set_defaults(func=cmd_update)
 
     p_known = sub.add_parser("ingest-known", help="Import known papers from CSV.")
@@ -780,6 +1082,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main() -> int:
+    load_default_envs()
     parser = build_parser()
     args = parser.parse_args()
     return int(args.func(args))
