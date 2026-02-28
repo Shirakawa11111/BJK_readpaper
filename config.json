@@ -1,0 +1,92 @@
+{
+  "daily_limit": 5,
+  "arxiv_max_results_per_topic": 40,
+  "request_timeout_sec": 30,
+  "llm": {
+    "enabled": true,
+    "api_key_env": "OPENAI_API_KEY",
+    "model": "gpt-4.1-mini",
+    "endpoint": "https://api.openai.com/v1/responses",
+    "temperature": 0.2
+  },
+  "topics": [
+    {
+      "name": "multiphysics_coupling",
+      "query": "all:\"multiphysics\" AND (all:\"materials\" OR all:\"metal\")"
+    },
+    {
+      "name": "molecular_dynamics",
+      "query": "all:\"molecular dynamics\" AND (all:\"materials\" OR all:\"deformation\")"
+    },
+    {
+      "name": "phase_field_crystal",
+      "query": "all:\"phase field crystal\" OR all:\"phase-field crystal\""
+    },
+    {
+      "name": "metal_fatigue",
+      "query": "all:\"metal fatigue\" AND (all:\"simulation\" OR all:\"modeling\")"
+    },
+    {
+      "name": "tensile_simulation",
+      "query": "all:\"tensile\" AND (all:\"simulation\" OR all:\"deformation\")"
+    }
+  ],
+  "keyword_weights": {
+    "multiphysics": 3.0,
+    "coupled": 2.0,
+    "molecular dynamics": 3.0,
+    "phase-field crystal": 3.0,
+    "fatigue": 3.0,
+    "tensile": 2.0,
+    "dislocation": 1.5,
+    "crack": 1.5,
+    "deformation": 1.3,
+    "metal": 1.2,
+    "materials": 1.2,
+    "simulation": 1.0,
+    "modeling": 1.0
+  },
+  "taxonomy": {
+    "multiphysics_coupling": [
+      "multiphysics",
+      "coupled",
+      "thermo-mechanical",
+      "electrochemical",
+      "fluid-structure"
+    ],
+    "molecular_dynamics": [
+      "molecular dynamics",
+      "atomistic",
+      "interatomic potential",
+      "lammps",
+      "melt-quench"
+    ],
+    "phase_field_crystal": [
+      "phase-field crystal",
+      "phase field crystal",
+      "pfc",
+      "amplitude expansion"
+    ],
+    "metal_fatigue": [
+      "fatigue",
+      "cyclic loading",
+      "crack growth",
+      "high-cycle",
+      "low-cycle"
+    ],
+    "tensile_simulation": [
+      "tensile",
+      "uniaxial",
+      "stress-strain",
+      "strain hardening",
+      "elongation"
+    ]
+  },
+  "topic_labels": {
+    "multiphysics_coupling": "Multiphysics Coupling",
+    "molecular_dynamics": "Molecular Dynamics",
+    "phase_field_crystal": "Phase-Field Crystal",
+    "metal_fatigue": "Metal Fatigue Simulation",
+    "tensile_simulation": "Tensile / Deformation Simulation"
+  }
+}
