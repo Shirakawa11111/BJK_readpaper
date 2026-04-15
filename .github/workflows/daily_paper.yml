@@ -61,9 +61,9 @@ jobs:
           git config user.name "Paper Agent Bot"
           git config user.email "paper-agent[bot]@users.noreply.github.com"
 
-          # Sync with remote BEFORE staging, to avoid conflicts
-          git fetch origin main
-          git reset --soft origin/main
+          # Pull remote changes first (workflow fixes, README, etc.)
+          # Our changes are in data/ and reports/ which don't overlap
+          git pull origin main --no-edit || true
 
           git add -A data/ reports/
 
@@ -71,8 +71,18 @@ jobs:
             echo "No changes to commit."
           else
             DATE=$(date -u +"%Y-%m-%d")
-            PAPER_COUNT=$(git status --short | grep -c "notes/" || echo "0")
+            PAPER_COUNT=$(git diff --cached --name-only | grep -c "notes/" || echo "0")
             git commit -m "📄 Daily paper update ${DATE} (+${PAPER_COUNT} papers)"
-            git push origin main
-            echo "✅ Changes pushed successfully."
+
+            # Retry push up to 3 times
+            for i in 1 2 3; do
+              if git push origin main; then
+                echo "✅ Push succeeded on attempt $i"
+                exit 0
+              fi
+              echo "⚠️ Push failed (attempt $i/3), pulling and retrying..."
+              git pull --rebase origin main || true
+            done
+            echo "❌ Push failed after 3 attempts"
+            exit 1
           fi

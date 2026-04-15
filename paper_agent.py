@@ -44,7 +44,7 @@ DEFAULT_CONFIG = {
         "provider": "anthropic",
         "api_key_env": "ANTHROPIC_API_KEY",
         "model": "claude-sonnet-4-20250514",
-        "max_tokens": 1024,
+        "max_tokens": 2500,
         "temperature": 0.2,
     },
     "topics": [
@@ -1087,7 +1087,7 @@ def infer_research_value_cn(tags: list[str]) -> str:
     reasons = [reason_map[t] for t in tags if t in reason_map]
     if reasons:
         return " ".join(dict.fromkeys(reasons))
-    return "可作为材料模拟通用参考，帮助你补全“模型-参数-结果解释”的知识链条。"
+    return "可作为材料模拟通用参考，帮助你补全「模型-参数-结果解释」的知识链条。"
 
 
 def infer_finding_signal_cn(abstract: str) -> str:
@@ -1205,7 +1205,7 @@ def build_group_style_cn(
     kw_text = ", ".join(kw_names[:5]) if kw_names else "N/A"
 
     problem = (
-        f"针对{', '.join(topics)}方向，论文聚焦“{paper.title}”相关机理/性能问题，"
+        f"针对{', '.join(topics)}方向，论文聚焦「{paper.title}」相关机理/性能问题，"
         "目标是建立可解释的模型并量化关键影响因素。"
     )
     model_setup = "；".join(model_setups[:4])
@@ -1258,7 +1258,7 @@ def build_cn_brief(paper: Paper, labels: dict[str, str]) -> dict[str, str]:
     abstract = paper.summary.strip()
     topics = [labels.get(tag, tag) for tag in paper.tags] or ["通用材料模拟"]
     method = infer_method_signal_cn(abstract)
-    what_done = f"该论文围绕“{paper.title}”展开，针对{', '.join(topics)}相关问题进行建模与分析。"
+    what_done = f"该论文围绕「{paper.title}」展开，针对{', '.join(topics)}相关问题进行建模与分析。"
     finding = infer_finding_signal_cn(abstract)
     return {
         "what_done": truncate_text(what_done, 220),
@@ -1284,23 +1284,34 @@ def refine_brief_with_summary(brief: dict[str, str], summary_text: str) -> dict[
 def build_fallback_summary(paper: Paper, labels: dict[str, str]) -> str:
     brief = build_cn_brief(paper, labels)
     abstract = paper.summary.strip() or "N/A"
-    abstract_preview = truncate_text(abstract, 1000)
+    abstract_preview = truncate_text(abstract, 1500)
+    method = brief["method"]
+    model_setups = infer_model_setups_cn(abstract)
+    params = extract_parameter_candidates_cn(abstract, limit=10)
+    params_text = "；".join(params) if params else "摘要中未找到具体数值参数，需查阅全文 Methods 章节。"
     return textwrap.dedent(
         f"""\
-        1) 论文做了什么
+        1) 研究问题与背景
         - {brief["what_done"]}
+        - 主题归类: {brief["topics"]}
 
-        2) 核心方法
-        - {brief["method"]}
+        2) 核心方法与模型细节
+        - 检测到的方法信号: {method}
+        - 模型类别: {"；".join(model_setups[:4])}
+        - 摘要中提取的参数线索: {params_text}
+        - 注意：以上基于摘要自动提取，完整参数需查阅全文。
 
         3) 关键结果
         - {brief["finding"]}
 
         4) 对你研究的意义
         - {brief["meaning"]}
-        - 主题归类: {brief["topics"]}
 
-        5) 摘要快照
+        5) 可复现性与阅读建议
+        - 建议重点精读 Methods/Simulation Details 章节，提取边界条件、势函数、时间步长等关键参数。
+        - 如有实验对比数据，注意验证方法和误差范围。
+
+        6) 摘要原文
         - {abstract_preview}
         """
     ).strip()
@@ -1309,17 +1320,40 @@ def build_fallback_summary(paper: Paper, labels: dict[str, str]) -> str:
 def _build_summary_prompt(paper: Paper, labels: dict[str, str]) -> str:
     return textwrap.dedent(
         f"""\
-        你是材料模拟方向的论文助理，请用中文输出，严格按以下结构总结：
-        1) 论文做了什么
-        2) 用了什么方法
-        3) 得到什么结果
-        4) 对我研究的意义
-        5) 下一步阅读建议
+        你是材料模拟领域（多尺度模拟、分子动力学、相场晶体、有限元、金属疲劳与拉伸模拟）的资深研究助理。
+        请对以下论文进行深入技术分析，用中文输出，严格按如下结构：
+
+        1) 研究问题与背景（3-5句）
+        - 该论文解决什么科学/工程问题？在什么背景下提出？
+        - 现有方法/模型的局限性是什么？该工作的创新点在哪里？
+
+        2) 核心方法与模型细节（5-8句，这是最重要的部分）
+        - 使用了什么模型/方法？（如 MD、PFC、FEM、DFT、机器学习势函数等）
+        - 关键控制方程或理论框架是什么？
+        - 势函数类型/版本（如 EAM、MEAM、ReaxFF、Tersoff、GAP、MTP 等）
+        - 边界条件设置（周期性、自由表面、固定边界等）
+        - 加载方式（单轴拉伸、循环加载、应变率、温度梯度等）
+        - 模拟尺寸、原子数、网格规模、时间步长等关键参数
+        - 使用了什么软件平台（LAMMPS、VASP、ABAQUS、自研代码等）
+
+        3) 关键结果与定量结论（3-5句）
+        - 主要发现是什么？给出具体数值（应力值、温度范围、缺陷密度等）
+        - 与已有实验/模拟结果的对比情况
+        - 模型/方法的精度和适用范围
+
+        4) 对我研究的直接价值（3-5句）
+        - 我的方向：多物理耦合场模拟、分子动力学、相场晶体模型(XPFC)、金属疲劳模拟、拉伸变形模拟
+        - 该论文的方法/参数/结论中，哪些可以直接被我借鉴或复用？
+        - 对我当前工作的具体启发（参数选取、模型验证、边界条件设计等）
+
+        5) 可复现性评估与阅读建议（2-3句）
+        - 论文是否提供了足够的参数细节来复现？缺少哪些关键信息？
+        - 建议重点精读哪些章节？
 
         要求：
-        - 每部分 1-3 条，精炼具体，避免空话。
-        - 优先提取模型类型、边界条件、载荷方式、关键变量、可复现实验/仿真线索。
-        - 第4部分必须结合我的方向：多物理耦合、分子动力学、相场晶体、金属疲劳、拉伸模拟。
+        - 必须提取具体数值和参数，不要泛泛而谈。
+        - 如果摘要中某些信息不足，明确标注"摘要未提及，需查阅全文"。
+        - 每个部分都要有实质性内容，不允许出现"该论文研究了XX"之类的废话。
 
         论文标题: {paper.title}
         发布时间: {paper.published}
@@ -1435,7 +1469,7 @@ def truncate_text(value: str, max_len: int) -> str:
     return value[: max_len - 3].rstrip() + "..."
 
 
-def build_daily_reminder_message(
+def build_daily_reminder_messages(
     *,
     selected: list[Paper],
     daily_limit: int,
@@ -1443,61 +1477,137 @@ def build_daily_reminder_message(
     report_path: Path,
     max_items: int,
     db: dict[str, Any] | None = None,
-    keyword_limit: int = 3,
-    params_chars: int = 90,
-) -> str:
+    keyword_limit: int = 5,
+    params_chars: int = 200,
+) -> list[str]:
+    """Build a list of Telegram messages -- one overview + one per paper with full analysis."""
     date_label = dt.date.today().isoformat()
-    lines = [f"今日论文阅读提醒（{date_label}）", ""]
+    messages: list[str] = []
+
+    # Message 1: Overview
+    overview_lines = [
+        f"📚 今日论文阅读提醒（{date_label}）",
+        f"━━━━━━━━━━━━━━━━━━━━",
+    ]
     if selected:
-        lines.append(f"今天新增待读：{len(selected)} 篇（目标 {daily_limit} 篇）")
-        lines.append("")
+        overview_lines.append(f"今天新增待读：{len(selected)} 篇（目标 {daily_limit} 篇）\n")
         for idx, paper in enumerate(selected[:max_items], start=1):
-            brief = {}
-            record: dict[str, Any] = {}
-            if db and paper.paper_id in db:
-                record = db[paper.paper_id]
-                maybe_brief = record.get("brief_cn", {})
-                if isinstance(maybe_brief, dict):
-                    brief = maybe_brief
-            if not brief:
-                brief = build_cn_brief(paper, labels)
-            what_done = str(brief.get("what_done", "N/A"))
-            meaning = str(brief.get("meaning", "N/A"))
-            keyword_items = record.get("keyword_details", []) if record else []
-            focus_areas = record.get("focus_areas", []) if record else []
-            group_style = record.get("group_style_cn", {}) if record else {}
-            keyword_names = [str(x.get("keyword", "")) for x in keyword_items if str(x.get("keyword", "")).strip()]
-            keyword_preview = ", ".join(keyword_names[: max(1, keyword_limit)])
-            focus_preview = "；".join(str(x) for x in focus_areas[:2]) if focus_areas else ""
-            problem = str(group_style.get("problem", what_done))
-            model_setup = str(group_style.get("model_setup", brief.get("method", "N/A")))
-            model_params = str(group_style.get("model_params", "N/A"))
-            conclusion = str(group_style.get("conclusion", brief.get("finding", "N/A")))
-            lines.append(f"{idx}. {truncate_text(paper.title, 120)}")
-            lines.append(f"   问题：{truncate_text(problem, 120)}")
-            lines.append(f"   模型：{truncate_text(model_setup, 120)}")
-            lines.append(f"   参数：{truncate_text(model_params, max(40, params_chars))}")
-            lines.append(f"   结论：{truncate_text(conclusion, 120)}")
-            lines.append(f"   意义：{truncate_text(meaning, 120)}")
-            if keyword_preview:
-                lines.append(f"   关键词：{truncate_text(keyword_preview, 140)}")
-            if focus_preview:
-                lines.append(f"   侧重点：{truncate_text(focus_preview, 140)}")
-            lines.append(f"   链接：{paper.link}")
-            lines.append("")
-        lines.append("建议：今天优先精读前 2 篇，并把关键参数和边界条件补进笔记。")
+            tags = [labels.get(t, t) for t in paper.tags]
+            overview_lines.append(f"{idx}. {paper.title}")
+            overview_lines.append(f"   🏷 {', '.join(tags[:3])}")
+            overview_lines.append(f"   🔗 {paper.link}\n")
+        overview_lines.append("⬇️ 详细分析见后续消息")
     else:
-        lines.extend(
-            [
-                "今天没有筛选到新的未读论文。",
-                "建议：复盘最近 3 篇笔记，更新你的“模型-参数-结论”体系表。",
-            ]
-        )
-    lines.extend(["", f"今日日报：{report_path}"])
-    message = "\n".join(lines).strip()
-    if len(message) > 3800:
-        message = message[:3700].rstrip() + "\n...\n（消息过长，已截断。完整内容见今日日报）"
-    return message
+        overview_lines.extend([
+            "今天没有筛选到新的未读论文。",
+            "建议：复盘最近 3 篇笔记，更新你的「模型-参数-结论」体系表。",
+        ])
+    messages.append("\n".join(overview_lines))
+
+    if not selected:
+        return messages
+
+    # Messages 2-N: One message per paper with full analysis
+    for idx, paper in enumerate(selected[:max_items], start=1):
+        record: dict[str, Any] = {}
+        if db and paper.paper_id in db:
+            record = db[paper.paper_id]
+
+        brief = record.get("brief_cn", {}) if record else {}
+        if not isinstance(brief, dict):
+            brief = {}
+        if not brief:
+            brief = build_cn_brief(paper, labels)
+
+        keyword_items = record.get("keyword_details", []) if record else []
+        focus_areas = record.get("focus_areas", []) if record else []
+        group_style = record.get("group_style_cn", {}) if record else {}
+
+        keyword_names = [str(x.get("keyword", "")) for x in keyword_items if str(x.get("keyword", "")).strip()]
+        keyword_preview = ", ".join(keyword_names[: max(1, keyword_limit)])
+        focus_preview = "；".join(str(x) for x in focus_areas[:3]) if focus_areas else "N/A"
+
+        problem = str(group_style.get("problem", brief.get("what_done", "N/A")))
+        model_setup = str(group_style.get("model_setup", brief.get("method", "N/A")))
+        model_params = str(group_style.get("model_params", "N/A"))
+        conclusion = str(group_style.get("conclusion", brief.get("finding", "N/A")))
+
+        # Get the full LLM summary if available
+        summary_text = ""
+        note_path = record.get("note_path", "")
+        if note_path:
+            try:
+                np = Path(note_path)
+                if not np.exists():
+                    # Try relative to current working directory
+                    np = Path(".") / "data" / "notes" / f"{slugify(paper.paper_id)}.md"
+                if np.exists():
+                    raw = np.read_text(encoding="utf-8", errors="ignore")
+                    # Extract the structured summary section
+                    marker_start = "## Structured Summary"
+                    marker_end = "## Raw Abstract"
+                    if marker_start in raw and marker_end in raw:
+                        start_idx = raw.index(marker_start) + len(marker_start)
+                        end_idx = raw.index(marker_end)
+                        summary_text = raw[start_idx:end_idx].strip()
+            except Exception:
+                pass
+
+        paper_lines = [
+            f"📄 [{idx}/{len(selected[:max_items])}] {paper.title}",
+            f"━━━━━━━━━━━━━━━━━━━━",
+            f"👤 {', '.join(paper.authors[:3])}{'...' if len(paper.authors) > 3 else ''}",
+            f"📅 {paper.published[:10] if paper.published else 'N/A'}",
+            f"🏷 {', '.join([labels.get(t, t) for t in paper.tags[:3]])}",
+            f"⭐ 相关度评分：{paper.score}",
+            "",
+            f"🔬 研究问题",
+            f"{truncate_text(problem, 300)}",
+            "",
+            f"🛠 模型/方法",
+            f"{truncate_text(model_setup, 300)}",
+            "",
+            f"📐 关键参数",
+            f"{truncate_text(model_params, max(100, params_chars))}",
+            "",
+            f"📊 主要结论",
+            f"{truncate_text(conclusion, 300)}",
+            "",
+            f"💡 对我的价值",
+            f"{truncate_text(str(brief.get('meaning', 'N/A')), 300)}",
+        ]
+
+        if keyword_preview:
+            paper_lines.extend(["", f"🔑 关键词：{keyword_preview}"])
+        if focus_preview != "N/A":
+            paper_lines.extend([f"📌 侧重点：{focus_preview}"])
+
+        # Include LLM detailed analysis if available
+        if summary_text and len(summary_text) > 100:
+            # Truncate to fit Telegram's limit
+            detail = truncate_text(summary_text, 2000)
+            paper_lines.extend([
+                "",
+                "━━━ Claude 深度分析 ━━━",
+                detail,
+            ])
+
+        paper_lines.extend(["", f"🔗 {paper.link}"])
+
+        msg = "\n".join(paper_lines)
+        messages.append(msg)
+
+    # Final message: reading advice
+    messages.append(
+        f"📖 阅读建议\n━━━━━━━━━━━━━━━━━━━━\n"
+        f"今天优先精读前 2 篇，重点关注：\n"
+        f"  1. 方法/模型章节的参数设置\n"
+        f"  2. 边界条件与载荷路径\n"
+        f"  3. 与你工作最相关的结论\n\n"
+        f"笔记和完整分析已保存到 GitHub 仓库。"
+    )
+
+    return messages
 
 
 def send_via_telegram(
@@ -1545,7 +1655,6 @@ def send_via_telegram(
         payload = json.dumps({
             "chat_id": chat_id,
             "text": chunk,
-            "parse_mode": "HTML",
             "disable_web_page_preview": True,
         }).encode("utf-8")
         req = urllib.request.Request(
@@ -1604,9 +1713,9 @@ def maybe_send_daily_reminder(
 
     max_items = int(notify_cfg.get("max_items", 5) or 5)
     max_items = max(1, max_items)
-    telegram_kw = int(cfg.get("keyword_settings", {}).get("telegram_keywords", 3) or 3)
-    params_chars = int(cfg.get("group_style", {}).get("telegram_params_chars", 90) or 90)
-    message = build_daily_reminder_message(
+    telegram_kw = int(cfg.get("keyword_settings", {}).get("telegram_keywords", 5) or 5)
+    params_chars = int(cfg.get("group_style", {}).get("telegram_params_chars", 200) or 200)
+    messages = build_daily_reminder_messages(
         selected=selected,
         daily_limit=daily_limit,
         labels=labels,
@@ -1614,10 +1723,23 @@ def maybe_send_daily_reminder(
         max_items=max_items,
         db=db,
         keyword_limit=max(1, telegram_kw),
-        params_chars=max(40, params_chars),
+        params_chars=max(60, params_chars),
     )
     tg_cfg = notify_cfg.get("telegram", {})
-    return send_via_telegram(message=message, tg_cfg=tg_cfg, dry_run=dry_run)
+    # Send each message separately to avoid Telegram's 4096 char limit
+    sent = 0
+    last_err = ""
+    for msg in messages:
+        ok, info = send_via_telegram(message=msg, tg_cfg=tg_cfg, dry_run=dry_run)
+        if ok:
+            sent += 1
+        else:
+            last_err = info
+    if sent == len(messages):
+        return True, f"sent {sent} messages"
+    if sent > 0:
+        return True, f"partial: {sent}/{len(messages)}, last_error={last_err}"
+    return False, last_err or "all_messages_failed"
 
 
 def write_paper_note(
@@ -2503,7 +2625,7 @@ def cmd_ingest_known(args: argparse.Namespace) -> int:
                 - 该条目来自你的已读论文清单导入。
 
                 2) 为什么纳入体系
-                - 你已明确标记为“已了解论文”，用于建立连续知识图谱。
+                - 你已明确标记为"已了解论文"，用于建立连续知识图谱。
 
                 3) 你的备注
                 - {notes or "暂未提供额外备注。"}

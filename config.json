@@ -7,7 +7,7 @@
     "provider": "anthropic",
     "api_key_env": "ANTHROPIC_API_KEY",
     "model": "claude-sonnet-4-20250514",
-    "max_tokens": 1024,
+    "max_tokens": 2500,
     "temperature": 0.2
   },
   "topics": [
