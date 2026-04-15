@@ -20,7 +20,7 @@
     "source_topic": "tensile_simulation",
     "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2601.01443v1.md",
     "summary_source": "fallback",
-    "last_seen_at": "2026-03-03T16:41:36.145034+00:00",
+    "last_seen_at": "2026-04-15T05:25:03.290187+00:00",
     "keyword_details": [
       {
         "keyword": "fatigue",
@@ -125,7 +125,7 @@
     "source_topic": "multiphysics_coupling",
     "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.12558v1.md",
     "summary_source": "fallback",
-    "last_seen_at": "2026-03-03T16:41:36.149649+00:00",
+    "last_seen_at": "2026-04-15T05:25:03.296019+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -221,7 +221,7 @@
     "source_topic": "phase_field_crystal",
     "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.14348v1.md",
     "summary_source": "fallback",
-    "last_seen_at": "2026-03-03T16:41:36.153059+00:00",
+    "last_seen_at": "2026-04-15T05:25:03.297525+00:00",
     "keyword_details": [
       {
         "keyword": "phase-field crystal",
@@ -420,7 +420,7 @@
     "source_topic": "molecular_dynamics",
     "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.08089v1.md",
     "summary_source": "fallback",
-    "last_seen_at": "2026-03-03T16:41:36.146745+00:00",
+    "last_seen_at": "2026-04-15T05:25:03.293540+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -522,7 +522,7 @@
     "source_topic": "tensile_simulation",
     "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.18954v1.md",
     "summary_source": "fallback",
-    "last_seen_at": "2026-03-03T16:41:36.161750+00:00",
+    "last_seen_at": "2026-04-15T05:25:03.304054+00:00",
     "keyword_details": [
       {
         "keyword": "crack",
@@ -619,7 +619,7 @@
     "source_topic": "molecular_dynamics",
     "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.17740v1.md",
     "summary_source": "fallback",
-    "last_seen_at": "2026-03-03T16:41:36.160058+00:00",
+    "last_seen_at": "2026-04-15T05:25:03.302674+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -803,7 +803,7 @@
     "source_topic": "molecular_dynamics",
     "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.06225v1.md",
     "summary_source": "fallback",
-    "last_seen_at": "2026-03-03T16:41:36.146313+00:00",
+    "last_seen_at": "2026-04-15T05:25:03.292698+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -891,7 +891,7 @@
     "source_topic": "tensile_simulation",
     "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2601.00619v1.md",
     "summary_source": "fallback",
-    "last_seen_at": "2026-03-03T16:41:36.144402+00:00",
+    "last_seen_at": "2026-04-15T05:25:03.289048+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -987,7 +987,7 @@
     "source_topic": "molecular_dynamics",
     "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16007v1.md",
     "summary_source": "fallback",
-    "last_seen_at": "2026-03-03T16:41:36.155078+00:00",
+    "last_seen_at": "2026-04-15T05:25:03.299888+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -1080,7 +1080,7 @@
     "source_topic": "multiphysics_coupling",
     "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2602.15500v1.md",
     "summary_source": "fallback",
-    "last_seen_at": "2026-03-03T16:41:36.154217+00:00",
+    "last_seen_at": "2026-04-15T05:25:03.298513+00:00",
     "keyword_details": [
       {
         "keyword": "coupled",
@@ -1714,7 +1714,7 @@
     "source_topic": "multiphysics_coupling",
     "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2512.00907v2.md",
     "summary_source": "fallback",
-    "last_seen_at": "2026-03-03T16:41:36.142358+00:00",
+    "last_seen_at": "2026-04-15T05:25:01.178497+00:00",
     "keyword_details": [
       {
         "keyword": "multiphysics",
@@ -1762,17 +1762,30 @@
     "group_style_cn": {
       "problem": "针对Metal Fatigue Simulation, Multiphysics Coupling方向，论文聚焦“Magnetic Tactile-Driven Soft Actuator for Intelligent Grasping and Firmness Evaluation”相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
       "model_setup": "摘要未明确给出模型名称，建议查看 Methods/Model 部分确认。",
-      "model_params": "摘要未明确给出可直接复现的数值参数。",
+      "model_params": "时间步/积分: the overall system performance [11, 12] Beyond these general challenges, the integration of tactile sensors directly into soft gripper opens up transformative possibil...；时间步/积分: Non-destructive alternatives, including acoustic response [24], low-fo...",
       "conclusion": "结果聚焦疲劳/裂纹演化机制，可用于失效分析与寿命评估。 摘要证据：Results demonstrate that combining integrated magnetic sensing, learning-based correction, and real-time inference enables a soft robotic...",
       "keyword_context": "multiphysics, fatigue, deformation, simulation"
     },
     "pdf_parse": {
-      "status": "extract_failed",
-      "param_details": [],
-      "method_excerpt": "",
-      "source": "no_python_pdf_reader; pdftotext_not_found",
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
       "pdf_url": "https://arxiv.org/pdf/2512.00907v2.pdf",
-      "pdf_path": "/Users/bojingkai/Desktop/Read_paper/data/pdf_cache/2512.00907v2.pdf"
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2512.00907v2.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2512.00907v2.txt",
+      "param_details": [
+        "时间步/积分: the overall system performance [11, 12] Beyond these general challenges, the integration of tactile sensors directly into soft gripper opens up transformative possibil...",
+        "时间步/积分: Non-destructive alternatives, including acoustic response [24], low-force indentation [25], and near-infrared (NIR) spectroscopy [26], have been proposed, but these of...",
+        "势函数/模型版本: These limitations point to a critical gap: the absence of a unified, non-destructive system capable of both grasping a over, by exploiting the SoftMag gripper, a real-...",
+        "时间步/积分: Section 4 presents the integration of the actuator into the two-finger SoftMag gripper, together with its grasping capabilities and robustness to magnetic interference.",
+        "势函数/模型版本: Finally, Section 8 concludes the manuscript with a summary of contributions and reflections on potential industrial deployment.",
+        "热力学条件: Finally, the two approaches can merge, like in Navas[70] where a vision-assisted soft gripper was equipped with air pressure and infrared sensors for real-time contact...",
+        "尺寸/样本规模: Statistically significant correlations (p <0.05 ) were observed for Sample 1 and Sample 3, withp-values of 0.031 and 0.027, respectively.",
+        "尺寸/样本规模: While Sample 2’sp-value of 0.096 exceeds the conventional threshold, the result still reflects a moderately strong correlation.",
+        "尺寸/样本规模: 19 The confidence interval half-widths ranged from 0.445 to 0.662, with narrower intervals corresponding to samples with stronger correlations, indicating reasonably h...",
+        "尺寸/样本规模: While the p-values (0.135–0.304) exceed the conventional significance threshold, this is attributable to the small number of temporal samples and does not contradict t..."
+      ],
+      "method_excerpt": "the overall system performance [11, 12] Beyond these general challenges, the integration of tactile sensors directly into soft gripper opens up transformative possibilities in application domains such as fruit handling [13, 14]. In agriculture, tasks such as sorting, packaging and quality monitoring are often handled separately from ripeness or firmness evaluation, leading to hardware redundancy, increased complexity, and inefficiencies in post-harvest operations [15, 16, 17]. Among various quality indicators such as size, color, and surface defects, firmness stands out as a critical parameter that reflects internal tissue structure and ripeness stage. This is especially true for climacteric fruits like avocados, kiwis, and peaches, which soften progressively due to enzymatic degradation and moisture redistribution [18, 19, 20, 21]. Traditional firmness assessment relies on destructive methods such as the Magness-Taylor (MT) puncture test, which, while accurate, damages the fruit and is unsuitable for large-scale or in-line deployment [22, 23]. Non-destructive alternatives, including acoustic response [24], low-force indentation [25], and near-infrared (NIR) spectroscopy [26], have been proposed, but these often suffer from environmental sensitivity and require separate inspection stages that hinder full system integration [27, 28]. Soft robotic grippers offer a compelling solution by enabling gentle, damage-free grasping and providing a platform for embedded sensing. However, existing systems typically treat manipulation and sensing as decoupled processes, or rely on of..."
     }
   },
   "2511.15725v1": {
@@ -1796,7 +1809,7 @@
     "source_topic": "multiphysics_coupling",
     "note_path": "/Users/bojingkai/Desktop/Read_paper/data/notes/2511.15725v1.md",
     "summary_source": "fallback",
-    "last_seen_at": "2026-03-03T16:41:34.339906+00:00",
+    "last_seen_at": "2026-04-15T05:24:56.039932+00:00",
     "keyword_details": [
       {
         "keyword": "multiphysics",
@@ -2074,7 +2087,7 @@
       "meaning": "可补充你在多物理耦合建模与场间耦合机制方面的方法库。",
       "topics": "Multiphysics Coupling"
     },
-    "last_seen_at": "2026-03-03T16:41:36.164842+00:00",
+    "last_seen_at": "2026-04-15T05:25:03.305478+00:00",
     "keyword_details": [
       {
         "keyword": "multiphysics",
@@ -2323,7 +2336,7 @@
       "meaning": "可用于完善你分子动力学参数设定、势函数选择和微观机理解释。 可用于优化拉伸模拟中的本构拟合、边界条件与失效判据。",
       "topics": "Molecular Dynamics, Tensile / Deformation Simulation"
     },
-    "last_seen_at": "2026-03-03T16:41:36.145704+00:00",
+    "last_seen_at": "2026-04-15T05:25:03.291482+00:00",
     "keyword_details": [
       {
         "keyword": "dislocation",
@@ -2425,7 +2438,7 @@
       "meaning": "可补充你在相场晶体框架下的缺陷演化和组织演变建模思路。",
       "topics": "Phase-Field Crystal"
     },
-    "last_seen_at": "2026-03-03T16:41:33.381040+00:00",
+    "last_seen_at": "2026-04-15T05:24:56.037106+00:00",
     "keyword_details": [
       {
         "keyword": "phase-field crystal",
@@ -3047,7 +3060,7 @@
       "meaning": "可用于优化拉伸模拟中的本构拟合、边界条件与失效判据。",
       "topics": "Tensile / Deformation Simulation"
     },
-    "last_seen_at": "2026-03-03T16:41:36.147388+00:00",
+    "last_seen_at": "2026-04-15T05:25:03.294837+00:00",
     "keyword_details": [
       {
         "keyword": "tensile",
@@ -3285,7 +3298,7 @@
       "Phase-Field Crystal（主题归类）",
       "Tensile / Deformation Simulation（主题归类）"
     ],
-    "last_seen_at": "2026-03-03T16:41:33.382046+00:00",
+    "last_seen_at": "2026-04-15T05:24:56.038358+00:00",
     "group_style_cn": {
       "problem": "针对Phase-Field Crystal, Tensile / Deformation Simulation方向，论文聚焦“Mesoscale modeling of deformations and defects in thin crystalline sheets”相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
       "model_setup": "相场晶体模型（PFC）；粗粒化模型",
@@ -3465,21 +3478,33 @@
       "Molecular Dynamics（主题归类）",
       "Tensile / Deformation Simulation（主题归类）"
     ],
-    "last_seen_at": "2026-03-03T16:41:36.143652+00:00",
+    "last_seen_at": "2026-04-15T05:25:02.889869+00:00",
     "group_style_cn": {
       "problem": "针对Molecular Dynamics, Tensile / Deformation Simulation方向，论文聚焦“Kagome Topology in Two-Dimensional Noble-Metal Monolayers”相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
       "model_setup": "分子动力学（MD）；第一性原理分子动力学（AIMD）；密度泛函理论（DFT）",
-      "model_params": "300 K；temperature simulations further show that Cu rapidly reconstructs towar；temperature but collapses at room temperature, and Au exhibits competin",
+      "model_params": "尺寸/样本规模: Structural optimizations minimized the total energy with respect to both atomic positions and in-plane lattice parameters, proceeding until the residual Hellmann–Feynm...；网格/离散: Brillouin-zone integrations used a Γ-centered Monkhorst–Pack grid [30]...",
       "conclusion": "结果给出了拉伸变形响应与关键力学指标变化趋势。 摘要证据：Phonon calculations reveal that the unstrained kagome phase is dynamically unstable for all metals.",
       "keyword_context": "molecular dynamics, metal, tensile, simulation"
     },
     "pdf_parse": {
-      "status": "extract_failed",
-      "param_details": [],
-      "method_excerpt": "",
-      "source": "no_python_pdf_reader; pdftotext_not_found",
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
       "pdf_url": "https://arxiv.org/pdf/2512.14850v1.pdf",
-      "pdf_path": "/Users/bojingkai/Desktop/Read_paper/data/pdf_cache/2512.14850v1.pdf"
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2512.14850v1.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2512.14850v1.txt",
+      "param_details": [
+        "尺寸/样本规模: Structural optimizations minimized the total energy with respect to both atomic positions and in-plane lattice parameters, proceeding until the residual Hellmann–Feynm...",
+        "网格/离散: Brillouin-zone integrations used a Γ-centered Monkhorst–Pack grid [30] of9×9×1for all systems.",
+        "热力学条件: Finite-temperature stability was investigated through ab initio molecular dynamics simulations performed on a4×4×1 supercell within the canonical (NVT) ensemble, using...",
+        "数值参数: 0.01 eV",
+        "数值参数: 600 eV",
+        "数值参数: 500 eV",
+        "数值参数: 460 eV",
+        "数值参数: 50 K",
+        "数值参数: 300 K"
+      ],
+      "method_excerpt": "2 Methodology All calculations were performed within the framework of DFT [ 21], as implemented in the Vienna Ab Initio Sim- ulation Package (V ASP) [22, 23], version 6.5.0. The Kohn–Sham equations [ 24] were solved using the semilocal exchange–correlation functional proposed by Perdew, Burke, and Ernzerhof (PBE) [ 25]. The interaction between core and valence electrons was described using the projector augmented-wave (PAW) method [26, 27]. Spin–orbit coupling (SOC) effects were included using the second-variational approach [28] as implemented in V ASP [29]. SOC was accounted for in all calculations, except for phonon and AIMD simulations, where it was neglected due to the associated computational cost. Structural optimizations minimized the total energy with respect to both atomic positions and in-plane lattice parameters, proceeding until the residual Hellmann–Feynman forces on each atom were below 0.01 eV/Å. The plane-wave basis-set cutoff energy was set to twice the maximum recommended value (ENMAX) from the respective POTCAR files, resulting in cutoff energies of 600 eV , 500 eV , and 460 eV for Cu, Ag, and Au. Brillouin-zone integrations used a Γ-centered Monkhorst–Pack grid [30] of9×9×1for all systems. 2 Carlos M. O. Bastos et al.AN ARXIV PREPRINT Elastic stiffness constants were calculated from the optimized structures using the finite-difference method in V ASP [31], where slight strains are applied to the lattice and the resulting stress–strain response is measured. Phonon dispersion relations were found using density functional perturbation theory (DFPT) [32]..."
     }
   },
   "2602.11548v1": {
@@ -4012,19 +4037,28 @@
     "group_style_cn": {
       "problem": "针对Multiphysics Coupling方向，论文聚焦“SPHaptics: A Real-Time Bidirectional Haptic Interaction Framework for Coupled Rigid-Soft Body and Lagrangian Fluid Simulation in Virtual Environments”相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
       "model_setup": "摘要未明确给出模型名称，建议查看 Methods/Model 部分确认。",
-      "model_params": "摘要未明确给出可直接复现的数值参数。",
+      "model_params": "势函数/模型版本: By pro- viding force feedback that aligns with the user’s tactile percep- tion, haptics bridges the sensory gap between the real and virtual worlds, enabling direct in...；网格/离散: A key computational component of this framework is smoothed particle...",
       "conclusion": "摘要显示其给出了可复现的模型/仿真结果，建议细读结果与讨论章节获取定量结论。 摘要证据：We demonstrate the capabilities of our framework through interactive VR scenarios involving fluid stirring, soft tissue manipulation, and...",
       "keyword_context": "multiphysics, simulation, coupled, fluid-structure, materials"
     },
     "pdf_parse": {
-      "status": "extract_failed",
-      "param_details": [],
-      "method_excerpt": "",
-      "source": "no_python_pdf_reader; pdftotext_not_found; ghostscript_error:'utf-8' codec can't decode byte 0xed in position 23851: invalid continuation byte",
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
       "pdf_url": "https://arxiv.org/pdf/2511.15908v1.pdf",
-      "pdf_path": "/Users/bojingkai/Desktop/Read_paper/data/pdf_cache/2511.15908v1.pdf"
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2511.15908v1.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2511.15908v1.txt",
+      "param_details": [
+        "势函数/模型版本: By pro- viding force feedback that aligns with the user’s tactile percep- tion, haptics bridges the sensory gap between the real and virtual worlds, enabling direct in...",
+        "网格/离散: A key computational component of this framework is smoothed particle hydrodynamics (SPH), a mesh-free particle-based method widely used to simulate fluids and deformab...",
+        "尺寸/样本规模: Extensions for real-time engines such as Unity demonstrate efficient particle management and kernel optimization techniques capable of maintaining fluid continuity and...",
+        "热力学条件: Unified approaches model both solid and fluid phases through the same SPH interac- tion laws, enabling two-way coupling through shared pressure and viscosity terms whi...",
+        "时间步/积分: Rigid and soft body integration into SPH simulations has been shown to be useful in robotics, materials science, and biomechanics [4, 13, 41].",
+        "势函数/模型版本: Thus, current research shows the potential that SPH has as a unified particle-based framework for multiphysics simulation that captures fluid-structure interactions wi..."
+      ],
+      "method_excerpt": "3 Methods Our goals for this research were to develop and evaluate a simu- lation framework that operates efficiently and with high accuracy. In order to accomplish this, there were many technical challenges regarding the real-time nature of the problem, coupled interactions, and controlling haptic feedback. In this section, we will discuss the problems we addressed and the solutions we propose."
     },
-    "last_seen_at": "2026-03-03T16:41:34.340773+00:00"
+    "last_seen_at": "2026-04-15T05:24:56.041589+00:00"
   },
   "2511.04266v1": {
     "id": "2511.04266v1",
@@ -4304,7 +4338,7 @@
       "pdf_url": "https://arxiv.org/pdf/2602.16158v1.pdf",
       "pdf_path": "/Users/bojingkai/Desktop/Read_paper/data/pdf_cache/2602.16158v1.pdf"
     },
-    "last_seen_at": "2026-03-03T16:41:36.155881+00:00"
+    "last_seen_at": "2026-04-15T05:25:03.301378+00:00"
   },
   "2603.01845v1": {
     "id": "2603.01845v1",
@@ -4507,7 +4541,7 @@
       ],
       "method_excerpt": "chanical constraints imposed by gravitational forces, hydrostatic and lithostatic pressures and tectonic stresses. 2.2 Mixed-dimensional geometry and computational domain In this work, we consider a spatial configuration Ω ⊂ Rd, d ∈ {2,3}, (called matrix) as obtained from reservoir characterization. Fractures, denoted Γ, are represented as lower-dimensional ellipsoidal surfaces embedded within Ω; their possible intersections generate a hierarchy of progressively lower-dimensional subdomains. Focusing directly on the impact of the reference states, we omit technical details of domains and operators for the transfer in between matrix and fractures (typically realized through mortar methodology) and for simplicity identify all lower-dimensional objects with the fracture. Details on mixed-dimensional geometries can be found in [2, 14, 9]. Overall, based on the modeling assumption of linear elasticity, this collection of domains also defines the reference computational domain, on which all partial differential equations and associated variables are defined. 2.3 Primaryvariablesandthespecialroleofmechanicaldisplacements To describe poromechanics, we adopt as primary variables the mechanical displacement of the matrix, u, together with the fluid pressures in the matrix and fractures, p and p . Mechanical f onsistent manner. At the initial time, the system is at rest, implying σ = σ0, λ = λ0, and a stationary flow field with p0 equal to the hydrostatic pressure (up to discretization effects). Likewise, the background stress obtained from the poroelastic model (3b) reflects the b..."
     },
-    "last_seen_at": "2026-03-03T16:41:36.173059+00:00"
+    "last_seen_at": "2026-04-15T05:25:03.308308+00:00"
   },
   "2602.23875v1": {
     "id": "2602.23875v1",
@@ -4835,7 +4869,7 @@
       ],
       "method_excerpt": "1 1 Christoph Adelmann, and Florin Ciubotaru 1 Imec, 3001 Leuven, Belgium 2 KU Leuven, Departement Elektrotechniek, 3001 Leuven, Belgium Abstract In this work, we investigate the differential voltage generation arising from the direct magnetoelectric (ME) effect in nanoscale composite devices upon magnetization rotation from the magnetic ground state to an out-of-plane (OOP) configuration. These composite devices comprise a magnetostrictive ferromagnetic layer and a piezoelectric layer, mechanically coupled through strain. Using a finite element method (FEM) model, developed in COMSOL Multiphysics, we provide a comprehensive analysis of strain transfer mechanisms and resulting voltage generations. Here, the influence of dimensional and material parameters on the device performance is systematically examined. Our results indicate the presence of two distinct strain transfer mechanisms at scaled dimensions, where the device aspect ratio and the magnetic state both determine the dominant mechanism influencing the strain transfer to the piezoelectric layer. Moreover, we observed that the influence of surface clamping diminished as the pillar area was reduced. We also saw that the strain transfer to the piezoelectric layer can be enhanced by using stiffer electrodes or clamping layers. Lastly, we concluded that magnet tions, the ME coupling coefficients need to be enhanced, so large voltages can be achieved. Since the ME composite coupling is strain-mediated, an efficient strain transfer from the magnetostrictive to piezoelectric layer is required [10, 11, 26–30, 32, 33]. Reg..."
     },
-    "last_seen_at": "2026-03-03T16:41:36.168334+00:00"
+    "last_seen_at": "2026-04-15T05:25:03.306770+00:00"
   },
   "2603.00440v1": {
     "id": "2603.00440v1",
@@ -5318,5 +5352,594 @@
       "method_excerpt": "2.2 Governing equations The mathematical model of the glass-air-PCM system is defined separately for each material domain. In the air and PCM regions, the flow is governed by the incompressible Navier–Stokes equations coupled with the energy equation through the Boussinesq approximation to account for buoyancy effects. For compactness, the equations for each domain are expressed using a subscript i, which identifies the material (air or PCM) and acts as a switch to activate or deactivate the 3 (a)Schematic view of a rooftop (b)2D-Setup Glass PCM-integrated Solar Chimney Hg n Hot air is H expelled into the atmosphere g Hp Air gap PCM L Insulation u n y x Indoor air is drawn in through the air channel Figure 1: (a) Schematic representation of an inclined solar chimney. (b) Two-dimensional setup. Property Value C (T) = AT4 +BT3+CT2+DT +E p Phase-change range (Tsol/Tliq), ◦C 37/43 T <T1 T1 ≤ T ≤ T2 T >T2 −2 0 0 Latent heat (H ), kJ/kg 165 A 5.22×10 −2.46×10 1.00×10 pc 3 −1 1 1 Density (ρ /ρ ), kg/m 880/760 B −2.46×10 6.29×10 −4.14×10 sol liq ◦ −1 2 2 Thermal conductivity, W/m C 0.20 C 6.54×10 −6.00×10 6.43×10 −1 3 3 Viscosity, Pa·s 0.0235 D −2.86×10 2.52×10 −4.44×10 −1 0 3 4 Thermal expansion coeff., K 0.0005 E 3.80×10 −3.94×10 1.15×10 Table I: Thermophysical properties of the commercial PCM RT42. The effective specific heat extracted from the enthalpy-temperature curves is fitted to a fourth-degree piecewise polynomial function, with T = 39 ◦C and T = 32.5 ◦C. 1 2 terms associated with each region: ∇·u =0, in Ω ×(0,t ], i i end 2 (1) ρ ∂ u +ρ (u ·∇)u −µ ∇ u +∇P =f +f , in Ω..."
     },
     "last_seen_at": "2026-03-03T16:41:34.338234+00:00"
+  },
+  "2603.25617v2": {
+    "id": "2603.25617v2",
+    "title": "Molecular dynamics study of the role of anisotropy in radiation-driven embrittlement",
+    "summary": "This study investigates the influence of crystallographic orientation on fracture behavior and the resulting mechanical anisotropy in a Fe55Ni19Cr26 alloy crystal containing radiation-induced defects, using molecular dynamics (MD) simulations. Crack propagation is analyzed in irradiated samples with three selected high-symmetry crystallographic orientations to show how radiation-induced defects modify local deformation mechanisms and amplify mechanical anisotropy. The investigation focuses on the anisotropic nature of the ductile-to-brittle transition (DBT) driven by radiation-induced defects by simulating fracture behavior under tensile loading. Fracture resistance is quantitatively evaluated using a traction-separation (T-S) approach to extract the atomic-scale fracture energy under realistic defect conditions. The results reveal a strong crystallographic orientation dependence in the evolution of deformation and fracture behavior during DBT. The crystal lattice orientation governs dislocation activity and defect interactions, which in turn regulate local plasticity mechanisms, strain localization, slip system activation, and fracture resistance, thereby driving the development and enhancement of mechanical anisotropy in irradiated materials. It is further shown that radiation-induced embrittlement cannot be explained solely by defect accumulation, but rather by orientation-sensitive interactions among dislocations, defects, and fracture process zones. A key novelty of this work lies in integrating radiation-induced defect evolution with orientation-dependent fracture within an atomistic T-S analysis, enabling quantitative assessment of atomic-scale fracture resistance under realistic defect conditions.",
+    "authors": [
+      "Hojjat Mousavi",
+      "Stanisław Stupkiewicz",
+      "Aneta Ustrzycka"
+    ],
+    "published": "2026-03-26T16:32:08Z",
+    "updated": "2026-04-08T09:05:11Z",
+    "link": "https://arxiv.org/abs/2603.25617v2",
+    "tags": [
+      "molecular_dynamics",
+      "tensile_simulation"
+    ],
+    "score": 13.8667,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.25617v2.md",
+    "summary_source": "fallback_http_400",
+    "brief_cn": {
+      "what_done": "该论文围绕“Molecular dynamics study of the role of anisotropy in radiation-driven embrittlement”展开，针对Molecular Dynamics, Tensile / Deformation Simulation相关问题进行建模与分析。",
+      "method": "原子尺度分子动力学模拟；裂纹起裂/扩展分析；拉伸/变形工况；位错演化分析",
+      "finding": "结果聚焦疲劳/裂纹演化机制，可用于失效分析与寿命评估。",
+      "meaning": "可用于完善你分子动力学参数设定、势函数选择和微观机理解释。 可用于优化拉伸模拟中的本构拟合、边界条件与失效判据。",
+      "topics": "Molecular Dynamics, Tensile / Deformation Simulation"
+    },
+    "keyword_details": [
+      {
+        "keyword": "molecular dynamics",
+        "score": 4.15,
+        "hits": 2,
+        "source": "keyword_weights",
+        "explanation": "基于原子相互作用的时间演化模拟，用于揭示微观机理与参数敏感性。"
+      },
+      {
+        "keyword": "dislocation",
+        "score": 2.5,
+        "hits": 2,
+        "source": "keyword_weights",
+        "explanation": "位错是塑性变形核心载体，位错演化直接影响材料强塑性与疲劳行为。"
+      },
+      {
+        "keyword": "tensile",
+        "score": 2.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "关注拉伸工况下应力-应变响应、屈服行为和断裂特征。"
+      },
+      {
+        "keyword": "deformation",
+        "score": 2.3,
+        "hits": 2,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "crack",
+        "score": 2.0,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "裂纹相关研究通常用于评估断裂风险与寿命边界。"
+      },
+      {
+        "keyword": "materials",
+        "score": 1.7,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "atomistic",
+        "score": 1.7,
+        "hits": 1,
+        "source": "taxonomy",
+        "explanation": "该关键词对应原子尺度模拟方法，建议记录势函数、时间步长和边界条件。"
+      },
+      {
+        "keyword": "simulation",
+        "score": 1.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      }
+    ],
+    "keywords": [
+      "molecular dynamics",
+      "dislocation",
+      "tensile",
+      "deformation",
+      "crack",
+      "materials",
+      "atomistic",
+      "simulation"
+    ],
+    "focus_areas": [
+      "分子动力学与原子尺度机制",
+      "疲劳损伤与断裂演化",
+      "拉伸响应与本构行为",
+      "Molecular Dynamics（主题归类）",
+      "Tensile / Deformation Simulation（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Molecular Dynamics, Tensile / Deformation Simulation方向，论文聚焦“Molecular dynamics study of the role of anisotropy in radiation-driven embrittlement”相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
+      "model_setup": "分子动力学（MD）",
+      "model_params": "载荷路径: The paper is organized as follows: Section 2 describes the MD simulation methodology for a single-crystal model, including the preparation of irradiated alloy samples...；尺寸/样本规模: Subsection2.1detailsthemethodology for generating radiation damage in ma...",
+      "conclusion": "结果聚焦疲劳/裂纹演化机制，可用于失效分析与寿命评估。 摘要证据：The results reveal a strong crystallographic orientation dependence in the evolution of deformation and fracture behavior during DBT.",
+      "keyword_context": "molecular dynamics, dislocation, tensile, deformation, crack"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/2603.25617v2.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2603.25617v2.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2603.25617v2.txt",
+      "param_details": [
+        "载荷路径: The paper is organized as follows: Section 2 describes the MD simulation methodology for a single-crystal model, including the preparation of irradiated alloy samples...",
+        "尺寸/样本规模: Subsection2.1detailsthemethodology for generating radiation damage in material samples via overlapping collision cascade simulations.",
+        "尺寸/样本规模: In each cascade, a single primary knock-on atom (PKA) was generated by imparting 10 keV of kinetic energy to a randomly selected Fe, Ni, or Cr atom located within the...",
+        "尺寸/样本规模: The study considers samples irradiated to 0.008, 0.038, 0.076 and 0.152 dpa (20, 100, 200 and 400 cascades, respectively), which were selected to cover a range from ve...",
+        "尺寸/样本规模: 1 presents the defect structures in selected irradiated samples.",
+        "载荷路径: For the (001) orientation, the highest applied strain rate (109 s−1) shifts the onset of crack-tip plasticity to higher imposed strains and stresses compared to lower...",
+        "载荷路径: As the strain rate is reduced, plastic slip is activated at lower imposed strains, but the dominant crack-tip deformation mode remains unchanged.",
+        "载荷路径: For the (011) orientation, which exhibits extensive slip activity, both the crack-tip deformation patterns and the stress–strain response show only weak sensitivity to...",
+        "载荷路径: The results indicate that strain rate primarily controls the timing and extent of dislocation activity, rather than introducing qualitatively different crack-tip defor...",
+        "载荷路径: When extending the interpretation toward experimental strain-rate conditions, the present re- ɛ̇ = 5e7 s-1 ɛ̇ = 1e8 s-1 ɛ̇ = 1e9 s-1 ɛ̇ = 5e7 s-1 ɛ̇ = 1e8 s-1 ɛ̇ = 1e9..."
+      ],
+      "method_excerpt": "ed materials (Wang et al., 2020; Li et al., 2022; Huang et al., 2024). The extent to which radiation-induced defects modify anisotropic behavior, particularly in re- lation to defect evolution, strain localization, and fracture mechanisms, is an important aspect considered in this work. To capture the influence of orientation-dependent, defect-driven plasticity on crack initiation and propagation, an atomistically-informed continuum framework can provide a suitable approach. 2 Fracture mechanics offers a robust framework for analyzing deformation and failure in irradiated materials. Stress-based parameters, such as the stress intensity factor (SIF) (Wilson et al., 2019; Zhao and Wei, 2025; Fu et al., 2025), provide a measure of crack-tip stresses but cannot capture the nanoscale, defect-drivenenergy dissipationthat dominatescrack-tip behaviorinmoleculardynamics simulations. Energy-based methods, including theJ-integral (Kim et al., 2021; Jia et al., 2022) and the critical strain energy release rate (Gc) (Barik et al., 2023; Lin et al., 2025; Ustrzycka et al., 2025), determine bulk fracture energetics but assume continuous, homogeneous plasticity and small-scale yielding. When the plastic zone is large, such that it occupies the whole computational domain, the J-integral approach is not applicable. Likewise it is not applicable in the case of irradiated materials where the defects are distributed within the whole volume and inelastic deformations initiate at those defects. Traction–separation (T–S) laws (Zeng et al., 2018; Wang et al., 2021; Guiqiu et al., 2021; Yu et al...."
+    },
+    "last_seen_at": "2026-04-15T05:25:03.309634+00:00"
+  },
+  "2604.03453v1": {
+    "id": "2604.03453v1",
+    "title": "A multiphysics deep energy method for fourth-order phase-field fracture with piezoresistive self-sensing",
+    "summary": "Self-sensing conductive composites can reveal deformation and damage through measurable changes in electrical resistance, which makes them attractive for embedded diagnostics and learning-enabled structural health monitoring. This paper presents a physically consistent multiphysics Deep Energy Method (DEM) for brittle fracture in piezoresistive materials. The mechanical part is modeled by small-strain linear elasticity coupled to a fourth-order AT2-type phase-field fracture functional with tensile/compressive energy split and history-field irreversibility. To avoid artificial energetic mixing of mechanical and electrical quantities, the electrical problem is treated as a one-way coupled sensing subproblem: after solving the mechanics--fracture problem, the electric potential is obtained from a steady conduction problem whose conductivity depends on strain through a linearized piezoresistive law and on damage through a crack-induced conductivity degradation. The resulting formulation predicts crack evolution together with its resistance signature without assigning the electrical field an artificial crack-driving role. DEM is used to minimize the variational subproblems over admissible neural trial spaces with exact imposition of essential boundary conditions. A lean verification suite is used to validate the electrical building blocks and the fracture engine separately, followed by a numerical study of a tensile plate with stress concentrators and electrodes. In that study, the framework captures a nontrivial sensing regime in which appreciable damage growth leaves the global resistance nearly unchanged, followed by a sharp resistance increase once dominant conductive ligaments are disrupted and current paths reorganize strongly.",
+    "authors": [
+      "Aamir Dean",
+      "Betim Bahtiri"
+    ],
+    "published": "2026-04-03T20:55:03Z",
+    "updated": "2026-04-03T20:55:03Z",
+    "link": "https://arxiv.org/abs/2604.03453v1",
+    "tags": [
+      "multiphysics_coupling",
+      "tensile_simulation"
+    ],
+    "score": 13.6333,
+    "status": "auto",
+    "source_topic": "multiphysics_coupling",
+    "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.03453v1.md",
+    "summary_source": "fallback_http_400",
+    "brief_cn": {
+      "what_done": "该论文围绕“A multiphysics deep energy method for fourth-order phase-field fracture with piezoresistive self-sensing”展开，针对Multiphysics Coupling, Tensile / Deformation Simulation相关问题进行建模与分析。",
+      "method": "裂纹起裂/扩展分析；拉伸/变形工况；多物理耦合求解",
+      "finding": "结果聚焦疲劳/裂纹演化机制，可用于失效分析与寿命评估。",
+      "meaning": "可补充你在多物理耦合建模与场间耦合机制方面的方法库。 可用于优化拉伸模拟中的本构拟合、边界条件与失效判据。",
+      "topics": "Multiphysics Coupling, Tensile / Deformation Simulation"
+    },
+    "keyword_details": [
+      {
+        "keyword": "multiphysics",
+        "score": 4.0,
+        "hits": 2,
+        "source": "keyword_weights",
+        "explanation": "指热-力-电-化学等多个物理场耦合求解，可用于评估场间耦合效应与失效机制。"
+      },
+      {
+        "keyword": "crack",
+        "score": 3.0,
+        "hits": 3,
+        "source": "keyword_weights",
+        "explanation": "裂纹相关研究通常用于评估断裂风险与寿命边界。"
+      },
+      {
+        "keyword": "coupled",
+        "score": 3.0,
+        "hits": 2,
+        "source": "keyword_weights",
+        "explanation": "该关键词对应多场耦合问题，建议关注耦合项、控制方程与场变量映射。"
+      },
+      {
+        "keyword": "tensile",
+        "score": 3.0,
+        "hits": 2,
+        "source": "keyword_weights",
+        "explanation": "关注拉伸工况下应力-应变响应、屈服行为和断裂特征。"
+      },
+      {
+        "keyword": "deformation",
+        "score": 1.8,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "materials",
+        "score": 1.7,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      }
+    ],
+    "keywords": [
+      "multiphysics",
+      "crack",
+      "coupled",
+      "tensile",
+      "deformation",
+      "materials"
+    ],
+    "focus_areas": [
+      "多物理耦合与跨场耦合机制",
+      "相场晶体与组织演化",
+      "疲劳损伤与断裂演化",
+      "拉伸响应与本构行为",
+      "数据驱动与机器学习建模",
+      "Multiphysics Coupling（主题归类）",
+      "Tensile / Deformation Simulation（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Multiphysics Coupling, Tensile / Deformation Simulation方向，论文聚焦“A multiphysics deep energy method for fourth-order phase-field fracture with piezoresistive self-sensing”相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
+      "model_setup": "摘要未明确给出模型名称，建议查看 Methods/Model 部分确认。",
+      "model_params": "载荷路径: The mechanical part is modeled by small-strain linear elastic- ity coupled to a fourth-order AT2-type phase-field fracture functional with tensile/compressive energy s...；边界条件: DEM is used to minimize the variational subproblems over admissible neural...",
+      "conclusion": "结果聚焦疲劳/裂纹演化机制，可用于失效分析与寿命评估。 摘要证据：Box 72, Khartoum, Sudan Abstract Self-sensing conductive composites can reveal deformation and damage through measurable changes in elec-...",
+      "keyword_context": "multiphysics, crack, coupled, tensile, deformation"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/2604.03453v1.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.03453v1.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.03453v1.txt",
+      "param_details": [
+        "载荷路径: The mechanical part is modeled by small-strain linear elastic- ity coupled to a fourth-order AT2-type phase-field fracture functional with tensile/compressive energy s...",
+        "边界条件: DEM is used to minimize the variational subproblems over admissible neural trial spaces with exact imposition of essential boundary conditions.",
+        "载荷路径: A lean verification suite is used to validate the electrical building blocks and the fracture engine separately, followed by a numerical study of a tensile plate with...",
+        "边界条件: Keywords:Deep Energy Method, Fourth-order phase-field fracture, Piezoresistive self-sensing, Staggered multiphysics coupling, Resistance-based sensing ∗Corresponding a...",
+        "载荷路径: For tensile fracture, irreversibility is commonly handled through either inequality constraints or a history field driven by the tensile elastic energy density [19, 20].",
+        "网格/离散: In the context of phase-field fracture, DEM avoids the need for con- ventional mesh-based shape functions and can handle higher derivatives without introducing additio...",
+        "载荷路径: To that end, the manuscript combines two analytical electrical checks, one reference-aligned fracture benchmark, and one application-driven numerical study of a tensil...",
+        "载荷路径: Aphysicallyconsistentstaggeredmultiphysicsformulationcombiningsmall-strainlinearelasticity, fourth- order phase-field fracture, tensile/compressive energy split, and h...",
+        "边界条件: A DEM discretization with admissible trial spaces for exact enforcement of essential boundary conditions and quadrature-based evaluation of the variational functionals.",
+        "载荷路径: Section 5 presents the main numerical study of a tensile plate with stress concentrators and electrodes."
+      ],
+      "method_excerpt": "A multiphysics deep energy method for fourth-order phase-field fracture with piezoresistive self-sensing Aamir Deana,b,∗, Betim Bahtiria aInstitute of Structural Analysis, Leibniz Universität Hannover, Appelstr. 9A, 30167 Hannover, Germany bSchool of Civil Engineering, College of Engineering, Sudan University of Science and Technology, P.O. Box 72, Khartoum, Sudan Abstract Self-sensing conductive composites can reveal deformation and damage through measurable changes in elec- trical resistance, which makes them attractive for embedded diagnostics and learning-enabled structural health monitoring. This paper presents a physically consistent multiphysics Deep Energy Method (DEM) for brittle fracture in piezoresistive materials. The mechanical part is modeled by small-strain linear elastic- ity coupled to a fourth-order AT2-type phase-field fracture functional with tensile/compressive energy split and history-field irrever arized piezoresistive law and on damage through a crack-induced conduc- tivity degradation. The resulting formulation predicts crack evolution together with its resistance signature without assigning the electrical field an artificial crack-driving role. DEM is used to minimize the variational subproblems over admissible neural trial spaces with exact imposition of essential boundary conditions. A lean verification suite is used to validate the electrical building blocks and the fracture engine separately, followed by a numerical study of a tensile plate with stress concentrators and electrodes. In that study, the framework captures a nontrivial sensing r..."
+    },
+    "last_seen_at": "2026-04-15T05:25:03.313837+00:00"
+  },
+  "2604.07359v1": {
+    "id": "2604.07359v1",
+    "title": "Laser Powder Bed Fusion Melt Pool Dynamics for Different Geometric Variations and Powder Layer Heights: High-Fidelity Multiphysics Modeling vs 2025 NIST Experiments",
+    "summary": "Metal Laser Powder Bed Fusion (PBF-LB/M) is a leading additive manufacturing technique in which part quality and grain morphology are highly dependent on process parameters. Numerous studies of process variations, such as laser power, scan speed, and spot diameter, have demonstrated that they strongly influence melt pool dynamics; however, the effects of powder layer height and geometric variations remain less well understood. In this article, we focus on variations in powder layer height and part geometry to study their influence on melt pool dynamics. We employed a high-fidelity multiphysics simulation framework based on the open source finite volume method (FVM) solver package `LaserBeamFoam' built on `OpenFOAM' to study the variations in different melt pool metrics -- melt pool depth, width, bead height, overlap depth, overlap width, solidified area, and dilution area. The solver captures coupled phenomena of heat transfer, fluid flow, vaporization, recoil pressure, Marangoni convection, and realistic laser reflection behavior to accurately model the melt pool dynamics. Simulations are performed for different powder layer heights and geometric dimensions for direct comparison with benchmark experiments conducted at the National Institute of Standards and Technology (NIST) in 2025. Quantitative validation against NIST experiment demonstrates excellent agreement in all the melt pool metrics. These results highlight the predictive capability of physics-based PBF-LB models, paving the way for process optimization, defect mitigation, and the integration of simulation into digital twin frameworks for additive manufacturing.",
+    "authors": [
+      "Badhon Kumar",
+      "Rakibul Islam Kanak",
+      "Nishat Sultana",
+      "Jiachen Guo",
+      "Andrew Schrader",
+      "Wing Kam Liu",
+      "Abdullah Al Amin"
+    ],
+    "published": "2026-03-29T02:53:32Z",
+    "updated": "2026-03-29T02:53:32Z",
+    "link": "https://arxiv.org/abs/2604.07359v1",
+    "tags": [
+      "multiphysics_coupling"
+    ],
+    "score": 10.6333,
+    "status": "auto",
+    "source_topic": "multiphysics_coupling",
+    "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.07359v1.md",
+    "summary_source": "fallback_http_400",
+    "brief_cn": {
+      "what_done": "该论文围绕“Laser Powder Bed Fusion Melt Pool Dynamics for Different Geometric Variations and Powder Layer Heights: High-Fidelity Multiphysics Modeling vs 2025 NIST Experiments”展开，针对Multiphysics Coupling相关问题进行建模与分析。",
+      "method": "多物理耦合求解",
+      "finding": "摘要显示其给出了可复现的模型/仿真结果，建议细读结果与讨论章节获取定量结论。",
+      "meaning": "可补充你在多物理耦合建模与场间耦合机制方面的方法库。",
+      "topics": "Multiphysics Coupling"
+    },
+    "keyword_details": [
+      {
+        "keyword": "multiphysics",
+        "score": 4.0,
+        "hits": 2,
+        "source": "keyword_weights",
+        "explanation": "指热-力-电-化学等多个物理场耦合求解，可用于评估场间耦合效应与失效机制。"
+      },
+      {
+        "keyword": "simulation",
+        "score": 2.5,
+        "hits": 3,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "coupled",
+        "score": 2.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词对应多场耦合问题，建议关注耦合项、控制方程与场变量映射。"
+      },
+      {
+        "keyword": "metal",
+        "score": 1.7,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "modeling",
+        "score": 1.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      }
+    ],
+    "keywords": [
+      "multiphysics",
+      "simulation",
+      "coupled",
+      "metal",
+      "modeling"
+    ],
+    "focus_areas": [
+      "多物理耦合与跨场耦合机制",
+      "Multiphysics Coupling（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Multiphysics Coupling方向，论文聚焦“Laser Powder Bed Fusion Melt Pool Dynamics for Different Geometric Variations and Powder Layer Heights: High-Fidelity Multiphysics Modeling vs 2025 NIST Experiments”相关机理/性能问题，目标是建立可解释的模型...",
+      "model_setup": "摘要未明确给出模型名称，建议查看 Methods/Model 部分确认。",
+      "model_params": "热力学条件: These results highlight the predictive capability of physics-based PBF-LB models, paving the way for process optimization, defect mitigation, and the inte it is import...；网格/离散: Continuum-scale mul- tiphysics models based on computational ﬂuid dynami...",
+      "conclusion": "摘要显示其给出了可复现的模型/仿真结果，建议细读结果与讨论章节获取定量结论。 摘要证据：Numerous studies of process variations, such as laser power, scan speed, and spot diameter, have demonstrated that they strongly inﬂuence...",
+      "keyword_context": "multiphysics, simulation, coupled, metal, modeling"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/2604.07359v1.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.07359v1.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.07359v1.txt",
+      "param_details": [
+        "热力学条件: These results highlight the predictive capability of physics-based PBF-LB models, paving the way for process optimization, defect mitigation, and the inte it is import...",
+        "网格/离散: Continuum-scale mul- tiphysics models based on computational ﬂuid dynamics (CFD) leveraging methods such as Finite Difference Methods (FDM) [ 46], Finite V olume Metho...",
+        "时间步/积分: One of the primary goal of these benchmark tests is to allow researchers to test their predictive simulations against highly controlled experimental data, contributing...",
+        "网格/离散: This spatial and temporal resolution constitutes a continuum-scale discretization capable of resolving the macroscopic features of the melt pool geometry, in line with...",
+        "网格/离散: To assess the adequacy of the chosen mesh, a grid sensitivity study was carried out using the ‘Laserbeam- Foam’ solver against the 2025 NIST AM-Bench Challenge 06 data...",
+        "尺寸/样本规模: A single- track scan on IN718 was simulated with a laser power of P = 285 W, a scan speed of v = 0.96 m/s, and a laser spot diameter of 72 µ m .",
+        "网格/离散: Three mesh resolutions - 6 µ m, 8 µ m, and 10 µ m were evaluated, and the predicted melt pool depth and width were compared against experimental measurements, as shown...",
+        "网格/离散: Across all three resolutions the predictions fall within a 5% deviation from the experimental reference, conﬁrming that the 10 µ m mesh delivers adequate predictive ac...",
+        "网格/离散: 50µm 50µm 50µm50µm 50µm Figure 3 Grid sensitivity analysis of predicted melt pool depth and width at three mesh resolutions (10, 8, and 6 µ m) compared against experim...",
+        "网格/离散: 13 The solid-liquid phase transition is handled through the enthalpy-porosity formulation, in which the liq- uid fraction ﬁeld governs latent heat release and [ 85, 86..."
+      ],
+      "method_excerpt": "ayton 300 College Park Drive, Dayton, OH, 45469, USA dDepartment of Mechanical Engineering, Northwestern University, 2145 Sheridan Road, Room B224, Evanston, IL, 60208, USA eHiDeNN-AI LLC, 1801 Maple Ave, Evanston, IL, 60201, USA Abstract Metal Laser Powder Bed Fusion (PBF-LB/M) is a leading additive manufacturing technique in which part qual- ity and grain morphology are highly dependent on process parameters. Numerous studies of process variations, such as laser power, scan speed, and spot diameter, have demonstrated that they strongly inﬂuence melt pool dynamics; however, the effects of powder layer height and geometric variations remain less well understood. In this article, we focus on variations in powder layer height and part geometry to study their inﬂuence on melt pool dynamics. We employed a high-ﬁdelity multiphysics simulation framework based on the open source ﬁ- nite volume method (FVM) solver package ‘LaserBeamFoam’ built on ‘OpenFOAM’ to study the variations in different melt pool metrics— melt pool depth, width, bead height, overlap depth, overlap width, solidiﬁed area, and dilution area. The solver captures coupled phenomena of heat transfer, ﬂuid ﬂow, vaporization, recoil pres- sure, Marangoni convection, and realistic laser reﬂection behavior to accurately model the melt pool dynamics. Simulations are performed for different powder layer heights and geometric dimensions for direct comparison with benchmark experiments conducted at the National Institute of Standards and Technology (NIST) in 2025. Quantitative validation against NIST experiment demonstr..."
+    },
+    "last_seen_at": "2026-04-15T05:25:03.315410+00:00"
+  },
+  "2603.26022v1": {
+    "id": "2603.26022v1",
+    "title": "Computational Insights into PEMFC Durability: Degradation Mechanisms, Interfacial Chemistry, and the Emerging Role of Machine Learning Potentials",
+    "summary": "Proton exchange membrane fuel cells (PEMFCs) are a promising clean energy technology, offering high efficiency and near-zero operational emissions for stationery and automotive applications. However, their widespread adoption remains limited by insufficient durability, driven by the degradation of the catalyst layer and proton exchange membrane under realistic operating conditions. While the macroscopic consequences of degradation are well established experimentally, the atomistic and molecular mechanisms that initiate and propagate failure remain incompletely understood. This review synthesizes recent advances in computational modelling, spanning density functional theory, molecular dynamics, and emerging machine learning potentials, to examine how chemical, mechanical, electrochemical, and contamination driven degradation mechanisms operate across multiple length and time scales. Key topics include radical-induced membrane degradation, platinum dissolution and carbon support corrosion, mechanical fatigue under electrical and hygrothermal cycling, and the impact of ionic and gaseous contaminants. A central finding is that these degradation pathways are not independent, but form strongly coupled feedback loops that no existing computational framework has been designed to capture this coupling simultaneously. Future directions are proposed, with emphasis on multiscale modelling frameworks and the application of machine learning interatomic potentials to the electrified interface.",
+    "authors": [
+      "Jack Jon Hinsch",
+      "Kazushi Fujimoto"
+    ],
+    "published": "2026-03-27T02:37:16Z",
+    "updated": "2026-03-27T02:37:16Z",
+    "link": "https://arxiv.org/abs/2603.26022v1",
+    "tags": [
+      "metal_fatigue",
+      "molecular_dynamics",
+      "multiphysics_coupling"
+    ],
+    "score": 10.3667,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26022v1.md",
+    "summary_source": "fallback_http_400",
+    "brief_cn": {
+      "what_done": "该论文围绕“Computational Insights into PEMFC Durability: Degradation Mechanisms, Interfacial Chemistry, and the Emerging Role of Machine Learning Potentials”展开，针对Metal Fatigue Simulation, Molecular Dynamics, Multiphysics C...",
+      "method": "原子尺度分子动力学模拟；疲劳循环加载分析",
+      "finding": "结果聚焦疲劳/裂纹演化机制，可用于失效分析与寿命评估。",
+      "meaning": "可直接服务于金属疲劳寿命预测、裂纹演化与循环载荷分析。 可用于完善你分子动力学参数设定、势函数选择和微观机理解释。 可补充你在多物理耦合建模与场间耦合机制方面的方法库。",
+      "topics": "Metal Fatigue Simulation, Molecular Dynamics, Multiphysics Coupling"
+    },
+    "keyword_details": [
+      {
+        "keyword": "molecular dynamics",
+        "score": 3.65,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "基于原子相互作用的时间演化模拟，用于揭示微观机理与参数敏感性。"
+      },
+      {
+        "keyword": "fatigue",
+        "score": 3.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "关注循环载荷下损伤累积、裂纹萌生与扩展过程。"
+      },
+      {
+        "keyword": "machine learning",
+        "score": 2.65,
+        "hits": 3,
+        "source": "explanation_map",
+        "explanation": "机器学习用于势函数构建、代理建模或特征提取，可提高精度与效率。"
+      },
+      {
+        "keyword": "coupled",
+        "score": 2.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词对应多场耦合问题，建议关注耦合项、控制方程与场变量映射。"
+      },
+      {
+        "keyword": "interatomic potential",
+        "score": 1.85,
+        "hits": 1,
+        "source": "taxonomy",
+        "explanation": "原子势函数决定 MD 模拟精度与可迁移性，是材料模拟的关键基础。"
+      },
+      {
+        "keyword": "electrochemical",
+        "score": 1.7,
+        "hits": 1,
+        "source": "taxonomy",
+        "explanation": "电化学耦合常用于电池/腐蚀等场景，研究扩散-应力-反应协同机制。"
+      },
+      {
+        "keyword": "atomistic",
+        "score": 1.7,
+        "hits": 1,
+        "source": "taxonomy",
+        "explanation": "该关键词对应原子尺度模拟方法，建议记录势函数、时间步长和边界条件。"
+      }
+    ],
+    "keywords": [
+      "molecular dynamics",
+      "fatigue",
+      "machine learning",
+      "coupled",
+      "interatomic potential",
+      "electrochemical",
+      "atomistic"
+    ],
+    "focus_areas": [
+      "多物理耦合与跨场耦合机制",
+      "分子动力学与原子尺度机制",
+      "疲劳损伤与断裂演化",
+      "数据驱动与机器学习建模",
+      "Metal Fatigue Simulation（主题归类）",
+      "Molecular Dynamics（主题归类）",
+      "Multiphysics Coupling（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Metal Fatigue Simulation, Molecular Dynamics, Multiphysics Coupling方向，论文聚焦“Computational Insights into PEMFC Durability: Degradation Mechanisms, Interfacial Chemistry, and the Emerging Role of Machine Learning Poten...",
+      "model_setup": "分子动力学（MD）；密度泛函理论（DFT）；机器学习势函数；原子间势函数模型",
+      "model_params": "热力学条件: Section 5 covers the mechanical degradation of the CL and membrane, focusing on temperature and humidity.；尺寸/样本规模: The economic viability of PEMFCs for stationary applications demands that the technology lasts 5 years or over 40,000 hours of continuo...",
+      "conclusion": "结果聚焦疲劳/裂纹演化机制，可用于失效分析与寿命评估。 摘要证据：ntains the polymer and hydrogen protons that travel through to meet with oxygen atoms after splitting in the anodic CL.",
+      "keyword_context": "molecular dynamics, fatigue, machine learning, coupled, interatomic potential"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/2603.26022v1.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2603.26022v1.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2603.26022v1.txt",
+      "param_details": [
+        "热力学条件: Section 5 covers the mechanical degradation of the CL and membrane, focusing on temperature and humidity.",
+        "尺寸/样本规模: The economic viability of PEMFCs for stationary applications demands that the technology lasts 5 years or over 40,000 hours of continuous operation.11 In contrast, the...",
+        "边界条件: Method Scale Principle S otion and force fields Ion transport analyses, water diffusion, membrane evolution, and mechanical deformations Wide range of length and time...",
+        "势函数/模型版本: Conventional MD simulations employing non-reactive force fields are widely used to study polymer morphology, water channel formation, ion diffusion, and the mechanical...",
+        "势函数/模型版本: A common strategy for simulating an applied potential is to either adjust the number of electrons in the system (constant-charge) or vary the Fermi level (constant-pot...",
+        "势函数/模型版本: These radicals preferentially target vulnerable sites in Nafion, such as the tertiary carbon linking the side chain to the main chain, or manufacturing defects like ca...",
+        "势函数/模型版本: Machine Learning Applications for Catalyst Degradation Machine learning (ML) potentials have emerged as a transformative methodology for bridging the gap between class...",
+        "势函数/模型版本: Beginning of life (BOL) Accelerated stress test (AST) End of life (EOL) Carbon oxidation reaction (COR) Deep potential molecular dynamics (DPMD) Oxygen reduction react...",
+        "势函数/模型版本: Future directions are propose lectrochemical Potentials with DFT Potential cycling is detrimental to the catalyst layer, leading to gradual oxidation and dissolution o...",
+        "势函数/模型版本: However, DFT previously lacked the necessary tools to manipulate the applied potential simulation."
+      ],
+      "method_excerpt": "ntains the polymer and hydrogen protons that travel through to meet with oxygen atoms after splitting in the anodic CL. Once the hydrogen protons reach the cathodic CL they react with the a single O atom to form water. The electricity is produced from the lost electron during H = e - + H+ recombining with water during 2H + O2 = 2H2O. While the macroscopic consequences of PEMFC degradation are well established through decades of experimental investigation ,7–9 a mechanistic understanding at the atomistic and molecular scale has proven far more elusive. Identifying which bonds break first, how radical species propagate through the polymer backbone, and why the catalyst layer fails preferentially at certain interf aces requires tools that can resolve chemistry at the ångström and femtosecond scale a resolution that experiment alone cannot provide. Only recently have computational methods advanced sufficiently to address these questions directly. The rapid development of density functional theory (DFT), molecular dynamics (MD), and machine learning (ML) based approach es has begun to illuminate degradation mechanisms that were previously inaccessible, from the energetics of platinum dissolution and radical induced side-chain scission to the structural evolution of the Nafion -catalyst interface under mechanical and electrochemical stress. However, a critical limitation has emerged from this body of work: the dominant computational strategy has been to study each degradation mechanism in isolation, under idealised conditions that do not reflect the complexity of an operating..."
+    },
+    "last_seen_at": "2026-04-15T05:25:03.311265+00:00"
+  },
+  "2603.27316v1": {
+    "id": "2603.27316v1",
+    "title": "Identification and Prediction of Photoplasticity in Semiconductors Using Feature Engineering and Machine learning",
+    "summary": "Photoplasticity, the light-induced change in plastic deformation, plays a pivotal role in the mechanical durability and manufacturing of semiconductor materials. Yet, its governing mechanisms remain incompletely understood, owing to the interplay of coupled multiphysics factors. Here, we conduct high-throughput nanoindentation measurements to compile a dataset of paired hardness values in dark and light conditions. Then, we engineer physics-informed descriptors spanning electrical, mechanical, and optical properties, and identify the ten most informative features, including bandgap, breakdown field, and refractive index, to enable an interpretable machine learning framework that yields transferable design rules for light-tunable semiconductor mechanics. By identifying and predicting photoplasticity in semiconductors, this work provides a practical pathway for extracting mechanism-linked, transferable guidelines to engineer light-responsive mechanical behavior in semiconductor materials and devices.",
+    "authors": [
+      "Huicong Chen",
+      "Mingqiang Li",
+      "Zheyuan Ji",
+      "Yu Zou"
+    ],
+    "published": "2026-03-28T15:44:06Z",
+    "updated": "2026-03-28T15:44:06Z",
+    "link": "https://arxiv.org/abs/2603.27316v1",
+    "tags": [
+      "multiphysics_coupling"
+    ],
+    "score": 9.9333,
+    "status": "auto",
+    "source_topic": "multiphysics_coupling",
+    "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.27316v1.md",
+    "summary_source": "fallback_http_400",
+    "brief_cn": {
+      "what_done": "该论文围绕“Identification and Prediction of Photoplasticity in Semiconductors Using Feature Engineering and Machine learning”展开，针对Multiphysics Coupling相关问题进行建模与分析。",
+      "method": "多物理耦合求解",
+      "finding": "结果给出了拉伸变形响应与关键力学指标变化趋势。",
+      "meaning": "可补充你在多物理耦合建模与场间耦合机制方面的方法库。",
+      "topics": "Multiphysics Coupling"
+    },
+    "keyword_details": [
+      {
+        "keyword": "multiphysics",
+        "score": 3.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "指热-力-电-化学等多个物理场耦合求解，可用于评估场间耦合效应与失效机制。"
+      },
+      {
+        "keyword": "coupled",
+        "score": 2.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词对应多场耦合问题，建议关注耦合项、控制方程与场变量映射。"
+      },
+      {
+        "keyword": "materials",
+        "score": 2.2,
+        "hits": 2,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "machine learning",
+        "score": 2.15,
+        "hits": 2,
+        "source": "explanation_map",
+        "explanation": "机器学习用于势函数构建、代理建模或特征提取，可提高精度与效率。"
+      },
+      {
+        "keyword": "deformation",
+        "score": 1.8,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      }
+    ],
+    "keywords": [
+      "multiphysics",
+      "coupled",
+      "materials",
+      "machine learning",
+      "deformation"
+    ],
+    "focus_areas": [
+      "多物理耦合与跨场耦合机制",
+      "拉伸响应与本构行为",
+      "数据驱动与机器学习建模",
+      "Multiphysics Coupling（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Multiphysics Coupling方向，论文聚焦“Identification and Prediction of Photoplasticity in Semiconductors Using Feature Engineering and Machine learning”相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
+      "model_setup": "摘要未明确给出模型名称，建议查看 Methods/Model 部分确认。",
+      "model_params": "热力学条件: Studies on ZnO quantified reversible light-induced strengthening and mapped strong dependences on light intensity, crystal orientation, and temperature, providing evid...；尺寸/样本规模: Each condition in Table S1 was repeated multiple times, with errors ke...",
+      "conclusion": "结果给出了拉伸变形响应与关键力学指标变化趋势。 摘要证据：It has been found that optical excitation reversibly alters yield strength, flow stresses, and hardness in many semiconductors and drives...",
+      "keyword_context": "multiphysics, coupled, materials, machine learning, deformation"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/2603.27316v1.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2603.27316v1.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2603.27316v1.txt",
+      "param_details": [
+        "热力学条件: Studies on ZnO quantified reversible light-induced strengthening and mapped strong dependences on light intensity, crystal orientation, and temperature, providing evid...",
+        "尺寸/样本规模: Each condition in Table S1 was repeated multiple times, with errors kept within an acceptable range (Figure 2a), nevertheless, differences from the literature may pers...",
+        "势函数/模型版本: Breakdown field (D2) ranks comparably to D1, and its interpretive value likely lies in its role as a proxy for the “wide - gap/strongly bonded/low-intrinsic-carrier” r...",
+        "数值参数: 2a"
+      ],
+      "method_excerpt": "conductors; Nanoindentation; Photoplasticity ; Feature engineering; Machine learning 2 I. INTRODUCTION Light-induced changes in mechanical response are becoming increasingly critical, as semiconductors are pushed into regimes where optical, electrical, and mechanical loads act simultaneously in power electronics, detectors, and optomechanical components [1-3]. It has been found that optical excitation reversibly alters yield strength, flow stresses, and hardness in many semiconductors and drives photo-softening or photo -hardening, revealing that non -thermal electronic excitation could couple strongly to the mechanical deformation [4,5]. Recent work has renewed broader interest in functionalizing defects and dislocations to achieve stimulus-controlled mechanical responses, motivating a modern re -examination of photoplasticity using quantitative, operando micromechanical methods and data-centric modeling [6-8]. In crystalline semiconductors, photoplastic responses are governed primarily by how photoexcited carriers interact with dislocations and other defect states. Studies on ZnO quantified reversible light-induced strengthening and mapped strong dependences on light intensity, crystal orientation, and temperature, providing evidence for carrier-mediated mechanisms [9-11]. In III– V systems, light induced dislocation glide in GaAs/AlGaAs heterostructures revealed a sharp excitation threshold and highlighted the role of nonequilibrium carriers in modifying the effective lattice friction on dislocation motion [12]. Additionally, the recombination-enhanced framework estab..."
+    },
+    "last_seen_at": "2026-04-15T05:25:03.312742+00:00"
   }
 }
