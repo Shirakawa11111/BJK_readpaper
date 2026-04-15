@@ -1459,15 +1459,18 @@ def maybe_summarize_with_llm(
 ) -> tuple[str, str]:
     llm_cfg = cfg.get("llm", {})
     if not llm_cfg.get("enabled", True):
+        print(f"  [LLM] Disabled in config")
         return build_fallback_summary(paper, labels), "fallback"
 
     api_key_env = llm_cfg.get("api_key_env", "ANTHROPIC_API_KEY")
     api_key = os.getenv(api_key_env, "")
     if not api_key:
+        print(f"  [LLM] ❌ API key not found: env {api_key_env} is empty!")
         return build_fallback_summary(paper, labels), "fallback_no_key"
 
     provider = llm_cfg.get("provider", "anthropic")
     model = llm_cfg.get("model", "claude-sonnet-4-20250514")
+    print(f"  [LLM] Calling {provider}/{model} for: {paper.title[:50]}...")
     prompt = _build_summary_prompt(paper, labels)
 
     try:
@@ -1476,11 +1479,20 @@ def maybe_summarize_with_llm(
         else:
             text = _call_openai(api_key, model, prompt, llm_cfg)
         if text:
+            print(f"  [LLM] ✅ Got {len(text)} chars from {provider}")
             return text, f"llm_{provider}"
+        print(f"  [LLM] ⚠️ Empty response from {provider}")
         return build_fallback_summary(paper, labels), f"fallback_empty_{provider}"
     except urllib.error.HTTPError as err:
+        body = ""
+        try:
+            body = err.read().decode("utf-8", errors="ignore")[:200]
+        except Exception:
+            pass
+        print(f"  [LLM] ❌ HTTP {err.code}: {body}")
         return build_fallback_summary(paper, labels), f"fallback_http_{err.code}"
-    except urllib.error.URLError:
+    except urllib.error.URLError as err:
+        print(f"  [LLM] ❌ Network error: {err}")
         return build_fallback_summary(paper, labels), "fallback_network"
     except Exception as err:
         return build_fallback_summary(paper, labels), f"fallback_error:{err}"
@@ -2495,13 +2507,61 @@ def cmd_update(args: argparse.Namespace) -> int:
     # Refresh last_seen timestamp for already-known entries that appeared today.
     deduped_by_id = {p.paper_id: p for p in deduped}
     parsed_existing = 0
+    reanalyzed = 0
     max_existing_parse = int(cfg.get("pdf_parsing", {}).get("max_existing_parse_per_run", 3) or 3)
+    max_reanalyze = int(cfg.get("llm", {}).get("max_reanalyze_per_run", 10) or 10)
     for paper_id in sorted(set(db.keys()) & set(deduped_by_id.keys())):
         record = db[paper_id]
         paper_obj = deduped_by_id[paper_id]
         record["last_seen_at"] = now_utc().isoformat()
         if "score" in record:
             record["score"] = max(float(record["score"]), float(paper_obj.score))
+
+        # Re-analyze with Claude if summary_text is missing or was a fallback
+        old_summary = str(record.get("summary_text", "")).strip()
+        old_source = str(record.get("summary_source", ""))
+        needs_reanalysis = (
+            reanalyzed < max_reanalyze
+            and (not old_summary or len(old_summary) < 100 or old_source.startswith("fallback"))
+        )
+        if needs_reanalysis:
+            print(f"  Re-analyzing (missing Claude summary): {paper_obj.title[:60]}...")
+            new_summary, new_source = maybe_summarize_with_llm(paper_obj, cfg=cfg, labels=labels)
+            if new_source.startswith("llm_"):
+                record["summary_text"] = new_summary
+                record["summary_source"] = new_source
+                # Re-refine brief and group_style with the new Claude summary
+                record["brief_cn"] = refine_brief_with_summary(
+                    build_cn_brief(paper_obj, labels), new_summary
+                )
+                note_path = Path(record.get("note_path", ""))
+                if not note_path.name:
+                    note_path = notes_dir / f"{slugify(paper_obj.paper_id)}.md"
+                record["group_style_cn"] = refine_group_style_with_summary(
+                    build_group_style_cn(
+                        paper=paper_obj,
+                        labels=labels,
+                        keywords=record.get("keyword_details", []),
+                        max_params=max_params,
+                        pdf_param_details=list(record.get("pdf_parse", {}).get("param_details", [])),
+                        method_excerpt=str(record.get("pdf_parse", {}).get("method_excerpt", "")),
+                    ),
+                    summary_text=new_summary,
+                )
+                write_paper_note(
+                    path=note_path,
+                    paper=paper_obj,
+                    summary_text=new_summary,
+                    brief_cn=record["brief_cn"],
+                    keyword_details=record.get("keyword_details", []),
+                    focus_areas=record.get("focus_areas", []),
+                    group_style_cn=record["group_style_cn"],
+                    pdf_parse=record.get("pdf_parse", {}),
+                )
+                reanalyzed += 1
+                print(f"    ✅ Claude analysis obtained ({len(new_summary)} chars)")
+            else:
+                print(f"    ⚠️ Claude failed ({new_source}), keeping existing data")
 
         existing_keyword_details = extract_keywords_with_explanations(
             paper=paper_obj,
@@ -2532,14 +2592,33 @@ def cmd_update(args: argparse.Namespace) -> int:
             record["pdf_parse"] = {"status": "deferred", "source": "rate_limit", "param_details": [], "method_excerpt": ""}
         else:
             record["pdf_parse"] = old_pdf
-        record["group_style_cn"] = build_group_style_cn(
-            paper=paper_obj,
-            labels=labels,
-            keywords=existing_keyword_details,
-            max_params=max_params,
-            pdf_param_details=list(record["pdf_parse"].get("param_details", [])),
-            method_excerpt=str(record["pdf_parse"].get("method_excerpt", "")),
-        )
+        if not needs_reanalysis or not record.get("summary_text"):
+            # Only rebuild group_style if not already rebuilt during reanalysis
+            record["group_style_cn"] = build_group_style_cn(
+                paper=paper_obj,
+                labels=labels,
+                keywords=existing_keyword_details,
+                max_params=max_params,
+                pdf_param_details=list(record["pdf_parse"].get("param_details", [])),
+                method_excerpt=str(record["pdf_parse"].get("method_excerpt", "")),
+            )
+
+    if reanalyzed:
+        print(f"Re-analyzed {reanalyzed} papers with Claude API")
+
+    # If no new papers but we re-analyzed existing ones, use those for notification
+    # This ensures Telegram receives the updated Claude analysis
+    papers_for_notify = list(selected)
+    if not papers_for_notify and reanalyzed > 0:
+        # Collect recently re-analyzed papers from today's deduped set
+        for p in deduped:
+            rec = db.get(p.paper_id, {})
+            if rec.get("summary_source", "").startswith("llm_") and rec.get("summary_text"):
+                papers_for_notify.append(p)
+        papers_for_notify.sort(key=lambda p: p.score, reverse=True)
+        papers_for_notify = papers_for_notify[:daily_limit]
+        if papers_for_notify:
+            print(f"Using {len(papers_for_notify)} re-analyzed papers for notification")
 
     save_db(db_path, db)
     rebuild_knowledge_map(map_path=map_path, db=db, topic_labels=labels)
@@ -2555,7 +2634,7 @@ def cmd_update(args: argparse.Namespace) -> int:
     daily_param_chars = int(cfg.get("group_style", {}).get("daily_report_params_chars", 160) or 160)
     write_daily_report(
         report_path=report_path,
-        selected=selected,
+        selected=papers_for_notify,
         db=db,
         labels=labels,
         keyword_limit=max(1, daily_kw),
@@ -2565,7 +2644,7 @@ def cmd_update(args: argparse.Namespace) -> int:
     ok, notify_msg = maybe_send_daily_reminder(
         cfg=cfg,
         db=db,
-        selected=selected,
+        selected=papers_for_notify,
         daily_limit=daily_limit,
         labels=labels,
         report_path=report_path,
