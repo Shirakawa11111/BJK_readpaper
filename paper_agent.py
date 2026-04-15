@@ -1229,28 +1229,50 @@ def refine_group_style_with_summary(group_style: dict[str, str], summary_text: s
         return group_style
     out = dict(group_style)
     if sections.get("what_done"):
-        out["problem"] = truncate_text(str(sections["what_done"]), 220)
+        out["problem"] = truncate_text(str(sections["what_done"]), 500)
     if sections.get("method"):
-        out["model_setup"] = truncate_text(str(sections["method"]), 220)
+        out["model_setup"] = truncate_text(str(sections["method"]), 800)
     if sections.get("finding"):
-        out["conclusion"] = truncate_text(str(sections["finding"]), 240)
+        out["conclusion"] = truncate_text(str(sections["finding"]), 500)
+    if sections.get("meaning"):
+        out["research_value"] = truncate_text(str(sections["meaning"]), 500)
+    if sections.get("reproducibility"):
+        out["reproducibility"] = truncate_text(str(sections["reproducibility"]), 300)
     return out
 
 
 def parse_cn_sections(summary_text: str) -> dict[str, str]:
+    # Support BOTH old format and new detailed format
     patterns = {
-        "what_done": r"1\)\s*论文做了什么\s*(.*?)(?=\n\s*2\)|\Z)",
-        "method": r"2\)\s*用了什么方法\s*(.*?)(?=\n\s*3\)|\Z)",
-        "finding": r"3\)\s*得到什么结果\s*(.*?)(?=\n\s*4\)|\Z)",
-        "meaning": r"4\)\s*对我研究的意义\s*(.*?)(?=\n\s*5\)|\Z)",
+        "what_done": [
+            r"1\)\s*研究问题与背景\s*(.*?)(?=\n\s*2\)|\Z)",
+            r"1\)\s*论文做了什么\s*(.*?)(?=\n\s*2\)|\Z)",
+        ],
+        "method": [
+            r"2\)\s*核心方法与模型细节\s*(.*?)(?=\n\s*3\)|\Z)",
+            r"2\)\s*用了什么方法\s*(.*?)(?=\n\s*3\)|\Z)",
+        ],
+        "finding": [
+            r"3\)\s*关键结果与定量结论\s*(.*?)(?=\n\s*4\)|\Z)",
+            r"3\)\s*得到什么结果\s*(.*?)(?=\n\s*4\)|\Z)",
+        ],
+        "meaning": [
+            r"4\)\s*对我研究的直接价值\s*(.*?)(?=\n\s*5\)|\Z)",
+            r"4\)\s*对我研究的意义\s*(.*?)(?=\n\s*5\)|\Z)",
+        ],
+        "reproducibility": [
+            r"5\)\s*可复现性评估与阅读建议\s*(.*?)(?=\n\s*6\)|\Z)",
+        ],
     }
     out: dict[str, str] = {}
-    for key, pattern in patterns.items():
-        m = re.search(pattern, summary_text, flags=re.IGNORECASE | re.DOTALL)
-        if m:
-            value = compact_whitespace(m.group(1).strip(" -\n\t"))
-            if value:
-                out[key] = value
+    for key, pattern_list in patterns.items():
+        for pattern in pattern_list:
+            m = re.search(pattern, summary_text, flags=re.IGNORECASE | re.DOTALL)
+            if m:
+                value = compact_whitespace(m.group(1).strip(" -\n\t"))
+                if value:
+                    out[key] = value
+                    break
     return out
 
 
@@ -1274,10 +1296,11 @@ def refine_brief_with_summary(brief: dict[str, str], summary_text: str) -> dict[
     if not sections:
         return brief
     updated = dict(brief)
+    limits = {"what_done": 500, "method": 800, "finding": 500, "meaning": 500}
     for key in ("what_done", "method", "finding", "meaning"):
         value = sections.get(key)
         if value:
-            updated[key] = truncate_text(value, 220)
+            updated[key] = truncate_text(value, limits.get(key, 500))
     return updated
 
 
@@ -1513,45 +1536,30 @@ def build_daily_reminder_messages(
         if db and paper.paper_id in db:
             record = db[paper.paper_id]
 
-        brief = record.get("brief_cn", {}) if record else {}
-        if not isinstance(brief, dict):
-            brief = {}
-        if not brief:
-            brief = build_cn_brief(paper, labels)
-
-        keyword_items = record.get("keyword_details", []) if record else []
-        focus_areas = record.get("focus_areas", []) if record else []
         group_style = record.get("group_style_cn", {}) if record else {}
-
+        keyword_items = record.get("keyword_details", []) if record else []
         keyword_names = [str(x.get("keyword", "")) for x in keyword_items if str(x.get("keyword", "")).strip()]
         keyword_preview = ", ".join(keyword_names[: max(1, keyword_limit)])
-        focus_preview = "；".join(str(x) for x in focus_areas[:3]) if focus_areas else "N/A"
 
-        problem = str(group_style.get("problem", brief.get("what_done", "N/A")))
-        model_setup = str(group_style.get("model_setup", brief.get("method", "N/A")))
-        model_params = str(group_style.get("model_params", "N/A"))
-        conclusion = str(group_style.get("conclusion", brief.get("finding", "N/A")))
-
-        # Get the full LLM summary if available
-        summary_text = ""
-        note_path = record.get("note_path", "")
-        if note_path:
-            try:
-                np = Path(note_path)
-                if not np.exists():
-                    # Try relative to current working directory
-                    np = Path(".") / "data" / "notes" / f"{slugify(paper.paper_id)}.md"
-                if np.exists():
-                    raw = np.read_text(encoding="utf-8", errors="ignore")
-                    # Extract the structured summary section
-                    marker_start = "## Structured Summary"
-                    marker_end = "## Raw Abstract"
-                    if marker_start in raw and marker_end in raw:
-                        start_idx = raw.index(marker_start) + len(marker_start)
-                        end_idx = raw.index(marker_end)
-                        summary_text = raw[start_idx:end_idx].strip()
-            except Exception:
-                pass
+        # Get Claude's full analysis: prefer DB summary_text, fallback to note file
+        summary_text = str(record.get("summary_text", "")).strip() if record else ""
+        if not summary_text or len(summary_text) < 100:
+            note_path = record.get("note_path", "")
+            if note_path:
+                try:
+                    np = Path(note_path)
+                    if not np.exists():
+                        np = Path(".") / "data" / "notes" / f"{slugify(paper.paper_id)}.md"
+                    if np.exists():
+                        raw = np.read_text(encoding="utf-8", errors="ignore")
+                        marker_start = "## Structured Summary"
+                        marker_end = "## Raw Abstract"
+                        if marker_start in raw and marker_end in raw:
+                            start_idx = raw.index(marker_start) + len(marker_start)
+                            end_idx = raw.index(marker_end)
+                            summary_text = raw[start_idx:end_idx].strip()
+                except Exception:
+                    pass
 
         paper_lines = [
             f"📄 [{idx}/{len(selected[:max_items])}] {paper.title}",
@@ -1560,37 +1568,51 @@ def build_daily_reminder_messages(
             f"📅 {paper.published[:10] if paper.published else 'N/A'}",
             f"🏷 {', '.join([labels.get(t, t) for t in paper.tags[:3]])}",
             f"⭐ 相关度评分：{paper.score}",
-            "",
-            f"🔬 研究问题",
-            f"{truncate_text(problem, 300)}",
-            "",
-            f"🛠 模型/方法",
-            f"{truncate_text(model_setup, 300)}",
-            "",
-            f"📐 关键参数",
-            f"{truncate_text(model_params, max(100, params_chars))}",
-            "",
-            f"📊 主要结论",
-            f"{truncate_text(conclusion, 300)}",
-            "",
-            f"💡 对我的价值",
-            f"{truncate_text(str(brief.get('meaning', 'N/A')), 300)}",
         ]
+
+        # If Claude analysis is available, use it as PRIMARY content
+        if summary_text and len(summary_text) > 100:
+            detail = truncate_text(summary_text, 3500)
+            paper_lines.extend(["", detail])
+        else:
+            # Fallback: use structured fields from group_style
+            brief = record.get("brief_cn", {}) if record else {}
+            if not isinstance(brief, dict):
+                brief = {}
+            if not brief:
+                brief = build_cn_brief(paper, labels)
+            problem = str(group_style.get("problem", brief.get("what_done", "N/A")))
+            model_setup = str(group_style.get("model_setup", brief.get("method", "N/A")))
+            model_params = str(group_style.get("model_params", "N/A"))
+            conclusion = str(group_style.get("conclusion", brief.get("finding", "N/A")))
+            research_value = str(group_style.get("research_value", brief.get("meaning", "N/A")))
+            reproducibility = str(group_style.get("reproducibility", ""))
+            paper_lines.extend([
+                "",
+                f"🔬 研究问题与背景",
+                f"{truncate_text(problem, 500)}",
+                "",
+                f"🛠 核心方法与模型细节",
+                f"{truncate_text(model_setup, 800)}",
+                "",
+                f"📐 关键参数",
+                f"{truncate_text(model_params, max(100, params_chars))}",
+                "",
+                f"📊 关键结果与定量结论",
+                f"{truncate_text(conclusion, 500)}",
+                "",
+                f"💡 对我研究的直接价值",
+                f"{truncate_text(research_value, 500)}",
+            ])
+            if reproducibility:
+                paper_lines.extend([
+                    "",
+                    f"📋 可复现性评估",
+                    f"{truncate_text(reproducibility, 300)}",
+                ])
 
         if keyword_preview:
             paper_lines.extend(["", f"🔑 关键词：{keyword_preview}"])
-        if focus_preview != "N/A":
-            paper_lines.extend([f"📌 侧重点：{focus_preview}"])
-
-        # Include LLM detailed analysis if available
-        if summary_text and len(summary_text) > 100:
-            # Truncate to fit Telegram's limit
-            detail = truncate_text(summary_text, 2000)
-            paper_lines.extend([
-                "",
-                "━━━ Claude 深度分析 ━━━",
-                detail,
-            ])
 
         paper_lines.extend(["", f"🔗 {paper.link}"])
 
@@ -2268,6 +2290,7 @@ def entry_to_db_record(
     note_path: Path,
     status: str = "auto",
     summary_source: str = "fallback",
+    summary_text: str = "",
     brief_cn: dict[str, str] | None = None,
     keyword_details: list[dict[str, Any]] | None = None,
     focus_areas: list[str] | None = None,
@@ -2288,6 +2311,7 @@ def entry_to_db_record(
         "source_topic": paper.source_topic,
         "note_path": str(note_path),
         "summary_source": summary_source,
+        "summary_text": summary_text,
         "brief_cn": brief_cn or {},
         "keyword_details": keyword_details or [],
         "keywords": [str(x.get("keyword", "")) for x in (keyword_details or []) if str(x.get("keyword", "")).strip()],
@@ -2460,6 +2484,7 @@ def cmd_update(args: argparse.Namespace) -> int:
             note_path=note_path,
             status="auto",
             summary_source=summary_source,
+            summary_text=summary_text,
             brief_cn=brief_cn,
             keyword_details=keyword_details,
             focus_areas=focus_areas,
