@@ -61,17 +61,18 @@ jobs:
           git config user.name "Paper Agent Bot"
           git config user.email "paper-agent[bot]@users.noreply.github.com"
 
+          # Sync with remote BEFORE staging, to avoid conflicts
+          git fetch origin main
+          git reset --soft origin/main
+
           git add -A data/ reports/
 
-          # Check if there are changes to commit
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             DATE=$(date -u +"%Y-%m-%d")
-            PAPER_COUNT=$(git diff --cached --stat | grep -c "notes/" || echo "0")
+            PAPER_COUNT=$(git status --short | grep -c "notes/" || echo "0")
             git commit -m "📄 Daily paper update ${DATE} (+${PAPER_COUNT} papers)"
-            # Pull rebase first to avoid conflicts with local pushes
-            git pull --rebase origin main
-            git push
+            git push origin main
             echo "✅ Changes pushed successfully."
           fi
