@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 72
-- Last rebuilt: 2026-04-15T07:56:14.824934+00:00
+- Total papers in library: 77
+- Last rebuilt: 2026-04-15T08:07:58.597113+00:00
 
 ## Multiphysics Coupling
 - [A multiphysics deep energy method for fourth-order phase-field fracture with piezoresistive self-sensing](https://arxiv.org/abs/2604.03453v1) | 2026-04-03T20:55:03Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.03453v1.md`
@@ -12,6 +12,8 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Identification and Prediction of Photoplasticity in Semiconductors Using Feature Engineering and Machine learning](https://arxiv.org/abs/2603.27316v1) | 2026-03-28T15:44:06Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.27316v1.md`
 - [Computational Insights into PEMFC Durability: Degradation Mechanisms, Interfacial Chemistry, and the Emerging Role of Machine Learning Potentials](https://arxiv.org/abs/2603.26022v1) | 2026-03-27T02:37:16Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26022v1.md`
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
+- [AutoMOOSE: An Agentic AI for Autonomous Phase-Field Simulation](https://arxiv.org/abs/2603.20986v1) | 2026-03-22T00:11:19Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.20986v1.md`
+- [Microstructural origins of energy storage during plastic deformation of 310S TWIP steel](https://arxiv.org/abs/2603.07352v1) | 2026-03-07T21:36:55Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.07352v1.md`
 - [Consistent initialization of mixed-dimensional multiphysics models for fractured reservoirs under geomechanical constraints and field measurements](https://arxiv.org/abs/2603.01835v1) | 2026-03-02T13:09:15Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2603.01835v1.md`
 - [Thermodynamic effects of solid electrolyte interphase formation from solvation and ionic association in water-in-salt electrolytes](https://arxiv.org/abs/2602.23875v1) | 2026-02-27T10:17:29Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.23875v1.md`
 - [Composite based magnetoelectric scaled devices with large output voltages](https://arxiv.org/abs/2602.23562v1) | 2026-02-27T00:10:08Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.23562v1.md`
@@ -31,12 +33,14 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Multiscale light-matter dynamics in quantum materials: from electrons to topological superlattices](https://arxiv.org/abs/2509.00966v1) | 2025-08-31T19:14:52Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2509.00966v1.md`
 
 ## Molecular Dynamics
+- [Stress field modification near linear complexions increases the effective obstacle size and strengthening effect](https://arxiv.org/abs/2604.12730v1) | 2026-04-14T13:45:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.12730v1.md`
 - [Machine-learning modeling of magnetization dynamics in quasi-equilibrium and driven metallic spin systems](https://arxiv.org/abs/2604.11513v1) | 2026-04-13T14:18:34Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.11513v1.md`
 - [Location of the liquid-vapor critical point in aluminum](https://arxiv.org/abs/2604.10561v1) | 2026-04-12T10:09:15Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.10561v1.md`
 - [Force Field-Agnostic Phase Classification of Zeolitic Imidazolate Framework Polymorphs](https://arxiv.org/abs/2604.09084v1) | 2026-04-10T08:11:13Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.09084v1.md`
 - [Influence of Manganese Content on Plastic Deformation Mechanisms in Polycrystalline α-Ti-Mn Alloys](https://arxiv.org/abs/2604.06360v1) | 2026-04-07T18:37:54Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.06360v1.md`
 - [ORION: Unifying Top-Down and Bottom-Up Chemical Space Sampling for a Universal Organic Force Field](https://arxiv.org/abs/2604.05769v1) | 2026-04-07T12:11:06Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.05769v1.md`
 - [Development of a 3D-CNN-based Prediction Model for Migration Barriers in Plasma-Wall Interactions](https://arxiv.org/abs/2604.05521v1) | 2026-04-07T07:18:58Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.05521v1.md`
+- [Loop-level surrogate modeling of dopant-distribution effects in Ba(Zr,Ti)O$_3$](https://arxiv.org/abs/2604.02325v1) | 2026-04-02T17:59:20Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.02325v1.md`
 - [Machine Learning Interatomic Potentials for Million-Atom Simulations of Multicomponent Alloys](https://arxiv.org/abs/2604.01642v2) | 2026-04-02T05:41:09Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.01642v2.md`
 - [Computational Insights into PEMFC Durability: Degradation Mechanisms, Interfacial Chemistry, and the Emerging Role of Machine Learning Potentials](https://arxiv.org/abs/2603.26022v1) | 2026-03-27T02:37:16Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26022v1.md`
 - [Molecular dynamics study of the role of anisotropy in radiation-driven embrittlement](https://arxiv.org/abs/2603.25617v2) | 2026-03-26T16:32:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.25617v2.md`
@@ -69,8 +73,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Mechanism-driven CO2 Capture and Activation on Two-dimensional Transition-metal Diborides](https://arxiv.org/abs/2602.12562v1) | 2026-02-13T03:21:47Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.12562v1.md`
 - [Electrohydrodynamic instability of Cu, W and Ti metal nanomelts under radiofrequency E-fields from multiphysics molecular dynamics simulations with coarse-grained density field analysis](https://arxiv.org/abs/2602.12558v1) | 2026-02-13T03:12:59Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.12558v1.md`
 - [Efficient molecular dynamics simulation of 2D penta-silicene materials using machine learning potentials](https://arxiv.org/abs/2602.11548v1) | 2026-02-12T04:15:20Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.11548v1.md`
-- [Nonmonotonic Magnetic Friction from Collective Rotor Dynamics](https://arxiv.org/abs/2602.11526v1) | 2026-02-12T03:34:18Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.11526v1.md`
-- [Coarse-Grained Molecular Dynamics Simulations of Oxidative Aging and Stabilization in Polymer Melts with Primary Antioxidants: Effects of Antioxidant Concentration and Molecular Architecture](https://arxiv.org/abs/2602.10954v2) | 2026-02-11T15:43:04Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.10954v2.md`
 
 ## Phase-Field Crystal
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
@@ -88,8 +90,10 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Revealing Dislocation Interactions Controlling Mechanical Properties of Metals](https://arxiv.org/abs/2604.11397v1) | 2026-04-13T12:40:42Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.11397v1.md`
 - [Influence of Manganese Content on Plastic Deformation Mechanisms in Polycrystalline α-Ti-Mn Alloys](https://arxiv.org/abs/2604.06360v1) | 2026-04-07T18:37:54Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.06360v1.md`
 - [A multiphysics deep energy method for fourth-order phase-field fracture with piezoresistive self-sensing](https://arxiv.org/abs/2604.03453v1) | 2026-04-03T20:55:03Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.03453v1.md`
+- [Elastic softening and fracture in randomly perforated solids](https://arxiv.org/abs/2604.01858v1) | 2026-04-02T10:15:20Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.01858v1.md`
 - [Molecular dynamics study of the role of anisotropy in radiation-driven embrittlement](https://arxiv.org/abs/2603.25617v2) | 2026-03-26T16:32:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.25617v2.md`
 - [Emerging hierarchical dislocation structures: Insights from scanning electron microscopy-electron backscatter diffraction in situ tensile testing and multifractal analysis](https://arxiv.org/abs/2603.20689v1) | 2026-03-21T07:08:22Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.20689v1.md`
+- [Microstructural origins of energy storage during plastic deformation of 310S TWIP steel](https://arxiv.org/abs/2603.07352v1) | 2026-03-07T21:36:55Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.07352v1.md`
 - [Stress-driven dynamic evolution of core-shell structured cavities with H and He in BCC-Fe under fusion conditions](https://arxiv.org/abs/2603.00867v1) | 2026-03-01T02:04:34Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2603.00867v1.md`
 - [Work-hardening exhaustion as the origin of low toughness in L-PBF alloys: A case study on the role of intrinsic vs. extrinsic defects in SS316L](https://arxiv.org/abs/2602.18954v1) | 2026-02-21T20:24:28Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.18954v1.md`
 - [Fracture Properties of Green Nano Fibrous Network with Random and Aligned Fibre Distribution: A Hierarchical Molecular Dynamics and Peridynamics Approach](https://arxiv.org/abs/2602.17740v1) | 2026-02-19T10:49:39Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.17740v1.md`
