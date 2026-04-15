@@ -1,123 +1,90 @@
-# Paper Daily Agent
+# 📚 Paper Daily Agent — 材料模拟论文自动化知识体系
 
-Automate daily paper discovery and maintain a living research system for:
-- multiphysics coupling in materials
-- molecular dynamics simulation
-- phase-field crystal modeling
-- metal fatigue simulation
-- tensile/deformation simulation
+自动发现、分析、总结材料模拟领域论文，构建持续更新的知识图谱。
 
-## What it does
+## 研究方向
 
-1. Fetches recent arXiv papers by your configured topic queries.
-2. Scores relevance and selects the top `daily_limit` unseen papers (default: 5/day).
-3. Creates a note file per paper under `data/notes/`.
-4. Updates database `data/paper_db.json`.
-5. Rebuilds `reports/knowledge_system.md` as your continuously updated topic system.
-6. Writes a daily report under `reports/daily/YYYY-MM-DD.md`.
-7. Generates Chinese per-paper briefs ("what it did / why it matters to your work").
-8. Sends a daily Chinese reading reminder to Telegram via `clawdbot` (configurable).
-9. Extracts keywords with explanations per paper and stores them in notes/database.
-10. Rebuilds `reports/focus_year_summary.md` to summarize research focus and year trends.
+- 多物理耦合 (Multiphysics Coupling)
+- 分子动力学模拟 (Molecular Dynamics)
+- 相场晶体模型 (Phase-Field Crystal)
+- 金属疲劳模拟 (Metal Fatigue Simulation)
+- 拉伸/变形模拟 (Tensile / Deformation Simulation)
 
-## Quick start
+## 核心功能
+
+1. **每日论文抓取**: 从 arXiv 获取最新论文，按关键词评分筛选 Top 5。
+2. **智能摘要**: 通过 LLM (GPT-4.1-mini) 生成中文结构化总结（论文做了什么、方法、结果、意义）。
+3. **PDF 深度解析**: 自动下载 PDF，提取方法/实验章节的边界条件、网格、时间步、势函数、载荷路径等参数。
+4. **知识体系构建**: 自动维护 `knowledge_system.md`、`focus_year_summary.md` 体系化文档。
+5. **可视化仪表盘**: 生成交互式 HTML 仪表盘（时间线、主题分布、关键词热度、论文关联网络）。
+6. **Mermaid 知识图谱**: 在 Markdown 中嵌入思维导图和时间线，GitHub 可直接渲染。
+7. **Telegram 推送**: 每日通过 Telegram Bot 发送中文阅读提醒。
+8. **GitHub Actions 自动化**: 每天北京时间 9:00 自动运行并提交更新。
+
+## 快速开始
 
 ```bash
+# 初始化项目
 python3 paper_agent.py init --root . --config config.json
-python3 paper_agent.py update --root . --config config.json
-```
 
-Dry-run notification test (no actual Telegram send):
+# 手动运行一次更新
+python3 paper_agent.py update --root . --config config.json --notify
 
-```bash
+# 干运行（不实际发送 Telegram）
 python3 paper_agent.py update --root . --config config.json --notify --notify-dry-run
 ```
 
-## Add your known papers
+## 环境变量
 
-Prepare CSV with headers:
+在 GitHub Secrets 或本地 `~/.clawdbot/.env` 中配置：
 
-```text
-title,authors,year,link,tags,notes
-```
+| 变量名 | 说明 |
+|--------|------|
+| `ANTHROPIC_API_KEY` | Anthropic API Key（用于 Claude 生成论文总结） |
+| `TELEGRAM_BOT_TOKEN` | Telegram Bot Token（通过 @BotFather 创建） |
+| `TELEGRAM_CHAT_ID` | Telegram Chat ID（你的用户 ID 或群组 ID） |
 
-`authors` uses `;` as separator, and `tags` should use internal topic keys:
-- `multiphysics_coupling`
-- `molecular_dynamics`
-- `phase_field_crystal`
-- `metal_fatigue`
-- `tensile_simulation`
+## GitHub Actions 自动化
 
-Then run:
+项目通过 `.github/workflows/daily_paper.yml` 实现每日自动运行：
+
+1. 每天 UTC 01:00（北京时间 09:00）自动触发
+2. 抓取新论文、生成摘要、更新知识体系
+3. 发送 Telegram 通知
+4. 自动 commit & push 更新到仓库
+
+需要在 GitHub 仓库 Settings → Secrets and variables → Actions 中添加上述三个 Secret。
+
+也支持手动触发：Actions → Daily Paper Update → Run workflow。
+
+## 导入已读论文
 
 ```bash
+# 准备 CSV（格式：title,authors,year,link,tags,notes）
 python3 paper_agent.py ingest-known --root . --config config.json --csv ./known_papers_template.csv
 ```
 
-## Optional LLM summary
-
-If `OPENAI_API_KEY` is set, the script attempts structured Chinese LLM summaries via `llm.endpoint`.
-Otherwise it falls back to deterministic Chinese abstract-based summaries.
-The script also auto-loads env vars from `~/.clawdbot/.env` for cron/headless runs.
-
-```bash
-export OPENAI_API_KEY="YOUR_KEY"
-python3 paper_agent.py update --root . --config config.json
-```
-
-## Daily scheduling (macOS/Linux cron)
-
-Make script executable:
-
-```bash
-chmod +x ./run_daily.sh
-```
-
-Open crontab:
-
-```bash
-crontab -e
-```
-
-Run every day at 09:00:
-
-```cron
-0 9 * * * /Users/bojingkai/Desktop/Read_paper/run_daily.sh >> /Users/bojingkai/Desktop/Read_paper/reports/cron.log 2>&1
-```
-
-## Telegram reminder via clawbot
-
-The reminder uses:
-- `notify.enabled`
-- `notify.clawbot.binary`
-- `notify.clawbot.channel`
-- `notify.clawbot.target`
-
-Default target example is numeric chat id `5717971233` (recommended).
-Reminder content includes Chinese brief for each paper:
-- 做了什么
-- 对你的意义
-- 关键词（精简）
-- 研究侧重点（精简）
-
-Manual test:
-
-```bash
-python3 paper_agent.py update --root . --config config.json --limit 5 --notify
-```
-
-## Folder layout
+## 项目结构
 
 ```text
 .
-├── config.json
-├── paper_agent.py
-├── run_daily.sh
-├── data
-│   ├── notes
-│   └── paper_db.json
-└── reports
-    ├── daily
-    ├── focus_year_summary.md
-    └── knowledge_system.md
+├── .github/workflows/daily_paper.yml  # GitHub Actions 定时任务
+├── config.json                         # 配置文件
+├── paper_agent.py                      # 核心脚本
+├── run_daily.sh                        # 本地定时运行脚本
+├── data/
+│   ├── notes/                          # 每篇论文的详细笔记
+│   ├── paper_db.json                   # 论文数据库
+│   └── pdf_cache/                      # PDF 缓存（不提交 git）
+└── reports/
+    ├── daily/                          # 每日报告
+    ├── dashboard.html                  # 📊 交互式可视化仪表盘
+    ├── knowledge_graph.md              # 🗺️ Mermaid 知识图谱
+    ├── knowledge_system.md             # 📋 知识体系文档
+    └── focus_year_summary.md           # 📈 年份-侧重点汇总
 ```
+
+## 可视化
+
+- **`reports/dashboard.html`** — 本地打开即可查看交互式图表（时间线、主题饼图、关键词热度、论文网络图）
+- **`reports/knowledge_graph.md`** — 在 GitHub 上直接渲染 Mermaid 思维导图和时间线

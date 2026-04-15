@@ -1,0 +1,59 @@
+name: Daily Paper Update
+
+on:
+  schedule:
+    # 每天北京时间 9:00 (UTC 1:00) 运行
+    - cron: '0 1 * * *'
+  workflow_dispatch:  # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update-papers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pypdf requests
+
+      - name: Run daily paper update
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python3 paper_agent.py update \
+            --root . \
+            --config config.json \
+            --notify
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "Paper Agent Bot"
+          git config user.email "paper-agent[bot]@users.noreply.github.com"
+
+          git add -A data/ reports/
+
+          # Check if there are changes to commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            DATE=$(date -u +"%Y-%m-%d")
+            PAPER_COUNT=$(git diff --cached --stat | grep -c "notes/" || echo "0")
+            git commit -m "📄 Daily paper update ${DATE} (+${PAPER_COUNT} papers)"
+            git push
+            echo "✅ Changes pushed successfully."
+          fi

@@ -4,9 +4,10 @@
   "request_timeout_sec": 30,
   "llm": {
     "enabled": true,
-    "api_key_env": "OPENAI_API_KEY",
-    "model": "gpt-4.1-mini",
-    "endpoint": "https://api.openai.com/v1/responses",
+    "provider": "anthropic",
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "model": "claude-sonnet-4-20250514",
+    "max_tokens": 1024,
     "temperature": 0.2
   },
   "topics": [
@@ -50,6 +51,21 @@
     "max_keywords_per_paper": 8,
     "daily_report_keywords": 5,
     "telegram_keywords": 3
+  },
+  "group_style": {
+    "max_parameters_per_paper": 6,
+    "daily_report_params_chars": 160,
+    "telegram_params_chars": 90
+  },
+  "pdf_parsing": {
+    "enabled": true,
+    "cache_dir": "data/pdf_cache",
+    "download_timeout_sec": 60,
+    "ghostscript_timeout_sec": 180,
+    "max_param_items": 10,
+    "max_pdf_pages": 30,
+    "max_existing_parse_per_run": 3,
+    "refresh_existing": false
   },
   "keyword_explanations": {
     "multiphysics": "指热-力-电-化学等多个物理场耦合求解，可用于评估场间耦合效应与失效机制。",
@@ -115,10 +131,13 @@
     "enabled": true,
     "send_when_no_new": true,
     "max_items": 5,
-    "clawbot": {
-      "binary": "/opt/homebrew/bin/clawdbot",
-      "channel": "telegram",
-      "target": "5717971233"
+    "telegram": {
+      "bot_token_env": "TELEGRAM_BOT_TOKEN",
+      "chat_id_env": "TELEGRAM_CHAT_ID"
     }
+  },
+  "visualization": {
+    "dashboard_html": true,
+    "mermaid_graph": true
   }
 }
