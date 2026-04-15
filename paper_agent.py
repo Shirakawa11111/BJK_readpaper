@@ -2297,6 +2297,111 @@ def build_mermaid_knowledge_graph(
     mermaid_path.write_text(content, encoding="utf-8")
 
 
+def update_readme_knowledge_graph(root: Path, db: dict[str, Any], topic_labels: dict[str, str]) -> None:
+    """Update README.md with the latest knowledge graph between marker comments."""
+    readme_path = root / "README.md"
+    if not readme_path.exists():
+        return
+
+    start_marker = "<!-- KNOWLEDGE_GRAPH_START -->"
+    end_marker = "<!-- KNOWLEDGE_GRAPH_END -->"
+
+    readme = readme_path.read_text(encoding="utf-8")
+    if start_marker not in readme:
+        return  # No markers, skip
+
+    records = list(db.values())
+    total = len(records)
+    update_time = now_utc().strftime("%Y-%m-%d %H:%M UTC")
+
+    # Build mindmap
+    mm_lines = ["mindmap", "  root((材料模拟论文体系))"]
+    for topic_key, topic_label in topic_labels.items():
+        topic_papers = sorted(
+            [r for r in records if topic_key in r.get("tags", [])],
+            key=lambda r: float(r.get("score", 0)),
+            reverse=True,
+        )[:5]
+        safe_label = _mermaid_escape(topic_label)
+        count = len([r for r in records if topic_key in r.get("tags", [])])
+        mm_lines.append(f"    {safe_label} [{count}篇]")
+        for r in topic_papers:
+            title = _mermaid_escape(truncate_text(r.get("title", "Untitled"), 32))
+            mm_lines.append(f"      {title}")
+            kws = [str(k) for k in r.get("keywords", [])[:3] if str(k).strip()]
+            for kw in kws:
+                mm_lines.append(f"        {_mermaid_escape(kw)}")
+    mindmap_block = "\n".join(mm_lines)
+
+    # Build timeline
+    month_papers: dict[str, list[dict[str, Any]]] = {}
+    for r in records:
+        month = (r.get("published") or "")[:7]
+        if month:
+            month_papers.setdefault(month, []).append(r)
+    recent_months = sorted(month_papers.keys(), reverse=True)[:6]
+    tl_lines = ["timeline", "    title 论文发布时间线"]
+    for month in sorted(recent_months):
+        papers = sorted(month_papers[month], key=lambda r: float(r.get("score", 0)), reverse=True)[:3]
+        titles = " : ".join(_mermaid_escape(truncate_text(p.get("title", "?"), 28)) for p in papers)
+        tl_lines.append(f"    {month} : {titles}")
+    timeline_block = "\n".join(tl_lines)
+
+    # Cross-reference table
+    table_lines = ["| 主题方向 | 论文数 | 主要侧重点 | 代表论文 |", "|----------|--------|------------|----------|"]
+    for tk, tl in topic_labels.items():
+        tp = [r for r in records if tk in r.get("tags", [])]
+        cnt = len(tp)
+        focus_count: dict[str, int] = {}
+        for r in tp:
+            for fa in r.get("focus_areas", []):
+                if "（主题归类）" not in fa:
+                    focus_count[fa] = focus_count.get(fa, 0) + 1
+        top_focus = ", ".join(f for f, _ in sorted(focus_count.items(), key=lambda x: x[1], reverse=True)[:3])
+        sample = truncate_text(tp[0].get("title", "N/A"), 35) if tp else "N/A"
+        table_lines.append(f"| {tl} | {cnt} | {top_focus or 'N/A'} | {sample} |")
+    table_block = "\n".join(table_lines)
+
+    # Recent papers list (top 10 by score)
+    recent_list_lines = []
+    top_papers = sorted(records, key=lambda r: float(r.get("score", 0)), reverse=True)[:10]
+    for i, r in enumerate(top_papers, 1):
+        title = r.get("title", "Untitled")
+        link = r.get("link", "")
+        score = float(r.get("score", 0))
+        tags = [topic_labels.get(t, t) for t in r.get("tags", [])[:2]]
+        recent_list_lines.append(f"{i}. **[{truncate_text(title, 60)}]({link})** (score: {score:.1f}) — {', '.join(tags)}")
+
+    graph_section = f"""> 自动更新 | 总论文数: {total} | 最后更新: {update_time}
+
+### 知识体系思维导图
+
+```mermaid
+{mindmap_block}
+```
+
+### 论文发布时间线
+
+```mermaid
+{timeline_block}
+```
+
+### 主题-侧重点交叉分析
+
+{table_block}
+
+### 高相关度论文 Top 10
+
+{chr(10).join(recent_list_lines)}"""
+
+    # Replace content between markers
+    start_idx = readme.index(start_marker) + len(start_marker)
+    end_idx = readme.index(end_marker)
+    new_readme = readme[:start_idx] + "\n" + graph_section + "\n" + readme[end_idx:]
+    readme_path.write_text(new_readme, encoding="utf-8")
+    print(f"README.md knowledge graph updated ({total} papers)")
+
+
 def entry_to_db_record(
     paper: Paper,
     note_path: Path,
@@ -2629,6 +2734,7 @@ def cmd_update(args: argparse.Namespace) -> int:
     if vis_cfg.get("mermaid_graph", True):
         build_mermaid_knowledge_graph(mermaid_path=mermaid_path, db=db, topic_labels=labels)
         print(f"Knowledge graph: {mermaid_path}")
+    update_readme_knowledge_graph(root=root, db=db, topic_labels=labels)
     report_path = daily_dir / f"{dt.date.today().isoformat()}.md"
     daily_kw = int(cfg.get("keyword_settings", {}).get("daily_report_keywords", 5) or 5)
     daily_param_chars = int(cfg.get("group_style", {}).get("daily_report_params_chars", 160) or 160)

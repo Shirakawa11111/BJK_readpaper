@@ -13,7 +13,7 @@
 ## 核心功能
 
 1. **每日论文抓取**: 从 arXiv 获取最新论文，按关键词评分筛选 Top 5。
-2. **智能摘要**: 通过 LLM (GPT-4.1-mini) 生成中文结构化总结（论文做了什么、方法、结果、意义）。
+2. **智能摘要**: 通过 Claude (Anthropic API) 生成中文深度技术分析（研究背景、方法细节、定量结论、研究价值、可复现性）。
 3. **PDF 深度解析**: 自动下载 PDF，提取方法/实验章节的边界条件、网格、时间步、势函数、载荷路径等参数。
 4. **知识体系构建**: 自动维护 `knowledge_system.md`、`focus_year_summary.md` 体系化文档。
 5. **可视化仪表盘**: 生成交互式 HTML 仪表盘（时间线、主题分布、关键词热度、论文关联网络）。
@@ -83,6 +83,12 @@ python3 paper_agent.py ingest-known --root . --config config.json --csv ./known_
     ├── knowledge_system.md             # 📋 知识体系文档
     └── focus_year_summary.md           # 📈 年份-侧重点汇总
 ```
+
+## 知识图谱（自动更新）
+
+<!-- KNOWLEDGE_GRAPH_START -->
+> 等待首次运行后自动生成...
+<!-- KNOWLEDGE_GRAPH_END -->
 
 ## 可视化
 

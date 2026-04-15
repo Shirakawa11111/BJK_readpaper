@@ -62,8 +62,8 @@ jobs:
           git config user.name "Paper Agent Bot"
           git config user.email "paper-agent[bot]@users.noreply.github.com"
 
-          # Stage only data/ and reports/ (our output directories)
-          git add -A data/ reports/
+          # Stage data, reports, and README (knowledge graph updates)
+          git add -A data/ reports/ README.md
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
