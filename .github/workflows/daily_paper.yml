@@ -13,6 +13,8 @@ jobs:
   update-papers:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout repository
@@ -29,6 +31,18 @@ jobs:
         run: |
           pip install pypdf requests
 
+      - name: Verify secrets are set
+        run: |
+          if [ -z "${{ secrets.TELEGRAM_BOT_TOKEN }}" ]; then
+            echo "❌ TELEGRAM_BOT_TOKEN is not set"
+            exit 1
+          fi
+          if [ -z "${{ secrets.TELEGRAM_CHAT_ID }}" ]; then
+            echo "❌ TELEGRAM_CHAT_ID is not set"
+            exit 1
+          fi
+          echo "✅ Secrets are configured"
+
       - name: Run daily paper update
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -38,7 +52,9 @@ jobs:
           python3 paper_agent.py update \
             --root . \
             --config config.json \
-            --notify
+            --notify 2>&1 | tee /tmp/paper_agent.log
+          echo "--- Paper agent output ---"
+          grep -E "(Notify|WARN|New papers|Telegram|Error)" /tmp/paper_agent.log || true
 
       - name: Commit and push changes
         run: |
@@ -54,6 +70,8 @@ jobs:
             DATE=$(date -u +"%Y-%m-%d")
             PAPER_COUNT=$(git diff --cached --stat | grep -c "notes/" || echo "0")
             git commit -m "📄 Daily paper update ${DATE} (+${PAPER_COUNT} papers)"
+            # Pull rebase first to avoid conflicts with local pushes
+            git pull --rebase origin main
             git push
             echo "✅ Changes pushed successfully."
           fi
