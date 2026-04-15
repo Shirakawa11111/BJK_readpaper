@@ -1,13 +1,13 @@
 # 论文知识体系图谱
 
-> 自动生成 | 总论文数: 62 | 更新时间: 2026-04-15 05:25 UTC
+> 自动生成 | 总论文数: 67 | 更新时间: 2026-04-15 07:41 UTC
 
 ## 知识体系思维导图
 
 ```mermaid
 mindmap
   root((材料模拟论文体系))
-    Multiphysics Coupling [21篇]
+    Multiphysics Coupling [22篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -28,7 +28,7 @@ mindmap
         molecular dynamics
         dislocation
         metal
-    Molecular Dynamics [43篇]
+    Molecular Dynamics [46篇]
       Molecular dynamics study of t...
         molecular dynamics
         dislocation
@@ -49,11 +49,15 @@ mindmap
         molecular dynamics
         tensile
         deformation
-    Phase-Field Crystal [3篇]
+    Phase-Field Crystal [4篇]
       Dislocation dynamics on defor...
         phase-field crystal
         dislocation
         coupled
+      Multi-GPU fast Fourier transf...
+        phase-field crystal
+        multiphysics
+        simulation
       Amplitude phase-field crystal...
         phase-field crystal
         deformation
@@ -79,7 +83,7 @@ mindmap
         multiphysics
         fatigue
         deformation
-    Tensile / Deformation Simulation [17篇]
+    Tensile / Deformation Simulation [19篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -116,15 +120,15 @@ timeline
     2026-01 : Fully Coupled Multiphysic... : High-Temperature Deformat...
     2026-02 : Electrohydrodynamic insta... : Dislocation dynamics on d... : Strain-Rate- and Line-Len...
     2026-03 : Molecular dynamics study... : Defect dependent dynamic... : Laser Powder Bed Fusion M...
-    2026-04 : A multiphysics deep energ...
+    2026-04 : A multiphysics deep energ... : Influence of Manganese Co... : Force Field-Agnostic Phas...
 ```
 
 ## 主题-侧重点交叉分析
 
 | 主题方向 | 论文数 | 主要侧重点 | 代表论文 |
 |----------|--------|------------|----------|
-| Multiphysics Coupling | 21 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
-| Molecular Dynamics | 43 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Electrohydrodynamic instability... |
-| Phase-Field Crystal | 3 | 相场晶体与组织演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Dislocation dynamics on deformab... |
+| Multiphysics Coupling | 22 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
+| Molecular Dynamics | 46 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Electrohydrodynamic instability... |
+| Phase-Field Crystal | 4 | 相场晶体与组织演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Dislocation dynamics on deformab... |
 | Metal Fatigue Simulation | 4 | 疲劳损伤与断裂演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
-| Tensile / Deformation Simulation | 17 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
+| Tensile / Deformation Simulation | 19 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
