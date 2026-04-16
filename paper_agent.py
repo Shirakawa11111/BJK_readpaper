@@ -2426,7 +2426,7 @@ def entry_to_db_record(
         "score": paper.score,
         "status": status,
         "source_topic": paper.source_topic,
-        "note_path": str(note_path),
+        "note_path": str(Path("data") / "notes" / note_path.name),
         "summary_source": summary_source,
         "summary_text": summary_text,
         "brief_cn": brief_cn or {},
@@ -2639,9 +2639,10 @@ def cmd_update(args: argparse.Namespace) -> int:
                 record["brief_cn"] = refine_brief_with_summary(
                     build_cn_brief(paper_obj, labels), new_summary
                 )
-                note_path = Path(record.get("note_path", ""))
-                if not note_path.name:
-                    note_path = notes_dir / f"{slugify(paper_obj.paper_id)}.md"
+                # Always use current working directory for note path
+                # (DB may contain absolute paths from a different machine)
+                note_path = notes_dir / f"{slugify(paper_obj.paper_id)}.md"
+                record["note_path"] = str(note_path)
                 record["group_style_cn"] = refine_group_style_with_summary(
                     build_group_style_cn(
                         paper=paper_obj,
