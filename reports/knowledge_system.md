@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 97
-- Last rebuilt: 2026-04-18T03:47:49.083557+00:00
+- Total papers in library: 102
+- Last rebuilt: 2026-04-19T04:05:39.112366+00:00
 
 ## Multiphysics Coupling
 - [3D Finite Element-Based Multiphysics Simulation of a Shape Memory Alloy Hybrid Composite Module](https://arxiv.org/abs/2604.15211v1) | 2026-04-16T16:41:35Z | status: auto | note: `data/notes/2604.15211v1.md`
@@ -17,6 +17,8 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
 - [Physics-Informed AI for Laser-Enhanced Contact Optimization in Silicon PV: Electrothermal Activation, Degradation Regimes, and Process Control](https://arxiv.org/abs/2603.23351v1) | 2026-03-24T15:52:34Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.23351v1.md`
 - [AutoMOOSE: An Agentic AI for Autonomous Phase-Field Simulation](https://arxiv.org/abs/2603.20986v1) | 2026-03-22T00:11:19Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.20986v1.md`
+- [Understanding inhomogeneous crystallization dynamics of phase-change materials in the vicinity of metallic nanoantennas](https://arxiv.org/abs/2603.20901v1) | 2026-03-21T18:23:49Z | status: auto | note: `data/notes/2603.20901v1.md`
+- [An Optically Addressable Transmissive Liquid Crystal Metasurface Spatial Light Modulator](https://arxiv.org/abs/2603.20574v1) | 2026-03-21T00:10:58Z | status: auto | note: `data/notes/2603.20574v1.md`
 - [Microstructural origins of energy storage during plastic deformation of 310S TWIP steel](https://arxiv.org/abs/2603.07352v1) | 2026-03-07T21:36:55Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.07352v1.md`
 - [Consistent initialization of mixed-dimensional multiphysics models for fractured reservoirs under geomechanical constraints and field measurements](https://arxiv.org/abs/2603.01835v1) | 2026-03-02T13:09:15Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.01835v1.md`
 - [Thermodynamic effects of solid electrolyte interphase formation from solvation and ionic association in water-in-salt electrolytes](https://arxiv.org/abs/2602.23875v1) | 2026-02-27T10:17:29Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.23875v1.md`
@@ -55,6 +57,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Large Language Model Assisted Discovery of Optimal Dopants for Enhanced Thermoelectric Performance in CoSb$_3$ Based Skutterudites](https://arxiv.org/abs/2604.06048v1) | 2026-04-07T16:38:13Z | status: auto | note: `data/notes/2604.06048v1.md`
 - [ORION: Unifying Top-Down and Bottom-Up Chemical Space Sampling for a Universal Organic Force Field](https://arxiv.org/abs/2604.05769v1) | 2026-04-07T12:11:06Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.05769v1.md`
 - [Development of a 3D-CNN-based Prediction Model for Migration Barriers in Plasma-Wall Interactions](https://arxiv.org/abs/2604.05521v1) | 2026-04-07T07:18:58Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.05521v1.md`
+- [Chemical Short-Range Order Regulates Hydrogen Energetics and Hydrogen-Dislocation Interactions in CoNiV](https://arxiv.org/abs/2604.05352v1) | 2026-04-07T02:47:48Z | status: auto | note: `data/notes/2604.05352v1.md`
 - [A molecular dynamics simulation of thermalization of crystalline lattice with harmonic interaction](https://arxiv.org/abs/2604.03913v1) | 2026-04-05T00:47:33Z | status: auto | note: `data/notes/2604.03913v1.md`
 - [Structurally Triggered Breakdown of the Phonon Gas Model in Crystalline Metal-Organic Frameworks](https://arxiv.org/abs/2604.03783v1) | 2026-04-04T16:09:29Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.03783v1.md`
 - [Anatomy of a Complex Crystallization Pathway](https://arxiv.org/abs/2604.03413v1) | 2026-04-03T19:17:29Z | status: auto | note: `data/notes/2604.03413v1.md`
@@ -62,6 +65,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Machine Learning Interatomic Potentials for Million-Atom Simulations of Multicomponent Alloys](https://arxiv.org/abs/2604.01642v2) | 2026-04-02T05:41:09Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.01642v2.md`
 - [Oxygen as a dual function regulator in MoS2 CVD synthesis: enhancing precursor evaporation while modulating reaction kinetics](https://arxiv.org/abs/2603.28461v1) | 2026-03-30T14:01:55Z | status: auto | note: `data/notes/2603.28461v1.md`
 - [Neural operator accelerated atomistic to continuum concurrent multiscale simulations of viscoelasticity](https://arxiv.org/abs/2603.27430v1) | 2026-03-28T22:10:25Z | status: auto | note: `data/notes/2603.27430v1.md`
+- [Penetration of Rigid Rods, Flexible Rods, and Granular Jets into Low-Density Granular Media](https://arxiv.org/abs/2603.27262v1) | 2026-03-28T12:59:37Z | status: auto | note: `data/notes/2603.27262v1.md`
 - [Computational Insights into PEMFC Durability: Degradation Mechanisms, Interfacial Chemistry, and the Emerging Role of Machine Learning Potentials](https://arxiv.org/abs/2603.26022v1) | 2026-03-27T02:37:16Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26022v1.md`
 - [Molecular dynamics study of the role of anisotropy in radiation-driven embrittlement](https://arxiv.org/abs/2603.25617v2) | 2026-03-26T16:32:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.25617v2.md`
 - [Understanding the anisotropic response of $β$-Ga$_2$O$_3$ to ion implantation](https://arxiv.org/abs/2603.06398v1) | 2026-03-06T15:42:48Z | status: auto | note: `data/notes/2603.06398v1.md`
@@ -75,8 +79,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Influence of Hydrogen on Dislocation Relaxation in BCC Iron: Atomistic Mechanisms and Implications](https://arxiv.org/abs/2602.22995v1) | 2026-02-26T13:37:25Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.22995v1.md`
 - [Mimicking the earth core conditions with ultrafast laser materials interaction](https://arxiv.org/abs/2602.22460v1) | 2026-02-25T22:49:56Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.22460v1.md`
 - [An Information-theoretic Collective Variable for Configurational Entropy](https://arxiv.org/abs/2602.22440v1) | 2026-02-25T21:58:37Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.22440v1.md`
-- [A Reduced Order Model approach for First-Principles Molecular Dynamics Computations](https://arxiv.org/abs/2602.22390v1) | 2026-02-25T20:36:41Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.22390v1.md`
-- [Electrostatic Gating of Ionic Conductance Through Heterogeneous van der Waals Nanopores](https://arxiv.org/abs/2602.21419v1) | 2026-02-24T22:46:30Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.21419v1.md`
 
 ## Phase-Field Crystal
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
@@ -95,10 +97,12 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Uncovering the role of ionic doping in hydroxyapatite: The building blocks of tooth enamel and bones](https://arxiv.org/abs/2604.13339v1) | 2026-04-14T23:02:33Z | status: auto | note: `data/notes/2604.13339v1.md`
 - [Revealing Dislocation Interactions Controlling Mechanical Properties of Metals](https://arxiv.org/abs/2604.11397v1) | 2026-04-13T12:40:42Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.11397v1.md`
 - [Influence of Manganese Content on Plastic Deformation Mechanisms in Polycrystalline α-Ti-Mn Alloys](https://arxiv.org/abs/2604.06360v1) | 2026-04-07T18:37:54Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.06360v1.md`
+- [Chemical Short-Range Order Regulates Hydrogen Energetics and Hydrogen-Dislocation Interactions in CoNiV](https://arxiv.org/abs/2604.05352v1) | 2026-04-07T02:47:48Z | status: auto | note: `data/notes/2604.05352v1.md`
 - [A multiphysics deep energy method for fourth-order phase-field fracture with piezoresistive self-sensing](https://arxiv.org/abs/2604.03453v1) | 2026-04-03T20:55:03Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.03453v1.md`
 - [Elastic softening and fracture in randomly perforated solids](https://arxiv.org/abs/2604.01858v1) | 2026-04-02T10:15:20Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.01858v1.md`
 - [Molecular dynamics study of the role of anisotropy in radiation-driven embrittlement](https://arxiv.org/abs/2603.25617v2) | 2026-03-26T16:32:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.25617v2.md`
 - [Emerging hierarchical dislocation structures: Insights from scanning electron microscopy-electron backscatter diffraction in situ tensile testing and multifractal analysis](https://arxiv.org/abs/2603.20689v1) | 2026-03-21T07:08:22Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.20689v1.md`
+- [Lattice Discrete Particle Model (LDPM): Comparison of Various Time Integration Solvers and Implementations](https://arxiv.org/abs/2603.13190v1) | 2026-03-13T17:24:51Z | status: auto | note: `data/notes/2603.13190v1.md`
 - [Microstructural origins of energy storage during plastic deformation of 310S TWIP steel](https://arxiv.org/abs/2603.07352v1) | 2026-03-07T21:36:55Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.07352v1.md`
 - [Understanding the anisotropic response of $β$-Ga$_2$O$_3$ to ion implantation](https://arxiv.org/abs/2603.06398v1) | 2026-03-06T15:42:48Z | status: auto | note: `data/notes/2603.06398v1.md`
 - [Stress-driven dynamic evolution of core-shell structured cavities with H and He in BCC-Fe under fusion conditions](https://arxiv.org/abs/2603.00867v1) | 2026-03-01T02:04:34Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2603.00867v1.md`

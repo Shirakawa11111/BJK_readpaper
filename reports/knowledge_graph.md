@@ -1,13 +1,13 @@
 # 论文知识体系图谱
 
-> 自动生成 | 总论文数: 97 | 更新时间: 2026-04-18 03:47 UTC
+> 自动生成 | 总论文数: 102 | 更新时间: 2026-04-19 04:05 UTC
 
 ## 知识体系思维导图
 
 ```mermaid
 mindmap
   root((材料模拟论文体系))
-    Multiphysics Coupling [28篇]
+    Multiphysics Coupling [30篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -28,7 +28,7 @@ mindmap
         molecular dynamics
         dislocation
         metal
-    Molecular Dynamics [69篇]
+    Molecular Dynamics [71篇]
       Molecular dynamics study of t...
         molecular dynamics
         dislocation
@@ -87,7 +87,7 @@ mindmap
         molecular dynamics
         atomistic
         simulation
-    Tensile / Deformation Simulation [24篇]
+    Tensile / Deformation Simulation [26篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -131,8 +131,8 @@ timeline
 
 | 主题方向 | 论文数 | 主要侧重点 | 代表论文 |
 |----------|--------|------------|----------|
-| Multiphysics Coupling | 28 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
-| Molecular Dynamics | 69 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
+| Multiphysics Coupling | 30 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
+| Molecular Dynamics | 71 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
 | Phase-Field Crystal | 4 | 相场晶体与组织演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Dislocation dynamics on deformab... |
 | Metal Fatigue Simulation | 5 | 疲劳损伤与断裂演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
-| Tensile / Deformation Simulation | 24 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
+| Tensile / Deformation Simulation | 26 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
