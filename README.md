@@ -87,14 +87,14 @@ python3 paper_agent.py ingest-known --root . --config config.json --csv ./known_
 ## 知识图谱（自动更新）
 
 <!-- KNOWLEDGE_GRAPH_START -->
-> 自动更新 | 总论文数: 102 | 最后更新: 2026-04-19 04:05 UTC
+> 自动更新 | 总论文数: 107 | 最后更新: 2026-04-20 04:17 UTC
 
 ### 知识体系思维导图
 
 ```mermaid
 mindmap
   root((材料模拟论文体系))
-    Multiphysics Coupling [30篇]
+    Multiphysics Coupling [33篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -115,7 +115,7 @@ mindmap
         molecular dynamics
         dislocation
         metal
-    Molecular Dynamics [71篇]
+    Molecular Dynamics [72篇]
       Molecular dynamics study of t...
         molecular dynamics
         dislocation
@@ -132,11 +132,11 @@ mindmap
         molecular dynamics
         dislocation
         metal
-      From Connectivity to Rupture...
+      Atomistic Mechanisms of Stres...
         molecular dynamics
         tensile
-        deformation
-    Phase-Field Crystal [4篇]
+        coupled
+    Phase-Field Crystal [5篇]
       Dislocation dynamics on defor...
         phase-field crystal
         dislocation
@@ -153,6 +153,10 @@ mindmap
         phase-field crystal
         dislocation
         deformation
+      Evaluation of the elastic fie...
+        phase-field crystal
+        pfc
+        simulation
     Metal Fatigue Simulation [5篇]
       Fully Coupled Multiphysics Mo...
         fatigue
@@ -174,7 +178,7 @@ mindmap
         molecular dynamics
         atomistic
         simulation
-    Tensile / Deformation Simulation [26篇]
+    Tensile / Deformation Simulation [28篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -187,14 +191,14 @@ mindmap
         multiphysics
         crack
         coupled
+      Atomistic Mechanisms of Stres...
+        molecular dynamics
+        tensile
+        coupled
       From Connectivity to Rupture...
         molecular dynamics
         tensile
         deformation
-      Work-hardening exhaustion as...
-        crack
-        dislocation
-        tensile
 ```
 
 ### 论文发布时间线
@@ -207,18 +211,18 @@ timeline
     2026-01 : Fully Coupled Multiphysic... : High-Temperature Deformat...
     2026-02 : Electrohydrodynamic insta... : Dislocation dynamics on d... : Strain-Rate- and Line-Len...
     2026-03 : Molecular dynamics study... : Defect dependent dynamic... : Laser Powder Bed Fusion M...
-    2026-04 : A multiphysics deep energ... : Influence of Manganese Co... : Force Field-Agnostic Phas...
+    2026-04 : A multiphysics deep energ... : Atomistic Mechanisms of S... : Influence of Manganese Co...
 ```
 
 ### 主题-侧重点交叉分析
 
 | 主题方向 | 论文数 | 主要侧重点 | 代表论文 |
 |----------|--------|------------|----------|
-| Multiphysics Coupling | 30 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
-| Molecular Dynamics | 71 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
-| Phase-Field Crystal | 4 | 相场晶体与组织演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Dislocation dynamics on deformab... |
+| Multiphysics Coupling | 33 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
+| Molecular Dynamics | 72 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Electrohydrodynamic instability... |
+| Phase-Field Crystal | 5 | 相场晶体与组织演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Dislocation dynamics on deformab... |
 | Metal Fatigue Simulation | 5 | 疲劳损伤与断裂演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
-| Tensile / Deformation Simulation | 26 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
+| Tensile / Deformation Simulation | 28 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
 
 ### 高相关度论文 Top 10
 
@@ -229,9 +233,9 @@ timeline
 5. **[Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1)** (score: 12.4) — Multiphysics Coupling, Phase-Field Crystal
 6. **[Defect dependent dynamic nanoindentation hardness of copp...](https://arxiv.org/abs/2603.01845v1)** (score: 12.2) — Molecular Dynamics
 7. **[Strain-Rate- and Line-Length-Dependent Screw Dislocation...](https://arxiv.org/abs/2602.16883v1)** (score: 11.4) — Molecular Dynamics, Multiphysics Coupling
-8. **[From Connectivity to Rupture: A Coarse-Grained Stochastic...](https://arxiv.org/abs/2602.08089v1)** (score: 10.7) — Molecular Dynamics, Tensile / Deformation Simulation
-9. **[Laser Powder Bed Fusion Melt Pool Dynamics for Different...](https://arxiv.org/abs/2604.07359v1)** (score: 10.6) — Multiphysics Coupling
-10. **[Computational Insights into PEMFC Durability: Degradation...](https://arxiv.org/abs/2603.26022v1)** (score: 10.4) — Metal Fatigue Simulation, Molecular Dynamics
+8. **[Atomistic Mechanisms of Stress-Dependent Molten Salt Corr...](https://arxiv.org/abs/2604.16261v1)** (score: 10.9) — Molecular Dynamics, Multiphysics Coupling
+9. **[From Connectivity to Rupture: A Coarse-Grained Stochastic...](https://arxiv.org/abs/2602.08089v1)** (score: 10.7) — Molecular Dynamics, Tensile / Deformation Simulation
+10. **[Laser Powder Bed Fusion Melt Pool Dynamics for Different...](https://arxiv.org/abs/2604.07359v1)** (score: 10.6) — Multiphysics Coupling
 <!-- KNOWLEDGE_GRAPH_END -->
 
 ## 可视化

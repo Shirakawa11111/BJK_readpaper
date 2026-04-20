@@ -1,13 +1,13 @@
 # 论文知识体系图谱
 
-> 自动生成 | 总论文数: 102 | 更新时间: 2026-04-19 04:05 UTC
+> 自动生成 | 总论文数: 107 | 更新时间: 2026-04-20 04:17 UTC
 
 ## 知识体系思维导图
 
 ```mermaid
 mindmap
   root((材料模拟论文体系))
-    Multiphysics Coupling [30篇]
+    Multiphysics Coupling [33篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -28,7 +28,7 @@ mindmap
         molecular dynamics
         dislocation
         metal
-    Molecular Dynamics [71篇]
+    Molecular Dynamics [72篇]
       Molecular dynamics study of t...
         molecular dynamics
         dislocation
@@ -45,11 +45,11 @@ mindmap
         molecular dynamics
         dislocation
         metal
-      From Connectivity to Rupture...
+      Atomistic Mechanisms of Stres...
         molecular dynamics
         tensile
-        deformation
-    Phase-Field Crystal [4篇]
+        coupled
+    Phase-Field Crystal [5篇]
       Dislocation dynamics on defor...
         phase-field crystal
         dislocation
@@ -66,6 +66,10 @@ mindmap
         phase-field crystal
         dislocation
         deformation
+      Evaluation of the elastic fie...
+        phase-field crystal
+        pfc
+        simulation
     Metal Fatigue Simulation [5篇]
       Fully Coupled Multiphysics Mo...
         fatigue
@@ -87,7 +91,7 @@ mindmap
         molecular dynamics
         atomistic
         simulation
-    Tensile / Deformation Simulation [26篇]
+    Tensile / Deformation Simulation [28篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -100,14 +104,14 @@ mindmap
         multiphysics
         crack
         coupled
+      Atomistic Mechanisms of Stres...
+        molecular dynamics
+        tensile
+        coupled
       From Connectivity to Rupture...
         molecular dynamics
         tensile
         deformation
-      Work-hardening exhaustion as...
-        crack
-        dislocation
-        tensile
 ```
 
 ## 论文发布时间线（近12个月）
@@ -115,7 +119,7 @@ mindmap
 ```mermaid
 timeline
     title 论文发布时间线
-    2023-07 : Amplitude phase-field cry...
+    2023-07 : Amplitude phase-field cry... : Evaluation of the elastic...
     2023-09 : Mesoscale modeling of def...
     2025-08 : Multiscale light-matter d...
     2025-10 : Improving performance est...
@@ -124,15 +128,15 @@ timeline
     2026-01 : Fully Coupled Multiphysic... : High-Temperature Deformat...
     2026-02 : Electrohydrodynamic insta... : Dislocation dynamics on d... : Strain-Rate- and Line-Len...
     2026-03 : Molecular dynamics study... : Defect dependent dynamic... : Laser Powder Bed Fusion M...
-    2026-04 : A multiphysics deep energ... : Influence of Manganese Co... : Force Field-Agnostic Phas...
+    2026-04 : A multiphysics deep energ... : Atomistic Mechanisms of S... : Influence of Manganese Co...
 ```
 
 ## 主题-侧重点交叉分析
 
 | 主题方向 | 论文数 | 主要侧重点 | 代表论文 |
 |----------|--------|------------|----------|
-| Multiphysics Coupling | 30 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
-| Molecular Dynamics | 71 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
-| Phase-Field Crystal | 4 | 相场晶体与组织演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Dislocation dynamics on deformab... |
+| Multiphysics Coupling | 33 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
+| Molecular Dynamics | 72 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Electrohydrodynamic instability... |
+| Phase-Field Crystal | 5 | 相场晶体与组织演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Dislocation dynamics on deformab... |
 | Metal Fatigue Simulation | 5 | 疲劳损伤与断裂演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
-| Tensile / Deformation Simulation | 26 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
+| Tensile / Deformation Simulation | 28 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
