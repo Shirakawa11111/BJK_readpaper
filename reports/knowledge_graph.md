@@ -1,6 +1,6 @@
 # 论文知识体系图谱
 
-> 自动生成 | 总论文数: 107 | 更新时间: 2026-04-20 04:17 UTC
+> 自动生成 | 总论文数: 112 | 更新时间: 2026-04-21 04:01 UTC
 
 ## 知识体系思维导图
 
@@ -70,7 +70,7 @@ mindmap
         phase-field crystal
         pfc
         simulation
-    Metal Fatigue Simulation [5篇]
+    Metal Fatigue Simulation [8篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -83,15 +83,15 @@ mindmap
         crack
         dislocation
         tensile
+      Muscle-inspired magnetic actu...
+        fatigue
+        tensile
+        deformation
       Magnetic Tactile-Driven Soft...
         multiphysics
         fatigue
         deformation
-      Neural operator accelerated a...
-        molecular dynamics
-        atomistic
-        simulation
-    Tensile / Deformation Simulation [28篇]
+    Tensile / Deformation Simulation [31篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -119,6 +119,8 @@ mindmap
 ```mermaid
 timeline
     title 论文发布时间线
+    2015-12 : Bayesian inference and mo...
+    2023-03 : Modeling metallic fatigue...
     2023-07 : Amplitude phase-field cry... : Evaluation of the elastic...
     2023-09 : Mesoscale modeling of def...
     2025-08 : Multiscale light-matter d...
@@ -138,5 +140,5 @@ timeline
 | Multiphysics Coupling | 33 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
 | Molecular Dynamics | 72 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Electrohydrodynamic instability... |
 | Phase-Field Crystal | 5 | 相场晶体与组织演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Dislocation dynamics on deformab... |
-| Metal Fatigue Simulation | 5 | 疲劳损伤与断裂演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
-| Tensile / Deformation Simulation | 28 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
+| Metal Fatigue Simulation | 8 | 疲劳损伤与断裂演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
+| Tensile / Deformation Simulation | 31 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |

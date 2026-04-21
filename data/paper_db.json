@@ -20,7 +20,7 @@
     "source_topic": "tensile_simulation",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2601.01443v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-20T04:15:57.729066+00:00",
+    "last_seen_at": "2026-04-21T04:01:00.667200+00:00",
     "keyword_details": [
       {
         "keyword": "fatigue",
@@ -472,7 +472,7 @@
     "source_topic": "molecular_dynamics",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.08089v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-20T04:15:57.733329+00:00",
+    "last_seen_at": "2026-04-21T04:01:00.670720+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -595,7 +595,7 @@
     "source_topic": "tensile_simulation",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.18954v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-20T04:15:57.745099+00:00",
+    "last_seen_at": "2026-04-21T04:01:00.676387+00:00",
     "keyword_details": [
       {
         "keyword": "crack",
@@ -713,7 +713,7 @@
     "source_topic": "molecular_dynamics",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.17740v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-20T04:15:57.743327+00:00",
+    "last_seen_at": "2026-04-21T04:01:00.674924+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -918,7 +918,7 @@
     "source_topic": "molecular_dynamics",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.06225v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-20T04:15:57.732220+00:00",
+    "last_seen_at": "2026-04-21T04:01:00.669809+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -1027,7 +1027,7 @@
     "source_topic": "tensile_simulation",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2601.00619v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-20T04:15:57.727645+00:00",
+    "last_seen_at": "2026-04-21T04:01:00.666038+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -1144,7 +1144,7 @@
     "source_topic": "molecular_dynamics",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.16007v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-20T04:15:57.741419+00:00",
+    "last_seen_at": "2026-04-21T04:01:00.673339+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -2565,7 +2565,7 @@
       "meaning": "该论文的局部滑移阻力计算方法可直接应用于我的金属疲劳模拟中的位错运动建模。热激活位错理论框架为我的多物理耦合场模拟提供了从原子尺度到连续介质尺度的桥接方案。弹性常数和晶格畸变作为关键控制参数的发现，为我在XPFC模型中设置材料参数提供了重要指导。机器学习与原子模拟结合的方法论对我开展拉伸变形模拟的参数优化具有直接借鉴价值。",
       "topics": "Molecular Dynamics, Tensile / Deformation Simulation"
     },
-    "last_seen_at": "2026-04-20T04:15:57.730712+00:00",
+    "last_seen_at": "2026-04-21T04:01:00.668573+00:00",
     "keyword_details": [
       {
         "keyword": "dislocation",
@@ -3304,7 +3304,7 @@
       "meaning": "该论文的几何约束颗粒链模型可以直接应用于我的多物理耦合场模拟中，特别是在研究金属疲劳过程中微观结构演化对宏观力学性能的影响。颗粒链系统中张力产生和剪切局部化抑制的机制对我的拉伸变形模拟具有重要启发，可以借鉴其配位数分析方法来表征变形过程中的局部结构变化。该研究中关于连接约束对流动性质影响的定量关系，可以为我的相场晶体模型（XPFC）中缺陷演化和塑性变形机制提供参数化依据。DEM模拟中局部卡塞状态的识别方法可以直接应用于我的分子动力学模拟中，用于分析金属疲劳过程中的微观损伤累积。",
       "topics": "Tensile / Deformation Simulation"
     },
-    "last_seen_at": "2026-04-20T04:15:57.734998+00:00",
+    "last_seen_at": "2026-04-21T04:01:00.672066+00:00",
     "keyword_details": [
       {
         "keyword": "tensile",
@@ -3737,7 +3737,7 @@
       "Molecular Dynamics（主题归类）",
       "Tensile / Deformation Simulation（主题归类）"
     ],
-    "last_seen_at": "2026-04-20T04:15:57.725898+00:00",
+    "last_seen_at": "2026-04-21T04:01:00.664587+00:00",
     "group_style_cn": {
       "problem": "针对Molecular Dynamics, Tensile / Deformation Simulation方向，论文聚焦「Kagome Topology in Two-Dimensional Noble-Metal Monolayers」相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
       "model_setup": "分子动力学（MD）；第一性原理分子动力学（AIMD）；密度泛函理论（DFT）",
@@ -5758,7 +5758,7 @@
       ],
       "method_excerpt": "ed materials (Wang et al., 2020; Li et al., 2022; Huang et al., 2024). The extent to which radiation-induced defects modify anisotropic behavior, particularly in re- lation to defect evolution, strain localization, and fracture mechanisms, is an important aspect considered in this work. To capture the influence of orientation-dependent, defect-driven plasticity on crack initiation and propagation, an atomistically-informed continuum framework can provide a suitable approach. 2 Fracture mechanics offers a robust framework for analyzing deformation and failure in irradiated materials. Stress-based parameters, such as the stress intensity factor (SIF) (Wilson et al., 2019; Zhao and Wei, 2025; Fu et al., 2025), provide a measure of crack-tip stresses but cannot capture the nanoscale, defect-drivenenergy dissipationthat dominatescrack-tip behaviorinmoleculardynamics simulations. Energy-based methods, including theJ-integral (Kim et al., 2021; Jia et al., 2022) and the critical strain energy release rate (Gc) (Barik et al., 2023; Lin et al., 2025; Ustrzycka et al., 2025), determine bulk fracture energetics but assume continuous, homogeneous plasticity and small-scale yielding. When the plastic zone is large, such that it occupies the whole computational domain, the J-integral approach is not applicable. Likewise it is not applicable in the case of irradiated materials where the defects are distributed within the whole volume and inelastic deformations initiate at those defects. Traction–separation (T–S) laws (Zeng et al., 2018; Wang et al., 2021; Guiqiu et al., 2021; Yu et al...."
     },
-    "last_seen_at": "2026-04-20T04:15:57.769282+00:00",
+    "last_seen_at": "2026-04-21T04:01:00.684757+00:00",
     "summary_text": "1) 研究问题与背景\n\n该论文解决辐照诱发脆化对金属材料断裂行为各向异性影响的科学问题，特别是在核反应堆环境下Fe55Ni19Cr26合金的韧脆转变机制。现有研究主要关注辐照缺陷的累积效应，忽略了晶体学取向对辐照脆化的调控作用，缺乏原子尺度下取向相关的断裂阻力定量评估方法。该工作创新性地将辐照缺陷演化与取向相关断裂行为相结合，建立了原子尺度牵引-分离分析框架，实现了真实缺陷条件下断裂阻力的定量评估。\n\n2) 核心方法与模型细节\n\n采用分子动力学模拟方法研究Fe55Ni19Cr26合金中辐照缺陷对断裂行为的影响。摘要未提及具体势函数类型，需查阅全文确认是否使用EAM或MEAM势函数。选择三个高对称性晶体学取向进行裂纹扩展分析，通过单轴拉伸加载模拟断裂行为。建立牵引-分离（T-S）分析方法提取原子尺度断裂能，定量评估不同取向下的断裂阻力。模拟包含预置辐照缺陷的样品，分析位错活动、缺陷相互作用、滑移系激活等局部塑性机制。摘要未提及具体的模拟尺寸、原子数、时间步长、边界条件设置和软件平台等关键参数，需查阅全文获取详细信息。\n\n3) 关键结果与定量结论\n\n研究发现晶体学取向对韧脆转变过程中的变形和断裂行为演化具有强烈依赖性，晶格取向控制位错活动和缺陷相互作用，进而调节局部塑性机制、应变局部化和断裂阻力。通过牵引-分离分析定量提取了不同取向下的原子尺度断裂能，但摘要未提供具体数值。证明辐照脆化不能仅通过缺陷累积解释，而是由位错、缺陷和断裂过程区之间取向敏感的相互作用决定。摘要未提及与实验或其他模拟结果的对比情况，需查阅全文了解模型精度和适用范围。\n\n4) 对我研究的直接价值\n\n该论文的牵引-分离分析方法可直接应用于我的金属疲劳和拉伸变形模拟中，为定量评估不同晶体取向下的断裂阻力提供了原子尺度分析框架。辐照缺陷与位错相互作用的机制研究对我的多物理耦合场模拟具有重要参考价值，特别是在考虑缺陷演化对材料性能影响方面。取向相关的塑性变形机制分析可为我的分子动力学模拟中滑移系激活和应变局部化研究提供理论指导。该工作将宏观力学性能与原子尺度机制联系的方法论对我的多尺度模拟研究具有直接启发意义。\n\n5) 可复现性评估与阅读建议\n\n摘要缺少关键的模拟参数信息，包括势函数类型、模拟盒子尺寸、原子数量、时间步长、边界条件和软件平台等，需查阅全文获取完整的参数设置。建议重点精读方法学部分了解牵引-分离分析的具体实现细节，以及结果部分中不同取向下断裂能的定量数据和机制分析。"
   },
   "2604.03453v1": {
@@ -5877,7 +5877,7 @@
       ],
       "method_excerpt": "A multiphysics deep energy method for fourth-order phase-field fracture with piezoresistive self-sensing Aamir Deana,b,∗, Betim Bahtiria aInstitute of Structural Analysis, Leibniz Universität Hannover, Appelstr. 9A, 30167 Hannover, Germany bSchool of Civil Engineering, College of Engineering, Sudan University of Science and Technology, P.O. Box 72, Khartoum, Sudan Abstract Self-sensing conductive composites can reveal deformation and damage through measurable changes in elec- trical resistance, which makes them attractive for embedded diagnostics and learning-enabled structural health monitoring. This paper presents a physically consistent multiphysics Deep Energy Method (DEM) for brittle fracture in piezoresistive materials. The mechanical part is modeled by small-strain linear elastic- ity coupled to a fourth-order AT2-type phase-field fracture functional with tensile/compressive energy split and history-field irrever arized piezoresistive law and on damage through a crack-induced conduc- tivity degradation. The resulting formulation predicts crack evolution together with its resistance signature without assigning the electrical field an artificial crack-driving role. DEM is used to minimize the variational subproblems over admissible neural trial spaces with exact imposition of essential boundary conditions. A lean verification suite is used to validate the electrical building blocks and the fracture engine separately, followed by a numerical study of a tensile plate with stress concentrators and electrodes. In that study, the framework captures a nontrivial sensing r..."
     },
-    "last_seen_at": "2026-04-20T04:15:57.787814+00:00",
+    "last_seen_at": "2026-04-21T04:01:00.688740+00:00",
     "summary_text": "1) 研究问题与背景\n\n该论文解决压阻自感知复合材料中脆性断裂的多物理场耦合建模问题，背景是自感知导电复合材料能够通过电阻变化监测结构变形和损伤。现有方法的局限性在于机械和电学量之间存在人为的能量混合问题，缺乏物理一致性的多物理场耦合框架。该工作的创新点是提出了物理一致的多物理场深度能量方法（DEM），避免了机械-电学量的人为能量混合，并采用单向耦合策略处理电学感知子问题。\n\n2) 核心方法与模型细节\n\n采用小应变线性弹性力学模型耦合四阶AT2型相场断裂泛函，包含拉伸/压缩能量分解和历史场不可逆性约束。电学问题作为单向耦合的感知子问题处理：先求解力学-断裂问题，再通过稳态传导问题求解电势，其中电导率通过线性化压阻定律依赖于应变，通过裂纹诱导的电导率退化依赖于损伤。摘要未提及具体的势函数类型、边界条件设置、加载方式等关键参数，需查阅全文。使用深度能量方法（DEM）在可容许神经试验空间上最小化变分子问题，并精确施加本质边界条件。摘要未提及模拟尺寸、网格规模、时间步长等数值参数，也未明确使用的软件平台。\n\n3) 关键结果与定量结论\n\n框架成功捕获了非平凡的感知机制：显著的损伤增长几乎不改变全局电阻，随后当主要导电韧带被破坏且电流路径强烈重组时，电阻急剧增加。通过对带有应力集中器和电极的拉伸板进行数值研究验证了该现象。摘要未提及具体的应力值、电阻变化数值、损伤密度等定量结果，需查阅全文获取详细数据。摘要未提及与已有实验或模拟结果的对比情况。\n\n4) 对我研究的直接价值\n\n该论文的多物理场耦合策略对我的多物理耦合场模拟研究具有直接借鉴价值，特别是单向耦合处理方法可避免人为的能量混合问题。四阶AT2型相场断裂模型的拉伸/压缩能量分解和历史场不可逆性设计可直接应用于我的相场晶体模型（XPFC）和金属疲劳模拟中。深度能量方法（DEM）的神经网络求解策略为我的拉伸变形模拟提供了新的数值求解思路。该工作中电导率随损伤退化的建模方法可为我的多物理场耦合提供参考框架。\n\n5) 可复现性评估与阅读建议\n\n摘要提供的参数细节不足以完全复现，缺少关键的数值参数、边界条件、加载条件、材料参数等信息，需查阅全文获取完整的实现细节。建议重点精读方法论部分了解四阶相场断裂模型的具体实现，以及数值算例部分获取详细的参数设置和定量结果。"
   },
   "2604.07359v1": {
@@ -6552,7 +6552,7 @@
       ],
       "method_excerpt": "nc. on behalf of Acta Materialia Inc. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). dislocation distributions and the effects of different processes, such as irradiation. Because of its ability to reveal grain and subgrain structures in detail, EBSD has been widely employed for studying deformation mechanisms and strain-induced processes [ 10 – 12 ] to derive information on heterogeneous dislocation structures. This capability led to the next logical step: coupling EBSD with mechanical testing. Such a combina - tion allows for in-depth assessment of deformation processes at various length scales, covering a wide range of stress and strain levels [ 13 ]. Several limitations of EBSD analysis are also worth mentioning in this context. For instance, EBSD is fundamentally confined to the spec - imen surface unless destructive methods are employed. In addition, although methods have been proposed to estimate the total dislocation density (see, for instance, [ 14 ]), only the GND density can currently be measured reliably, whereas statistically stored dislocations remain difficult to assess. Finally, in situ testing requires interruption of the deformation process for data acquisition, leading to minor relaxation effects. 1.1.2. Microstructural evolution in irradiated metallic materials As high-energy particles (e.g., neutrons in a nuclear power plant) irradiate metallic structural materials, atomic-scale changes first develop in the form of displaced atoms and vacancies — a process widely known as Frenkel pair formation..."
     },
-    "last_seen_at": "2026-04-20T04:15:57.762651+00:00"
+    "last_seen_at": "2026-04-21T04:01:00.683379+00:00"
   },
   "2604.09084v1": {
     "id": "2604.09084v1",
@@ -6927,13 +6927,11 @@
       "Tensile / Deformation Simulation（主题归类）"
     ],
     "group_style_cn": {
-      "problem": "该论文解决金属塑性变形过程中位错相互作用机制的根本科学问题，特别是位错在障碍物附近的堆积行为及其对材料力学性能的控制机制。现有研究由于缺乏原位三维观测技术，无法直接观察毫米级样品内部位错的动态演化过程，导致对多尺度位错自组织和钉扎机制的理解存在局限。该工作的创新点在于首次实现了毫米级纯铝样品内部位错堆积的三维动态可视化观测。",
-      "model_setup": "摘要未提及具体的模拟方法和参数细节，需查阅全文。从研究内容推测，该工作可能采用了先进的三维X射线显微技术结合位错动力学模拟方法。实验部分使用毫米级纯铝样品进行单轴拉伸变形测试，能够实时追踪位错在障碍物附近的堆积过程。摘要提到发现了交滑移机制作为位错逃逸堆积的关键途径，表现出明显的间歇性行为特征。该研究为新一代位错动力学和微观力学建模提供了直接的实验数据支撑。摘要未提及具体的应变率、温度条件、样品尺寸、观测分辨率等关键参数，需查阅全文获取详细信息。",
+      "problem": "针对Tensile / Deformation Simulation方向，论文聚焦「Revealing Dislocation Interactions Controlling Mechanical Properties of Metals」相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
+      "model_setup": "位错动力学模型",
       "model_params": "载荷路径: Methods A.1 In Situ Load Frame and Sample Geometry The load frame is a remotely operated, miniature tensile machine moun ted on the goniometer stack.；尺寸/样本规模: 002 % for the sample’s parallel length of 10 mm.；载荷路径: The tensile specimen is mounted throu...",
-      "conclusion": "摘要未提及具体的定量数值结果，需查阅全文。主要发现是位错在障碍物附近形成堆积结构，交滑移机制能够使位错从堆积中逃逸，这一过程表现出显著的间歇性特征。该研究首次提供了毫米级金属样品内部位错动态演化的三维实验数据，为理解塑性变形的微观机制提供了直接证据。摘要未提及与已有实验或理论模型的定量对比结果。",
-      "keyword_context": "dislocation, tensile, deformation, metal",
-      "research_value": "该论文的位错堆积和交滑移机制发现对我的分子动力学和相场晶体模型研究具有重要指导意义，特别是在建立位错相互作用的本构关系方面。位错间歇性逃逸行为的发现可以为我的金属疲劳模拟中的位错演化模型提供新的物理机制描述。该研究揭示的位错自组织和钉扎机制可以直接应用于我的多物理耦合场模拟中的位错密度演化方程设计。三维位错动态数据可以作为验证我的XPFC模型中位错运动预测准确性的重要基准。",
-      "reproducibility": "摘要提供的参数细节不足以支撑完整复现，缺少关键的实验条件、样品制备、观测技术参数等信息，需查阅全文获取详细的方法学描述。建议重点精读实验方法部分了解三维观测技术细节，以及结果分析部分的位错动力学定量描述。"
+      "conclusion": "结果给出了拉伸变形响应与关键力学指标变化趋势。 摘要证据：Methods A.1 In Situ Load Frame and Sample Geometry The load frame is a remotely operated, miniature tensile machine moun ted on the gonio...",
+      "keyword_context": "dislocation, tensile, deformation, metal"
     },
     "pdf_parse": {
       "status": "ok",
@@ -6956,7 +6954,7 @@
       ],
       "method_excerpt": "Methods A.1 In Situ Load Frame and Sample Geometry The load frame is a remotely operated, miniature tensile machine moun ted on the goniometer stack. It features two synchronously moving traver ses, driven by spindles with opposed threading. This conﬁguration maintains a quasi-stead y central section during sample elongation, minimising displacement of the gauge area. T he deformation process is controlled through geared stepper motors with an eﬀec tive step size of ∆ l = 0. 211 µm giving rise to a minimum elongation of 0 . 002 % for the sample’s parallel length of 10 mm. The reaction force is directly read out at the upper traverse through a load cell with a nominal load of 500 N. Elongations stated in this work a re evaluated from the traverse displacement. An ex-situ force-elongation cur ve based on elongations determined using Digital Image Correlation (DIC) of an identical sing le crystal is shown in Fig. B7. The tensile specimen is mounted through dovetail-shaped ends, providing form ﬁt, and additionally glued. A rendering of the load fram e, together with a close-up photo of the traverses, and a sketch of the sample are shown in Fig. A1. Fig. A1 Sketch of in situ loading frame and aluminium single crystal tensile specimen with crystal- lographic orientations. A.2 Data Treatment The collected data set is a discrete 5-dimensional ﬁeld of intensities I (x, y, z, φ, ε ). The dislocation reconstruction from the intensity ﬁelds is conducte d through a manual ﬁtting program implemented in Python. The reconstruction is based on characteristic, spatially extended, diﬀracti..."
     },
-    "last_seen_at": "2026-04-20T04:16:14.887029+00:00"
+    "last_seen_at": "2026-04-21T04:01:00.691392+00:00"
   },
   "2604.05769v1": {
     "id": "2604.05769v1",
@@ -7494,7 +7492,7 @@
       ],
       "method_excerpt": "proach allows us to quantify not only global stiffness and peak stress, but also the spatial organization of de- formation [34, 35]. Our results show that the Young’s modulus decreases much more rapidly with porosity than predicted by clas- sical EMT or the Hashin–Shtrikman bound. The extrap- olated critical porosity at which the modulus would van- ish lies well below the two-dimensional disc percolation threshold [16], indicating that the mechanical effect of the holes cannot be captured by ideal cylindrical inclu- sion models [7, 20]. Fracture strength distributions are accuratelydescribedbyacompeting-risksWeibullformu- lation [30, 32, 33], and DIC reveals the connection of the strain field heterogeneity and the imposed hole pattern. Together, these findings highlight the dominant role of defect morphology in governing the mechanical response of porous quasi-brittle solids [1, 7]. II. METHODS The samples used in this study are dog-bone spec- imens made of polymethyl methacrylate (PMMA), a model quasi-brittle polymer material. Each sample is 1.64mm thick, and the gauge section has an area of A= 100×50mm 2. To enable local strain measurements using digital im- TABLE I. Number of samples and number of holes per sample for the tested surface removal fractions. Hole density Number of samples Number of holes ρper sampleN 0 8 0 0.002 25 320 0.005 31 790 0.01 32 1600 age correlation (DIC), a white–grey–black speckle pat- tern was applied to the surface of each sample (see Fig. 1a). The two ends of every specimen were lightly abraded on both sides to increase friction with the..."
     },
-    "last_seen_at": "2026-04-20T04:15:57.781648+00:00"
+    "last_seen_at": "2026-04-21T04:01:00.686300+00:00"
   },
   "2603.07352v1": {
     "id": "2603.07352v1",
@@ -7603,7 +7601,7 @@
       ],
       "method_excerpt": "work addresses this gap by correlating electron backscatter diffraction (EBSD) - based characterization of microtexture evolution with previously determined energy-storage measurements for 310S TWIP steel. The analysis focuses on the stage of strain localization, where twin–matrix refinement and pronounced lattice rotation occur. Although the macro- scopic energy balance during tensile deformation of 310S steel was previously quantified in [30], that work focused on thermomechanical measurements and evaluation of energy conver- 3 sion parameters. The present study constitutes an independent microstructural investigation that uses those energetic results as a reference framework. By correlating EBSD observations with macroscopic energy-storage behaviour, this work provides a microstructural interpreta- tion of energy storage mechanisms in TWIP-deforming austenitic steel. 2. Material and methods The investigated material was 310S austenitic stainless steel, which is widely used in high- temperature applications due to its excellent oxidation resistance and mechanical stability. It isconsideredacandidatestructuralmaterialforsupercriticalwater-cooledreactors(SCWRs), where long-term exposure to aggressive environments imposes stringent requirements on mi- crostructural stability [7]. The chemical composition of the material is listed in Table 1. Table 1: Chemical composition of tested material (in wt%). C S P Mn Si Cr Ni N Fe 310S 0.08 0.015 0.045 2.0 0.75 24.0–26.0 19.0–22.0 0.11 balance Owing to its high nickel content, the austenitic phase remains stable during plastic def..."
     },
-    "last_seen_at": "2026-04-20T04:15:57.755330+00:00"
+    "last_seen_at": "2026-04-21T04:01:00.679223+00:00"
   },
   "2604.12730v1": {
     "id": "2604.12730v1",
@@ -9663,7 +9661,7 @@
       ],
       "method_excerpt": "lasticity ABSTRACT: While β-Ga2O3 is considered a promising wide bandgap semiconductor, the impact of ion-induced defect formation and anisotropic elasticity remains poorly understood. Here, we combine a simulation and experiment X-ray diffraction (XRD) study of the strain-stress dynamics induced by ion implantation into β- Ga2O3 single-crystals with different surface orientations. The strain accumulation in the out-of-plane direction is observed by XRD to occur in an anisotropic manner, with compressive strain along the [010] direction and tensile strain along the directions perpendicular to (100) and (001). An anisotropic stress/strain accumulation model is proposed and probed via Molecular Dynamics (MD), showing an excellent agreement with the experiments. For higher damage levels, pole figures obtained both experimentally and by MD via a novel reciprocal-space projection method reveal an orientation-independent β-to-γ phase transition, with a fixed crystallographic relationship between the polymorphs. By exploring the strain-stress dynamics in anisotropic systems, this work establishes a method to directly compare macroscale diffraction experiments and atomistic simulations and opens a new path to engineer the properties of such systems utilizing their anisotropic response to ion implantation/irradiation. 2/31 1. Introduction β-Ga2O3 is one of the most promising ultra-wide bandgap semiconductors for future (opto)electronic applications. Its bandgap of ∼4.9 eV at room temperature and the large breakdown electric field of ∼8 MV/cm lead to a Baliga figure of merit large..."
     },
-    "last_seen_at": "2026-04-20T04:15:57.753700+00:00"
+    "last_seen_at": "2026-04-21T04:01:00.677905+00:00"
   },
   "2603.27430v1": {
     "id": "2603.27430v1",
@@ -9977,7 +9975,7 @@
       ],
       "method_excerpt": ", the simulations may be fully parallelized. Thus, any LDPM domain can be decomposed in the same manner as any FEA decomposition. 3.2.2 CI: Project Chrono 4 Chrono is an open-source multi-physics engine designed to simulate dynamics of complex and large-scale systems. It is written inC++and designed to be modular and extensible. Chrono is particularly well-suited for simulating systems that involve frictional contact, multibody dynamics, fluid-solid interaction, granular dynamics, and finite element analysis. Chrono can be used for a wide range of applications in engineering and science [58] and is publicly available 5 under the BSD-style license. The Chrono LDPM implementation can be found in the chrono-concrete branch 6. Chrono implements many implicit and explicit time integration solvers, including 2 nd order Implicit time integrators such as Hilber-Hughes-Taylor (HHT) [68], Newmark methods [47] as well as 1st order implicit techniques such as linearized Euler and projected Euler methods [58]. Hessian factorization and convergence criteria: Numerical examples presented here are simulated using Chrono-V8, where the system matrix is updated and factorized once per time step (at the first iteration); however, the initial elastic stiffness is always used. Recently, Chrono released a newer version V9, which can optionally update and factorize the system matrix only once at the beginning of the analysis. Chrono V8 employs two different sets of convergence criteria depending on the integration mode: “acceleration” or “position”. Convergence is declared if either the residua..."
     },
-    "last_seen_at": "2026-04-20T04:15:57.759006+00:00"
+    "last_seen_at": "2026-04-21T04:01:00.680683+00:00"
   },
   "2603.20901v1": {
     "id": "2603.20901v1",
@@ -10182,7 +10180,7 @@
       ],
       "method_excerpt": "hydrogen uptake associated with a dense oxide film [12]. However, the coexistence of hydrogen resistance and pronounced CSRO raises fundamen- 3 tal questions regarding how CSRO affects hydrogen solution thermodynamics and hydrogen trapping at dislocations, with potential implications for macro- scopic mechanical behavior. Given the V-centered CSRO identified in CoNiV alloys [17, 18], prior studies of vanadium-containing systems (with H) provide important context. Vanadium exhibits strong hydrogen affinity and high hy- drogen solubility in its pure form [27], while vanadium-rich environments in alloys can act as deep hydrogen traps [28], such as at the surfaces of vanadium carbide particles (V4C3) [29, 30] and within vanadium-enriched carbides in steels [31]. It remains unclear how established hydrogen–vanadium interac- tions translate to V-centered CSRO in CoNiV alloys. First-principles methods such as density functional theory (DFT) provide accurate descriptions of hydrogen energetics and bonding [32, 33] but are computationally prohibitive for the large systems required to study CSRO and dislocation cores. Conventional empirical potentials, while computa- tionally efficient, often lack the transferability needed to describe multi- component alloys. Machine-learning interatomic potentials (MLIPs) offer a powerful alternative by reproducing DFT-level accuracy while enabling large-scale simulations of complex materials systems [34, 35, 36]. In this work, we develop and validate an MLIP for the Co-Ni-V-H system. Us- ing this potential, we investigate (i) the nature of CSRO..."
     },
-    "last_seen_at": "2026-04-20T04:15:57.792697+00:00"
+    "last_seen_at": "2026-04-21T04:01:00.690258+00:00"
   },
   "2603.20574v1": {
     "id": "2603.20574v1",
@@ -10397,7 +10395,7 @@
       ],
       "method_excerpt": "Methods RMD simulations were performed using LAMMPS, 30 using a previously developed ReaxFF force field for the NiCr–FLiNaK system. 29 This potential reproduces key thermophysical properties of FLiNaK and captures preferential Cr dissolution in Ni–Cr alloys exposed to molten fluorides. 15,29 A Σ5(210)/(001) symmetrical tilt GB in FCC Ni, with 53.1°tilt angle, was constructed using the coincidence site lattice (CSL) approach 31 and generated with the Aimsgb Python package. 32 The Ni 0.75Cr0.25 alloy is created by randomly substituting Ni atoms with Cr to achieve 25% Cr in each layer. The bicrystal model contains 18 layers along thez-direction and was first relaxed under NPT at 800 ◦C and 1 atm for 50 ps with a 0.25 fs time step using the Nose–Hoover thermostat and Berendsen barostat. 33,34 As shown in Figure 1, to generate strained configurations, the alloy slab was deformed along thex-direction at a constant strain rate of 10 −5 ps−1 at 800◦C. Periodic boundary con- ditions were applied in x and y, and non-periodic conditions inz. Loading simulations were performed in the NVT ensemble. The stress–strain response (Figure S1 in Supporting Infor- mation (SI)) is linear over the simulated strain range, similar to other metal systems in MD simulations.35–37 Three models in the elastic range were selected for corrosion simulations: tensile strain (+4%), compressive strain (-4%), and unstrained (0%). The selected strain 4 Figure 1: Atomic configurations of the optimized (a) FLiNaK salt and (b) Ni 0.75Cr0.25 Σ5(210) GB slab used in the study, respectively. (c) shows the alloy-sa..."
     },
-    "last_seen_at": "2026-04-20T04:17:27.594555+00:00"
+    "last_seen_at": "2026-04-21T04:01:00.692303+00:00"
   },
   "2604.02952v1": {
     "id": "2604.02952v1",
@@ -10488,7 +10486,7 @@
       ],
       "method_excerpt": "evaluation of whether improved macroscopic performance correlates with dopant participation in charge compensation or predominantly with dopant-induced reorganization of vacancy states .2 In addition, because practical NiO films are often subject to epitaxial mismatch and residual stress (especially on transparent conductors), we also consider strain as a device -relevant parameter that can perturb defect energetics and optical transitions even when the underlying charge -transfer mechanism remains intact.7 2. Computational details First-principles density functional theory (DFT) calculations were performed using the Vienna Ab initio Simulation Package (VASP). 15–18 The exchange-correlation energy was described within the Generalized Gradient Approximation (GGA) using the Perdew -Burke-Ernzerhof (PBE) functional, 19 in combination with the projector augmented wave (PAW) method.20 A plane-wave kinetic energy cutoff of 800 eV was employed throughout. Electronic occupations were treated using Gaussian smearing with a width of σ = 0.025 eV. On-site Coulomb interactions were included within the DFT+U framework using the Liechtenstein approach. 21 The Hubbard correction was applied to both the Ni 3d (U = 6.5 eV, J = 1 eV) and O 2p states (U = 9 eV, J = 1 eV). Non-spherical contributions from the gradient corrections 4 inside the PAW spheres and to the Kohn -Sham potential were explicitly considered. Spin-polarized calculations were performed in all cases. The NiO(001) surface was modeled using a four -layer slab constructed in a p(2×2) supercell containing 64 atoms. The two bo..."
     },
-    "last_seen_at": "2026-04-20T04:15:57.785011+00:00"
+    "last_seen_at": "2026-04-21T04:01:00.687482+00:00"
   },
   "2603.10678v1": {
     "id": "2603.10678v1",
@@ -10782,5 +10780,499 @@
       "method_excerpt": "antages that are not observed in any conventional 3D materials (9) (10). The creation of such high-quality NCs with TMDCs, is crucial for a wide range of advanced applications, including electronics, energy storage, and sensors. Despite the promising properties of layered TMDCs, their wafer-scale synthesis with consistent quality remains a major challenge (8, 11). In bulk TMDCs, strong intralayer covalent bonding is coupled with weak interlayer van der Waals (vdW) interaction enabling exfoliation under relatively small external stimuli. However, the size confinement makes challenging for controlled exfoliation (12, 13) . Achieving precise control to produce defect free material with 3 consistent quality remains hurdle (14). Mechanical exfoliation, which is employed widely in research to obtain high quality monolayers, suffers from limitations , it is a low -throughput method, yields flakes of random size and position, and it is unsuitable for scalable manufacturing (15, 16) . Chemical vapor deposition (CVD), the most common method for large-area growth, suffers from non -uniform thickness control, grain boundary formation, and defect densities that degrade charge transport and optical performance (17, 18). Liquid phase exfoliation techniques based on probe sonication or shear mixing produce high yield but relay on prolonged mechanical agitation (19, 20) . Chemical and electrochemical intercalation methods weaken interlayer coupling but induce s phase instability, chemical contamination, or irreversible lattice distortion (21, 22). Together these limitations highlight a f..."
     },
     "last_seen_at": "2026-04-20T04:15:57.751919+00:00"
+  },
+  "2604.18090v1": {
+    "id": "2604.18090v1",
+    "title": "Muscle-inspired magnetic actuators that push, pull, crawl, and grasp",
+    "summary": "Functional magnetic composites capable of large deformation, load bearing, and multifunctional motion are essential for next-generation adaptive soft robots. Here, we present muscle-inspired magnetic actuators (MMA), additively manufactured from a thermoplastic/permanent magnet polyurethane/Nd2Fe14B (TPU/MQP-S) composite using laser powder bed fusion (LPBF). By tuning the laser-energy scale between 1.0 and 3.0, both mechanical stiffness and magnetic response are precisely controlled: the tensile strength increases from 0.28 to 0.99 MPa while maintaining 30-45% elongation at break. This process enables the creation of 0.5 mm-thick flexural hinges, which reversibly bend and fold under moderate magnetic fields without damage. Two actuator types are reported showing the system versatility. The elongated actuator with self-weight of 1.57 g, magnetized in its contracted state, achieves linear contraction under a 500 mT field, lifting 50 g (32x its own weight) and sustaining performance over at least 50 cycles. Equipped with anisotropic frictional feet, it supports movement of a magnetic crawling robot that achieves up to 100% locomotion success on textured substrates. The expandable actuator exhibits reversible opening and closing under a 300 mT field, reliably grasping and releasing different objects, including soft berries and rigid 3D printed geometries. It can also anchor in a tube while holding suspended 50 g loads. This work demonstrates a LPBF-based strategy to program both stiffness and magnetization within a single material system, enabling remotely driven, reconfigurable, and fatigue-resistant soft actuators. The approach opens new possibilities for force controlled, multifunctional magnetic soft robots for adaptive gripping, locomotion, and minimally invasive manipulation of biomedical tools.",
+    "authors": [
+      "Muhammad Bilal Khan",
+      "Florian Hofmann",
+      "Kilian Schäfer",
+      "Matthias Lutzi",
+      "Oliver Gutfleisch"
+    ],
+    "published": "2026-04-20T11:05:27Z",
+    "updated": "2026-04-20T11:05:27Z",
+    "link": "https://arxiv.org/abs/2604.18090v1",
+    "tags": [
+      "metal_fatigue",
+      "tensile_simulation"
+    ],
+    "score": 9.3,
+    "status": "auto",
+    "source_topic": "tensile_simulation",
+    "note_path": "data/notes/2604.18090v1.md",
+    "summary_source": "llm_anthropic",
+    "summary_text": "1) 研究问题与背景\n\n该论文解决的是软体机器人中磁驱动执行器的大变形、承载能力和多功能运动问题，在下一代自适应软体机器人的发展背景下提出。现有磁性复合材料执行器存在机械性能与磁响应难以同时优化、制造精度不足、疲劳寿命有限等局限性。该工作的创新点在于通过激光粉末床熔融技术制备热塑性聚氨酯/钕铁硼复合材料，实现了刚度和磁化强度的精确可调控制。\n\n2) 核心方法与模型细节\n\n该研究采用激光粉末床熔融（LPBF）增材制造技术制备TPU/MQP-S（热塑性聚氨酯/钕铁硼）磁性复合材料执行器。通过调节激光能量密度在1.0到3.0范围内，实现对材料机械刚度和磁响应的精确控制。摘要未提及具体的理论框架和控制方程，需查阅全文。材料测试采用单轴拉伸加载方式，测量拉伸强度从0.28 MPa增加到0.99 MPa，同时保持30-45%的断裂伸长率。制造出0.5 mm厚的柔性铰链结构，在中等磁场下可实现可逆弯曲和折叠。磁场加载条件包括500 mT和300 mT两种强度，执行器自重1.57 g，测试了至少50个循环的疲劳性能。摘要未提及具体使用的模拟软件平台，需查阅全文。\n\n3) 关键结果与定量结论\n\n拉长型执行器在500 mT磁场下实现线性收缩，能够举起50 g重量（相当于自重的32倍），在纹理基底上实现100%的爬行运动成功率。可扩展型执行器在300 mT磁场下表现出可逆的开合运动，能够可靠地抓取和释放不同物体，包括软质浆果和刚性3D打印几何体，同时能够在管道中锚定并悬挂50 g负载。执行器在至少50个循环测试中保持稳定性能，展现出良好的抗疲劳特性。摘要未提及与已有实验或模拟结果的具体对比数据，需查阅全文。\n\n4) 对我研究的直接价值\n\n该论文的LPBF制造工艺参数（激光能量密度1.0-3.0）和材料性能数据（拉伸强度0.28-0.99 MPa，断裂伸长率30-45%）可直接用于我的多物理耦合场模拟中的材料参数设定。磁场加载条件（300-500 mT）和循环测试方案（50个循环）为我的金属疲劳模拟提供了边界条件设计参考。0.5 mm厚度的柔性铰链设计和32倍自重的承载能力数据，对我的拉伸变形模拟中的几何尺寸和载荷条件选择具有指导意义。该工作展示的刚度-磁响应耦合调控策略，为我的相场晶体模型中多物理场耦合机制的建模提供了实验验证基础。\n\n5) 可复现性评估与阅读建议\n\n论文提供了关键的制造参数（激光能量密度范围、材料厚度）和性能数据（拉伸强度、磁场强度、承载重量），但缺少具体的激光功率、扫描速度、粉末粒径分布等详细工艺参数，需查阅全文获取完整信息。建议重点精读材料制备工艺部分和力学-磁学性能表征章节，以获取完整的参数体系和测试方法细节。",
+    "brief_cn": {
+      "what_done": "该论文解决的是软体机器人中磁驱动执行器的大变形、承载能力和多功能运动问题，在下一代自适应软体机器人的发展背景下提出。现有磁性复合材料执行器存在机械性能与磁响应难以同时优化、制造精度不足、疲劳寿命有限等局限性。该工作的创新点在于通过激光粉末床熔融技术制备热塑性聚氨酯/钕铁硼复合材料，实现了刚度和磁化强度的精确可调控制。",
+      "method": "该研究采用激光粉末床熔融（LPBF）增材制造技术制备TPU/MQP-S（热塑性聚氨酯/钕铁硼）磁性复合材料执行器。通过调节激光能量密度在1.0到3.0范围内，实现对材料机械刚度和磁响应的精确控制。摘要未提及具体的理论框架和控制方程，需查阅全文。材料测试采用单轴拉伸加载方式，测量拉伸强度从0.28 MPa增加到0.99 MPa，同时保持30-45%的断裂伸长率。制造出0.5 mm厚的柔性铰链结构，在中等磁场下可实现可逆弯曲和折叠。磁场加载条件包括500 mT和300 mT两种强度，执行器自重1.57 g，测试了至少50个循环的疲劳性能。摘要未提及具体使用的模拟软件平台，需查阅全文。",
+      "finding": "拉长型执行器在500 mT磁场下实现线性收缩，能够举起50 g重量（相当于自重的32倍），在纹理基底上实现100%的爬行运动成功率。可扩展型执行器在300 mT磁场下表现出可逆的开合运动，能够可靠地抓取和释放不同物体，包括软质浆果和刚性3D打印几何体，同时能够在管道中锚定并悬挂50 g负载。执行器在至少50个循环测试中保持稳定性能，展现出良好的抗疲劳特性。摘要未提及与已有实验或模拟结果的具体对比数据，需查阅全文。",
+      "meaning": "该论文的LPBF制造工艺参数（激光能量密度1.0-3.0）和材料性能数据（拉伸强度0.28-0.99 MPa，断裂伸长率30-45%）可直接用于我的多物理耦合场模拟中的材料参数设定。磁场加载条件（300-500 mT）和循环测试方案（50个循环）为我的金属疲劳模拟提供了边界条件设计参考。0.5 mm厚度的柔性铰链设计和32倍自重的承载能力数据，对我的拉伸变形模拟中的几何尺寸和载荷条件选择具有指导意义。该工作展示的刚度-磁响应耦合调控策略，为我的相场晶体模型中多物理场耦合机制的建模提供了实验验证基础。",
+      "topics": "Metal Fatigue Simulation, Tensile / Deformation Simulation"
+    },
+    "keyword_details": [
+      {
+        "keyword": "fatigue",
+        "score": 3.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "关注循环载荷下损伤累积、裂纹萌生与扩展过程。"
+      },
+      {
+        "keyword": "tensile",
+        "score": 2.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "关注拉伸工况下应力-应变响应、屈服行为和断裂特征。"
+      },
+      {
+        "keyword": "deformation",
+        "score": 1.8,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "elongation",
+        "score": 1.7,
+        "hits": 1,
+        "source": "taxonomy",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      }
+    ],
+    "keywords": [
+      "fatigue",
+      "tensile",
+      "deformation",
+      "elongation"
+    ],
+    "focus_areas": [
+      "多物理耦合与跨场耦合机制",
+      "疲劳损伤与断裂演化",
+      "拉伸响应与本构行为",
+      "Metal Fatigue Simulation（主题归类）",
+      "Tensile / Deformation Simulation（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Metal Fatigue Simulation, Tensile / Deformation Simulation方向，论文聚焦「Muscle-inspired magnetic actuators that push, pull, crawl, and grasp」相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
+      "model_setup": "摘要未明确给出模型名称，建议查看 Methods/Model 部分确认。",
+      "model_params": "载荷路径: Inspired by these biological mechanisms, two functionally distinct but compositionally identical actuator types were designed: (i) an elongated actuato r, which produc...；载荷路径: Under cyclic loading of 100 g for 50 actuation cycles, the actuators retai...",
+      "conclusion": "结果聚焦疲劳/裂纹演化机制，可用于失效分析与寿命评估。 摘要证据：This work demonstrates a LPBF-based strategy to program both stiffness and magnetization within a single material system, enabling remote...",
+      "keyword_context": "fatigue, tensile, deformation, elongation"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/2604.18090v1.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.18090v1.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.18090v1.txt",
+      "param_details": [
+        "载荷路径: Inspired by these biological mechanisms, two functionally distinct but compositionally identical actuator types were designed: (i) an elongated actuato r, which produc...",
+        "载荷路径: Under cyclic loading of 100 g for 50 actuation cycles, the actuators retained over 60% of their displacement amplitude, demonstrating exceptional fatigue resistance (F...",
+        "载荷路径: B) Actuation performance under magnetic loading.",
+        "尺寸/样本规模: Samples a-f correspond to different laser energy scales (LP 1.0-3.0) used splacements.",
+        "载荷路径: (ii) Cyclic loading test under a 100 g load for 50 cycles demonstrating stable magnetic actuation without loss of performance or structural degradation, confirming rob...",
+        "边界条件: (ii) Experimental setup in which the robot, placed on a substrate mounted on a guiding rail inside an electromagnet, is actuated by periodic magnetic -field switching...",
+        "网格/离散: 3.3 Magnetically controlled crawling locomotion When combined with two non-magnetic foot segments containing asymmetric micro-features, the elongated actuator served a...",
+        "载荷路径: Moreover, cast or laminated magnetoactive elastomers often suff er from weak interfacial bonding, prone to functional fatigue and delamination during cyclic operation.",
+        "势函数/模型版本: A suitable AM route is laser powder bed fusion (LPBF) of thermoplastic magnetic composites, which shows strong potential for precise spatial control of energy input an...",
+        "热力学条件: Importantly, this materials system leverages Nd₂Fe₁₄B-type permanent magnets, which exhibit the highest energy density among commercially available magnets at and slig..."
+      ],
+      "method_excerpt": "the crawler achieves 90% crawling success on SiC paper and 100% on a tissue substrate. This study advances magn etic artificial muscles along three axes: 1. Process -encoded mechanics and magnetics: LPBF energy scaling as a continuous design parameter to tune stiffness, porosity, and magnetic output; 2. Miniaturized compliant architecture: realization of sub -mm flexural hinges within a magnetoactive printed composite for high -cycle, load -bearing actuation; 3. Multimodal function: integration of anisotropic friction feet and programmed magnetization to achieve crawl and grip operation across surfaces and object geometries, without multi-material assembly or complex reconfiguration steps. Together, these elements establish a material - centric pathway to adaptive, untethered soft machines for locomotion, manipulation, and anchoring in real-world environments. 2. Materials and Methods 2.1 Bioinspired Design Concept The actuator systems developed in this work were conceived following the biomechanical principles of natural muscle actuation, emphasizing the contraction -relaxation behavior of human skeletal muscles and the distributed deformation of human fingers during grasping (Figure 1A). Inspired by these biological mechanisms, two functionally distinct but compositionally identical actuator types were designed: (i) an elongated actuato r, which produces uniaxial contraction resembling a linear muscle fiber, and (ii) an expandable actuator, which generates radial opening and closing motions for grasping -like behavior (Figure 1B). Both designs employ the same magnetoac..."
+    },
+    "last_seen_at": "2026-04-21T04:01:00.695199+00:00"
+  },
+  "2604.17993v1": {
+    "id": "2604.17993v1",
+    "title": "The strange mechanics of an elastic rod under null-resultant transverse loads",
+    "summary": "Two equal and opposite distributed dead loads are applied orthogonally to the axis of an elastic rod in its rectilinear reference configuration, one at the extrados and the other at the intrados, such that the resultant applied force per unit length is uniformly zero. In this configuration, the rod is subjected to a transverse (tensile or compressive) stress, which is usually believed to have no significant effect on the structural response and has therefore not been considered so far. Contrary to this common belief, the asymptotic behavior of an incrementally deformed elastic layer and three different rod models (the first derived as an asymptotic approximation of the elastic layer; the second based on Euler elastica; and the third obtained by homogenization of a discrete model) reveal that this loading condition produces the same deformation in the rod as an axial load. In particular, the transverse load adds to the axial load in a generalized version of the Euler elastica, leading to buckling and nontrivial postcritical deformations when compressive. The critical transverse stress for buckling is found to have the same form as the Euler critical stress under axial force and tends to zero in the limit of vanishing rod inertia. For this reason, instability induced by transverse loading persists even when the rod thickness tends to zero. These theoretical predictions are confirmed by numerical simulations of a slender elastic layer, which show that increasing transverse load can induce buckling and drive the layer along a deformation path that closely follows that predicted by the generalized Euler elastica throughout the entire postcritical regime, even beyond self-intersection. To show that this behavior can be realized in practice, a dedicated experimental setup is developed, and the experimental results fully confirm the theoretical and numerical predictions.",
+    "authors": [
+      "Davide Bigoni",
+      "Diego Misseroni",
+      "Andrea Piccolroaz"
+    ],
+    "published": "2026-04-20T09:16:03Z",
+    "updated": "2026-04-20T09:16:03Z",
+    "link": "https://arxiv.org/abs/2604.17993v1",
+    "tags": [
+      "tensile_simulation"
+    ],
+    "score": 7.3,
+    "status": "auto",
+    "source_topic": "tensile_simulation",
+    "note_path": "data/notes/2604.17993v1.md",
+    "summary_source": "llm_anthropic",
+    "summary_text": "1) 研究问题与背景\n\n该论文研究弹性杆在零合力横向载荷作用下的奇特力学行为，即在杆的外侧和内侧施加大小相等方向相反的分布载荷，使得单位长度上的合力为零。传统观点认为这种横向应力对结构响应没有显著影响，因此一直被忽视。该工作的创新点在于发现这种看似无效的载荷配置实际上会产生与轴向载荷相同的变形效果，挑战了传统的结构力学认知。\n\n2) 核心方法与模型细节\n\n研究采用了三种不同的杆模型：第一种是弹性层的渐近近似模型，第二种基于欧拉弹性曲线理论，第三种通过离散模型均匀化获得。摘要未提及具体的势函数类型和数值模拟软件平台，需查阅全文。边界条件设置为在杆的外表面和内表面施加大小相等方向相反的分布死载荷，确保单位长度合力为零。加载方式为横向拉伸或压缩应力，研究发现横向载荷与轴向载荷在广义欧拉弹性曲线中具有叠加效应。关键理论框架是增量变形弹性层的渐近行为分析和广义欧拉弹性曲线方程。摘要未提及具体的模拟尺寸、时间步长等数值参数，需查阅全文获取详细信息。\n\n3) 关键结果与定量结论\n\n研究发现横向载荷的临界屈曲应力具有与轴向力作用下欧拉临界应力相同的形式，且在杆惯性趋于零的极限情况下趋向于零。这意味着即使杆厚度趋于零，横向载荷引起的失稳现象仍然存在。数值模拟结果显示，增加横向载荷可以诱发屈曲，并驱动弹性层沿着广义欧拉弹性曲线预测的变形路径发展，甚至在自相交之后仍然保持一致。实验结果完全证实了理论和数值预测的准确性。摘要未提及具体的应力数值、温度范围等定量参数，需查阅全文。\n\n4) 对我研究的直接价值\n\n该论文的广义欧拉弹性曲线理论可以直接应用于我的金属疲劳和拉伸变形模拟研究中，特别是在考虑复杂载荷条件下的结构失稳问题。横向载荷与轴向载荷的叠加效应为多物理耦合场模拟提供了新的理论框架，可以用于改进现有的相场晶体模型中的应力场计算。该研究揭示的零合力载荷配置对结构响应的显著影响，为我在设计边界条件时提供了重要启发，特别是在模拟复杂载荷历史下的材料变形行为。渐近近似方法和离散模型均匀化技术可以借鉴用于多尺度模拟中的跨尺度信息传递。\n\n5) 可复现性评估与阅读建议\n\n摘要提供了基本的理论框架和实验验证信息，但缺少关键的数值参数、材料属性、几何尺寸和具体的数值方法细节，需查阅全文获取完整的模型参数和实现细节。建议重点精读理论推导部分以理解广义欧拉弹性曲线的数学表述，以及数值模拟和实验验证章节以获取具体的参数设置和验证方法。",
+    "brief_cn": {
+      "what_done": "该论文研究弹性杆在零合力横向载荷作用下的奇特力学行为，即在杆的外侧和内侧施加大小相等方向相反的分布载荷，使得单位长度上的合力为零。传统观点认为这种横向应力对结构响应没有显著影响，因此一直被忽视。该工作的创新点在于发现这种看似无效的载荷配置实际上会产生与轴向载荷相同的变形效果，挑战了传统的结构力学认知。",
+      "method": "研究采用了三种不同的杆模型：第一种是弹性层的渐近近似模型，第二种基于欧拉弹性曲线理论，第三种通过离散模型均匀化获得。摘要未提及具体的势函数类型和数值模拟软件平台，需查阅全文。边界条件设置为在杆的外表面和内表面施加大小相等方向相反的分布死载荷，确保单位长度合力为零。加载方式为横向拉伸或压缩应力，研究发现横向载荷与轴向载荷在广义欧拉弹性曲线中具有叠加效应。关键理论框架是增量变形弹性层的渐近行为分析和广义欧拉弹性曲线方程。摘要未提及具体的模拟尺寸、时间步长等数值参数，需查阅全文获取详细信息。",
+      "finding": "研究发现横向载荷的临界屈曲应力具有与轴向力作用下欧拉临界应力相同的形式，且在杆惯性趋于零的极限情况下趋向于零。这意味着即使杆厚度趋于零，横向载荷引起的失稳现象仍然存在。数值模拟结果显示，增加横向载荷可以诱发屈曲，并驱动弹性层沿着广义欧拉弹性曲线预测的变形路径发展，甚至在自相交之后仍然保持一致。实验结果完全证实了理论和数值预测的准确性。摘要未提及具体的应力数值、温度范围等定量参数，需查阅全文。",
+      "meaning": "该论文的广义欧拉弹性曲线理论可以直接应用于我的金属疲劳和拉伸变形模拟研究中，特别是在考虑复杂载荷条件下的结构失稳问题。横向载荷与轴向载荷的叠加效应为多物理耦合场模拟提供了新的理论框架，可以用于改进现有的相场晶体模型中的应力场计算。该研究揭示的零合力载荷配置对结构响应的显著影响，为我在设计边界条件时提供了重要启发，特别是在模拟复杂载荷历史下的材料变形行为。渐近近似方法和离散模型均匀化技术可以借鉴用于多尺度模拟中的跨尺度信息传递。",
+      "topics": "Tensile / Deformation Simulation"
+    },
+    "keyword_details": [
+      {
+        "keyword": "deformation",
+        "score": 2.8,
+        "hits": 3,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "tensile",
+        "score": 2.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "关注拉伸工况下应力-应变响应、屈服行为和断裂特征。"
+      },
+      {
+        "keyword": "simulation",
+        "score": 1.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      }
+    ],
+    "keywords": [
+      "deformation",
+      "tensile",
+      "simulation"
+    ],
+    "focus_areas": [
+      "拉伸响应与本构行为",
+      "Tensile / Deformation Simulation（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Tensile / Deformation Simulation方向，论文聚焦「The strange mechanics of an elastic rod under null-resultant transverse loads」相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
+      "model_setup": "摘要未明确给出模型名称，建议查看 Methods/Model 部分确认。",
+      "model_params": "载荷路径: Crucially, dedicated experiments were also designed and performed, not only validating the theoretical predictions but also demonstrating that the proposed transverse...；载荷路径: These findings shed new light on the mechanical effects of transverse loadi...",
+      "conclusion": "结果给出了拉伸变形响应与关键力学指标变化趋势。 摘要证据：and the third obtained by homogenization of a discrete model) reveal that this loading condition produces the same deformation in the rod...",
+      "keyword_context": "deformation, tensile, simulation"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/2604.17993v1.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.17993v1.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.17993v1.txt",
+      "param_details": [
+        "载荷路径: Crucially, dedicated experiments were also designed and performed, not only validating the theoretical predictions but also demonstrating that the proposed transverse...",
+        "载荷路径: These findings shed new light on the mechanical effects of transverse loading on structural elements and may find applications in the mechanics of slender bodies, beam...",
+        "载荷路径: For this reason, instability induced by transverse loading persists even when the rod thickness tends to zero.",
+        "载荷路径: The instability disclosed here may affect thin films and elastic layers subjected to transverse loading and is therefore relevant to several advanced technologies, inc...",
+        "载荷路径: Therefore, theeffect of transverse loading is fundamental and not a ‘spurious’ artifact related to the rod thickness, in which case it would vanish as the thickness te...",
+        "尺寸/样本规模: (1) and (2), each relies on some form of idealization, either through asymptotic approximations or through the assignment of a finite thickness to the elastica.",
+        "载荷路径: The experiments required the design and realization of a new experimental setup, in which an elastic rod is subjected to transverse tensile dead loads and tested under...",
+        "载荷路径: The experimental results not only validate the theoretical findings in an indisputable manner but also prove that the postulated loading condition can be effectively r...",
+        "势函数/模型版本: These results introduce a new paradigm for the bifurcation and postcritical behavior of rods and elastic layers, with potential implications for deformable manipulator...",
+        "网格/离散: 6.Finite element analyses illustrating the influence of the magnitude of initial imperfection (left) and slen- derness ratio (right) on the buckling response of a rod..."
+      ],
+      "method_excerpt": "neralized form of Euler elastica, where the axial stress adds to the transverse stress. Multiple independent theoretical and numerical analyses have been provided in support of this result. Crucially, dedicated experiments were also designed and performed, not only validating the theoretical predictions but also demonstrating that the proposed transverse loading can be realized in practice. These findings shed new light on the mechanical effects of transverse loading on structural elements and may find applications in the mechanics of slender bodies, beams, and filaments. Acknowledgements D.B. and A.P. acknowledge funding from the European Research Council (ERC) under the Eu- ropean Union’s Horizon Europe research and innovation programme, Grant agreement No. ERC- ADG-2021-101052956-BEYOND. D.M acknowledges financial support from the European Union, ERC grant HE GA 101086644 S-FOAM. The methodologies developed in this work fall within the aims of the GNFM (Gruppo Nazionale per la Fisica Matematica) of the INDAM (Istituto Nazionale di Alta Matematica). Views and opinions expressed are those of the authors only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them. 15 0 50 100 150 200 250 3000 2 4 6 8 10 displacement, ul (mm) load, P (N) (xi) F =9.81 N F F F F F F F P PP P F F F F F F F ul 0 50 100 150 200 250 3000 2 4 6 8 10 displacement, ul (mm) load, P (N) (v) F =4.91 N 0 1 2 3 4 0.6 0.12 0.18 simulation theory experiments theory..."
+    },
+    "last_seen_at": "2026-04-21T04:01:00.693545+00:00"
+  },
+  "2303.05040v3": {
+    "id": "2303.05040v3",
+    "title": "Modeling metallic fatigue data using the Birnbaum--Saunders distribution",
+    "summary": "This work employs the Birnbaum--Saunders distribution to model the fatigue life of metallic materials under cyclic loading and compares it with the normal distribution. Fatigue-limit models are fitted to three datasets of unnotched specimens of 75S-T6 aluminum alloys and carbon laminate with different loading types. A new equivalent stress definition that accounts for the effect of the experiment type is proposed. The results show that the Birnbaum--Saunders distribution consistently outperforms the normal distribution in fitting the fatigue data and provides more accurate predictions of fatigue life and survival probability.",
+    "authors": [
+      "Zaid Sawlan",
+      "Marco Scavino",
+      "Raul Tempone"
+    ],
+    "published": "2023-03-09T05:22:14Z",
+    "updated": "2023-07-06T07:26:04Z",
+    "link": "https://arxiv.org/abs/2303.05040v3",
+    "tags": [
+      "metal_fatigue"
+    ],
+    "score": 6.4,
+    "status": "auto",
+    "source_topic": "metal_fatigue",
+    "note_path": "data/notes/2303.05040v3.md",
+    "summary_source": "llm_anthropic",
+    "summary_text": "1) 研究问题与背景\n\n该论文解决金属材料在循环载荷下疲劳寿命的统计建模问题，针对传统正态分布在疲劳数据拟合中的不足。现有疲劳寿命预测多采用正态分布假设，但该分布无法很好地描述疲劳数据的偏态特征和下界约束。论文创新性地引入Birnbaum-Saunders分布来建模疲劳寿命，并提出考虑实验类型影响的等效应力定义。该分布天然适合描述由累积损伤导致的失效过程，理论基础更符合疲劳破坏机理。\n\n2) 核心方法与模型细节\n\n摘要未提及具体的数值模拟方法，需查阅全文。该研究采用统计建模方法而非传统的分子动力学或有限元模拟。核心理论框架基于Birnbaum-Saunders概率分布，其概率密度函数形式为双参数模型，能够描述右偏分布特征。研究对象为75S-T6铝合金和碳纤维层合板的无缺口试样，涉及三个不同的疲劳数据集。提出新的等效应力定义来统一不同加载类型的影响，摘要未提及具体的应力比、频率或循环次数等加载参数。疲劳极限模型通过拟合实验数据建立，摘要未提及使用的具体软件平台或数值计算工具。模型参数通过最大似然估计或贝叶斯方法确定，需查阅全文获取详细参数值。\n\n3) 关键结果与定量结论\n\nBirnbaum-Saunders分布在所有三个数据集上均显著优于正态分布的拟合效果，摘要未提及具体的拟合优度指标数值。该分布模型能够提供更准确的疲劳寿命预测和生存概率估计，摘要未给出具体的预测精度提升百分比或误差范围。新提出的等效应力定义成功统一了不同实验类型的影响，但摘要未提及与现有S-N曲线或其他疲劳模型的定量对比结果。模型的适用范围覆盖75S-T6铝合金和碳纤维复合材料，摘要未提及应力水平范围或循环次数范围。\n\n4) 对我研究的直接价值\n\n该论文的统计建模思路可以与我的分子动力学疲劳模拟结果相结合，用Birnbaum-Saunders分布来描述MD模拟得到的疲劳寿命分散性。新的等效应力定义方法可以借鉴到我的多物理耦合场模拟中，用于统一不同加载条件下的疲劳损伤评估。该分布模型可以作为我的相场晶体模型(XPFC)疲劳模拟结果的后处理工具，提高疲劳寿命预测的统计可靠性。论文中75S-T6铝合金的疲劳数据可以作为我MD模拟的验证基准，特别是在参数标定和模型验证阶段。\n\n5) 可复现性评估与阅读建议\n\n摘要提供的参数细节有限，缺少具体的分布参数值、拟合优度指标、数据集规模等关键信息，需查阅全文获取完整的模型参数和统计结果。建议重点精读方法论部分了解Birnbaum-Saunders分布的参数估计方法，以及结果部分的定量对比分析和等效应力定义的具体形式。",
+    "brief_cn": {
+      "what_done": "该论文解决金属材料在循环载荷下疲劳寿命的统计建模问题，针对传统正态分布在疲劳数据拟合中的不足。现有疲劳寿命预测多采用正态分布假设，但该分布无法很好地描述疲劳数据的偏态特征和下界约束。论文创新性地引入Birnbaum-Saunders分布来建模疲劳寿命，并提出考虑实验类型影响的等效应力定义。该分布天然适合描述由累积损伤导致的失效过程，理论基础更符合疲劳破坏机理。",
+      "method": "摘要未提及具体的数值模拟方法，需查阅全文。该研究采用统计建模方法而非传统的分子动力学或有限元模拟。核心理论框架基于Birnbaum-Saunders概率分布，其概率密度函数形式为双参数模型，能够描述右偏分布特征。研究对象为75S-T6铝合金和碳纤维层合板的无缺口试样，涉及三个不同的疲劳数据集。提出新的等效应力定义来统一不同加载类型的影响，摘要未提及具体的应力比、频率或循环次数等加载参数。疲劳极限模型通过拟合实验数据建立，摘要未提及使用的具体软件平台或数值计算工具。模型参数通过最大似然估计或贝叶斯方法确定，需查阅全文获取详细参数值。",
+      "finding": "Birnbaum-Saunders分布在所有三个数据集上均显著优于正态分布的拟合效果，摘要未提及具体的拟合优度指标数值。该分布模型能够提供更准确的疲劳寿命预测和生存概率估计，摘要未给出具体的预测精度提升百分比或误差范围。新提出的等效应力定义成功统一了不同实验类型的影响，但摘要未提及与现有S-N曲线或其他疲劳模型的定量对比结果。模型的适用范围覆盖75S-T6铝合金和碳纤维复合材料，摘要未提及应力水平范围或循环次数范围。",
+      "meaning": "该论文的统计建模思路可以与我的分子动力学疲劳模拟结果相结合，用Birnbaum-Saunders分布来描述MD模拟得到的疲劳寿命分散性。新的等效应力定义方法可以借鉴到我的多物理耦合场模拟中，用于统一不同加载条件下的疲劳损伤评估。该分布模型可以作为我的相场晶体模型(XPFC)疲劳模拟结果的后处理工具，提高疲劳寿命预测的统计可靠性。论文中75S-T6铝合金的疲劳数据可以作为我MD模拟的验证基准，特别是在参数标定和模型验证阶段。",
+      "topics": "Metal Fatigue Simulation"
+    },
+    "keyword_details": [
+      {
+        "keyword": "fatigue",
+        "score": 5.0,
+        "hits": 5,
+        "source": "keyword_weights",
+        "explanation": "关注循环载荷下损伤累积、裂纹萌生与扩展过程。"
+      },
+      {
+        "keyword": "metal",
+        "score": 2.2,
+        "hits": 2,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "cyclic loading",
+        "score": 1.85,
+        "hits": 1,
+        "source": "taxonomy",
+        "explanation": "循环加载用于研究疲劳损伤演化和寿命预测。"
+      },
+      {
+        "keyword": "materials",
+        "score": 1.7,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "modeling",
+        "score": 1.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      }
+    ],
+    "keywords": [
+      "fatigue",
+      "metal",
+      "cyclic loading",
+      "materials",
+      "modeling"
+    ],
+    "focus_areas": [
+      "疲劳损伤与断裂演化",
+      "Metal Fatigue Simulation（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Metal Fatigue Simulation方向，论文聚焦「Modeling metallic fatigue data using the Birnbaum--Saunders distribution」相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
+      "model_setup": "摘要未明确给出模型名称，建议查看 Methods/Model 部分确认。",
+      "model_params": "载荷路径: lah University of Science and Technology, Thuwal, Saudi Arabia dChair of Mathematics for Uncertainty Quantiﬁcation, R WTH A achen University, Aachen, Germany Abstract...；载荷路径: Fatigue-limit models are ﬁtted to three datasets of unnotched specimens of...",
+      "conclusion": "结果显示该方法在精度或稳定性上优于对比基线。 摘要证据：The results show that the Birnbaum–Saunders dist ribution consistently outperforms the normal distribution in ﬁtting the fatigue data and...",
+      "keyword_context": "fatigue, metal, cyclic loading, materials, modeling"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/2303.05040v3.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2303.05040v3.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2303.05040v3.txt",
+      "param_details": [
+        "载荷路径: lah University of Science and Technology, Thuwal, Saudi Arabia dChair of Mathematics for Uncertainty Quantiﬁcation, R WTH A achen University, Aachen, Germany Abstract...",
+        "载荷路径: Fatigue-limit models are ﬁtted to three datasets of unnotched specimens of 75S-T6 aluminum al loys and carbon laminate with diﬀerent loading types.",
+        "载荷路径: Introduction Fatigue-life prediction is vital to preventing the failure of mechanical parts under cyclic loading.",
+        "载荷路径: This work considers Birnbaum–Saunders distributions [11] that were introduced to model fatigue failure time under cyclic loading.",
+        "数值参数: 75S"
+      ],
+      "method_excerpt": "lah University of Science and Technology, Thuwal, Saudi Arabia dChair of Mathematics for Uncertainty Quantiﬁcation, R WTH A achen University, Aachen, Germany Abstract This work employs the Birnbaum–Saunders distribution to mo del the fatigue life of metallic materials under cyclic loading and compares it with the normal distrib ution. Fatigue-limit models are ﬁtted to three datasets of unnotched specimens of 75S-T6 aluminum al loys and carbon laminate with diﬀerent loading types. A new equivalent stress deﬁnition that accou nts for the eﬀect of the experiment type is proposed. The results show that the Birnbaum–Saunders dist ribution consistently outperforms the normal distribution in ﬁtting the fatigue data and provides more ac curate predictions of fatigue life and survival probability. Keywords: Metallic fatigue data; fatigue-life prediction; fatigue- limit models; maximum likelihood methods; Birnbaum–Saunders distribution 1. Introduction Fatigue-life prediction is vital to preventing the failure of mechanical parts under cyclic loading. Stress- life models, or S-N curves, are usually used to model fatigue life [1, 2, 3]. Although many models relate stress to the fatigue life, with probabilistic models, the f atigue life is often assumed to be a log-normal random variable [4, 5, 6, 7] or to follow the Weibull distribu tion [4, 8]. A comprehensive review of plausible models for fatigue life is available in [9]. For a speciﬁed st ress-life model, a corresponding fatigue strength model can be induced and then used to make predictions [10]. This work considers Birnbaum–Sa..."
+    },
+    "last_seen_at": "2026-04-21T04:01:00.663777+00:00"
+  },
+  "1512.01779v1": {
+    "id": "1512.01779v1",
+    "title": "Bayesian inference and model comparison for metallic fatigue data",
+    "summary": "In this work, we present a statistical treatment of stress-life (S-N) data drawn from a collection of records of fatigue experiments that were performed on 75S-T6 aluminum alloys. Our main objective is to predict the fatigue life of materials by providing a systematic approach to model calibration, model selection and model ranking with reference to S-N data. To this purpose, we consider fatigue-limit models and random fatigue-limit models that are specially designed to allow the treatment of the run-outs (right-censored data). We first fit the models to the data by maximum likelihood methods and estimate the quantiles of the life distribution of the alloy specimen. To assess the robustness of the estimation of the quantile functions, we obtain bootstrap confidence bands by stratified resampling with respect to the cycle ratio. We then compare and rank the models by classical measures of fit based on information criteria. We also consider a Bayesian approach that provides, under the prior distribution of the model parameters selected by the user, their simulation-based posterior distributions. We implement and apply Bayesian model comparison methods, such as Bayes factor ranking and predictive information criteria based on cross-validation techniques under various a priori scenarios.",
+    "authors": [
+      "Ivo Babuska",
+      "Zaid Sawlan",
+      "Marco Scavino",
+      "Barna Szabó",
+      "Raúl Tempone"
+    ],
+    "published": "2015-12-06T11:30:34Z",
+    "updated": "2015-12-06T11:30:34Z",
+    "link": "https://arxiv.org/abs/1512.01779v1",
+    "tags": [
+      "metal_fatigue"
+    ],
+    "score": 6.4,
+    "status": "auto",
+    "source_topic": "metal_fatigue",
+    "note_path": "data/notes/1512.01779v1.md",
+    "summary_source": "llm_anthropic",
+    "summary_text": "1) 研究问题与背景\n\n该论文解决金属疲劳寿命预测中的统计建模和模型选择问题，针对75S-T6铝合金的应力-寿命(S-N)疲劳实验数据。现有疲劳寿命预测方法在处理截尾数据(run-outs)和模型不确定性方面存在局限性，缺乏系统性的模型校准、选择和排序框架。该工作的创新点在于引入贝叶斯推断方法处理疲劳极限模型，并建立了专门针对右截尾数据的随机疲劳极限模型。\n\n2) 核心方法与模型细节\n\n该研究采用统计建模方法而非传统的物理模拟，主要使用疲劳极限模型和随机疲劳极限模型来处理S-N数据。核心理论框架基于最大似然估计和贝叶斯推断，通过信息准则进行模型比较和排序。数据处理采用分层重采样的bootstrap方法来获得置信区间，针对循环比进行分层处理。模型校准使用最大似然方法拟合参数，并估计合金试样寿命分布的分位数函数。贝叶斯方法中采用用户选定的先验分布，通过仿真获得参数的后验分布。模型比较采用贝叶斯因子排序和基于交叉验证的预测信息准则。摘要未提及具体的数值参数、软件平台和计算细节，需查阅全文。\n\n3) 关键结果与定量结论\n\n研究成功建立了75S-T6铝合金疲劳寿命的统计预测模型，能够处理右截尾数据并提供寿命分布的分位数估计。通过bootstrap方法获得了分位数函数的置信区间，评估了估计的鲁棒性。贝叶斯模型比较方法在不同先验假设场景下提供了模型排序结果。摘要未提及具体的应力值、寿命数值、置信区间范围等定量结果，需查阅全文获取详细数据。\n\n4) 对我研究的直接价值\n\n虽然该论文采用统计方法而非物理模拟，但其处理疲劳数据的统计框架对我的金属疲劳模拟研究具有重要参考价值。贝叶斯推断方法可以用于我的分子动力学和相场晶体模拟结果的不确定性量化和模型验证。该论文的模型选择和排序方法可以帮助我在多物理耦合场模拟中选择最优的本构模型或势函数。处理截尾数据的方法对我分析疲劳模拟中的失效统计具有直接指导意义，特别是在XPFC模型预测疲劳寿命时的统计后处理方面。\n\n5) 可复现性评估与阅读建议\n\n摘要提供的信息不足以复现研究，缺少具体的模型参数、数据集规模、计算细节和软件实现信息。建议重点精读方法论部分了解疲劳极限模型的具体形式，以及结果部分获取75S-T6铝合金的定量疲劳参数，这些参数可作为我进行疲劳模拟时的验证基准。",
+    "brief_cn": {
+      "what_done": "该论文解决金属疲劳寿命预测中的统计建模和模型选择问题，针对75S-T6铝合金的应力-寿命(S-N)疲劳实验数据。现有疲劳寿命预测方法在处理截尾数据(run-outs)和模型不确定性方面存在局限性，缺乏系统性的模型校准、选择和排序框架。该工作的创新点在于引入贝叶斯推断方法处理疲劳极限模型，并建立了专门针对右截尾数据的随机疲劳极限模型。",
+      "method": "该研究采用统计建模方法而非传统的物理模拟，主要使用疲劳极限模型和随机疲劳极限模型来处理S-N数据。核心理论框架基于最大似然估计和贝叶斯推断，通过信息准则进行模型比较和排序。数据处理采用分层重采样的bootstrap方法来获得置信区间，针对循环比进行分层处理。模型校准使用最大似然方法拟合参数，并估计合金试样寿命分布的分位数函数。贝叶斯方法中采用用户选定的先验分布，通过仿真获得参数的后验分布。模型比较采用贝叶斯因子排序和基于交叉验证的预测信息准则。摘要未提及具体的数值参数、软件平台和计算细节，需查阅全文。",
+      "finding": "研究成功建立了75S-T6铝合金疲劳寿命的统计预测模型，能够处理右截尾数据并提供寿命分布的分位数估计。通过bootstrap方法获得了分位数函数的置信区间，评估了估计的鲁棒性。贝叶斯模型比较方法在不同先验假设场景下提供了模型排序结果。摘要未提及具体的应力值、寿命数值、置信区间范围等定量结果，需查阅全文获取详细数据。",
+      "meaning": "虽然该论文采用统计方法而非物理模拟，但其处理疲劳数据的统计框架对我的金属疲劳模拟研究具有重要参考价值。贝叶斯推断方法可以用于我的分子动力学和相场晶体模拟结果的不确定性量化和模型验证。该论文的模型选择和排序方法可以帮助我在多物理耦合场模拟中选择最优的本构模型或势函数。处理截尾数据的方法对我分析疲劳模拟中的失效统计具有直接指导意义，特别是在XPFC模型预测疲劳寿命时的统计后处理方面。",
+      "topics": "Metal Fatigue Simulation"
+    },
+    "keyword_details": [
+      {
+        "keyword": "fatigue",
+        "score": 5.0,
+        "hits": 5,
+        "source": "keyword_weights",
+        "explanation": "关注循环载荷下损伤累积、裂纹萌生与扩展过程。"
+      },
+      {
+        "keyword": "materials",
+        "score": 1.7,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "metal",
+        "score": 1.7,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "simulation",
+        "score": 1.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      }
+    ],
+    "keywords": [
+      "fatigue",
+      "materials",
+      "metal",
+      "simulation"
+    ],
+    "focus_areas": [
+      "疲劳损伤与断裂演化",
+      "Metal Fatigue Simulation（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Metal Fatigue Simulation方向，论文聚焦「Bayesian inference and model comparison for metallic fatigue data」相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
+      "model_setup": "摘要未明确给出模型名称，建议查看 Methods/Model 部分确认。",
+      "model_params": "尺寸/样本规模: For the purposes of this paper, the number of cycles can be ﬁxed at 2× 107, since the available data do not contain substantially larger cycle values.；载荷路径: The 75S-T6 aluminum sheet specimens data set Data are available from 85 fatigue experiments...",
+      "conclusion": "结果聚焦疲劳/裂纹演化机制，可用于失效分析与寿命评估。 摘要证据：Szab´ oc, Ra´ ul Temponeb aICES, The University of Texas at Austin, Austin, USA bCEMSE, King Abdullah University of Science and Technolog...",
+      "keyword_context": "fatigue, materials, metal, simulation"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/1512.01779v1.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/1512.01779v1.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/1512.01779v1.txt",
+      "param_details": [
+        "尺寸/样本规模: For the purposes of this paper, the number of cycles can be ﬁxed at 2× 107, since the available data do not contain substantially larger cycle values.",
+        "载荷路径: The 75S-T6 aluminum sheet specimens data set Data are available from 85 fatigue experiments that applied constant amplitude cyclic loading to un- notched sheet specime...",
+        "尺寸/样本规模: The Laplace-Metropolis estimator uses the MCMC posterior samples to ﬁnd ical Modelling and Inference Using Likelihood, Oxford University Press, 2001.",
+        "数值参数: 75S",
+        "数值参数: 24S"
+      ],
+      "method_excerpt": "Szab´ oc, Ra´ ul Temponeb aICES, The University of Texas at Austin, Austin, USA bCEMSE, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia cWashington University in St. Louis, St. Louis, USA dInstituto de Estad´ ıstica (IESTA), Universidad de la Rep´ ublica, Montevideo, Uruguay Abstract In this work, we present a statistical treatment of stress-life (S-N) data drawn from a collection of records of fatigue experiments that were performed on 75S-T6 aluminum alloys. Our main objective is to predict the fatigue life of materials by providing a systematic approach to model calibration, model selection and model ranking with reference to S-N data. To this purpose, we consider fatigue-limit models and random fatigue-limit models that are specially designed to allow the treatment of the run-outs (right-censored data). We ﬁrst ﬁt the models to the data by maximum likelihood methods and estimate the quantiles of the life distribution of the alloy specimen. To assess the robustness of the estimation of the quantile functions, we obtain bootstrap conﬁdence bands by stratiﬁed resampling with respect to the cycle ratio. We then compare and rank the models by classical measures of ﬁt based on information criteria. We also consider a Bayesian approach that provides, under the prior distribution of the model parameters selected by the user, their simulation-based posterior distributions. We implement and apply Bayesian model comparison methods, such as Bayes factor ranking and predictive information criteria based on cross-validation techniques under various a prior..."
+    },
+    "last_seen_at": "2026-04-21T04:01:00.662457+00:00"
+  },
+  "2603.14138v1": {
+    "id": "2603.14138v1",
+    "title": "Effects of uniaxial strain on monolayer transition-metal dichalcogenides revisited",
+    "summary": "Using hybrid density functional calculations including spin-orbit coupling, we compute the strain evolution of the band structure of monolayer 1H-phase transition-metal dichalcogenides, MX$_2$ (M= Mo, W; X= S, Se, Te), emphasizing an accurate reproduction of the quasiparticle band gap (as opposed to the excitonic optical gap). We show that tensile uniaxial strain applied along either the armchair or zigzag directions leads to a pronounced reduction of the fundamental gap, with the conduction-band edge generally exhibiting the stronger strain response. Both the conduction-band electron valleys (CBM) and the valence-band hole valleys (VBM) remain degenerate under uniaxial strain, while simultaneously drifting away from the high-symmetry $K$ point under strain (\"valley drift\"), such that the band extrema occur at nearby off-symmetry wave vectors. A minimal tight-binding model rationalizes the valley drift and the unequal electron- and hole-valley drift rates in the presence of strain, leading to indirect band gaps. In particular, for MoS$_2$ the indirectness increases with tensile strain, providing a natural explanation for the experimentally observed decrease in photoluminescence intensity under uniaxial deformation. These results provide quantitative guidance for tailoring band structures for optoelectronic and quantum-defect applications.",
+    "authors": [
+      "Igor Evangelista",
+      "Abdul Saboor",
+      "Muhammad Zubair",
+      "Intuon Chatratin",
+      "Ruiqi Hu",
+      "Dai Q. Ho",
+      "Shoaib Khalid",
+      "Ioanna Fampiou",
+      "Anderson Janotti"
+    ],
+    "published": "2026-03-14T22:06:06Z",
+    "updated": "2026-03-14T22:06:06Z",
+    "link": "https://arxiv.org/abs/2603.14138v1",
+    "tags": [
+      "tensile_simulation"
+    ],
+    "score": 6.2667,
+    "status": "auto",
+    "source_topic": "tensile_simulation",
+    "note_path": "data/notes/2603.14138v1.md",
+    "summary_source": "llm_anthropic",
+    "summary_text": "## 1) 研究问题与背景\n\n该论文解决单层过渡金属硫族化合物（TMDCs）在单轴应变下的电子能带结构演化问题，特别关注准粒子带隙（而非激子光学带隙）的精确计算。现有研究对应变下TMDCs能带结构的理论描述存在精度不足的问题，特别是在预测实验观察到的光致发光强度随应变降低现象方面缺乏定量解释。该工作的创新点在于采用包含自旋轨道耦合的杂化密度泛函理论，系统研究了MX₂（M=Mo,W；X=S,Se,Te）在单轴拉伸应变下的能带演化规律。\n\n## 2) 核心方法与模型细节\n\n该研究采用杂化密度泛函理论（hybrid DFT）计算方法，包含自旋轨道耦合效应来精确描述TMDCs的电子结构。控制方程基于Kohn-Sham密度泛函理论框架，使用杂化泛函来修正传统DFT对带隙的低估问题。研究对象为六种单层1H相TMDCs材料：MoS₂、MoSe₂、MoTe₂、WS₂、WSe₂和WTe₂。边界条件设置为二维周期性边界条件，模拟单层材料的无限延展。加载方式为沿扶手椅（armchair）和锯齿形（zigzag）方向施加单轴拉伸应变。摘要未提及具体的k点网格密度、收敛标准、应变范围等关键计算参数，需查阅全文获取。使用的计算软件平台在摘要中未明确提及，需查阅全文确认。\n\n## 3) 关键结果与定量结论\n\n研究发现单轴拉伸应变显著降低所有TMDCs材料的基本带隙，其中导带边缘表现出更强的应变响应。在单轴应变作用下，导带电子谷（CBM）和价带空穴谷（VBM）保持简并，但同时发生\"谷漂移\"现象，即能带极值从高对称K点漂移到附近的非对称波矢位置。对于MoS₂，间接带隙特性随拉伸应变增强，这为实验观察到的单轴变形下光致发光强度降低现象提供了定量解释。摘要未提供具体的应力数值、应变范围或带隙变化的定量数据，需查阅全文获取详细数值结果。\n\n## 4) 对我研究的直接价值\n\n该论文的杂化DFT计算方法可为我的多物理耦合场模拟提供精确的电子结构输入参数，特别是在研究TMDCs材料的力电耦合性质时。论文中建立的最小紧束缚模型可以集成到我的多尺度模拟框架中，用于连接原子尺度的DFT计算和介观尺度的相场晶体模型。\"谷漂移\"现象的发现对我研究金属疲劳过程中的电子结构演化具有重要启发，可以考虑将类似的能带漂移效应纳入XPFC模型中。该工作提供的应变-能带关系定量数据可作为我进行拉伸变形模拟时的验证基准，特别是在开发新的多物理场耦合算法时。\n\n## 5) 可复现性评估与阅读建议\n\n摘要提供了材料体系、计算方法和主要物理现象的描述，但缺少关键的计算参数如k点网格、收敛标准、应变范围、具体的泛函类型等信息，需查阅全文获取完整的计算细节。建议重点精读方法学部分以获取DFT计算的具体参数设置，以及结果部分中关于能带结构演化的定量数据和紧束缚模型的推导过程。",
+    "brief_cn": {
+      "what_done": "该论文解决单层过渡金属硫族化合物（TMDCs）在单轴应变下的电子能带结构演化问题，特别关注准粒子带隙（而非激子光学带隙）的精确计算。现有研究对应变下TMDCs能带结构的理论描述存在精度不足的问题，特别是在预测实验观察到的光致发光强度随应变降低现象方面缺乏定量解释。该工作的创新点在于采用包含自旋轨道耦合的杂化密度泛函理论，系统研究了MX₂（M=Mo,W；X=S,Se,Te）在单轴拉伸应变下的能带演化规律。 ## 2) 核心方法与模型细节 该研究采用杂化密度泛函理论（hybrid DFT）计算方法，包含自旋轨道耦合效应来精确描述TMDCs的电子结构。控制方程基于Kohn-Sham密度泛函理论框架，使用杂化泛函来修正传统DFT对带隙的低估问题。研究对象为六种单层1H相TMDCs材料：MoS₂、MoSe₂、MoTe₂、WS₂、WSe₂和WTe₂。边界条件设置为二维周期性边界条件，模拟单层材料的无限延展。加载方式为沿扶手椅（armchair）和锯齿形（zigzag）方向施加单轴拉伸应变。摘要未提及具体的k点网格密度、收敛标准、应变范围等关键计算参数，需查阅全文获取。使用的计算软件平台在摘要...",
+      "method": "该研究采用杂化密度泛函理论（hybrid DFT）计算方法，包含自旋轨道耦合效应来精确描述TMDCs的电子结构。控制方程基于Kohn-Sham密度泛函理论框架，使用杂化泛函来修正传统DFT对带隙的低估问题。研究对象为六种单层1H相TMDCs材料：MoS₂、MoSe₂、MoTe₂、WS₂、WSe₂和WTe₂。边界条件设置为二维周期性边界条件，模拟单层材料的无限延展。加载方式为沿扶手椅（armchair）和锯齿形（zigzag）方向施加单轴拉伸应变。摘要未提及具体的k点网格密度、收敛标准、应变范围等关键计算参数，需查阅全文获取。使用的计算软件平台在摘要中未明确提及，需查阅全文确认。 ## 3) 关键结果与定量结论 研究发现单轴拉伸应变显著降低所有TMDCs材料的基本带隙，其中导带边缘表现出更强的应变响应。在单轴应变作用下，导带电子谷（CBM）和价带空穴谷（VBM）保持简并，但同时发生\"谷漂移\"现象，即能带极值从高对称K点漂移到附近的非对称波矢位置。对于MoS₂，间接带隙特性随拉伸应变增强，这为实验观察到的单轴变形下光致发光强度降低现象提供了定量解释。摘要未提供具体的应力数值、应变范围或带隙变化的定量数据，需查阅全文获取详细数值结果。 ## 4) 对我研究的直接价值 该论文的杂化DFT计算方法可为我的多物理耦合场模拟提供精确的电子结构输入参数，特别是在研究TMDCs材料的力电耦合性质时。论文中建立的最小紧束缚模型可以集成到我的多尺度模拟框架中，用于连接原子尺度的DFT计算和介观尺度的相场晶体模型。\"谷漂移\"现象的发现对我研究金属疲劳过程中的电子结构演化具有重要启发，可以考虑将类似的能带漂移效应纳入XPFC模型中。该工作提供的应变-能带关系定量数据可作为我进行拉伸变形模拟时的验证基准，特别是在开发新的多物理场耦合算法时。 ## 5) 可复现性评估与阅读建议 摘要提供了材料体系...",
+      "finding": "研究发现单轴拉伸应变显著降低所有TMDCs材料的基本带隙，其中导带边缘表现出更强的应变响应。在单轴应变作用下，导带电子谷（CBM）和价带空穴谷（VBM）保持简并，但同时发生\"谷漂移\"现象，即能带极值从高对称K点漂移到附近的非对称波矢位置。对于MoS₂，间接带隙特性随拉伸应变增强，这为实验观察到的单轴变形下光致发光强度降低现象提供了定量解释。摘要未提供具体的应力数值、应变范围或带隙变化的定量数据，需查阅全文获取详细数值结果。 ## 4) 对我研究的直接价值 该论文的杂化DFT计算方法可为我的多物理耦合场模拟提供精确的电子结构输入参数，特别是在研究TMDCs材料的力电耦合性质时。论文中建立的最小紧束缚模型可以集成到我的多尺度模拟框架中，用于连接原子尺度的DFT计算和介观尺度的相场晶体模型。\"谷漂移\"现象的发现对我研究金属疲劳过程中的电子结构演化具有重要启发，可以考虑将类似的能带漂移效应纳入XPFC模型中。该工作提供的应变-能带关系定量数据可作为我进行拉伸变形模拟时的验证基准，特别是在开发新的多物理场耦合算法时。 ## 5) 可复现性评估与阅读建议 摘要提供了材料体系、计算方法和主要物...",
+      "meaning": "该论文的杂化DFT计算方法可为我的多物理耦合场模拟提供精确的电子结构输入参数，特别是在研究TMDCs材料的力电耦合性质时。论文中建立的最小紧束缚模型可以集成到我的多尺度模拟框架中，用于连接原子尺度的DFT计算和介观尺度的相场晶体模型。\"谷漂移\"现象的发现对我研究金属疲劳过程中的电子结构演化具有重要启发，可以考虑将类似的能带漂移效应纳入XPFC模型中。该工作提供的应变-能带关系定量数据可作为我进行拉伸变形模拟时的验证基准，特别是在开发新的多物理场耦合算法时。 ## 5) 可复现性评估与阅读建议 摘要提供了材料体系、计算方法和主要物理现象的描述，但缺少关键的计算参数如k点网格、收敛标准、应变范围、具体的泛函类型等信息，需查阅全文获取完整的计算细节。建议重点精读方法学部分以获取DFT计算的具体参数设置，以及结果部分中关于能带结构演化的定量数据和紧束缚模型的推导过程。",
+      "topics": "Tensile / Deformation Simulation"
+    },
+    "keyword_details": [
+      {
+        "keyword": "uniaxial",
+        "score": 3.2,
+        "hits": 4,
+        "source": "taxonomy",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "tensile",
+        "score": 3.0,
+        "hits": 2,
+        "source": "keyword_weights",
+        "explanation": "关注拉伸工况下应力-应变响应、屈服行为和断裂特征。"
+      },
+      {
+        "keyword": "metal",
+        "score": 2.2,
+        "hits": 2,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "deformation",
+        "score": 1.8,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      }
+    ],
+    "keywords": [
+      "uniaxial",
+      "tensile",
+      "metal",
+      "deformation"
+    ],
+    "focus_areas": [
+      "拉伸响应与本构行为",
+      "Tensile / Deformation Simulation（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Tensile / Deformation Simulation方向，论文聚焦「Effects of uniaxial strain on monolayer transition-metal dichalcogenides revisited」相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
+      "model_setup": "密度泛函理论（DFT）",
+      "model_params": "网格/离散: We find that a 9×9×1 Γ-centeredk-point mesh and a plane-wave kinetic-energy cutoff of 600 eV yield converged results for all TMDs considered, both at equilibrium and u...；网格/离散: Hybrid- functional band structures were evaluated using the same 9×9×1 m...",
+      "conclusion": "结果给出了拉伸变形响应与关键力学指标变化趋势。 摘要证据：We find that a 9×9×1 Γ-centeredk-point mesh and a plane-wave kinetic-energy cutoff of 600 eV yield converged results for all TMDs conside...",
+      "keyword_context": "uniaxial, tensile, metal, deformation"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/2603.14138v1.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2603.14138v1.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2603.14138v1.txt",
+      "param_details": [
+        "网格/离散: We find that a 9×9×1 Γ-centeredk-point mesh and a plane-wave kinetic-energy cutoff of 600 eV yield converged results for all TMDs considered, both at equilibrium and u...",
+        "网格/离散: Hybrid- functional band structures were evaluated using the same 9×9×1 mesh with SOC enabled;",
+        "载荷路径: As a result, the valley-drift-induced momentum mismatch provides a natural ex- planation for the observedcontinuousdecrease of the photoluminescence intensity in mono-...",
+        "载荷路径: 6 and 7 provide a com- pact ”response map” for strain engineering: (i) the linear, vacuum-referenced slopes serve as transferable descriptors for predicting band offse...",
+        "势函数/模型版本: Conclusion In summary, we revisited the electronic- structure response of monolayer 1H-phase TMDs to uniaxial strain using a methodol- ogy designed to avoid two common...",
+        "势函数/模型版本: For tensile uni- axial strains up to 5% along either armchair or zigzag directions, we find that the funda- mental gap decreases systematically across the MX2 family,...",
+        "势函数/模型版本: Precise and reversible band gap tuning in single- layer MoSe2 by uniaxial strain.Nanoscale 2016,8, 2589–2593.",
+        "载荷路径: Uniaxial strain induced sym- metry lowering and valleys drift in MoS 2.",
+        "势函数/模型版本: Investigation of uniax- ial and biaxial strains on the band gap modifications of monolayer MoS 2 with tight-binding method.Superlattices and Microstructures2019,125, 3...",
+        "势函数/模型版本: Ideal strength and phonon instabil- ity in single-layer MoS 2.Physical Review B20 oduction of the quasiparticle band gap (as opposed to the ex- citonic optical gap)."
+      ],
+      "method_excerpt": "n along the zigzag and armchair directions, and we discuss the results in the context of available experimental data. Computational Approach Our first-principles calculations are based on density functional theory (DFT). 58,59 Struc- tural parameters (equilibrium lattice constants and internal coordinates) were obtained us- ing the strongly constrained and appropri- ately normed (SCAN) meta-GGA exchange- correlation functional. 60 Electronic band struc- tures were then computed with the Heyd- 3 Scuseria–Ernzerhof screened hybrid functional (HSE)61,62 using a Hartree-Fock mixing param- eterα= 0.40 and including spin-orbit coupling (HSEα+SOC) in order to have a more accurate description of the quasiparticle band gaps and the strain-induced evolution of the band-edge valleys. The interaction between valence elec- trons and ionic cores was described within the projector augmented-wave (PAW) method,63,64 as implemented in the VASP code. 65,66 Convergence of structural parameters and band gaps with respect to Brillouin-zone sam- pling and plane-wave cutoff was verified explic- itly. We find that a 9×9×1 Γ-centeredk-point mesh and a plane-wave kinetic-energy cutoff of 600 eV yield converged results for all TMDs considered, both at equilibrium and under uni- axial stress. All structures were fully relaxed (cell shape consistent with the imposed strain state, and all ionic coordinates) until the total- energy change between electronic steps was be- low 10 −7 eV and residual Hellmann-Feynman forces were below 10 −4 eV ˚A−1. Hybrid- functional band structures were evaluated using t..."
+    },
+    "last_seen_at": "2026-04-21T04:01:00.682103+00:00"
   }
 }
