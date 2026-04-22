@@ -3,10 +3,11 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 112
-- Last rebuilt: 2026-04-21T04:01:00.709095+00:00
+- Total papers in library: 117
+- Last rebuilt: 2026-04-22T03:56:02.572125+00:00
 
 ## Multiphysics Coupling
+- [Thermo-mechanically coupled phase-field fracture model considering elastocaloric effect of shape memory alloy](https://arxiv.org/abs/2604.18666v1) | 2026-04-20T15:57:17Z | status: auto | note: `data/notes/2604.18666v1.md`
 - [Atomistic Mechanisms of Stress-Dependent Molten Salt Corrosion in NiCr Alloys](https://arxiv.org/abs/2604.16261v1) | 2026-04-17T17:18:51Z | status: auto | note: `data/notes/2604.16261v1.md`
 - [3D Finite Element-Based Multiphysics Simulation of a Shape Memory Alloy Hybrid Composite Module](https://arxiv.org/abs/2604.15211v1) | 2026-04-16T16:41:35Z | status: auto | note: `data/notes/2604.15211v1.md`
 - [Unveiling Mechanisms of SEI Formation and Sodium Loss in Sodium Batteries via Interface Reactor Sampling](https://arxiv.org/abs/2604.07077v1) | 2026-04-08T13:34:33Z | status: auto | note: `data/notes/2604.07077v1.md`
@@ -42,6 +43,8 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Multiscale light-matter dynamics in quantum materials: from electrons to topological superlattices](https://arxiv.org/abs/2509.00966v1) | 2025-08-31T19:14:52Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2509.00966v1.md`
 
 ## Molecular Dynamics
+- [Evaluating dispersion models for ab initio simulation of G-I and G-II molten fluoride salts](https://arxiv.org/abs/2604.18139v1) | 2026-04-20T12:06:21Z | status: auto | note: `data/notes/2604.18139v1.md`
+- [Revealing full molecular orientation distributions in organic thin films by nonlinear polarimetry](https://arxiv.org/abs/2604.16692v1) | 2026-04-17T20:49:02Z | status: auto | note: `data/notes/2604.16692v1.md`
 - [Atomistic Mechanisms of Stress-Dependent Molten Salt Corrosion in NiCr Alloys](https://arxiv.org/abs/2604.16261v1) | 2026-04-17T17:18:51Z | status: auto | note: `data/notes/2604.16261v1.md`
 - [Persistent Free Volume Governs (Anti-)plasticization in Chitosan-Water Mixtures](https://arxiv.org/abs/2604.14559v1) | 2026-04-16T02:42:25Z | status: auto | note: `data/notes/2604.14559v1.md`
 - [Anion Ordering and Phase Stability Govern Optical Band Gaps in BaZr(S,Se)3](https://arxiv.org/abs/2604.13768v1) | 2026-04-15T11:53:52Z | status: auto | note: `data/notes/2604.13768v1.md`
@@ -54,6 +57,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Location of the liquid-vapor critical point in aluminum](https://arxiv.org/abs/2604.10561v1) | 2026-04-12T10:09:15Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.10561v1.md`
 - [Miscibility and Transport Properties in Hydrogen-Neon Mixtures](https://arxiv.org/abs/2604.10355v1) | 2026-04-11T21:47:23Z | status: auto | note: `data/notes/2604.10355v1.md`
 - [Force Field-Agnostic Phase Classification of Zeolitic Imidazolate Framework Polymorphs](https://arxiv.org/abs/2604.09084v1) | 2026-04-10T08:11:13Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.09084v1.md`
+- [Bulk versus interface nucleation of CO$_2$ hydrates from computer simulations](https://arxiv.org/abs/2604.08187v1) | 2026-04-09T12:40:03Z | status: auto | note: `data/notes/2604.08187v1.md`
 - [Machine Learning the order-disorder Jahn-Teller transition in LaMnO$_3$](https://arxiv.org/abs/2604.08058v1) | 2026-04-09T10:17:36Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.08058v1.md`
 - [Physics-Informed 3D Atomic Reconstruction and Dynamics of Free-Standing Graphene from Single Low-Dose TEM Images](https://arxiv.org/abs/2604.07271v1) | 2026-04-08T16:33:40Z | status: auto | note: `data/notes/2604.07271v1.md`
 - [Unveiling Mechanisms of SEI Formation and Sodium Loss in Sodium Batteries via Interface Reactor Sampling](https://arxiv.org/abs/2604.07077v1) | 2026-04-08T13:34:33Z | status: auto | note: `data/notes/2604.07077v1.md`
@@ -79,9 +83,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Topology as a Design Variable for Multiproperty Engineering in Synthesized 4-5-6-8 Carbon Nanoribbons](https://arxiv.org/abs/2603.00315v1) | 2026-02-27T21:10:28Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2603.00315v1.md`
 - [Thermodynamic effects of solid electrolyte interphase formation from solvation and ionic association in water-in-salt electrolytes](https://arxiv.org/abs/2602.23875v1) | 2026-02-27T10:17:29Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.23875v1.md`
 - [kALDo 2.0: Scalable Thermal Transport from First Principles and Machine Learning Potentials](https://arxiv.org/abs/2602.23728v1) | 2026-02-27T06:52:15Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.23728v1.md`
-- [Tracking the Lithiation State of Li$_x$Si from Machine-Learned XPS Binding Energies](https://arxiv.org/abs/2602.23028v1) | 2026-02-26T14:09:00Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.23028v1.md`
-- [Influence of Hydrogen on Dislocation Relaxation in BCC Iron: Atomistic Mechanisms and Implications](https://arxiv.org/abs/2602.22995v1) | 2026-02-26T13:37:25Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.22995v1.md`
-- [Mimicking the earth core conditions with ultrafast laser materials interaction](https://arxiv.org/abs/2602.22460v1) | 2026-02-25T22:49:56Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.22460v1.md`
 
 ## Phase-Field Crystal
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
@@ -101,6 +102,8 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Bayesian inference and model comparison for metallic fatigue data](https://arxiv.org/abs/1512.01779v1) | 2015-12-06T11:30:34Z | status: auto | note: `data/notes/1512.01779v1.md`
 
 ## Tensile / Deformation Simulation
+- [Corneal deformation mapping and FE-based strain analysis via digital image correlation: biomechanical changes after CXL and laser refractive surgery](https://arxiv.org/abs/2604.19289v1) | 2026-04-21T09:54:31Z | status: auto | note: `data/notes/2604.19289v1.md`
+- [Thermo-mechanically coupled phase-field fracture model considering elastocaloric effect of shape memory alloy](https://arxiv.org/abs/2604.18666v1) | 2026-04-20T15:57:17Z | status: auto | note: `data/notes/2604.18666v1.md`
 - [Muscle-inspired magnetic actuators that push, pull, crawl, and grasp](https://arxiv.org/abs/2604.18090v1) | 2026-04-20T11:05:27Z | status: auto | note: `data/notes/2604.18090v1.md`
 - [The strange mechanics of an elastic rod under null-resultant transverse loads](https://arxiv.org/abs/2604.17993v1) | 2026-04-20T09:16:03Z | status: auto | note: `data/notes/2604.17993v1.md`
 - [Atomistic Mechanisms of Stress-Dependent Molten Salt Corrosion in NiCr Alloys](https://arxiv.org/abs/2604.16261v1) | 2026-04-17T17:18:51Z | status: auto | note: `data/notes/2604.16261v1.md`
