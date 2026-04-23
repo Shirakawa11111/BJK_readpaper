@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 117
-- Last rebuilt: 2026-04-22T03:56:02.572125+00:00
+- Total papers in library: 122
+- Last rebuilt: 2026-04-23T04:01:06.583668+00:00
 
 ## Multiphysics Coupling
 - [Thermo-mechanically coupled phase-field fracture model considering elastocaloric effect of shape memory alloy](https://arxiv.org/abs/2604.18666v1) | 2026-04-20T15:57:17Z | status: auto | note: `data/notes/2604.18666v1.md`
@@ -43,7 +43,10 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Multiscale light-matter dynamics in quantum materials: from electrons to topological superlattices](https://arxiv.org/abs/2509.00966v1) | 2025-08-31T19:14:52Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2509.00966v1.md`
 
 ## Molecular Dynamics
+- [Predicting co-segregation in multicomponent alloys with solute-solute interactions](https://arxiv.org/abs/2604.20593v1) | 2026-04-22T14:11:24Z | status: auto | note: `data/notes/2604.20593v1.md`
+- [Fluctuation-driven multi-step charge density wave transition in monolayer TiSe$_2$](https://arxiv.org/abs/2604.20355v1) | 2026-04-22T08:57:42Z | status: auto | note: `data/notes/2604.20355v1.md`
 - [Evaluating dispersion models for ab initio simulation of G-I and G-II molten fluoride salts](https://arxiv.org/abs/2604.18139v1) | 2026-04-20T12:06:21Z | status: auto | note: `data/notes/2604.18139v1.md`
+- [Evaluating dispersion models for ab initio simulation of G-I and G-II molten fluoride salts](https://arxiv.org/abs/2604.18139v2) | 2026-04-20T12:06:21Z | status: auto | note: `data/notes/2604.18139v2.md`
 - [Revealing full molecular orientation distributions in organic thin films by nonlinear polarimetry](https://arxiv.org/abs/2604.16692v1) | 2026-04-17T20:49:02Z | status: auto | note: `data/notes/2604.16692v1.md`
 - [Atomistic Mechanisms of Stress-Dependent Molten Salt Corrosion in NiCr Alloys](https://arxiv.org/abs/2604.16261v1) | 2026-04-17T17:18:51Z | status: auto | note: `data/notes/2604.16261v1.md`
 - [Persistent Free Volume Governs (Anti-)plasticization in Chitosan-Water Mixtures](https://arxiv.org/abs/2604.14559v1) | 2026-04-16T02:42:25Z | status: auto | note: `data/notes/2604.14559v1.md`
@@ -59,6 +62,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Force Field-Agnostic Phase Classification of Zeolitic Imidazolate Framework Polymorphs](https://arxiv.org/abs/2604.09084v1) | 2026-04-10T08:11:13Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.09084v1.md`
 - [Bulk versus interface nucleation of CO$_2$ hydrates from computer simulations](https://arxiv.org/abs/2604.08187v1) | 2026-04-09T12:40:03Z | status: auto | note: `data/notes/2604.08187v1.md`
 - [Machine Learning the order-disorder Jahn-Teller transition in LaMnO$_3$](https://arxiv.org/abs/2604.08058v1) | 2026-04-09T10:17:36Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.08058v1.md`
+- [Differentiable hybrid force fields support scalable autonomous electrolyte discovery](https://arxiv.org/abs/2604.07979v1) | 2026-04-09T08:51:15Z | status: auto | note: `data/notes/2604.07979v1.md`
 - [Physics-Informed 3D Atomic Reconstruction and Dynamics of Free-Standing Graphene from Single Low-Dose TEM Images](https://arxiv.org/abs/2604.07271v1) | 2026-04-08T16:33:40Z | status: auto | note: `data/notes/2604.07271v1.md`
 - [Unveiling Mechanisms of SEI Formation and Sodium Loss in Sodium Batteries via Interface Reactor Sampling](https://arxiv.org/abs/2604.07077v1) | 2026-04-08T13:34:33Z | status: auto | note: `data/notes/2604.07077v1.md`
 - [Influence of Manganese Content on Plastic Deformation Mechanisms in Polycrystalline α-Ti-Mn Alloys](https://arxiv.org/abs/2604.06360v1) | 2026-04-07T18:37:54Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.06360v1.md`
@@ -69,6 +73,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [A molecular dynamics simulation of thermalization of crystalline lattice with harmonic interaction](https://arxiv.org/abs/2604.03913v1) | 2026-04-05T00:47:33Z | status: auto | note: `data/notes/2604.03913v1.md`
 - [Structurally Triggered Breakdown of the Phonon Gas Model in Crystalline Metal-Organic Frameworks](https://arxiv.org/abs/2604.03783v1) | 2026-04-04T16:09:29Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.03783v1.md`
 - [Anatomy of a Complex Crystallization Pathway](https://arxiv.org/abs/2604.03413v1) | 2026-04-03T19:17:29Z | status: auto | note: `data/notes/2604.03413v1.md`
+- [Noble-Gas Solubility in Solid and Fluid Metallic Hydrogen](https://arxiv.org/abs/2604.02732v1) | 2026-04-03T05:02:23Z | status: auto | note: `data/notes/2604.02732v1.md`
 - [Loop-level surrogate modeling of dopant-distribution effects in Ba(Zr,Ti)O$_3$](https://arxiv.org/abs/2604.02325v1) | 2026-04-02T17:59:20Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.02325v1.md`
 - [Machine Learning Interatomic Potentials for Million-Atom Simulations of Multicomponent Alloys](https://arxiv.org/abs/2604.01642v2) | 2026-04-02T05:41:09Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.01642v2.md`
 - [Oxygen as a dual function regulator in MoS2 CVD synthesis: enhancing precursor evaporation while modulating reaction kinetics](https://arxiv.org/abs/2603.28461v1) | 2026-03-30T14:01:55Z | status: auto | note: `data/notes/2603.28461v1.md`
@@ -78,11 +83,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Molecular dynamics study of the role of anisotropy in radiation-driven embrittlement](https://arxiv.org/abs/2603.25617v2) | 2026-03-26T16:32:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.25617v2.md`
 - [Understanding the anisotropic response of $β$-Ga$_2$O$_3$ to ion implantation](https://arxiv.org/abs/2603.06398v1) | 2026-03-06T15:42:48Z | status: auto | note: `data/notes/2603.06398v1.md`
 - [Defect dependent dynamic nanoindentation hardness of copper up to 25 000 s-1](https://arxiv.org/abs/2603.01845v1) | 2026-03-02T13:24:23Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2603.01845v1.md`
-- [Stress-driven dynamic evolution of core-shell structured cavities with H and He in BCC-Fe under fusion conditions](https://arxiv.org/abs/2603.00867v1) | 2026-03-01T02:04:34Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2603.00867v1.md`
-- [Kinetics of Stacking Order Evolution During Heterogeneous Ice Formation](https://arxiv.org/abs/2603.00440v1) | 2026-02-28T03:47:29Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2603.00440v1.md`
-- [Topology as a Design Variable for Multiproperty Engineering in Synthesized 4-5-6-8 Carbon Nanoribbons](https://arxiv.org/abs/2603.00315v1) | 2026-02-27T21:10:28Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2603.00315v1.md`
-- [Thermodynamic effects of solid electrolyte interphase formation from solvation and ionic association in water-in-salt electrolytes](https://arxiv.org/abs/2602.23875v1) | 2026-02-27T10:17:29Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.23875v1.md`
-- [kALDo 2.0: Scalable Thermal Transport from First Principles and Machine Learning Potentials](https://arxiv.org/abs/2602.23728v1) | 2026-02-27T06:52:15Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.23728v1.md`
 
 ## Phase-Field Crystal
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
