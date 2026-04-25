@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 127
-- Last rebuilt: 2026-04-24T04:14:02.011225+00:00
+- Total papers in library: 132
+- Last rebuilt: 2026-04-25T03:48:32.662142+00:00
 
 ## Multiphysics Coupling
 - [Critical role of phase-dependent properties in modeling photothermal sintering of LiCoO2 cathodes](https://arxiv.org/abs/2604.21842v1) | 2026-04-23T16:32:18Z | status: auto | note: `data/notes/2604.21842v1.md`
@@ -39,7 +39,10 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1) | 2026-02-15T23:32:39Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.14348v1.md`
 - [Electrohydrodynamic instability of Cu, W and Ti metal nanomelts under radiofrequency E-fields from multiphysics molecular dynamics simulations with coarse-grained density field analysis](https://arxiv.org/abs/2602.12558v1) | 2026-02-13T03:12:59Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.12558v1.md`
 - [Fully Coupled Multiphysics Modelling of Fracture Behaviour in Silicon Particles During Lithiation Delithiation Using the Phase Field Method](https://arxiv.org/abs/2601.01443v1) | 2026-01-04T09:12:19Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2601.01443v1.md`
+- [Multivariate scaling of proton and ion energies, divergence, and charge states in Target Normal Sheath Acceleration](https://arxiv.org/abs/2512.21279v1) | 2025-12-24T16:58:25Z | status: auto | note: `data/notes/2512.21279v1.md`
+- [SORS: A Modular, High-Fidelity Simulator for Soft Robots](https://arxiv.org/abs/2512.15994v1) | 2025-12-17T21:58:46Z | status: auto | note: `data/notes/2512.15994v1.md`
 - [Magnetic Tactile-Driven Soft Actuator for Intelligent Grasping and Firmness Evaluation](https://arxiv.org/abs/2512.00907v2) | 2025-11-30T14:18:29Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2512.00907v2.md`
+- [All-Optical Varifocal Switching in a Polarization-Insensitive Si--GST Metalens](https://arxiv.org/abs/2511.21138v1) | 2025-11-26T07:42:32Z | status: auto | note: `data/notes/2511.21138v1.md`
 - [SPHaptics: A Real-Time Bidirectional Haptic Interaction Framework for Coupled Rigid-Soft Body and Lagrangian Fluid Simulation in Virtual Environments](https://arxiv.org/abs/2511.15908v1) | 2025-11-19T22:19:27Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2511.15908v1.md`
 - [Process Microstructure Coupling in Reduced Gravity Laser Welding via Open-Source Multiphysics Simulation Framework](https://arxiv.org/abs/2511.15725v1) | 2025-11-16T07:27:51Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2511.15725v1.md`
 - [Improving performance estimation of a PCM-integrated solar chimney through reduced-order based data assimilation](https://arxiv.org/abs/2510.16469v1) | 2025-10-18T12:27:11Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2510.16469v1.md`
@@ -78,14 +81,14 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Stability and superstructural ordering of alkali-triel-pnictide clathrates A$_8$T$_{27}$Pn$_{19}$](https://arxiv.org/abs/2604.05264v1) | 2026-04-06T23:57:57Z | status: auto | note: `data/notes/2604.05264v1.md`
 - [A molecular dynamics simulation of thermalization of crystalline lattice with harmonic interaction](https://arxiv.org/abs/2604.03913v1) | 2026-04-05T00:47:33Z | status: auto | note: `data/notes/2604.03913v1.md`
 - [Structurally Triggered Breakdown of the Phonon Gas Model in Crystalline Metal-Organic Frameworks](https://arxiv.org/abs/2604.03783v1) | 2026-04-04T16:09:29Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.03783v1.md`
+- [Potential energy landscape picture of zero-temperature avalanche criticality governing dynamics in supercooled liquids](https://arxiv.org/abs/2604.03580v1) | 2026-04-04T04:11:02Z | status: auto | note: `data/notes/2604.03580v1.md`
 - [Anatomy of a Complex Crystallization Pathway](https://arxiv.org/abs/2604.03413v1) | 2026-04-03T19:17:29Z | status: auto | note: `data/notes/2604.03413v1.md`
 - [Noble-Gas Solubility in Solid and Fluid Metallic Hydrogen](https://arxiv.org/abs/2604.02732v1) | 2026-04-03T05:02:23Z | status: auto | note: `data/notes/2604.02732v1.md`
+- [PolyJarvis: LLM Agent for Autonomous Polymer MD Simulations](https://arxiv.org/abs/2604.02537v1) | 2026-04-02T21:43:35Z | status: auto | note: `data/notes/2604.02537v1.md`
 - [Loop-level surrogate modeling of dopant-distribution effects in Ba(Zr,Ti)O$_3$](https://arxiv.org/abs/2604.02325v1) | 2026-04-02T17:59:20Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.02325v1.md`
 - [Machine Learning Interatomic Potentials for Million-Atom Simulations of Multicomponent Alloys](https://arxiv.org/abs/2604.01642v2) | 2026-04-02T05:41:09Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.01642v2.md`
 - [Oxygen as a dual function regulator in MoS2 CVD synthesis: enhancing precursor evaporation while modulating reaction kinetics](https://arxiv.org/abs/2603.28461v1) | 2026-03-30T14:01:55Z | status: auto | note: `data/notes/2603.28461v1.md`
 - [Neural operator accelerated atomistic to continuum concurrent multiscale simulations of viscoelasticity](https://arxiv.org/abs/2603.27430v1) | 2026-03-28T22:10:25Z | status: auto | note: `data/notes/2603.27430v1.md`
-- [Penetration of Rigid Rods, Flexible Rods, and Granular Jets into Low-Density Granular Media](https://arxiv.org/abs/2603.27262v1) | 2026-03-28T12:59:37Z | status: auto | note: `data/notes/2603.27262v1.md`
-- [Computational Insights into PEMFC Durability: Degradation Mechanisms, Interfacial Chemistry, and the Emerging Role of Machine Learning Potentials](https://arxiv.org/abs/2603.26022v1) | 2026-03-27T02:37:16Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26022v1.md`
 
 ## Phase-Field Crystal
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
