@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 132
-- Last rebuilt: 2026-04-25T03:48:32.662142+00:00
+- Total papers in library: 137
+- Last rebuilt: 2026-04-26T04:19:24.236766+00:00
 
 ## Multiphysics Coupling
 - [Critical role of phase-dependent properties in modeling photothermal sintering of LiCoO2 cathodes](https://arxiv.org/abs/2604.21842v1) | 2026-04-23T16:32:18Z | status: auto | note: `data/notes/2604.21842v1.md`
@@ -44,11 +44,13 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Magnetic Tactile-Driven Soft Actuator for Intelligent Grasping and Firmness Evaluation](https://arxiv.org/abs/2512.00907v2) | 2025-11-30T14:18:29Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2512.00907v2.md`
 - [All-Optical Varifocal Switching in a Polarization-Insensitive Si--GST Metalens](https://arxiv.org/abs/2511.21138v1) | 2025-11-26T07:42:32Z | status: auto | note: `data/notes/2511.21138v1.md`
 - [SPHaptics: A Real-Time Bidirectional Haptic Interaction Framework for Coupled Rigid-Soft Body and Lagrangian Fluid Simulation in Virtual Environments](https://arxiv.org/abs/2511.15908v1) | 2025-11-19T22:19:27Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2511.15908v1.md`
+- [A Full-Induction Magnetohydrodynamics Solver for Liquid Metal Fusion Blankets in Vertex-CFD](https://arxiv.org/abs/2511.15549v1) | 2025-11-19T15:39:10Z | status: auto | note: `data/notes/2511.15549v1.md`
 - [Process Microstructure Coupling in Reduced Gravity Laser Welding via Open-Source Multiphysics Simulation Framework](https://arxiv.org/abs/2511.15725v1) | 2025-11-16T07:27:51Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2511.15725v1.md`
 - [Improving performance estimation of a PCM-integrated solar chimney through reduced-order based data assimilation](https://arxiv.org/abs/2510.16469v1) | 2025-10-18T12:27:11Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2510.16469v1.md`
-- [Multiscale light-matter dynamics in quantum materials: from electrons to topological superlattices](https://arxiv.org/abs/2509.00966v1) | 2025-08-31T19:14:52Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2509.00966v1.md`
 
 ## Molecular Dynamics
+- [Neutron and X-ray Diffraction Reveal the Limits of Long-Range Machine Learning Potentials for Medium-Range Order in Silica Glass](https://arxiv.org/abs/2604.21222v1) | 2026-04-23T02:37:29Z | status: auto | note: `data/notes/2604.21222v1.md`
+- [Polaron transport and Verwey transition in magnetite](https://arxiv.org/abs/2604.20642v1) | 2026-04-22T14:54:23Z | status: auto | note: `data/notes/2604.20642v1.md`
 - [Predicting co-segregation in multicomponent alloys with solute-solute interactions](https://arxiv.org/abs/2604.20593v1) | 2026-04-22T14:11:24Z | status: auto | note: `data/notes/2604.20593v1.md`
 - [Fluctuation-driven multi-step charge density wave transition in monolayer TiSe$_2$](https://arxiv.org/abs/2604.20355v1) | 2026-04-22T08:57:42Z | status: auto | note: `data/notes/2604.20355v1.md`
 - [Evaluating dispersion models for ab initio simulation of G-I and G-II molten fluoride salts](https://arxiv.org/abs/2604.18139v1) | 2026-04-20T12:06:21Z | status: auto | note: `data/notes/2604.18139v1.md`
@@ -87,12 +89,11 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [PolyJarvis: LLM Agent for Autonomous Polymer MD Simulations](https://arxiv.org/abs/2604.02537v1) | 2026-04-02T21:43:35Z | status: auto | note: `data/notes/2604.02537v1.md`
 - [Loop-level surrogate modeling of dopant-distribution effects in Ba(Zr,Ti)O$_3$](https://arxiv.org/abs/2604.02325v1) | 2026-04-02T17:59:20Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.02325v1.md`
 - [Machine Learning Interatomic Potentials for Million-Atom Simulations of Multicomponent Alloys](https://arxiv.org/abs/2604.01642v2) | 2026-04-02T05:41:09Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.01642v2.md`
-- [Oxygen as a dual function regulator in MoS2 CVD synthesis: enhancing precursor evaporation while modulating reaction kinetics](https://arxiv.org/abs/2603.28461v1) | 2026-03-30T14:01:55Z | status: auto | note: `data/notes/2603.28461v1.md`
-- [Neural operator accelerated atomistic to continuum concurrent multiscale simulations of viscoelasticity](https://arxiv.org/abs/2603.27430v1) | 2026-03-28T22:10:25Z | status: auto | note: `data/notes/2603.27430v1.md`
 
 ## Phase-Field Crystal
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
 - [Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1) | 2026-02-15T23:32:39Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.14348v1.md`
+- [Analysis of a Navier-Stokes phase-field crystal system](https://arxiv.org/abs/2404.10431v1) | 2024-04-16T09:52:26Z | status: auto | note: `data/notes/2404.10431v1.md`
 - [Mesoscale modeling of deformations and defects in thin crystalline sheets](https://arxiv.org/abs/2309.11371v3) | 2023-09-20T14:54:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2309.11371v3.md`
 - [Amplitude phase-field crystal model for the hexagonal close-packed lattice](https://arxiv.org/abs/2307.02955v1) | 2023-07-06T12:40:50Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2307.02955v1.md`
 - [Evaluation of the elastic field in phase-field crystal simulations](https://arxiv.org/abs/2307.00981v2) | 2023-07-03T12:54:21Z | status: auto | note: `data/notes/2307.00981v2.md`
@@ -113,6 +114,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Muscle-inspired magnetic actuators that push, pull, crawl, and grasp](https://arxiv.org/abs/2604.18090v1) | 2026-04-20T11:05:27Z | status: auto | note: `data/notes/2604.18090v1.md`
 - [The strange mechanics of an elastic rod under null-resultant transverse loads](https://arxiv.org/abs/2604.17993v1) | 2026-04-20T09:16:03Z | status: auto | note: `data/notes/2604.17993v1.md`
 - [Atomistic Mechanisms of Stress-Dependent Molten Salt Corrosion in NiCr Alloys](https://arxiv.org/abs/2604.16261v1) | 2026-04-17T17:18:51Z | status: auto | note: `data/notes/2604.16261v1.md`
+- [SiGe/Si(111)/SiGe heterostructure for Si spin qubits with electrons confined in L valley of conduction band](https://arxiv.org/abs/2604.13435v1) | 2026-04-15T03:27:52Z | status: auto | note: `data/notes/2604.13435v1.md`
 - [Uncovering the role of ionic doping in hydroxyapatite: The building blocks of tooth enamel and bones](https://arxiv.org/abs/2604.13339v1) | 2026-04-14T23:02:33Z | status: auto | note: `data/notes/2604.13339v1.md`
 - [Revealing Dislocation Interactions Controlling Mechanical Properties of Metals](https://arxiv.org/abs/2604.11397v1) | 2026-04-13T12:40:42Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.11397v1.md`
 - [Influence of Manganese Content on Plastic Deformation Mechanisms in Polycrystalline α-Ti-Mn Alloys](https://arxiv.org/abs/2604.06360v1) | 2026-04-07T18:37:54Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.06360v1.md`

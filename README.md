@@ -87,14 +87,14 @@ python3 paper_agent.py ingest-known --root . --config config.json --csv ./known_
 ## 知识图谱（自动更新）
 
 <!-- KNOWLEDGE_GRAPH_START -->
-> 自动更新 | 总论文数: 132 | 最后更新: 2026-04-25 03:48 UTC
+> 自动更新 | 总论文数: 137 | 最后更新: 2026-04-26 04:19 UTC
 
 ### 知识体系思维导图
 
 ```mermaid
 mindmap
   root((材料模拟论文体系))
-    Multiphysics Coupling [40篇]
+    Multiphysics Coupling [42篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -115,7 +115,7 @@ mindmap
         molecular dynamics
         dislocation
         metal
-    Molecular Dynamics [85篇]
+    Molecular Dynamics [87篇]
       Molecular dynamics study of t...
         molecular dynamics
         dislocation
@@ -136,7 +136,7 @@ mindmap
         molecular dynamics
         tensile
         coupled
-    Phase-Field Crystal [5篇]
+    Phase-Field Crystal [6篇]
       Dislocation dynamics on defor...
         phase-field crystal
         dislocation
@@ -178,7 +178,7 @@ mindmap
         multiphysics
         fatigue
         deformation
-    Tensile / Deformation Simulation [33篇]
+    Tensile / Deformation Simulation [34篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -218,11 +218,11 @@ timeline
 
 | 主题方向 | 论文数 | 主要侧重点 | 代表论文 |
 |----------|--------|------------|----------|
-| Multiphysics Coupling | 40 | 多物理耦合与跨场耦合机制, 拉伸响应与本构行为, 分子动力学与原子尺度机制 | Fully Coupled Multiphysics Model... |
-| Molecular Dynamics | 85 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
-| Phase-Field Crystal | 5 | 相场晶体与组织演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Dislocation dynamics on deformab... |
+| Multiphysics Coupling | 42 | 多物理耦合与跨场耦合机制, 拉伸响应与本构行为, 分子动力学与原子尺度机制 | Fully Coupled Multiphysics Model... |
+| Molecular Dynamics | 87 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
+| Phase-Field Crystal | 6 | 相场晶体与组织演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Dislocation dynamics on deformab... |
 | Metal Fatigue Simulation | 8 | 疲劳损伤与断裂演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
-| Tensile / Deformation Simulation | 33 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
+| Tensile / Deformation Simulation | 34 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
 
 ### 高相关度论文 Top 10
 
