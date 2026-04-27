@@ -87,14 +87,14 @@ python3 paper_agent.py ingest-known --root . --config config.json --csv ./known_
 ## 知识图谱（自动更新）
 
 <!-- KNOWLEDGE_GRAPH_START -->
-> 自动更新 | 总论文数: 137 | 最后更新: 2026-04-26 04:19 UTC
+> 自动更新 | 总论文数: 142 | 最后更新: 2026-04-27 04:25 UTC
 
 ### 知识体系思维导图
 
 ```mermaid
 mindmap
   root((材料模拟论文体系))
-    Multiphysics Coupling [42篇]
+    Multiphysics Coupling [43篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -115,7 +115,7 @@ mindmap
         molecular dynamics
         dislocation
         metal
-    Molecular Dynamics [87篇]
+    Molecular Dynamics [92篇]
       Molecular dynamics study of t...
         molecular dynamics
         dislocation
@@ -211,15 +211,15 @@ timeline
     2026-01 : Fully Coupled Multiphysic... : High-Temperature Deformat...
     2026-02 : Electrohydrodynamic insta... : Dislocation dynamics on d... : Strain-Rate- and Line-Len...
     2026-03 : Molecular dynamics study... : Defect dependent dynamic... : Laser Powder Bed Fusion M...
-    2026-04 : A multiphysics deep energ... : Atomistic Mechanisms of S... : Thermo-mechanically coupl...
+    2026-04 : A multiphysics deep energ... : Atomistic Mechanisms of S... : Mechanical Scaling Laws a...
 ```
 
 ### 主题-侧重点交叉分析
 
 | 主题方向 | 论文数 | 主要侧重点 | 代表论文 |
 |----------|--------|------------|----------|
-| Multiphysics Coupling | 42 | 多物理耦合与跨场耦合机制, 拉伸响应与本构行为, 分子动力学与原子尺度机制 | Fully Coupled Multiphysics Model... |
-| Molecular Dynamics | 87 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
+| Multiphysics Coupling | 43 | 多物理耦合与跨场耦合机制, 拉伸响应与本构行为, 分子动力学与原子尺度机制 | Fully Coupled Multiphysics Model... |
+| Molecular Dynamics | 92 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
 | Phase-Field Crystal | 6 | 相场晶体与组织演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Dislocation dynamics on deformab... |
 | Metal Fatigue Simulation | 8 | 疲劳损伤与断裂演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
 | Tensile / Deformation Simulation | 34 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
@@ -234,8 +234,8 @@ timeline
 6. **[Defect dependent dynamic nanoindentation hardness of copp...](https://arxiv.org/abs/2603.01845v1)** (score: 12.2) — Molecular Dynamics
 7. **[Strain-Rate- and Line-Length-Dependent Screw Dislocation...](https://arxiv.org/abs/2602.16883v1)** (score: 11.4) — Molecular Dynamics, Multiphysics Coupling
 8. **[Atomistic Mechanisms of Stress-Dependent Molten Salt Corr...](https://arxiv.org/abs/2604.16261v1)** (score: 10.9) — Molecular Dynamics, Multiphysics Coupling
-9. **[From Connectivity to Rupture: A Coarse-Grained Stochastic...](https://arxiv.org/abs/2602.08089v1)** (score: 10.7) — Molecular Dynamics, Tensile / Deformation Simulation
-10. **[Laser Powder Bed Fusion Melt Pool Dynamics for Different...](https://arxiv.org/abs/2604.07359v1)** (score: 10.6) — Multiphysics Coupling
+9. **[Mechanical Scaling Laws and Deformation Behavior of Nanop...](https://arxiv.org/abs/2604.22726v1)** (score: 10.9) — Molecular Dynamics, Multiphysics Coupling
+10. **[From Connectivity to Rupture: A Coarse-Grained Stochastic...](https://arxiv.org/abs/2602.08089v1)** (score: 10.7) — Molecular Dynamics, Tensile / Deformation Simulation
 <!-- KNOWLEDGE_GRAPH_END -->
 
 ## 可视化

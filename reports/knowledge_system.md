@@ -3,10 +3,11 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 137
-- Last rebuilt: 2026-04-26T04:19:24.236766+00:00
+- Total papers in library: 142
+- Last rebuilt: 2026-04-27T04:25:44.480362+00:00
 
 ## Multiphysics Coupling
+- [Mechanical Scaling Laws and Deformation Behavior of Nanoporous Tantalum Microparticles](https://arxiv.org/abs/2604.22726v1) | 2026-04-24T17:24:41Z | status: auto | note: `data/notes/2604.22726v1.md`
 - [Critical role of phase-dependent properties in modeling photothermal sintering of LiCoO2 cathodes](https://arxiv.org/abs/2604.21842v1) | 2026-04-23T16:32:18Z | status: auto | note: `data/notes/2604.21842v1.md`
 - [Thermo-mechanically coupled phase-field fracture model considering elastocaloric effect of shape memory alloy](https://arxiv.org/abs/2604.18666v1) | 2026-04-20T15:57:17Z | status: auto | note: `data/notes/2604.18666v1.md`
 - [Atomistic Mechanisms of Stress-Dependent Molten Salt Corrosion in NiCr Alloys](https://arxiv.org/abs/2604.16261v1) | 2026-04-17T17:18:51Z | status: auto | note: `data/notes/2604.16261v1.md`
@@ -46,13 +47,17 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [SPHaptics: A Real-Time Bidirectional Haptic Interaction Framework for Coupled Rigid-Soft Body and Lagrangian Fluid Simulation in Virtual Environments](https://arxiv.org/abs/2511.15908v1) | 2025-11-19T22:19:27Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2511.15908v1.md`
 - [A Full-Induction Magnetohydrodynamics Solver for Liquid Metal Fusion Blankets in Vertex-CFD](https://arxiv.org/abs/2511.15549v1) | 2025-11-19T15:39:10Z | status: auto | note: `data/notes/2511.15549v1.md`
 - [Process Microstructure Coupling in Reduced Gravity Laser Welding via Open-Source Multiphysics Simulation Framework](https://arxiv.org/abs/2511.15725v1) | 2025-11-16T07:27:51Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2511.15725v1.md`
-- [Improving performance estimation of a PCM-integrated solar chimney through reduced-order based data assimilation](https://arxiv.org/abs/2510.16469v1) | 2025-10-18T12:27:11Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2510.16469v1.md`
 
 ## Molecular Dynamics
+- [Mechanical Scaling Laws and Deformation Behavior of Nanoporous Tantalum Microparticles](https://arxiv.org/abs/2604.22726v1) | 2026-04-24T17:24:41Z | status: auto | note: `data/notes/2604.22726v1.md`
+- [Pressure-Temperature Phase Diagram and $λ$-Transition in Liquid Sulfur](https://arxiv.org/abs/2604.22696v1) | 2026-04-24T16:29:32Z | status: auto | note: `data/notes/2604.22696v1.md`
+- [The influence of implantation conditions on dopant activation in Al-implanted 4H-SiC: A MD study applying an Al potential fitted to DFT barriers](https://arxiv.org/abs/2604.22434v1) | 2026-04-24T10:50:11Z | status: auto | note: `data/notes/2604.22434v1.md`
+- [Theoretical prediction of strong-coupling superconductivity in a hypothetical NaAlH3 phase at ambient pressure](https://arxiv.org/abs/2604.22300v1) | 2026-04-24T07:30:07Z | status: auto | note: `data/notes/2604.22300v1.md`
 - [Neutron and X-ray Diffraction Reveal the Limits of Long-Range Machine Learning Potentials for Medium-Range Order in Silica Glass](https://arxiv.org/abs/2604.21222v1) | 2026-04-23T02:37:29Z | status: auto | note: `data/notes/2604.21222v1.md`
 - [Polaron transport and Verwey transition in magnetite](https://arxiv.org/abs/2604.20642v1) | 2026-04-22T14:54:23Z | status: auto | note: `data/notes/2604.20642v1.md`
 - [Predicting co-segregation in multicomponent alloys with solute-solute interactions](https://arxiv.org/abs/2604.20593v1) | 2026-04-22T14:11:24Z | status: auto | note: `data/notes/2604.20593v1.md`
 - [Fluctuation-driven multi-step charge density wave transition in monolayer TiSe$_2$](https://arxiv.org/abs/2604.20355v1) | 2026-04-22T08:57:42Z | status: auto | note: `data/notes/2604.20355v1.md`
+- [Domain-Wall-Mediated Ultralow-Barrier Sliding and Pinning in Ferroelectric Moiré Superlattices Revealed by Machine Learning](https://arxiv.org/abs/2604.20277v1) | 2026-04-22T07:24:55Z | status: auto | note: `data/notes/2604.20277v1.md`
 - [Evaluating dispersion models for ab initio simulation of G-I and G-II molten fluoride salts](https://arxiv.org/abs/2604.18139v1) | 2026-04-20T12:06:21Z | status: auto | note: `data/notes/2604.18139v1.md`
 - [Evaluating dispersion models for ab initio simulation of G-I and G-II molten fluoride salts](https://arxiv.org/abs/2604.18139v2) | 2026-04-20T12:06:21Z | status: auto | note: `data/notes/2604.18139v2.md`
 - [Revealing full molecular orientation distributions in organic thin films by nonlinear polarimetry](https://arxiv.org/abs/2604.16692v1) | 2026-04-17T20:49:02Z | status: auto | note: `data/notes/2604.16692v1.md`
@@ -84,11 +89,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [A molecular dynamics simulation of thermalization of crystalline lattice with harmonic interaction](https://arxiv.org/abs/2604.03913v1) | 2026-04-05T00:47:33Z | status: auto | note: `data/notes/2604.03913v1.md`
 - [Structurally Triggered Breakdown of the Phonon Gas Model in Crystalline Metal-Organic Frameworks](https://arxiv.org/abs/2604.03783v1) | 2026-04-04T16:09:29Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.03783v1.md`
 - [Potential energy landscape picture of zero-temperature avalanche criticality governing dynamics in supercooled liquids](https://arxiv.org/abs/2604.03580v1) | 2026-04-04T04:11:02Z | status: auto | note: `data/notes/2604.03580v1.md`
-- [Anatomy of a Complex Crystallization Pathway](https://arxiv.org/abs/2604.03413v1) | 2026-04-03T19:17:29Z | status: auto | note: `data/notes/2604.03413v1.md`
-- [Noble-Gas Solubility in Solid and Fluid Metallic Hydrogen](https://arxiv.org/abs/2604.02732v1) | 2026-04-03T05:02:23Z | status: auto | note: `data/notes/2604.02732v1.md`
-- [PolyJarvis: LLM Agent for Autonomous Polymer MD Simulations](https://arxiv.org/abs/2604.02537v1) | 2026-04-02T21:43:35Z | status: auto | note: `data/notes/2604.02537v1.md`
-- [Loop-level surrogate modeling of dopant-distribution effects in Ba(Zr,Ti)O$_3$](https://arxiv.org/abs/2604.02325v1) | 2026-04-02T17:59:20Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.02325v1.md`
-- [Machine Learning Interatomic Potentials for Million-Atom Simulations of Multicomponent Alloys](https://arxiv.org/abs/2604.01642v2) | 2026-04-02T05:41:09Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.01642v2.md`
 
 ## Phase-Field Crystal
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
