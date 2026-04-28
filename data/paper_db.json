@@ -20,7 +20,7 @@
     "source_topic": "tensile_simulation",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2601.01443v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-27T04:25:44.321419+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.405263+00:00",
     "keyword_details": [
       {
         "keyword": "fatigue",
@@ -143,7 +143,7 @@
     "source_topic": "multiphysics_coupling",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.12558v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-27T04:25:44.329191+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.412830+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -260,7 +260,7 @@
     "source_topic": "phase_field_crystal",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.14348v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-27T04:25:44.331176+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.414718+00:00",
     "keyword_details": [
       {
         "keyword": "phase-field crystal",
@@ -472,7 +472,7 @@
     "source_topic": "molecular_dynamics",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.08089v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-27T04:25:44.325835+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.409605+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -595,7 +595,7 @@
     "source_topic": "tensile_simulation",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.18954v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-27T04:25:44.338401+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.421553+00:00",
     "keyword_details": [
       {
         "keyword": "crack",
@@ -713,7 +713,7 @@
     "source_topic": "molecular_dynamics",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.17740v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-27T04:25:44.336508+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.419757+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -918,7 +918,7 @@
     "source_topic": "molecular_dynamics",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.06225v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-27T04:25:44.324683+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.408471+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -1144,7 +1144,7 @@
     "source_topic": "molecular_dynamics",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.16007v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-27T04:25:44.334441+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.417821+00:00",
     "keyword_details": [
       {
         "keyword": "molecular dynamics",
@@ -1258,7 +1258,7 @@
     "source_topic": "multiphysics_coupling",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.15500v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-27T04:25:44.332558+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.416036+00:00",
     "keyword_details": [
       {
         "keyword": "coupled",
@@ -1913,7 +1913,7 @@
     "source_topic": "multiphysics_coupling",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2512.00907v2.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-27T04:25:44.313937+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.399616+00:00",
     "keyword_details": [
       {
         "keyword": "multiphysics",
@@ -2016,7 +2016,7 @@
     "source_topic": "multiphysics_coupling",
     "note_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2511.15725v1.md",
     "summary_source": "llm_anthropic",
-    "last_seen_at": "2026-04-27T04:25:44.308358+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.393903+00:00",
     "keyword_details": [
       {
         "keyword": "multiphysics",
@@ -2302,7 +2302,7 @@
       "meaning": "该论文的多尺度参数化方法可直接应用于我的相场晶体模型中，特别是在处理多物理耦合场时的参数传递策略。几何约束下的临界行为分析方法对我的金属疲劳模拟中缺陷演化建模具有重要参考价值。随机动力学与第一性原理结合的多尺度框架可借鉴用于我的分子动力学模拟中势函数参数的优化和验证。稀有事件方法在分析亚稳态转换路径方面的应用，对我研究金属拉伸变形中相变机制具有直接启发意义。",
       "topics": "Multiphysics Coupling"
     },
-    "last_seen_at": "2026-04-27T04:25:44.340366+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.423431+00:00",
     "keyword_details": [
       {
         "keyword": "multiphysics",
@@ -2565,7 +2565,7 @@
       "meaning": "该论文的局部滑移阻力计算方法可直接应用于我的金属疲劳模拟中的位错运动建模。热激活位错理论框架为我的多物理耦合场模拟提供了从原子尺度到连续介质尺度的桥接方案。弹性常数和晶格畸变作为关键控制参数的发现，为我在XPFC模型中设置材料参数提供了重要指导。机器学习与原子模拟结合的方法论对我开展拉伸变形模拟的参数优化具有直接借鉴价值。",
       "topics": "Molecular Dynamics, Tensile / Deformation Simulation"
     },
-    "last_seen_at": "2026-04-27T04:25:44.323129+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.406935+00:00",
     "keyword_details": [
       {
         "keyword": "dislocation",
@@ -2681,7 +2681,7 @@
       "meaning": "该论文的APFC方法对我的相场晶体模型（XPFC）研究具有直接借鉴价值，特别是在处理复杂晶体结构方面的建模策略。HCP晶格的振幅展开方法可以为我的多物理耦合场模拟提供新的建模思路，特别是在金属材料的变形模拟中。该模型在处理大尺寸三维系统和复杂缺陷网络方面的能力，对我当前的金属疲劳和拉伸变形模拟工作具有重要启发，可以考虑将类似的粗粒化方法应用到我的研究中。该工作在边界条件设计和缺陷描述方面的经验可以直接应用到我的分子动力学和相场晶体耦合模拟中。",
       "topics": "Phase-Field Crystal"
     },
-    "last_seen_at": "2026-04-27T04:25:44.301958+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.387447+00:00",
     "keyword_details": [
       {
         "keyword": "phase-field crystal",
@@ -3304,7 +3304,7 @@
       "meaning": "该论文的几何约束颗粒链模型可以直接应用于我的多物理耦合场模拟中，特别是在研究金属疲劳过程中微观结构演化对宏观力学性能的影响。颗粒链系统中张力产生和剪切局部化抑制的机制对我的拉伸变形模拟具有重要启发，可以借鉴其配位数分析方法来表征变形过程中的局部结构变化。该研究中关于连接约束对流动性质影响的定量关系，可以为我的相场晶体模型（XPFC）中缺陷演化和塑性变形机制提供参数化依据。DEM模拟中局部卡塞状态的识别方法可以直接应用于我的分子动力学模拟中，用于分析金属疲劳过程中的微观损伤累积。",
       "topics": "Tensile / Deformation Simulation"
     },
-    "last_seen_at": "2026-04-27T04:25:44.327557+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.411276+00:00",
     "keyword_details": [
       {
         "keyword": "tensile",
@@ -3556,7 +3556,7 @@
       "Phase-Field Crystal（主题归类）",
       "Tensile / Deformation Simulation（主题归类）"
     ],
-    "last_seen_at": "2026-04-27T04:25:44.303467+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.388829+00:00",
     "group_style_cn": {
       "problem": "针对Phase-Field Crystal, Tensile / Deformation Simulation方向，论文聚焦「Mesoscale modeling of deformations and defects in thin crystalline sheets」相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
       "model_setup": "相场晶体模型（PFC）；粗粒化模型",
@@ -4318,7 +4318,7 @@
       ],
       "method_excerpt": "3 Methods Our goals for this research were to develop and evaluate a simu- lation framework that operates efficiently and with high accuracy. In order to accomplish this, there were many technical challenges regarding the real-time nature of the problem, coupled interactions, and controlling haptic feedback. In this section, we will discuss the problems we addressed and the solutions we propose."
     },
-    "last_seen_at": "2026-04-27T04:25:44.310401+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.396236+00:00",
     "summary_text": "1) 研究问题与背景\n\n该论文解决虚拟现实环境中多物理场耦合系统的实时双向触觉反馈问题，特别是刚体-软体-流体耦合系统的触觉交互。现有方法在多物理场系统中难以实现实时触觉反馈，因为基于物理的流体、刚体和可变形材料模拟计算量巨大，尤其是需要实时交互时。该工作的创新点在于提出了统一的实时双向触觉交互框架，能够同时处理刚体、可变形物体和拉格朗日流体的触觉反馈。\n\n2) 核心方法与模型细节\n\n该研究采用光滑粒子流体动力学（SPH）方法作为核心模拟框架，将刚体、软体和流体统一在拉格朗日描述下。控制方程基于SPH的连续性方程和动量方程，通过核函数插值实现粒子间相互作用。摘要未提及具体的势函数类型和版本，需查阅全文获取详细信息。系统实现了双向力耦合机制，用户通过VR设备施加力到虚拟物体，同时接收来自多物理场系统的反馈力。为保持系统稳定性，采用了力反馈平滑技术处理触觉响应。摘要未提及具体的模拟尺寸、粒子数量、时间步长等关键参数，以及使用的软件平台，需查阅全文确认。边界条件和加载方式通过VR交互设备实现用户输入驱动的动态加载。\n\n3) 关键结果与定量结论\n\n论文展示了流体搅拌、软组织操作和刚体交互等VR场景的交互能力，证明了框架能够产生与流体-结构行为一致的物理意义触觉响应。摘要未提及具体的数值结果，如响应时间、力反馈精度、稳定性指标等定量数据，需查阅全文获取。系统实现了实时性能要求，能够在VR环境中提供稳定的触觉反馈。摘要未提及与已有实验或模拟结果的对比情况，需查阅全文了解验证情况。\n\n4) 对我研究的直接价值\n\n该论文的SPH多物理场耦合方法对我的多物理耦合场模拟研究具有重要参考价值，特别是在处理流体-固体耦合问题方面。双向力耦合机制和力反馈平滑技术可以借鉴到我的金属疲劳和拉伸变形模拟中，用于处理多尺度耦合时的数值稳定性问题。统一的拉格朗日框架思路可以启发我在XPFC模型中集成不同物理场的耦合方法。该工作在实时性和稳定性方面的处理策略对我当前的分子动力学模拟中的时间步长选择和边界条件设计具有指导意义。\n\n5) 可复现性评估与阅读建议\n\n摘要提供的技术细节有限，缺少关键的数值参数、具体算法实现和验证数据，需要查阅全文获取完整的方法细节和参数设置。建议重点精读方法部分了解SPH实现细节和双向耦合机制，以及结果部分的定量验证数据和性能分析。"
   },
   "2511.04266v1": {
@@ -4813,7 +4813,7 @@
       ],
       "method_excerpt": "chanical constraints imposed by gravitational forces, hydrostatic and lithostatic pressures and tectonic stresses. 2.2 Mixed-dimensional geometry and computational domain In this work, we consider a spatial configuration Ω ⊂ Rd, d ∈ {2,3}, (called matrix) as obtained from reservoir characterization. Fractures, denoted Γ, are represented as lower-dimensional ellipsoidal surfaces embedded within Ω; their possible intersections generate a hierarchy of progressively lower-dimensional subdomains. Focusing directly on the impact of the reference states, we omit technical details of domains and operators for the transfer in between matrix and fractures (typically realized through mortar methodology) and for simplicity identify all lower-dimensional objects with the fracture. Details on mixed-dimensional geometries can be found in [2, 14, 9]. Overall, based on the modeling assumption of linear elasticity, this collection of domains also defines the reference computational domain, on which all partial differential equations and associated variables are defined. 2.3 Primaryvariablesandthespecialroleofmechanicaldisplacements To describe poromechanics, we adopt as primary variables the mechanical displacement of the matrix, u, together with the fluid pressures in the matrix and fractures, p and p . Mechanical f onsistent manner. At the initial time, the system is at rest, implying σ = σ0, λ = λ0, and a stationary flow field with p0 equal to the hydrostatic pressure (up to discretization effects). Likewise, the background stress obtained from the poroelastic model (3b) reflects the b..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.344000+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.426925+00:00",
     "summary_text": "1) 研究问题与背景\n\n该论文解决裂隙多孔介质中多物理耦合过程（流动、变形、断裂力学、热化学效应）的初始化问题，特别是在地质力学约束和现场测量条件下的一致性初始化。现有混合维度多物理模型通常从理想化参考构型开始，需要显式初始化原位应力状态，这与现场测量描述的变形平衡构型不匹配。由于裂隙介质的双尺度特性，这种不匹配会导致裂隙开度出现较大偏差，直接影响流动预测精度。该工作的创新点在于提出了相对于未知平衡状态表达本构律的离散裂隙模型，并配合固定点初始化策略。\n\n2) 核心方法与模型细节\n\n该研究采用混合维度多物理耦合模型，结合离散裂隙网络（DFN）方法处理裂隙多孔介质。摘要未提及具体的控制方程细节，需查阅全文获取完整的理论框架。模型的关键创新在于本构律相对于未知平衡状态的表达方式，而非传统的参考构型。采用固定点初始化策略来重构参考构型，确保与地质力学约束和现场测量数据的一致性。摘要未提及具体的势函数类型、边界条件设置、加载方式等技术细节，需查阅全文。同样，模拟尺寸、网格规模、时间步长等关键参数以及使用的软件平台信息在摘要中未提及，需查阅全文获取。该方法特别考虑了载荷路径依赖性对初始化过程的影响。\n\n3) 关键结果与定量结论\n\n摘要未提供具体的数值结果，如应力值、温度范围、缺陷密度等定量数据，需查阅全文获取。主要发现是提出的数据一致性策略能够有效解决裂隙开度预测偏差问题，为多相多组分流动模拟提供可靠基础。摘要未提及与已有实验或模拟结果的具体对比情况，需查阅全文。该方法的适用范围扩展到更复杂的裂隙储层多相多组分流动场景，但具体精度评估需要查阅全文获取详细信息。\n\n4) 对我研究的直接价值\n\n该论文的混合维度多物理耦合方法对我的多物理耦合场模拟研究具有直接借鉴价值，特别是在处理不同尺度耦合问题方面。固定点初始化策略可以应用到我的金属疲劳模拟中，用于处理初始应力状态的一致性问题，避免因初始化不当导致的计算偏差。该研究中相对于平衡状态表达本构律的思路，可以启发我在XPFC模型中处理相场变量初始化问题，确保与实验观测的一致性。在拉伸变形模拟中，该方法对载荷路径依赖性的考虑可以指导我设计更合理的加载历史和边界条件。\n\n5) 可复现性评估与阅读建议\n\n摘要提供的技术细节有限，缺少关键的数值参数、具体算法实现和验证案例等信息，需要查阅全文获取完整的方法描述和参数设置。建议重点精读方法论部分和数值实现章节，特别关注固定点初始化算法的具体步骤和收敛准则。同时应重点关注验证案例部分，了解该方法在实际问题中的应用效果和参数敏感性分析。"
   },
   "2602.23875v1": {
@@ -5142,7 +5142,7 @@
       ],
       "method_excerpt": "1 1 Christoph Adelmann, and Florin Ciubotaru 1 Imec, 3001 Leuven, Belgium 2 KU Leuven, Departement Elektrotechniek, 3001 Leuven, Belgium Abstract In this work, we investigate the differential voltage generation arising from the direct magnetoelectric (ME) effect in nanoscale composite devices upon magnetization rotation from the magnetic ground state to an out-of-plane (OOP) configuration. These composite devices comprise a magnetostrictive ferromagnetic layer and a piezoelectric layer, mechanically coupled through strain. Using a finite element method (FEM) model, developed in COMSOL Multiphysics, we provide a comprehensive analysis of strain transfer mechanisms and resulting voltage generations. Here, the influence of dimensional and material parameters on the device performance is systematically examined. Our results indicate the presence of two distinct strain transfer mechanisms at scaled dimensions, where the device aspect ratio and the magnetic state both determine the dominant mechanism influencing the strain transfer to the piezoelectric layer. Moreover, we observed that the influence of surface clamping diminished as the pillar area was reduced. We also saw that the strain transfer to the piezoelectric layer can be enhanced by using stiffer electrodes or clamping layers. Lastly, we concluded that magnet tions, the ME coupling coefficients need to be enhanced, so large voltages can be achieved. Since the ME composite coupling is strain-mediated, an efficient strain transfer from the magnetostrictive to piezoelectric layer is required [10, 11, 26–30, 32, 33]. Reg..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.342149+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.425141+00:00",
     "summary_text": "1) 研究问题与背景\n\n该论文解决纳米尺度磁电复合器件中磁化旋转引起的差分电压生成问题，重点研究磁化从磁基态旋转到面外配置时的直接磁电效应。现有磁电器件在小尺度下存在应变传递效率低、输出电压不足的局限性，难以满足微电子集成应用需求。该工作的创新点在于系统分析了尺度效应对应变传递机制的影响，并提出了通过材料和几何参数优化来增强小尺寸器件输出电压的策略。\n\n2) 核心方法与模型细节\n\n研究采用COMSOL Multiphysics平台建立的有限元方法模型，耦合磁致伸缩铁磁层和压电层的多物理场响应。模型基于磁弹性耦合理论和压电本构方程，通过机械应变实现磁致伸缩层与压电层的耦合。边界条件设置包括表面夹持效应和电极约束条件，系统研究了器件纵横比、柱状结构面积等几何参数的影响。加载方式为磁化从面内基态旋转到面外配置的准静态过程。摘要未提及具体的材料参数、网格尺寸、器件具体尺寸等关键数值参数，需查阅全文获取详细信息。模拟重点分析了两种不同的应变传递机制在不同尺度下的主导作用。\n\n3) 关键结果与定量结论\n\n研究发现在小尺度器件中存在两种不同的应变传递机制，其主导地位由器件纵横比和磁态共同决定。随着柱状结构面积减小，表面夹持效应的影响显著降低。通过使用更硬的电极或夹持层可以增强向压电层的应变传递效率。具有大磁弹性耦合常数或大泊松比的磁致伸缩材料能够显著提高小尺寸器件的输出电压，最终实现超过200毫伏的输出电压。摘要未提及与实验结果的具体对比情况和模型精度验证，需查阅全文了解详细信息。\n\n4) 对我研究的直接价值\n\n该论文的多物理耦合有限元建模方法可直接应用于我的多物理耦合场模拟研究，特别是磁弹性-压电耦合的建模策略。应变传递机制的尺度效应分析为我的金属疲劳和拉伸变形模拟提供了重要参考，特别是在考虑表面效应和尺度依赖性方面。材料参数优化策略（磁弹性耦合常数、泊松比）可为我的相场晶体模型参数选取提供指导。边界条件设计中的表面夹持效应处理方法对我当前的分子动力学边界条件设计具有直接借鉴价值。\n\n5) 可复现性评估与阅读建议\n\n摘要提供了基本的模型框架和主要结论，但缺少关键的数值参数如具体材料常数、器件尺寸、网格参数等复现必需信息。建议重点精读方法学部分了解详细的有限元建模设置，以及结果分析部分获取具体的参数数值和性能指标。"
   },
   "2603.00440v1": {
@@ -5758,7 +5758,7 @@
       ],
       "method_excerpt": "ed materials (Wang et al., 2020; Li et al., 2022; Huang et al., 2024). The extent to which radiation-induced defects modify anisotropic behavior, particularly in re- lation to defect evolution, strain localization, and fracture mechanisms, is an important aspect considered in this work. To capture the influence of orientation-dependent, defect-driven plasticity on crack initiation and propagation, an atomistically-informed continuum framework can provide a suitable approach. 2 Fracture mechanics offers a robust framework for analyzing deformation and failure in irradiated materials. Stress-based parameters, such as the stress intensity factor (SIF) (Wilson et al., 2019; Zhao and Wei, 2025; Fu et al., 2025), provide a measure of crack-tip stresses but cannot capture the nanoscale, defect-drivenenergy dissipationthat dominatescrack-tip behaviorinmoleculardynamics simulations. Energy-based methods, including theJ-integral (Kim et al., 2021; Jia et al., 2022) and the critical strain energy release rate (Gc) (Barik et al., 2023; Lin et al., 2025; Ustrzycka et al., 2025), determine bulk fracture energetics but assume continuous, homogeneous plasticity and small-scale yielding. When the plastic zone is large, such that it occupies the whole computational domain, the J-integral approach is not applicable. Likewise it is not applicable in the case of irradiated materials where the defects are distributed within the whole volume and inelastic deformations initiate at those defects. Traction–separation (T–S) laws (Zeng et al., 2018; Wang et al., 2021; Guiqiu et al., 2021; Yu et al...."
     },
-    "last_seen_at": "2026-04-27T04:25:44.365642+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.447710+00:00",
     "summary_text": "1) 研究问题与背景\n\n该论文解决辐照诱发脆化对金属材料断裂行为各向异性影响的科学问题，特别是在核反应堆环境下Fe55Ni19Cr26合金的韧脆转变机制。现有研究主要关注辐照缺陷的累积效应，忽略了晶体学取向对辐照脆化的调控作用，缺乏原子尺度下取向相关的断裂阻力定量评估方法。该工作创新性地将辐照缺陷演化与取向相关断裂行为相结合，建立了原子尺度牵引-分离分析框架，实现了真实缺陷条件下断裂阻力的定量评估。\n\n2) 核心方法与模型细节\n\n采用分子动力学模拟方法研究Fe55Ni19Cr26合金中辐照缺陷对断裂行为的影响。摘要未提及具体势函数类型，需查阅全文确认是否使用EAM或MEAM势函数。选择三个高对称性晶体学取向进行裂纹扩展分析，通过单轴拉伸加载模拟断裂行为。建立牵引-分离（T-S）分析方法提取原子尺度断裂能，定量评估不同取向下的断裂阻力。模拟包含预置辐照缺陷的样品，分析位错活动、缺陷相互作用、滑移系激活等局部塑性机制。摘要未提及具体的模拟尺寸、原子数、时间步长、边界条件设置和软件平台等关键参数，需查阅全文获取详细信息。\n\n3) 关键结果与定量结论\n\n研究发现晶体学取向对韧脆转变过程中的变形和断裂行为演化具有强烈依赖性，晶格取向控制位错活动和缺陷相互作用，进而调节局部塑性机制、应变局部化和断裂阻力。通过牵引-分离分析定量提取了不同取向下的原子尺度断裂能，但摘要未提供具体数值。证明辐照脆化不能仅通过缺陷累积解释，而是由位错、缺陷和断裂过程区之间取向敏感的相互作用决定。摘要未提及与实验或其他模拟结果的对比情况，需查阅全文了解模型精度和适用范围。\n\n4) 对我研究的直接价值\n\n该论文的牵引-分离分析方法可直接应用于我的金属疲劳和拉伸变形模拟中，为定量评估不同晶体取向下的断裂阻力提供了原子尺度分析框架。辐照缺陷与位错相互作用的机制研究对我的多物理耦合场模拟具有重要参考价值，特别是在考虑缺陷演化对材料性能影响方面。取向相关的塑性变形机制分析可为我的分子动力学模拟中滑移系激活和应变局部化研究提供理论指导。该工作将宏观力学性能与原子尺度机制联系的方法论对我的多尺度模拟研究具有直接启发意义。\n\n5) 可复现性评估与阅读建议\n\n摘要缺少关键的模拟参数信息，包括势函数类型、模拟盒子尺寸、原子数量、时间步长、边界条件和软件平台等，需查阅全文获取完整的参数设置。建议重点精读方法学部分了解牵引-分离分析的具体实现细节，以及结果部分中不同取向下断裂能的定量数据和机制分析。"
   },
   "2604.03453v1": {
@@ -5877,7 +5877,7 @@
       ],
       "method_excerpt": "A multiphysics deep energy method for fourth-order phase-field fracture with piezoresistive self-sensing Aamir Deana,b,∗, Betim Bahtiria aInstitute of Structural Analysis, Leibniz Universität Hannover, Appelstr. 9A, 30167 Hannover, Germany bSchool of Civil Engineering, College of Engineering, Sudan University of Science and Technology, P.O. Box 72, Khartoum, Sudan Abstract Self-sensing conductive composites can reveal deformation and damage through measurable changes in elec- trical resistance, which makes them attractive for embedded diagnostics and learning-enabled structural health monitoring. This paper presents a physically consistent multiphysics Deep Energy Method (DEM) for brittle fracture in piezoresistive materials. The mechanical part is modeled by small-strain linear elastic- ity coupled to a fourth-order AT2-type phase-field fracture functional with tensile/compressive energy split and history-field irrever arized piezoresistive law and on damage through a crack-induced conduc- tivity degradation. The resulting formulation predicts crack evolution together with its resistance signature without assigning the electrical field an artificial crack-driving role. DEM is used to minimize the variational subproblems over admissible neural trial spaces with exact imposition of essential boundary conditions. A lean verification suite is used to validate the electrical building blocks and the fracture engine separately, followed by a numerical study of a tensile plate with stress concentrators and electrodes. In that study, the framework captures a nontrivial sensing r..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.377186+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.458754+00:00",
     "summary_text": "1) 研究问题与背景\n\n该论文解决压阻自感知复合材料中脆性断裂的多物理场耦合建模问题，背景是自感知导电复合材料能够通过电阻变化监测结构变形和损伤。现有方法的局限性在于机械和电学量之间存在人为的能量混合问题，缺乏物理一致性的多物理场耦合框架。该工作的创新点是提出了物理一致的多物理场深度能量方法（DEM），避免了机械-电学量的人为能量混合，并采用单向耦合策略处理电学感知子问题。\n\n2) 核心方法与模型细节\n\n采用小应变线性弹性力学模型耦合四阶AT2型相场断裂泛函，包含拉伸/压缩能量分解和历史场不可逆性约束。电学问题作为单向耦合的感知子问题处理：先求解力学-断裂问题，再通过稳态传导问题求解电势，其中电导率通过线性化压阻定律依赖于应变，通过裂纹诱导的电导率退化依赖于损伤。摘要未提及具体的势函数类型、边界条件设置、加载方式等关键参数，需查阅全文。使用深度能量方法（DEM）在可容许神经试验空间上最小化变分子问题，并精确施加本质边界条件。摘要未提及模拟尺寸、网格规模、时间步长等数值参数，也未明确使用的软件平台。\n\n3) 关键结果与定量结论\n\n框架成功捕获了非平凡的感知机制：显著的损伤增长几乎不改变全局电阻，随后当主要导电韧带被破坏且电流路径强烈重组时，电阻急剧增加。通过对带有应力集中器和电极的拉伸板进行数值研究验证了该现象。摘要未提及具体的应力值、电阻变化数值、损伤密度等定量结果，需查阅全文获取详细数据。摘要未提及与已有实验或模拟结果的对比情况。\n\n4) 对我研究的直接价值\n\n该论文的多物理场耦合策略对我的多物理耦合场模拟研究具有直接借鉴价值，特别是单向耦合处理方法可避免人为的能量混合问题。四阶AT2型相场断裂模型的拉伸/压缩能量分解和历史场不可逆性设计可直接应用于我的相场晶体模型（XPFC）和金属疲劳模拟中。深度能量方法（DEM）的神经网络求解策略为我的拉伸变形模拟提供了新的数值求解思路。该工作中电导率随损伤退化的建模方法可为我的多物理场耦合提供参考框架。\n\n5) 可复现性评估与阅读建议\n\n摘要提供的参数细节不足以完全复现，缺少关键的数值参数、边界条件、加载条件、材料参数等信息，需查阅全文获取完整的实现细节。建议重点精读方法论部分了解四阶相场断裂模型的具体实现，以及数值算例部分获取详细的参数设置和定量结果。"
   },
   "2604.07359v1": {
@@ -5987,7 +5987,7 @@
       ],
       "method_excerpt": "ayton 300 College Park Drive, Dayton, OH, 45469, USA dDepartment of Mechanical Engineering, Northwestern University, 2145 Sheridan Road, Room B224, Evanston, IL, 60208, USA eHiDeNN-AI LLC, 1801 Maple Ave, Evanston, IL, 60201, USA Abstract Metal Laser Powder Bed Fusion (PBF-LB/M) is a leading additive manufacturing technique in which part qual- ity and grain morphology are highly dependent on process parameters. Numerous studies of process variations, such as laser power, scan speed, and spot diameter, have demonstrated that they strongly inﬂuence melt pool dynamics; however, the effects of powder layer height and geometric variations remain less well understood. In this article, we focus on variations in powder layer height and part geometry to study their inﬂuence on melt pool dynamics. We employed a high-ﬁdelity multiphysics simulation framework based on the open source ﬁ- nite volume method (FVM) solver package ‘LaserBeamFoam’ built on ‘OpenFOAM’ to study the variations in different melt pool metrics— melt pool depth, width, bead height, overlap depth, overlap width, solidiﬁed area, and dilution area. The solver captures coupled phenomena of heat transfer, ﬂuid ﬂow, vaporization, recoil pres- sure, Marangoni convection, and realistic laser reﬂection behavior to accurately model the melt pool dynamics. Simulations are performed for different powder layer heights and geometric dimensions for direct comparison with benchmark experiments conducted at the National Institute of Standards and Technology (NIST) in 2025. Quantitative validation against NIST experiment demonstr..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.399973+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.475684+00:00",
     "summary_text": "1) 研究问题与背景\n\n该论文解决激光粉末床熔融（PBF-LB/M）增材制造中粉末层高度和几何变化对熔池动力学影响的科学问题，这是在增材制造工艺优化背景下提出的。现有研究主要关注激光功率、扫描速度和光斑直径等工艺参数，但对粉末层高度和几何变化的影响理解不足。该工作的创新点在于采用高保真多物理场耦合模拟框架系统研究这些参数的影响，并与2025年NIST基准实验进行定量验证。\n\n2) 核心方法与模型细节\n\n采用基于开源有限体积法（FVM）求解器包LaserBeamFoam的高保真多物理场模拟框架，该求解器构建在OpenFOAM平台上。控制方程耦合了传热、流体流动、汽化、反冲压力、马兰戈尼对流和真实激光反射行为的物理现象。摘要未提及具体的势函数类型、边界条件设置、加载方式等关键参数，需查阅全文获取。模拟研究了不同粉末层高度和几何尺寸条件下的熔池动力学，重点分析熔池深度、宽度、焊道高度、重叠深度、重叠宽度、凝固面积和稀释面积等关键指标。摘要未提及具体的模拟尺寸、网格规模、时间步长等数值参数，需查阅全文。\n\n3) 关键结果与定量结论\n\n模拟结果与2025年NIST基准实验在所有熔池指标上都显示出优异的一致性，摘要未提及具体的数值对比结果。研究验证了基于物理的PBF-LB模型的预测能力，证明了该多物理场耦合框架在不同粉末层高度和几何变化条件下的准确性。摘要未提及具体的应力值、温度范围、缺陷密度等定量数据，需查阅全文获取详细的数值结果和精度评估。\n\n4) 对我研究的直接价值\n\n该论文的多物理场耦合模拟框架对我的多物理耦合场模拟研究具有直接借鉴价值，特别是其在OpenFOAM平台上的实现方案。LaserBeamFoam求解器中耦合传热、流体流动、马兰戈尼对流等多物理现象的方法可为我的耦合场模拟提供参考。该工作对不同几何变化和工艺参数影响的系统性研究方法，可指导我在金属疲劳和拉伸变形模拟中的参数敏感性分析。与NIST实验的定量验证方法为我的模型验证工作提供了标准化的对比框架。\n\n5) 可复现性评估与阅读建议\n\n摘要提供了基本的模拟框架和软件平台信息，但缺少关键的数值参数、边界条件设置、具体的工艺参数范围等复现所需的详细信息。建议重点精读方法学章节以获取完整的模拟设置参数，以及结果与讨论章节中与NIST实验的定量对比数据和验证细节。"
   },
   "2603.26022v1": {
@@ -6217,7 +6217,7 @@
       ],
       "method_excerpt": "conductors; Nanoindentation; Photoplasticity ; Feature engineering; Machine learning 2 I. INTRODUCTION Light-induced changes in mechanical response are becoming increasingly critical, as semiconductors are pushed into regimes where optical, electrical, and mechanical loads act simultaneously in power electronics, detectors, and optomechanical components [1-3]. It has been found that optical excitation reversibly alters yield strength, flow stresses, and hardness in many semiconductors and drives photo-softening or photo -hardening, revealing that non -thermal electronic excitation could couple strongly to the mechanical deformation [4,5]. Recent work has renewed broader interest in functionalizing defects and dislocations to achieve stimulus-controlled mechanical responses, motivating a modern re -examination of photoplasticity using quantitative, operando micromechanical methods and data-centric modeling [6-8]. In crystalline semiconductors, photoplastic responses are governed primarily by how photoexcited carriers interact with dislocations and other defect states. Studies on ZnO quantified reversible light-induced strengthening and mapped strong dependences on light intensity, crystal orientation, and temperature, providing evidence for carrier-mediated mechanisms [9-11]. In III– V systems, light induced dislocation glide in GaAs/AlGaAs heterostructures revealed a sharp excitation threshold and highlighted the role of nonequilibrium carriers in modifying the effective lattice friction on dislocation motion [12]. Additionally, the recombination-enhanced framework estab..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.368783+00:00",
+    "last_seen_at": "2026-04-28T04:29:48.450724+00:00",
     "summary_text": "1) 研究问题与背景\n\n该论文解决半导体材料中光塑性现象的识别和预测问题，光塑性是指光照引起的塑性变形变化，对半导体材料的机械耐久性和制造工艺具有关键影响。现有方法对光塑性的控制机制理解不完整，主要因为涉及多物理场耦合因素的复杂相互作用。该工作的创新点在于结合高通量纳米压痕实验和机器学习方法，建立了可解释的光塑性预测框架。\n\n2) 核心方法与模型细节\n\n该研究采用高通量纳米压痕测量技术构建了暗态和光照条件下配对硬度值的数据集。核心方法是基于物理信息的特征工程和机器学习框架，工程化了涵盖电学、机械和光学性质的物理描述符。通过特征选择识别出十个最具信息量的特征，包括带隙、击穿场强和折射率等关键参数。摘要未提及具体的机器学习算法类型、数据集规模、纳米压痕的具体参数设置、光照条件的波长和强度等关键技术细节，需查阅全文。摘要也未提及使用的具体软件平台和计算框架。\n\n3) 关键结果与定量结论\n\n研究成功识别了带隙、击穿场强、折射率等十个关键特征作为光塑性的预测因子，建立了可转移的设计规则用于光可调半导体力学行为。摘要未提及具体的硬度数值变化范围、预测精度、与实验结果的定量对比等关键数值结果，需查阅全文获取详细的定量结论。该框架为工程化光响应机械行为提供了实用路径。\n\n4) 对我研究的直接价值\n\n该论文的多物理场耦合思路与我的多物理耦合场模拟方向高度契合，特别是光-机械耦合的建模思想可以借鉴到我的XPFC模型中。物理信息特征工程方法可以应用到我的金属疲劳模拟中，用于识别关键的材料参数和失效预测因子。纳米压痕的力学测试方法和暗态-光照对比实验设计可以为我的拉伸变形模拟提供验证思路。机器学习与物理模型结合的框架对我当前的多尺度模拟工作具有重要启发意义。\n\n5) 可复现性评估与阅读建议\n\n摘要提供的技术细节有限，缺少机器学习算法具体类型、数据集规模、纳米压痕参数、光照条件等关键信息，完整复现需要查阅全文的方法学部分。建议重点精读特征工程方法、机器学习模型构建和多物理场耦合机制分析等章节，以获取可操作的技术细节。"
   },
   "2604.06360v1": {
@@ -6345,7 +6345,7 @@
       ],
       "method_excerpt": "copic mechanical behavior. In polycrystalline α -Ti, grain boundaries additionally influence deformat ion by acting both as dislocation sources and as obstacles to their motion. Their interaction with solute atoms becomes particularly important under dynamic loading conditions, where plasticity is dominated by dislocation activity. However, the effect of manganese content on deformation mechanisms in polycrystalline α -Ti, especially at the atomistic level, has not been systematically investigated. In this study, molecular dynamics simulations are employed to investigate the effect of Mn content on plastic deformation mechanisms in polycrystalline α -Ti alloys. Particular attention is given to stress –strain behavior, dislocation activity, and the spatial distribution of local deformation, providing atomistic insight into the mechanisms governing plasticity in these alloys. 2. Methods • CALPHAD calculations The phase diagram for the binary TiMn system was computed by applying the CALPHAD (CALculation of PHAse Diagrams) approach (Kaufman and Cohen, 1956; Saunders and Miodownik, 1998; Spencer, 2008) . In this approach, the Gibbs energy of each relevant phase is described by physically based thermodynamic models as a function of temperature, composition, and pressure, with model parameters assessed from a combination of experimental data and first-principles calculations. The equilibrium phase assemblages were obtained by minimizing the total Gibbs energy of the system at fixed temperature and overall composition. The computations were performed using the PandaT software (C..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.390870+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.467157+00:00"
   },
   "2603.26818v1": {
     "id": "2603.26818v1",
@@ -6445,7 +6445,7 @@
       ],
       "method_excerpt": "Multi-GPU fast Fourier transforms in MATLAB for large-scale phase-field crystal simulations Maik Punke ∗ Marco Salvalaglio ∗† March 31, 2026 Summary We present a MATLAB-based framework for two- and three-dimensional fast Fourier transforms on multiple GPUs for large-scale numerical simulations using the pseudo-spectral Fourier method. The software implements two complementary multi-GPU strategies that overcome single-GPU memory limitations and accelerate spectral solvers. This approach is motivated by and applied to phase-field crystal (PFC) models, which are governed by tenth-order partial differential equations, require fine spatial resolution, and are typically formulated in periodic domains. Our resulting numerical framework achieves significant speedups, approximately sixfold for standard PFC simulations and up to sixtyfold for multiphysics extensions, compared to a purely CPU-based implementation running on hundreds of cores. Statement of need Large-scale simulations based on the pseudo-spectral Fourier method [1] are often limited by the memory capacity and performance of single GPUs due to their reliance on repeated multidimensional fast Fourier transforms (FFTs). To address this bottleneck, we present two c signing different physical fields to separate GPUs with synchronized communication. In the following, phase-field crystal (PFC) models [2, 3, 4] serve as a representative application that underscores the need for such multi-GPU capabilities. PFC models resolve crystalline order at atomic length scales while evolving on large (diffusive) time scales, enabling..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.367628+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.449606+00:00"
   },
   "2603.20689v1": {
     "id": "2603.20689v1",
@@ -6552,7 +6552,7 @@
       ],
       "method_excerpt": "nc. on behalf of Acta Materialia Inc. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). dislocation distributions and the effects of different processes, such as irradiation. Because of its ability to reveal grain and subgrain structures in detail, EBSD has been widely employed for studying deformation mechanisms and strain-induced processes [ 10 – 12 ] to derive information on heterogeneous dislocation structures. This capability led to the next logical step: coupling EBSD with mechanical testing. Such a combina - tion allows for in-depth assessment of deformation processes at various length scales, covering a wide range of stress and strain levels [ 13 ]. Several limitations of EBSD analysis are also worth mentioning in this context. For instance, EBSD is fundamentally confined to the spec - imen surface unless destructive methods are employed. In addition, although methods have been proposed to estimate the total dislocation density (see, for instance, [ 14 ]), only the GND density can currently be measured reliably, whereas statistically stored dislocations remain difficult to assess. Finally, in situ testing requires interruption of the deformation process for data acquisition, leading to minor relaxation effects. 1.1.2. Microstructural evolution in irradiated metallic materials As high-energy particles (e.g., neutrons in a nuclear power plant) irradiate metallic structural materials, atomic-scale changes first develop in the form of displaced atoms and vacancies — a process widely known as Frenkel pair formation..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.358659+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.441048+00:00"
   },
   "2604.09084v1": {
     "id": "2604.09084v1",
@@ -6654,7 +6654,7 @@
       ],
       "method_excerpt": "Simulation details nb-ZIF-FF force field simulations To generate configurations for the training set with the nb-ZIF-FF force field27 we performed molecular dynamics simulations in the NPT ensemble. The MD timestep was set to 0.5 fs. Configurations were taken every 10,000 simulation steps to avoid correlations. Nos´ e–Hoover thermostats and barostats were employed, with a decaying time of 50 fs and 500 fs respec- tively. All simulations were performed using the LAMMPS molecular dynamics software. 36 ZIF-4, ZIF-zni and ZIF-hPT-II initial configurations were obtained from experimental CIF files.8 Other phases were obtained starting from ZIF-4 by melt-quench protocols (for the liq- uid and glass) or by changes in pressure (for ZIF-4-cp and ZIF-4-cp-II) as done in previous works.12,20 Each structure was properly equilibrated before production runs. ZIF-4-cp - ZIF-4-cpII transition trajectories The thermodynamic parameter used to control the relative stability of ZIF-4-cp and ZIF- 4-cp-II phases was the pressure. We know from previous studies that for the nb-ZIF-FF potential, the coexistence pressure of ZIF-4-cp and ZIF-4-cp-II is 145 MPa at ambient tem- perature. 12 For the generation of trajectories in which ZIF-4-cp to ZIF-4-cp-II transitions take place to probe the classifiers performance, we implemented the following procedure. We started from a ZIF-4-cp system equilibrated at 120 MPa, at which ZIF-4-cp is the most stable phase. Then, we performed several simulations in which the pressure was increased by 5 MPa smoothly during 10 5 steps and re-equilibrated for another 1..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.407020+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.482288+00:00"
   },
   "2604.11513v1": {
     "id": "2604.11513v1",
@@ -6753,7 +6753,7 @@
       ],
       "method_excerpt": "Machine-learning modeling of magnetization dynamics in quasi-equilibrium and driven metallic spin systems Gia-Wei Chern,1 Yunhao Fan,1 Sheng Zhang, 1 and Puhan Zhang 1 1Department of Physics, University of Virginia, Charlottesville, VA 22904, USA We review recent advances in machine-learning (ML) force-field methods for large-scale Landau- Lifshitz-Gilbert (LLG) simulations of metallic spin systems. We generalize the Behler-Parrinello (BP) ML architecture—originally developed for quantum molecular dynamics—to construct scal- able and transferable ML models capable of capturing the intricate dependence of electron-mediated exchange fields on the local magnetic environment characteristic of itinerant magnets. A central in- gredient of this framework is the implementation of symmetry-aware magnetic descriptors based on group-theoretical bispectrum formalisms. Leveraging these ML force fields, LLG simulations faith- fully reproduce hallmark non-collinear magnetic orders—such as the 120◦ and tetrahedral states—on the triangular lattice, and successfully capture the complex spin textures emerging in the mixed- phase states of a square-lattice double-exchange model under thermal quench. We further discus ability allows ML models to capture intricate structure–property re- lationships, learn effective representations directly from data, and generalize to previously unseen regimes. Con- sequently, ML has greatly enhanced the efficiency, scala- bility, and predictive accuracy of complex numerical sim- ulations, enabling new levels of realism and precision in modeling physical syst..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.414549+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.489427+00:00"
   },
   "2604.10561v1": {
     "id": "2604.10561v1",
@@ -6850,7 +6850,7 @@
       ],
       "method_excerpt": "9500 K, and critical density (ρ c) spans from 0.28 g/cm 3 to 1.03 g/cm 3 [12–20]. Some of them do not even provide critical pressure,P c. On one hand, experimentally, direct measurements of aluminum’s critical point are challenging due to the difficulty in maintaining and diagnosing under static conditions the high temperature and pressures required. Therefore, most results rely on assumed rules for all liquid metals or the extrapolation of thermodynamic data obtained at lower temperatures [11]. On the other hand, as the system approaches the critical point, thermal fluctuations increasingly dominate. It is notoriously difficult to capture, which motivates the development of various theoretical approaches, including the famous theory of renormalization group [21–24]. Beyond reflecting the strong dependence of critical parameters on the choice of theoretical framework and com- putational methodology, this uncertainty underscores a fundamental gap in our understanding of aluminum’s phase behavior. Such variability complicates both predictive modeling and experimental interpretation, emphasizing the need for reliable, physically consistent descriptions of aluminum’s critical phenomena to enable unified theoretical and practical applications. As a result, there is a pressing need for advanced computational methods that can provide more accurate predictions and insights into the critical phenomena of aluminum. In this work, we address this challenge by leveraging the power of machine learning to develop interatomic potentials that can capture the complex interactions in alumi..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.410279+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.485383+00:00"
   },
   "2604.11397v1": {
     "id": "2604.11397v1",
@@ -6952,7 +6952,7 @@
       ],
       "method_excerpt": "Methods A.1 In Situ Load Frame and Sample Geometry The load frame is a remotely operated, miniature tensile machine moun ted on the goniometer stack. It features two synchronously moving traver ses, driven by spindles with opposed threading. This conﬁguration maintains a quasi-stead y central section during sample elongation, minimising displacement of the gauge area. T he deformation process is controlled through geared stepper motors with an eﬀec tive step size of ∆ l = 0. 211 µm giving rise to a minimum elongation of 0 . 002 % for the sample’s parallel length of 10 mm. The reaction force is directly read out at the upper traverse through a load cell with a nominal load of 500 N. Elongations stated in this work a re evaluated from the traverse displacement. An ex-situ force-elongation cur ve based on elongations determined using Digital Image Correlation (DIC) of an identical sing le crystal is shown in Fig. B7. The tensile specimen is mounted through dovetail-shaped ends, providing form ﬁt, and additionally glued. A rendering of the load fram e, together with a close-up photo of the traverses, and a sketch of the sample are shown in Fig. A1. Fig. A1 Sketch of in situ loading frame and aluminium single crystal tensile specimen with crystal- lographic orientations. A.2 Data Treatment The collected data set is a discrete 5-dimensional ﬁeld of intensities I (x, y, z, φ, ε ). The dislocation reconstruction from the intensity ﬁelds is conducte d through a manual ﬁtting program implemented in Python. The reconstruction is based on characteristic, spatially extended, diﬀracti..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.413368+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.488289+00:00"
   },
   "2604.05769v1": {
     "id": "2604.05769v1",
@@ -7057,7 +7057,7 @@
       ],
       "method_excerpt": "involv ing small molecules and mixtures. In the bottom‑up direction, representative small‑molecule structures—including those from PubChem24—were systematically perturbed via dihedral scans and coordinate displacements, and combined or extended to construct larger molecular frameworks. Additional datasets from existing literature were curated to further enrich functional group diversity and reaction coverage. This unified dual‑pathway workflow, spanning from complex condensed‑phase sys tems to fundamental reactive fragments, yields a chemically rich and systematically balanced dataset for training a transferable machine‑learning reactive potential. The composition of all datasets is shown in Table 1. The training set contains 68579 structures with a total of 10634014 atoms. Figure 1. Data acquisition process Table 1. Dataset composition config_type data source calculation method cp2k2xyz this study PBE-D3/DZVP-MOLOPT- SR-GTH (CP2K) orca2xyz this study ωB97M-V/def2-QZVP (ORCA) ANI-1xnr reference20 BLYP-D3/TZV2P-MOLOPT- SR-GTH (CP2K) C2H5O2N reference25 M06-2X/QZV3P-MOLOPT- SR-GTH (CP2K) CCSDT-water reference26 CCSD(T)/aug-cc-pVTZ (CFOUR) CO2 reference27 SCAN-rVV10 (Quantum- ESPRESSO) GO reference28 PBE-D3 (CASTEP) graphene-water reference29 optB88-vdW/TZV2P- MOLOPT-SR-GTH (CP2K) Graphene_N_Pyridine reference30 PBE-MBD-NL/tight (FHI- AIMS) MACE reference21 ωB97M-D3(BJ)/def2- TZVPPD (PSI4) MB-pol reference26 MB-pol (lammps) NH3-CO2 reference31 SCAN (Quantum- ESPRESSO) QCArchive reference32 B3LYP-D3(BJ)/def2-SVP (PSI4) Transition1x reference33 ωB97x/6–31 G(d) (ORCA) Liquid-E..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.387503+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.463948+00:00"
   },
   "2604.01642v2": {
     "id": "2604.01642v2",
@@ -7290,7 +7290,7 @@
       ],
       "method_excerpt": "1 > REPLACE THIS LINE WITH YOUR MANUSCRIPT ID NUMBER (DOUBLE-CLICK HERE TO EDIT) < Development of a 3D-CNN-based Prediction Model for Migration Barriers in Plasma-Wall Interactions Seiki Saito, Keisuke Takeuchi, Hiroaki Nakamura, Yasuhiro Oda, Kazuo Hoshino, Yuki Homma, Shohei Yamoto, Yuki Uchida Abstract—Understanding the long-term transport of hydrogen isotopes in plasma-facing materials, such as tungsten, is critical for the steady-state operation of magnetic confinement fusion reactors. However, dynamically updating the transition parameters for kinetic Monte Carlo (kMC) simulations as the atomic structure evolves under continuous plasma irradiation remains a severe computational bottleneck. Conventionally, calculating these migration barriers requires the iterative and computationally expensive Nudged Elastic Band (NEB) method. To overcome this limitation, this article presents a highly efficient surrogate model for predicting migration barriers using a three-dimensional Convolutional Neural Network (3D-CNN), establishing the final component necessary to realize on-the-fly molecular dynamics (MD) and kMC hybrid simulations. The proposed deep learning model takes a two-channel volumetric input, the local three-dimensional potential energy distribution and the voxelized spatial coordinates of the initial and final trapping sites, to directly output the migration barrier as a scalar value. Trained on a comprehensive dataset of tungsten-hydrogen configurations evaluated using the Embedded Atom Method (EAM) potential, the model demonstrated robust predictive accuracy, ac..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.385466+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.462039+00:00"
   },
   "2604.02325v1": {
     "id": "2604.02325v1",
@@ -7490,7 +7490,7 @@
       ],
       "method_excerpt": "proach allows us to quantify not only global stiffness and peak stress, but also the spatial organization of de- formation [34, 35]. Our results show that the Young’s modulus decreases much more rapidly with porosity than predicted by clas- sical EMT or the Hashin–Shtrikman bound. The extrap- olated critical porosity at which the modulus would van- ish lies well below the two-dimensional disc percolation threshold [16], indicating that the mechanical effect of the holes cannot be captured by ideal cylindrical inclu- sion models [7, 20]. Fracture strength distributions are accuratelydescribedbyacompeting-risksWeibullformu- lation [30, 32, 33], and DIC reveals the connection of the strain field heterogeneity and the imposed hole pattern. Together, these findings highlight the dominant role of defect morphology in governing the mechanical response of porous quasi-brittle solids [1, 7]. II. METHODS The samples used in this study are dog-bone spec- imens made of polymethyl methacrylate (PMMA), a model quasi-brittle polymer material. Each sample is 1.64mm thick, and the gauge section has an area of A= 100×50mm 2. To enable local strain measurements using digital im- TABLE I. Number of samples and number of holes per sample for the tested surface removal fractions. Hole density Number of samples Number of holes ρper sampleN 0 8 0 0.002 25 320 0.005 31 790 0.01 32 1600 age correlation (DIC), a white–grey–black speckle pat- tern was applied to the surface of each sample (see Fig. 1a). The two ends of every specimen were lightly abraded on both sides to increase friction with the..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.371916+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.453723+00:00"
   },
   "2603.07352v1": {
     "id": "2603.07352v1",
@@ -7599,7 +7599,7 @@
       ],
       "method_excerpt": "work addresses this gap by correlating electron backscatter diffraction (EBSD) - based characterization of microtexture evolution with previously determined energy-storage measurements for 310S TWIP steel. The analysis focuses on the stage of strain localization, where twin–matrix refinement and pronounced lattice rotation occur. Although the macro- scopic energy balance during tensile deformation of 310S steel was previously quantified in [30], that work focused on thermomechanical measurements and evaluation of energy conver- 3 sion parameters. The present study constitutes an independent microstructural investigation that uses those energetic results as a reference framework. By correlating EBSD observations with macroscopic energy-storage behaviour, this work provides a microstructural interpreta- tion of energy storage mechanisms in TWIP-deforming austenitic steel. 2. Material and methods The investigated material was 310S austenitic stainless steel, which is widely used in high- temperature applications due to its excellent oxidation resistance and mechanical stability. It isconsideredacandidatestructuralmaterialforsupercriticalwater-cooledreactors(SCWRs), where long-term exposure to aggressive environments imposes stringent requirements on mi- crostructural stability [7]. The chemical composition of the material is listed in Table 1. Table 1: Chemical composition of tested material (in wt%). C S P Mn Si Cr Ni N Fe 310S 0.08 0.015 0.045 2.0 0.75 24.0–26.0 19.0–22.0 0.11 balance Owing to its high nickel content, the austenitic phase remains stable during plastic def..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.349240+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.432074+00:00"
   },
   "2604.12730v1": {
     "id": "2604.12730v1",
@@ -7689,7 +7689,7 @@
       ],
       "method_excerpt": "late matching (PTM) [27] implemented in OVITO [28]. When using DXA visualization, partial dislocations are shown as green lines; for PTM visualization, purple indicates unidentified structures (“Other”), blue represents pure FCC, green represents L1₂ A -sites and yellow-green denotes L1₂ B-sites. For both Al–Cu and Ni-Al system, LC samples were generated following a previously established hybrid Monte Carlo/molecular dynamics (MC/MD) protocol [29], with a time step of 1 fs for MD and one MC step performed for every 100 MD time steps. The equilibrated LC s were obtained using a Nose –Hoover thermostat and barostat at a constant temperature (250 K for Al-Cu and 300 K for Ni-Al) and zero external pressure with an initial pair of edge dislocations first relaxed to Shockley partials, with periodic boundary condition applied in all directions. Well-established embedded atom method potentials were used for Al-Cu [29] and Ni-Al [30] that are able to reproduce the phase diagrams of these alloy systems. Equilibrium configurations for the LCs in the two alloys systems are presented in Figure 1. The X-axis of the samples is oriented along the [110] direction (Burgers vector of the original dislocation), the Y -axis oriented along the [111] direction (slip plane normal), and the Z -axis oriented along the [112] direction (line direction of the original dislocation). Figures 1(a) and (b) 5 show 3D visualization s of LCs formed in the Ni-1.0 at.% Al and Al-0.3 at.% Cu system s, respectively, where Ni atoms are shown in red, Al atoms in blue, and Cu atoms in orange. Figures 1(c) and (d)..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.418147+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.492828+00:00"
   },
   "2603.20986v1": {
     "id": "2603.20986v1",
@@ -7788,7 +7788,7 @@
       ],
       "method_excerpt": "tion. These results demonstrate that the gap between knowing the physics and executing a validated simulation campaign can now be bridged by a lightweight multi-agent orchestration layer, providing a quantitatively verified pathway toward AI-driven materials discovery and self-driving computational laboratories. Keywords:agentic AI · multiphysics simulation · large language models · phase-field modelling · materials discovery 1 Introduction Microstructure governs the properties of structural and functional materials: for example, grain size controls yield strength and creep resistance in metallic alloys, domain topology determines the switching efficiency of ferroelectrics, and precipitate morphology sets the coarsening kinetics of superalloys [1–3]. Because microstructure emerges from processing history, predicting its evolution is central to materials discovery and design. Phase-field methods pro- vide precisely this capability — a thermodynamically consistent framework for modeling grain growth, spinodal arXiv:2603.20986v1 [cs.AI] 22 Mar 2026 decomposition, solidification, and ferroelectric domain dynamics — and have become the dominant approach to mesoscale microstructure simulation [4, 5]. Among the platforms that have made these methods accessible at scale, the Multiphysics Object-Oriented Simulation Environment (MOOSE) stands out for its modular finite-element architecture, scalability from workstations to leadership-class HPC systems, and a broad, active community of materials scientists and engineers [6, 7]. Despite its power, the practical adoption of phase-fie..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.362129+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.444386+00:00"
   },
   "2603.23351v1": {
     "id": "2603.23351v1",
@@ -7877,7 +7877,7 @@
       ],
       "method_excerpt": "Physics-Informed AI for Laser-Enhanced Contact Optimization in Silicon PV : Electrothermal Activation, Degradation Regimes, and Process Control. Donald Intala,*, Abasifreke Ebonga aDepartment of Electrical and Computer Engineering, University of North Carolina at Charlotte, 9201 University Blvd, Charlotte, 28223, North Carolina, USA *Correspondence: dintal@charlotte.edu (D. Intal); aebong1@charlotte.edu (A.U. Ebong) ORCID(s): 0000-0003-3528-4894 (D. Intal); 0000-0002-8808-5461 (A.U. Ebong) Abstract: Laser-enhanced contact optimization (LECO) is increasingly used method to reduce contact resistance and recover fill factor in advanced crystalline silicon solar cells. However, the industrial transferability is limited because the same localized activation that improves carrier transport can also create kinetically unstable interface states. LECO can be viewed as a coupled Multiphysics process that links microstructural evidence to device-level signature that uses instantaneous regime map together with a reliability classification based on time-dependent drift. Thus, a predictive workflow is outlined in the review that couples (i) transient electrothermal modeling to reduced state metrics, (ii) effective diffusion depth and local areal energy density, and (iii) propagated calibrated thresholds across recipe space. The framework separates stable optimization from marginal activation and latent damage and explains why fine-line scaling and copper- This coupling can be understood through the transfer-width concept. The characteristic length over which current spreads laterally..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.364219+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.446361+00:00"
   },
   "2604.11706v1": {
     "id": "2604.11706v1",
@@ -7966,7 +7966,7 @@
       ],
       "method_excerpt": "n kinetics and the final degree of crystallinity in melts is investigated and we analyze how chain length and composition affect size, shape, orienta- tion, and connectivity of the resulting crystalline domains via bridging chains. Together, these results demonstrate how pre-shear and bidispersity influence crystalline orga- nization, crystalline ordering, and molecular connectivity across domains in this simple coarse-grained model poly- mer. The rest of this article is organized as follows. Section II presents the details of the segmentally coarse-grained model, resulting dynamics, rheological behavior of the chains, processing protocol, and the crystallinity identifi- cation algorithm. Section III discusses the results of the simulations and the shape, size, and connectivity char- acteristics of the chains. Finally, Section IV summarizes the main findings and provides an outlook. II. Methods A. Model We performed molecular dynamics (MD) simulations to study polymer crystallization, conducting all simulations in the NVT ensemble using HOOMD-blue 5.1.0.45 Homo- geneous shear flow was enabled through a custom fork of HOOMD-blue implementing the SLLOD algorithm. 46,47 Validation of this implementation, along with the cor- responding source code, is provided in the Supporting Information (SI). All quantities are reported in a consis- tent system of reduced units with massm, lengthℓ, and energyε; the time is then given byτ= p mℓ2/ε. Each segment, or particle, had a mass of 1.0m. Interactions between polymer segments, or particles, were modeled using a traditional pairwise D..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.416347+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.491141+00:00"
   },
   "2604.11370v1": {
     "id": "2604.11370v1",
@@ -8057,7 +8057,7 @@
       ],
       "method_excerpt": "cent material, creating a self-sustaining reaction front. This front advances through the multilayer structure at specific temperatures and velocities3–5. Recently, the integration of reactive multilayer systems into microelectronics and micromechanical systems (MEMS) as a bonding technique has gained considerable momentum, draw- ing increased attention from the scientific community6,7. The reaction characteristics of Ni/Al reactive multilayer systems (RMS) have been widely studied due to their rapid heat release during self-propagating reactions. Key parameters such as maximum temperature and propagation velocity can be con- trolled by adjusting the bilayer thickness or modifying the de- gree of intermixing within the system8–11. However, modifying these parameters requires intricate ad- justments to the fabrication process. Consequently, numerous studies have focused on developing new methodologies to reg- ulate the heat release rate during the reaction. A wide variety of binary systems has been investigated, including aluminides such as Al/Pt 10, Al/Ni 12, Al/Ru 13, and Al/Ti 14, as well as other combinations such as Ni/Ti 15,16 and Nb/Si 17. Studies have demonstrated that incorporating alloying elements into multilayers can either increase or decrease reaction propaga- tion velocities18. Ni/Al multilayers were alloyed by substitut- ing nickel with elements such as copper and platinum, signif- icantly altering reaction front temperature and velocity. This approach enables controlled or rapid heat release for various engineering applications without changing the multil..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.411748+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.486760+00:00"
   },
   "2604.03783v1": {
     "id": "2604.03783v1",
@@ -8261,7 +8261,7 @@
       ],
       "method_excerpt": "ture-dependent octahedral distortion dynamics in agreement with experiment. Here, building on the MLIP procedure adopted in Ref. 33, we re-examine the JT transition in LMO by monitoring the temperature evolution of the Q 2 and Q 3 JT modes across the orderdisorder transition. Our data describe well the progres- sive quenching of the JT modes with temperature and provide clear evidence for the persistence of dynamical JT distortions at high temperatures, as extracted from the site-site correla- tion function. Furthermore, we calculated the phonon disper- sion and identiﬁed the Ag(1) mode having the same symme- try as the static distortion pattern in the ordered phase. By Fourier transforming the velocity autocorrelation function of this mode, we obtained its temperature dependent spectral function, revealing strong anharmonic effects consistent with an orderdisorder phase transition. II. METHODOLOGY Our training and production simulations were conducted using the on-the-ﬂy MLFF method implemented in the V ASP package35,36,39 within density functional theory (DFT) us- ing the generalized Perdew-Burke-Ernzerhof (PBE) 40 gradi- ent approximation and including a local +U correction accord- ing to the Dudarev approach 41. Following Ref. 33, a √ 2a × √ 2b × c supercell, rotated by 45◦ around the c axis, containing eight formula units was em- ployed for training the MLFF. For the production runs, this su- percell was replicated three times along each lattice direction, resulting in a simulation cell comprising 216 formula units, corresponding to a total of 1080 atoms. A larger c..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.403749+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.479224+00:00"
   },
   "2604.13768v1": {
     "id": "2604.13768v1",
@@ -8366,7 +8366,7 @@
       ],
       "method_excerpt": "orthorhombicP nmasymmetry [20]. Upon heating, it undergoes displacive phase transitions to tetragonal and cubic polymorphs [21–24]. In contrast, there are conflicting structures reported for the perovskite selenide end member. An early experi- mental attempt to synthesize stoichiometric BaZrSe3 via a solid-state reaction yielded off-stoichiometric, needle- like structures composed of face-sharing octahedra, rather than the corner-sharing perovskite network [25]. More recently, stoichiometric BaZrSe 3 in a closely re- lated face-sharing hexagonal phase has been reported for nanocrystalline samples prepared by hot injection [26]. First-principles studies constrained to the 1:1:3 stoichiometry instead predict a different edge-sharing polymorph withP nmasymmetry [27, 28]. Se-rich corner-sharing perovskite phases, including stoichiomet- ric BaZrSe 3, have been realized using non-equilibrium methods [16, 19]. Although these perovskite phases are likely metastable, they exhibit long-term stabil- ity at ambient conditions. For the mixed-anion series BaZrS3xSe3–3x, powder synthesis studies indicate phase segregation above approximately 40 % Se [9], also imply- ing limited stability of the perovskite framework a high Se content under near-equilibrium conditions. arXiv:2604.13768v1 [cond-mat.mtrl-sci] 15 Apr 2026 2 Collectively, the available evidence suggests that the perovskite form of BaZrSe3 is not the equilibrium ground state under ambient conditions, but that it is kineti- cally stable. However, a unified thermodynamic descrip- tion capable of reconciling equilibrium phase se..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.424972+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.499326+00:00"
   },
   "2604.13741v1": {
     "id": "2604.13741v1",
@@ -8456,7 +8456,7 @@
       ],
       "method_excerpt": "*Corresponding Author: jpq2021@hust.edu.cn Universal thermometry of solid-liquid interfacial thermal conductance Tao Chen, Puqing Jianga) School of Energy and Power Engineering, Huazhong University of Science and Technology, Wuhan, Hubei 430074, PR China a)Authors to whom correspondence should be addressed: jpq2021@hust.edu.cn ABSTRACT: Solid-liquid interfacial thermal conductance (ITC) critically influences heat transport in microfluidic, electronic, and energy systems, yet most optical thermometry techniques are limited to specific metal-liquid interfaces. In this work, we introduce a universal broadband square-pulsed thermometry method that enables simultaneous quantification of ITC across a wide range of arbitrary solid-liquid interfaces, while also providing accurate measurements of nanoscale liquid-film thickness. To validate the method, we applied it to Al-water interfaces, yielding ITC values in the range of 50-55 MW m!\" K!#, consistent with prior studies. The technique also reveals markedly lower ITCs for glass-water (9.9 MW m!\" K!#) and Si-water (5.7 MW m!\" K!#), and further measurements on Al-silicone oil (~10 MW m!\" K!#) and PMMA-silicone oil (~0.4 MW m!\" K!#) extend the validation to highly viscous nonpolar liquids and polymer-liquid interfaces. These results highlight the capability of the method to capture thermal transport differences across diverse solid-liquid combinations. Further comparisons with acoustic/diffuse mismatch models and molecular dynamics simulations, together with theoretical analysis, h c cooling and liquid-based heat dissipation in hig..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.423215+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.497640+00:00"
   },
   "2604.13339v1": {
     "id": "2604.13339v1",
@@ -8562,7 +8562,7 @@
       ],
       "method_excerpt": "s crucial for effective dental health maintenance, treatment and the long-term preservation of tooth structure. To strike a balance between chemical and mechanical stability, the chemical content of HAp can be tailored through ionic doping that forms the topic of the present study. Ions can be incorporated into the tooth structure to enhance the chemical stability of HAp, improving its resistance to demineralization [6]. HAp doping with various ions has been previously investigated utilizing mostly experimental techniques, with studies considering specific dopants due to their unique properties. For instance, the antimicrobial properties of zinc (Zn) and silver (Ag) motivated several studies to investigate either Zn- or Ag-doped HAps [7-11]. In the case of Ag doping, better antibacterial protection against gram-positive and gram-negative bacteria was observed [9, 10]. Various synthetic methods such as co-precipitation and pulsed laser deposition have been considered and optimized to achieve a uniform distribution of silver ions that is important for the structural integrity of HAp [10, 11]. Magnesium, fluoride and carbonate have also been extensively researched in the context of ionic doping of HAp [12-22]. The incorporation of Mg²⁺ at the level of 1 mol% has been shown 4 to enhance bioactivity, particularly by supporting the proliferation and differentiation of osteoblastic cells — key processes involved in the early stages of bone regeneration [12, 13]. Introducing fluoride ions into the HAp structure leads to the formation of fluorapatite, which has improved stability..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.419590+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.494219+00:00"
   },
   "2604.07271v1": {
     "id": "2604.07271v1",
@@ -8656,7 +8656,7 @@
       ],
       "method_excerpt": "Methods Dose calibration by KL divergence The experimental electron dose was determined by minimising the KL divergenceDKL(P∥Q) =P i P(i) log[P(i)/Q(i)]between the normalised pixel-intensity histogram of the experimental ref- erence frame (P) and those of sparse simulated images (Q) at trial doses. Sparse images model stochastic electron detection by probabilistic sampling of the normalised simulated intensity distri- bution usingN e electron events, whereNe is set by the trial dose. Image preprocessing Raw frames underwent flat-field correction (Gaussian background estimation,σ= 20pixels for256× 256frames; subtracted), dead-pixel removal (>5σfrom local mean; replaced by eight- neighbour mean), BM3D denoising37, and five-frame averaging for initial model estimation. Initial model estimation In-plane coordinates were determined by multiple 2D Gaussian fitting. Out-of-plane coordinates were initialised by the PCD approximation23 with LOWESS smoothing38 to suppress outliers. Ambiguous regions used MAP estimation47. Implemented in MATLAB/StatSTEM48. Inverse problem formulation Recovering 3D atomic coordinates from a single 2D low-dose TEM image is a severely ill-posed inverse problem. Letr∈R 3N denote the concatenated 3D coordinates of allNatoms in the system. The forward modelF:R 3N →R M maps an atomic configuration to theM-pixel TEM image that it would produce under known experimental conditions (accelerating voltage, aberration coefficients, electron dose): Iobs =F(r) +η,(4) whereηrepresents shot noise. The reconstruction task is to find the configurationr ∗ that best exp..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.396028+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.472010+00:00"
   },
   "2604.07077v1": {
     "id": "2604.07077v1",
@@ -8770,7 +8770,7 @@
       ],
       "method_excerpt": "Methods The qNEP training hyperparameters . Graphics Processing Units Molecular Dynamics (GPUMD) v4.3 was used to train the qNEP model36,37. Detailed information regarding the multi-loss training algorithm based on the qNEP model and SNES, as well as the nep.in input file used, can be found in Supplementary Note S1–S2. In general, the selection of the cutoff radius and the number of neurons pre sents a trade -off among computational speed, accuracy, and the risk of overfitting 26. In contrast, the choice of n_max, l_max, and batch size primarily involves a trade -off between accuracy and speed 38. Therefore, to balance these competing factors , we prioritized increasing the number of neurons, n_max, and the batch size. The NEP -4 model26 was trained with the batch size Nbat of full batch, while the number of neurons Nneu was set to 50. The radial descriptor indices nmax R of 8 and angular descriptor indices nmax A were 8. The numbers of radial and angular descriptor basis functions, Nbas R and Nbas A were both set to 8. Concurrently, a radial cutoff of 6.5 Å and an angular cutoff of 4.0 Å were set to achieve an 6 optimal balance between accuracy and resolution. The population size Nbat was set to 50, and steps Ngen was set to 500,000. The training took approximately 2 days on 4 × RTX 4090 GPUs. The total number of trainable parameters in the model for 6 elements is 22,633, which demonstrates the data efficiency of the NEP model39,40. Machine Learning Molecular Dynamics (MLMD) After completing the training of the MLP, the MLMD simulations were performed. Before the simula..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.394052+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.470151+00:00"
   },
   "2604.15211v1": {
     "id": "2604.15211v1",
@@ -8877,7 +8877,7 @@
       ],
       "method_excerpt": "this case utilizing FE analysis using the COMSOL software and a material model based on minimizing Gibbs free energy with the formulation of Boyd and Lagoudas [24]. In order to support the design process of material integrated actuators, such as SMAHC within the context of computer-aided engineering (CAE) on a broader basis than today, 3D FE-Based Multiphysics Simulation of a SMAHC actuator module4 sufficiently simple but reliable models are required which – in contrast to Turners widely accepted approach – also precisely describe the dynamic thermomechanical response of the SMA material under various boundary conditions. If the exact 3D geometry of the application is important, multiphysics FE modeling today provides a useful engineering tool to describe and help to predict a wide range of physical phenomena. However, until today, there is no comprehensive and satisfactorily validated method that simulates a detailed 3D FE model of an SMAHC, taking into account boundary conditions such as ambient temperatures and applied loads, while also accounting for full electro-thermo- mechanical coupling. In the present study we therefore investigated a the capability of a new material model [25] that was recently implemented in the FE-based simulation software ANSYS LS-DYNA [26] to model not only the response of SMA, namely its pseudoplasticity, superelasticity and one way shape memory effect, but also a complete SMAHC, exhibiting also external two way shape memory effect. A detailed 3D-model of an commercially available SMAHC actuator was created and fully coupled multiphysics s..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.428135+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.502363+00:00"
   },
   "2604.14559v1": {
     "id": "2604.14559v1",
@@ -8975,7 +8975,7 @@
       ],
       "method_excerpt": "relaxation of a radical probe. 42 While this technique indicates enhanced plasticizer dynamics at the population level, it re- lies on indirect measurements using a radical probe and does not provide insights into the mechanism of plasticization.43 A positron annihilation lifetime spectroscopy (PALS) study44 3 of chitosan-water systems reveals decreasing polymer free volume upon hydration, consis- tent with other hydrated biopolymers. 45–47 While PALS provides sub-nanometer insights into the free volume trends in polymer-additive systems, the average hole size is obtained from a simplified model containing monodisperse spherical holes. 48,49 However, it has been shown that these molecular voids are neither spherical nor monodisperse. 50 Consequently, the atomic-level mechanism of (anti-)plasticization of chitosan and other biopolymers is not yet fully understood. Computational modeling methods can provide insight into the molecular-level physics that may not be accessible by experiment or theoretical frameworks. Several studies employ MD simulations to characterize the thermomechanical properties of plasticized polymers, particularly biopolymers, across diverse chemistries. 51–54 However, there is very limited lit- erature employing computational methods to elucidate the plasticization of chitosan sys- tems.51 Plasticization of starch and cellulose derivatives with additives, including water, polyols, and drug molecules, has been characterized with MD simulations. 52–54 An investi- gation of starch-glycerol systems has suggested the cooperative motion of local plasticize..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.426612+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.500885+00:00"
   },
   "2604.06048v1": {
     "id": "2604.06048v1",
@@ -9075,7 +9075,7 @@
       ],
       "method_excerpt": "s are filled with external atoms, CoSb3-based skutterudites can efficiently convert heat into electricity and typically exhibit thermoelectric ZT values greater than 1.0 18,19. A wide range of elements from the alkali-earth and lanthanide groups have been used as filler atoms in CoSb3-based skutterudites 20–23. The type and concentration of these filler atoms play crucial roles in affecting the electrical and thermal conductivity of the material. While skutterudites with single, binary, or ternary filler atoms have been studied efficiently, a deeper fundamental understanding is needed to guide the rational design of these thermoelectric materials 5 and to overcome the challenge of simultaneously achieving high electrical conductivity, low thermal conductivity, and a high ZT value 13,24–26. Traditionally, the discovery of thermoelectric materials relied on experimental trial and error method combined with computational techniques like density functional theory (DFT) and molecular dynamics (MD) 27–29. These computational techniques are generally very expensive in terms of time and computational resources 30. This limits to screen through the vast chemical and compositional space of thermoelectric materials 31–33. This challenge has prompted a growing interest in data-driven and machine learning (ML) techniques, which aim to accelerate materials discovery by leveraging existing data to predict thermoelectric properties, thereby reducing dependence on resource-heavy first-principles simulations 27,34–36. Artificial neural networks (ANNs) 37,38 have gained popularity as forwa..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.389460+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.465797+00:00"
   },
   "2604.03913v1": {
     "id": "2604.03913v1",
@@ -9257,7 +9257,7 @@
       ],
       "method_excerpt": ", structural metrics, particularly the height of the first peak in the pair correlation function (PDF), pro- vide a practical approach to estimate thep-Tconditions where the system transitions from fully mixed to phase sepa- rated (Karasiev et al. (2026)). In this work, we use DFT-MD to investigate H–Ne mix- tures under extremep–Tconditions. We identify the onset of phase separation through structural signatures in the PDFs. Next, we examine the stabilization of H 2 molecules in the presence of Ne through a bond-lifetime analysis. In addition, we compute diffusion coefficients and electronic transport properties to explore how H metallization influences phase separation and transport behavior. In the Supplementary Ma- terial (SM), a tabulated EOS is provided for H-Ne mixtures for all conditions investigated in this work which could be used to interperete future experimental campaigns. 2.METHODS We used the Born-Oppenheimer approximation to decou- ple electronic and ionic degrees of freedom. The electronic subsystem was treated using DFT, while the ionic positions were evolved in time using classical MD, as implemented in the ViennaAb initioSimulation Package (V ASP) (Kresse & Hafner (1993, 1994); Kresse & Furthmüller (1996); Kresse & Furthmüller (1996)). We used the Perdew–Burke–Ernzerhof (PBE) exchange-correlation (XC) functional, (Perdew et al. (1996)) a plane-wave energy cut-off of 1000 eV and the Baldereschi mean value point to sample the Brillouin zone. Projector-augmented wave (PAW) pseudopotentials were used: PAW_PBE H_h 06Feb2004 for H and PAW_PBE Ne 05Jan2001 fo..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.408885+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.484043+00:00"
   },
   "2604.03413v1": {
     "id": "2604.03413v1",
@@ -9450,7 +9450,7 @@
       ],
       "method_excerpt": "bstract The design of triboelectric nanogenerators (TENGs) for efficient energy harvesting requires predictive models that capture the interplay between surface roughness, real contact area, and electrostatic behaviour across diverse tribolayer materials and roughness levels. To address this demand, this paper presents a multiphysics finite element framework that couples mechanical contact analysis with electrostatic simulations, considering exact surface roughness represen- tations rather than idealised statistical approximations. Compared with optical interference microscopy measurements, the framework predicts the real contact area ratio more accurately than analytical models. The proposed approach cap- tures the electrostatic behaviour by scaling the TENG surface charge density with the real contact area ratio between the rough tribolayers, computed for a given mechanical load. This method improves agreement with experiments for open-circuit voltage and capacitance relative to approximate analytical models. To represent the TENG circuit, a time- dependent ordinary differential equation is integrated, enabling evaluation of electrical responses under varying load conditions and elucidating the roles of surface roughness, mechanical load, contact–separation frequency, and resistive load. The framework provides a robust, scalable tool for performance optimisation across dielectric materials, me- chanical behaviours, and operating conditions and is readily extendable to other surface-dependent energy-harvesting devices. Keywords:TENG, Finite Element Method, Surface Rough..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.370131+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.452008+00:00"
   },
   "2603.28461v1": {
     "id": "2603.28461v1",
@@ -9653,7 +9653,7 @@
       ],
       "method_excerpt": "lasticity ABSTRACT: While β-Ga2O3 is considered a promising wide bandgap semiconductor, the impact of ion-induced defect formation and anisotropic elasticity remains poorly understood. Here, we combine a simulation and experiment X-ray diffraction (XRD) study of the strain-stress dynamics induced by ion implantation into β- Ga2O3 single-crystals with different surface orientations. The strain accumulation in the out-of-plane direction is observed by XRD to occur in an anisotropic manner, with compressive strain along the [010] direction and tensile strain along the directions perpendicular to (100) and (001). An anisotropic stress/strain accumulation model is proposed and probed via Molecular Dynamics (MD), showing an excellent agreement with the experiments. For higher damage levels, pole figures obtained both experimentally and by MD via a novel reciprocal-space projection method reveal an orientation-independent β-to-γ phase transition, with a fixed crystallographic relationship between the polymorphs. By exploring the strain-stress dynamics in anisotropic systems, this work establishes a method to directly compare macroscale diffraction experiments and atomistic simulations and opens a new path to engineer the properties of such systems utilizing their anisotropic response to ion implantation/irradiation. 2/31 1. Introduction β-Ga2O3 is one of the most promising ultra-wide bandgap semiconductors for future (opto)electronic applications. Its bandgap of ∼4.9 eV at room temperature and the large breakdown electric field of ∼8 MV/cm lead to a Baliga figure of merit large..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.347542+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.430437+00:00"
   },
   "2603.27430v1": {
     "id": "2603.27430v1",
@@ -9967,7 +9967,7 @@
       ],
       "method_excerpt": ", the simulations may be fully parallelized. Thus, any LDPM domain can be decomposed in the same manner as any FEA decomposition. 3.2.2 CI: Project Chrono 4 Chrono is an open-source multi-physics engine designed to simulate dynamics of complex and large-scale systems. It is written inC++and designed to be modular and extensible. Chrono is particularly well-suited for simulating systems that involve frictional contact, multibody dynamics, fluid-solid interaction, granular dynamics, and finite element analysis. Chrono can be used for a wide range of applications in engineering and science [58] and is publicly available 5 under the BSD-style license. The Chrono LDPM implementation can be found in the chrono-concrete branch 6. Chrono implements many implicit and explicit time integration solvers, including 2 nd order Implicit time integrators such as Hilber-Hughes-Taylor (HHT) [68], Newmark methods [47] as well as 1st order implicit techniques such as linearized Euler and projected Euler methods [58]. Hessian factorization and convergence criteria: Numerical examples presented here are simulated using Chrono-V8, where the system matrix is updated and factorized once per time step (at the first iteration); however, the initial elastic stiffness is always used. Recently, Chrono released a newer version V9, which can optionally update and factorize the system matrix only once at the beginning of the analysis. Chrono V8 employs two different sets of convergence criteria depending on the integration mode: “acceleration” or “position”. Convergence is declared if either the residua..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.353140+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.435807+00:00"
   },
   "2603.20901v1": {
     "id": "2603.20901v1",
@@ -10062,7 +10062,7 @@
       ],
       "method_excerpt": "Methods: Sample fabrication: Direct current magnetron sputtering was employed to deposit the 50 nm amorphous Ge 3Sb2Te6 with a power of 20 W and a deposition rate of 0.15 nm/s on top o f a 1x1 cm² silicon substrate with a thickness of 1 mm. Subsequently, radio frequency sputtering was utilize d to deposit a 70 nm ZnS:SiO 2 capping layer with a power of 59 W and a deposition rate of 0.09 nm/s to prevent the PCM layer from oxidation. Afterward, 100 nm AR-P 639.04 PMMA resist was spin-coated with 3000 rpm on top, followed by 270 nm AR-P 679.04 PMMA resist with 4000 rpm. After each PMMA deposition step, the entire sample was heated for 5 minutes to 130 °C. The resist was patterned with an electron beam lith ography setup eLine from Raith GmbH. An accelerating voltage of 10 kV, an aperture size of 10 µm, a beam current of 25.4 pA and a writing field of 80x80 µm² were utilized. After patterning the resist, the sample w as developed for 52 s in a 3:1 mixture of deionized water and isopropyl alcohol and subsequently dried with nitrogen. Afterward, the sample was submerged for 20 s in pure isopropyl alcohol. For thermal evaporation, a Leica EM MED020 was employed with pure aluminum positioned in a tungsten boat and evaporated using 110 A. For the lift-off process, the sample was positioned in acetone for thirty minutes to dissolve the remaining resist material at 35 °C. Optical switching: Optical crystallization of GST was performed with a home-built laser setup consisting of a laser diode with 660 nm wavelength, focused by a 10x objective with a numerical aperture of 0.25 onto t..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.360443+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.442759+00:00"
   },
   "2604.05352v1": {
     "id": "2604.05352v1",
@@ -10172,7 +10172,7 @@
       ],
       "method_excerpt": "hydrogen uptake associated with a dense oxide film [12]. However, the coexistence of hydrogen resistance and pronounced CSRO raises fundamen- 3 tal questions regarding how CSRO affects hydrogen solution thermodynamics and hydrogen trapping at dislocations, with potential implications for macro- scopic mechanical behavior. Given the V-centered CSRO identified in CoNiV alloys [17, 18], prior studies of vanadium-containing systems (with H) provide important context. Vanadium exhibits strong hydrogen affinity and high hy- drogen solubility in its pure form [27], while vanadium-rich environments in alloys can act as deep hydrogen traps [28], such as at the surfaces of vanadium carbide particles (V4C3) [29, 30] and within vanadium-enriched carbides in steels [31]. It remains unclear how established hydrogen–vanadium interac- tions translate to V-centered CSRO in CoNiV alloys. First-principles methods such as density functional theory (DFT) provide accurate descriptions of hydrogen energetics and bonding [32, 33] but are computationally prohibitive for the large systems required to study CSRO and dislocation cores. Conventional empirical potentials, while computa- tionally efficient, often lack the transferability needed to describe multi- component alloys. Machine-learning interatomic potentials (MLIPs) offer a powerful alternative by reproducing DFT-level accuracy while enabling large-scale simulations of complex materials systems [34, 35, 36]. In this work, we develop and validate an MLIP for the Co-Ni-V-H system. Us- ing this potential, we investigate (i) the nature of CSRO..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.383872+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.460651+00:00"
   },
   "2603.20574v1": {
     "id": "2603.20574v1",
@@ -10267,7 +10267,7 @@
       ],
       "method_excerpt": "nse is dominated by the dynamics of LCs in a smaller volume surrounding the resonators, thus allowing the thickness of the LC layer to be decreased, resulting in increased switching speeds. While these devices have shown impressive performance in simulation, there has been a gap between simulation and experiment. This is a common trend among all LC-actuated nanophotonic devices supporting strong optical resonances. It has been proposed that this discrepancy is caused by the complex nanoscale alignment of LCs around nanostructures 18,19. This is a difficult problem to address as small variations in the LC alignment can result in large changes in optical response due to the metasurface-enhanced optical field. Therefore, there is a need to understand and precisely model the alignment of LCs around nanostructures through thermodynamic free-energy minimization simulations 20–22. The standard method for modeling the alignment of LCs in complex geometries uses the Landau-de Gennes equations 23. However, a comprehensive model of the dynamics of LCs on the nanoscale has not yet been achieved in the context of LC-tuned active nanophotonic devices. Page 3 of 23 While resonantly enhanced LC-based SLMs have enabled faster switching speeds and smaller pixel sizes, most still rely on metallic layers for reflection and electrical contacts 11,16. Due to the relatively low damage threshold of metals caused by their free-carrier absorption (7.9 J/cm2 for 𝜆 = 1 𝜇m illumination in gold 24), they are not suitable for use with high-power lasers 25. There are many technologies which require hig..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.356615+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.439128+00:00"
   },
   "2604.16261v1": {
     "id": "2604.16261v1",
@@ -10387,7 +10387,7 @@
       ],
       "method_excerpt": "Methods RMD simulations were performed using LAMMPS, 30 using a previously developed ReaxFF force field for the NiCr–FLiNaK system. 29 This potential reproduces key thermophysical properties of FLiNaK and captures preferential Cr dissolution in Ni–Cr alloys exposed to molten fluorides. 15,29 A Σ5(210)/(001) symmetrical tilt GB in FCC Ni, with 53.1°tilt angle, was constructed using the coincidence site lattice (CSL) approach 31 and generated with the Aimsgb Python package. 32 The Ni 0.75Cr0.25 alloy is created by randomly substituting Ni atoms with Cr to achieve 25% Cr in each layer. The bicrystal model contains 18 layers along thez-direction and was first relaxed under NPT at 800 ◦C and 1 atm for 50 ps with a 0.25 fs time step using the Nose–Hoover thermostat and Berendsen barostat. 33,34 As shown in Figure 1, to generate strained configurations, the alloy slab was deformed along thex-direction at a constant strain rate of 10 −5 ps−1 at 800◦C. Periodic boundary con- ditions were applied in x and y, and non-periodic conditions inz. Loading simulations were performed in the NVT ensemble. The stress–strain response (Figure S1 in Supporting Infor- mation (SI)) is linear over the simulated strain range, similar to other metal systems in MD simulations.35–37 Three models in the elastic range were selected for corrosion simulations: tensile strain (+4%), compressive strain (-4%), and unstrained (0%). The selected strain 4 Figure 1: Atomic configurations of the optimized (a) FLiNaK salt and (b) Ni 0.75Cr0.25 Σ5(210) GB slab used in the study, respectively. (c) shows the alloy-sa..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.430295+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.504425+00:00"
   },
   "2604.02952v1": {
     "id": "2604.02952v1",
@@ -10478,7 +10478,7 @@
       ],
       "method_excerpt": "evaluation of whether improved macroscopic performance correlates with dopant participation in charge compensation or predominantly with dopant-induced reorganization of vacancy states .2 In addition, because practical NiO films are often subject to epitaxial mismatch and residual stress (especially on transparent conductors), we also consider strain as a device -relevant parameter that can perturb defect energetics and optical transitions even when the underlying charge -transfer mechanism remains intact.7 2. Computational details First-principles density functional theory (DFT) calculations were performed using the Vienna Ab initio Simulation Package (VASP). 15–18 The exchange-correlation energy was described within the Generalized Gradient Approximation (GGA) using the Perdew -Burke-Ernzerhof (PBE) functional, 19 in combination with the projector augmented wave (PAW) method.20 A plane-wave kinetic energy cutoff of 800 eV was employed throughout. Electronic occupations were treated using Gaussian smearing with a width of σ = 0.025 eV. On-site Coulomb interactions were included within the DFT+U framework using the Liechtenstein approach. 21 The Hubbard correction was applied to both the Ni 3d (U = 6.5 eV, J = 1 eV) and O 2p states (U = 9 eV, J = 1 eV). Non-spherical contributions from the gradient corrections 4 inside the PAW spheres and to the Kohn -Sham potential were explicitly considered. Spin-polarized calculations were performed in all cases. The NiO(001) surface was modeled using a four -layer slab constructed in a p(2×2) supercell containing 64 atoms. The two bo..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.375558+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.457216+00:00"
   },
   "2603.10678v1": {
     "id": "2603.10678v1",
@@ -10572,7 +10572,7 @@
       ],
       "method_excerpt": "ited Arab Emirates Abstract Magnetohydrodynamic (MHD) effects play a key role in the design and operation of nuclear fusion systems, where electrically conducting fluids (such as liquid metals or molten salts in reactor blankets) interact with magnetic fields of varying intensity and orientation, which affect the resulting flow. The numerical resolution of MHD models involves highly nonlinear multiphysics systems of equations and can become computationally expensive, particularly in multi- query, parametric, or real-time contexts. This work investigates a fully data- driven framework for MHD state reconstruction that combines dimensionality reduction via Singular Value Decomposition (SVD) with the SHallow REcurrent Decoder (SHRED), a neural network architecture designed to recover the full spatio-temporal state from sparse time-series measurements of a limited number of observables. The methodology is applied to a parametric MHD test case involving compressible lead-lithium flow in a stepped channel subjected to thermal gradients and magnetic fields spanning a broad range of intensities. To improve efficiency, the full-order dataset is first compressed using SVD, yielding a reduced representation used as reference truth for training. Only temperature measurements from three sensors are provided as input, while the network reconstructs the full fields of velocity, pressure, and temperature. To assess robustness with respect to sensor placement, thirty randomly generated sensor configurations are tested in ensemble mode. Results show that SHRED accurately reconstructs the..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.351119+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.433878+00:00"
   },
   "2307.00981v2": {
     "id": "2307.00981v2",
@@ -10679,7 +10679,7 @@
       ],
       "method_excerpt": "Norway 3 Dresden Center for Computational Materials Science, TU Dresden, 01062 Dresden, Germany The phase-field crystal model (PFC) describes crystal structures at diffusive timescales through a periodic order parameter representing the atomic density. One of its main features is that it naturally incorporates elastic and plastic deformation. To correctly interpret numerical simulation results or devise extensions related to the elasticity description, it is important to have direct access to the elastic field. In this work, we discuss its evaluation in classical PFC models based on the Swift-Hohenberg energy functional. We consider approaches where the stress field can be derived from the microscopic density field (i.e., the order parameter), and a simple novel numerical routine is proposed. By numerical simulations, we demonstrate that it over- comes some limitations of currently used methods. Moreover, we shed light on the elasticity description conveyed by classical PFC models, characterizing a residual stress effect present at equilibrium. We show explicitly and discuss the evaluation of the elastic fields in prototypical representative cases involving an elastic inclusion, a grain boundary, and dislocations. Preprint 1 Introduction The so-called phase-field crystal (PFC) model [1–3] emerged as a prominent framework for describing crystal structures at large (diffusive) timescales through a continuous, periodic order parameter representing the atomic density. In its classical formulation, it builds on a Swift-Hohenberg-like free energy functional [1–3] of the form F..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.300496+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.386039+00:00"
   },
   "2603.04990v1": {
     "id": "2603.04990v1",
@@ -10771,7 +10771,7 @@
       ],
       "method_excerpt": "antages that are not observed in any conventional 3D materials (9) (10). The creation of such high-quality NCs with TMDCs, is crucial for a wide range of advanced applications, including electronics, energy storage, and sensors. Despite the promising properties of layered TMDCs, their wafer-scale synthesis with consistent quality remains a major challenge (8, 11). In bulk TMDCs, strong intralayer covalent bonding is coupled with weak interlayer van der Waals (vdW) interaction enabling exfoliation under relatively small external stimuli. However, the size confinement makes challenging for controlled exfoliation (12, 13) . Achieving precise control to produce defect free material with 3 consistent quality remains hurdle (14). Mechanical exfoliation, which is employed widely in research to obtain high quality monolayers, suffers from limitations , it is a low -throughput method, yields flakes of random size and position, and it is unsuitable for scalable manufacturing (15, 16) . Chemical vapor deposition (CVD), the most common method for large-area growth, suffers from non -uniform thickness control, grain boundary formation, and defect densities that degrade charge transport and optical performance (17, 18). Liquid phase exfoliation techniques based on probe sonication or shear mixing produce high yield but relay on prolonged mechanical agitation (19, 20) . Chemical and electrochemical intercalation methods weaken interlayer coupling but induce s phase instability, chemical contamination, or irreversible lattice distortion (21, 22). Together these limitations highlight a f..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.345625+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.428524+00:00"
   },
   "2604.18090v1": {
     "id": "2604.18090v1",
@@ -10875,7 +10875,7 @@
       ],
       "method_excerpt": "the crawler achieves 90% crawling success on SiC paper and 100% on a tissue substrate. This study advances magn etic artificial muscles along three axes: 1. Process -encoded mechanics and magnetics: LPBF energy scaling as a continuous design parameter to tune stiffness, porosity, and magnetic output; 2. Miniaturized compliant architecture: realization of sub -mm flexural hinges within a magnetoactive printed composite for high -cycle, load -bearing actuation; 3. Multimodal function: integration of anisotropic friction feet and programmed magnetization to achieve crawl and grip operation across surfaces and object geometries, without multi-material assembly or complex reconfiguration steps. Together, these elements establish a material - centric pathway to adaptive, untethered soft machines for locomotion, manipulation, and anchoring in real-world environments. 2. Materials and Methods 2.1 Bioinspired Design Concept The actuator systems developed in this work were conceived following the biomechanical principles of natural muscle actuation, emphasizing the contraction -relaxation behavior of human skeletal muscles and the distributed deformation of human fingers during grasping (Figure 1A). Inspired by these biological mechanisms, two functionally distinct but compositionally identical actuator types were designed: (i) an elongated actuato r, which produces uniaxial contraction resembling a linear muscle fiber, and (ii) an expandable actuator, which generates radial opening and closing motions for grasping -like behavior (Figure 1B). Both designs employ the same magnetoac..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.435556+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.509379+00:00"
   },
   "2604.17993v1": {
     "id": "2604.17993v1",
@@ -10965,7 +10965,7 @@
       ],
       "method_excerpt": "neralized form of Euler elastica, where the axial stress adds to the transverse stress. Multiple independent theoretical and numerical analyses have been provided in support of this result. Crucially, dedicated experiments were also designed and performed, not only validating the theoretical predictions but also demonstrating that the proposed transverse loading can be realized in practice. These findings shed new light on the mechanical effects of transverse loading on structural elements and may find applications in the mechanics of slender bodies, beams, and filaments. Acknowledgements D.B. and A.P. acknowledge funding from the European Research Council (ERC) under the Eu- ropean Union’s Horizon Europe research and innovation programme, Grant agreement No. ERC- ADG-2021-101052956-BEYOND. D.M acknowledges financial support from the European Union, ERC grant HE GA 101086644 S-FOAM. The methodologies developed in this work fall within the aims of the GNFM (Gruppo Nazionale per la Fisica Matematica) of the INDAM (Istituto Nazionale di Alta Matematica). Views and opinions expressed are those of the authors only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them. 15 0 50 100 150 200 250 3000 2 4 6 8 10 displacement, ul (mm) load, P (N) (xi) F =9.81 N F F F F F F F P PP P F F F F F F F ul 0 50 100 150 200 250 3000 2 4 6 8 10 displacement, ul (mm) load, P (N) (v) F =4.91 N 0 1 2 3 4 0.6 0.12 0.18 simulation theory experiments theory..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.433437+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.507374+00:00"
   },
   "2303.05040v3": {
     "id": "2303.05040v3",
@@ -11066,7 +11066,7 @@
       ],
       "method_excerpt": "lah University of Science and Technology, Thuwal, Saudi Arabia dChair of Mathematics for Uncertainty Quantiﬁcation, R WTH A achen University, Aachen, Germany Abstract This work employs the Birnbaum–Saunders distribution to mo del the fatigue life of metallic materials under cyclic loading and compares it with the normal distrib ution. Fatigue-limit models are ﬁtted to three datasets of unnotched specimens of 75S-T6 aluminum al loys and carbon laminate with diﬀerent loading types. A new equivalent stress deﬁnition that accou nts for the eﬀect of the experiment type is proposed. The results show that the Birnbaum–Saunders dist ribution consistently outperforms the normal distribution in ﬁtting the fatigue data and provides more ac curate predictions of fatigue life and survival probability. Keywords: Metallic fatigue data; fatigue-life prediction; fatigue- limit models; maximum likelihood methods; Birnbaum–Saunders distribution 1. Introduction Fatigue-life prediction is vital to preventing the failure of mechanical parts under cyclic loading. Stress- life models, or S-N curves, are usually used to model fatigue life [1, 2, 3]. Although many models relate stress to the fatigue life, with probabilistic models, the f atigue life is often assumed to be a log-normal random variable [4, 5, 6, 7] or to follow the Weibull distribu tion [4, 8]. A comprehensive review of plausible models for fatigue life is available in [9]. For a speciﬁed st ress-life model, a corresponding fatigue strength model can be induced and then used to make predictions [10]. This work considers Birnbaum–Sa..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.299449+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.385015+00:00"
   },
   "1512.01779v1": {
     "id": "1512.01779v1",
@@ -11161,7 +11161,7 @@
       ],
       "method_excerpt": "Szab´ oc, Ra´ ul Temponeb aICES, The University of Texas at Austin, Austin, USA bCEMSE, King Abdullah University of Science and Technology, Thuwal, Saudi Arabia cWashington University in St. Louis, St. Louis, USA dInstituto de Estad´ ıstica (IESTA), Universidad de la Rep´ ublica, Montevideo, Uruguay Abstract In this work, we present a statistical treatment of stress-life (S-N) data drawn from a collection of records of fatigue experiments that were performed on 75S-T6 aluminum alloys. Our main objective is to predict the fatigue life of materials by providing a systematic approach to model calibration, model selection and model ranking with reference to S-N data. To this purpose, we consider fatigue-limit models and random fatigue-limit models that are specially designed to allow the treatment of the run-outs (right-censored data). We ﬁrst ﬁt the models to the data by maximum likelihood methods and estimate the quantiles of the life distribution of the alloy specimen. To assess the robustness of the estimation of the quantile functions, we obtain bootstrap conﬁdence bands by stratiﬁed resampling with respect to the cycle ratio. We then compare and rank the models by classical measures of ﬁt based on information criteria. We also consider a Bayesian approach that provides, under the prior distribution of the model parameters selected by the user, their simulation-based posterior distributions. We implement and apply Bayesian model comparison methods, such as Bayes factor ranking and predictive information criteria based on cross-validation techniques under various a prior..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.297747+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.383425+00:00"
   },
   "2603.14138v1": {
     "id": "2603.14138v1",
@@ -11265,7 +11265,7 @@
       ],
       "method_excerpt": "n along the zigzag and armchair directions, and we discuss the results in the context of available experimental data. Computational Approach Our first-principles calculations are based on density functional theory (DFT). 58,59 Struc- tural parameters (equilibrium lattice constants and internal coordinates) were obtained us- ing the strongly constrained and appropri- ately normed (SCAN) meta-GGA exchange- correlation functional. 60 Electronic band struc- tures were then computed with the Heyd- 3 Scuseria–Ernzerhof screened hybrid functional (HSE)61,62 using a Hartree-Fock mixing param- eterα= 0.40 and including spin-orbit coupling (HSEα+SOC) in order to have a more accurate description of the quasiparticle band gaps and the strain-induced evolution of the band-edge valleys. The interaction between valence elec- trons and ionic cores was described within the projector augmented-wave (PAW) method,63,64 as implemented in the VASP code. 65,66 Convergence of structural parameters and band gaps with respect to Brillouin-zone sam- pling and plane-wave cutoff was verified explic- itly. We find that a 9×9×1 Γ-centeredk-point mesh and a plane-wave kinetic-energy cutoff of 600 eV yield converged results for all TMDs considered, both at equilibrium and under uni- axial stress. All structures were fully relaxed (cell shape consistent with the imposed strain state, and all ionic coordinates) until the total- energy change between electronic steps was be- low 10 −7 eV and residual Hellmann-Feynman forces were below 10 −4 eV ˚A−1. Hybrid- functional band structures were evaluated using t..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.354976+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.437558+00:00"
   },
   "2604.18666v1": {
     "id": "2604.18666v1",
@@ -11379,7 +11379,7 @@
       ],
       "method_excerpt": "2.2 Governing Equations The field equilibrium equations in this phase -field model conclude the mechanical stress balance law , thermal conduction equation and two Allen-Cahn equations for order parameters. The quasi-static stress balance equation and boundary conditions can be given as σ𝑖𝑗,𝑗 + 𝑓𝑖 = 0 inΩ, 𝑢𝑖 = 𝑢̂𝑖 on ∂Ω𝑢, σ𝑖𝑗𝑛𝑗 = 𝑡̂𝑖 on ∂Ωσ, where σ𝑖𝑗 is the stress tensor and 𝑓𝑖 is the body force. If the body force is not considered, 𝑓𝑖 is set to be zero. 𝑢̂𝑖 and 𝑡̂𝑖 are the displacement and surface traction on the boundary part ∂Ω𝑢 and 𝜕Ωσ, respectively. For brittle shape memory alloys, the linear elastic constitution is adopted, e.g., σ𝑖𝑗 = 𝐶𝑖𝑗𝑘𝑙ε𝑘𝑙 ela, where 𝐶𝑖𝑗𝑘𝑙 is the stiffness matrix. The total strain tensor of the material includes the thermal strain, elastic strain and the eigen strain induced by the martensitic transformation, e.g., ε𝑖𝑗 total = ε𝑖𝑗 th + ε𝑖𝑗 ela + ε𝑖𝑗 eigen. The thermal strain is described as ε𝑖𝑗 th = α𝑇(𝑇 − 𝑇0)δ𝑖𝑗, where α𝑇 is the thermal expansion coefficient. 𝑇0 is the initial temperature without thermal strain which is set to be the same as the chemical equilibrium temperature . The eigen strain tensor is defined as ε𝑖𝑗 eigen = ε𝑖𝑗 00(1)𝜂1 + ε𝑖𝑗 00(2)𝜂2 + ε𝑖𝑗 00(3)𝜂3. The tetragonal transformation strain is described with 𝜀𝑖𝑗 00(1) = ( ε3 0 0 0 ε1 0 0 0 ε1 ) , 𝜀𝑖𝑗 00(2) = ( ε1 0 0 0 ε3 0 0 0 ε1 ) , 𝜀𝑖𝑗 00(3) = ( ε1 0 0 0 ε1 0 0 0 ε3 ) . Due to the switching of crystal orientation with Cartesian coordinates, the angle 𝜃 is set to be between the a-axis of the tetragonal cell and the x-axis of the global coordinate system. The 2D rotation mat..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.439416+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.513068+00:00"
   },
   "2604.18139v1": {
     "id": "2604.18139v1",
@@ -11580,7 +11580,7 @@
       ],
       "method_excerpt": "sting of freshly enucleated porcine eyes with high-resolution three-dimensional digital image correlation (3D-DIC). Fifteen corneas were analyzed across three cohorts: (i) de-epithelialized controls, (ii) CXL-treated (standard Dresden protocol), and (iii) anterior stromal ablation via femtosec- ond laser. Samples were subjected to controlled intraocular pressure (IOP) elevations up to 40 mmHg. The 3D-DIC approach provided dense, point- wise displacement and strain maps across the anterior surface, successfully quantifying the localized stiffening effects of CXL and the increased com- pliance induced by stromal ablation. These full-field kinematic data were integrated into a membrane-theory finite element framework to resolve prin- cipal in-plane strains, that were used for subsequent inverse modeling to derive anisotropic hyperelastic parameters of porcine corneal tissue. Over- all, the method establishes an end-to-end route from physiologic loading to full-field strain mapping and constitutive parameter identification, enabling quantitative evaluation of treatment-induced biomechanical changes in the cornea. Keywords:Corneal biomechanics, Digital image correlation, Inflation testing, Cross-linking, Finite element analysis 1. Introduction The cornea plays a crucial role in maintaining the structural integrity and opticalperformanceoftheeye. Thecornealstromaprovidesatransparentyet mechanically resilient structure that maintains corneal curvature and resists the loads generated by intraocular pressure (IOP), the fluid pressure exerted by the ocular humors. Due to its high..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.441181+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.514769+00:00"
   },
   "2604.16692v1": {
     "id": "2604.16692v1",
@@ -11670,7 +11670,7 @@
       ],
       "method_excerpt": "METHODS A. Materials and film fabrication The molecules were synthesized and purified following the protocols detailed in Ref. 57. Prior to deposition, the bulk powder was ground and degassed in a vacuum chamber for 20 minutes at a power slightly below the sublimation threshold. Thin films were fabricated by thermal evaporation onto fused silica substrates and thermal oxide (100 nm) on Si using an Angstrom Engineering EvoVac deposition chamber (base pressure<10 −6 Torr). The deposition rate was monitored using a quartz crystal microbalance and maintained at 0.75 ˚A/s for DPA-QCN and 1.5 ˚A/s for Flu-DTA-QCN. For the samples discussed in this work, the DPA-QCN film had a thickness of 106 nm and the Flu-DTA-QCN film had a thickness of 77 nm, as determined by spectroscopic ellipsometry. B. Surface potential measurements The spontaneous orientation polarization was characterized by measuring the surface po- tential of the films using a Trek 320C electrostatic voltmeter. The Giant Surface Potential (GSP) slope, representing the potential build-up per unit thickness (mV nm −1), was de- termined by measuring the potential difference between the deposited film and the bare substrate, normalized by the thickness of the film. Additional details on the experimental procedure and the extraction of the average molecular orientation angle⟨cosθ⟩from the GSP slope can be found in Ref. 57. The reported uncertainty for the first moment reflects sample-to-sample variability (the standard deviation across three films). This value does not account for uncertainties in the magnitude of the pe..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.431935+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.505941+00:00"
   },
   "2604.08187v1": {
     "id": "2604.08187v1",
@@ -11753,7 +11753,7 @@
       ],
       "method_excerpt": "nucleation locations, is needed to reconcile experiments and simulations, and thereby reach a deep understanding of the mechanism of hydrate formation. ∗Corresponding authors: J. Grabowska: joanna.grabowska@pg.edu.pl, E. Sanz: esa01@quim.ucm.es I. INTRODUCTION Clathrate hydrates are crystalline structures in which gas molecules are trapped within cages of water molecules. 1 Methane hydrates are primarily found in deep-sea sediments and permafrost regions, and serve as a substantial reservoir of methane and other fuel molecules. In addition to their poten- tial as an energy source, gas hydrates offer a promising avenue for carbon dioxide (CO2) sequestration, as CO2 could replace methane within hydrate structures, 2–5 providing a dual ben- efit of reducing greenhouse gas emissions while facilitating methane extraction. Hydrogen hydrates are also important be- cause they offer a potential method for safe and compact stor- age of hydrogen, supporting the transition to cleaner energy sources. Methane hydrates, however, pose significant chal- lenges for the oil and gas industry, particularly due to their tendency to form blockages in pipelines during hydrocarbon production and transportation, leading to operational ineffi- ciencies and safety risks.6 It is thereby crucial to characterise and understand the formation and stability of hydrates. Numerous experimental studies7–15 have been conducted to better understand the formation, growth and dissociation of gas hydrates under various thermodynamic and kinetic condi- tions. Researchers have investigated the effects of tempera-..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.405251+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.480619+00:00"
   },
   "2604.20355v1": {
     "id": "2604.20355v1",
@@ -11852,7 +11852,7 @@
       ],
       "method_excerpt": "METHODS Molecular Dynamics.We ran Bussi NVT [79] MD simulations using our MACE interatomic potential for multiple temperatures using the Atomic Simulation En- vironment [80]. Details about the MACE interatomic potential and the MD simulations are given in the Sup- plementary Material. Average atomic displacements.To calculate the average atomic displacements in thexyplane in Fig. 1b, we folded the atomic positions from the original 56×56×1 supercell onto a normal phase 2×2×1 supercell, which is the smallest supercell compatible with the CDW phase at theq= M point. This serves as a method of averaging, the main reason for this can be seen in Fig. 2a. Namely, we see that for all temperatures there are regions where atoms are highly displaced even though in global they fol- low the expected behaviour where the system transitions from CDW to normal phase as the temperature increases. The distance between the time-averaged position of the i-th atom from the MD simulation cell⟨R i⟩and thei-th atom from the normal phase reference structureR 0 i in Fig. 2a is calculated as ⟨Ri⟩ −R 0 i = 1 Nsteps X t Ri(t)−R 0 i ,(1) whereN steps is the total number of MD time steps,R i(t) is the position of thei-th atom from the MD simula- tion cell at time steptand the sum runs over all time steps. Furthermore, when we perform the folding onto a 2×2×1 supercell, we average the atomic positions over time. After averaging, we find which average of atomic positions is closest to its reference atomic position from the 2×2×1 normal phase supercell. Then we shift all of the average positions by a vec..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.444855+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.518174+00:00"
   },
   "2604.18139v2": {
     "id": "2604.18139v2",
@@ -11944,7 +11944,7 @@
       ],
       "method_excerpt": "density approximation (LDA) or generalized gradient approximation (GGA)12 exchange-correlation functionals demonstrate 4 promising performance for periodic solid and liquid systems.13–16 However, these conventional semi-local exchange-correlation (xc) functionals, often fall short of adequately capturing nonlocal correlations, namely dispersion interactions. As such, various computationally affordable dispersion models have been proposed to account for dispersion interactions and have been widely adopted to improve their description in diverse systems. One such model is Grimme's proposed density functional theory with dispersion corrections (DFT-D),17,18 which incorporates semi-empirical correction terms derived from interatomic potentials to enhance the treatment of long-range interactions. Subsequently, Dion et al.19 introduced the nonlocal van der Waals density functional (vdW-DF) method, which computes nonlocal correlation energy without relying on empirical considerations. Following the development of dispersion models, their importance was tested on different systems. For example, in water, it was found that the absence of dispersion interaction underestimated the density by almost 20%.20 Similarly, dispersion corrections have been shown to impact the structural and dynamic properties of room-temperature ionic liquids and other non-covalent ionic systems.21,22 Furthermore, comparative studies have also revealed that selecting an optimal dispersion model is critical for ensuring accuracy, emphasizing the need for careful selection of dispersion models.23–25 For molt..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.437575+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.511310+00:00"
   },
   "2604.20593v1": {
     "id": "2604.20593v1",
@@ -12026,7 +12026,7 @@
       ],
       "method_excerpt": "tructural disor- der and varying atomic coordination, which cannot be captured by a single average binding energy. To address this limitation, a spectral approach has been developed to explicitly ac- count for site-wise variations in segregation energetics, enabling a more realistic description of GB segregation behavior [31–33]. Building on this framework, it has been widely applied to investigate the roles of solute-solute interactions [34–36], grain size effects [37], vibrational entropy contributions [38], hydrostatic pressure effects [39], segregation-induced GB phase transitions [40, 41], and solute clustering [42?–44] in a wide range of binary systems. More recently, this approach has been extended to predict co-segregation behavior in ternary systems. In contrast to classical co-segregation models [1, 3], which typically rely on sim- plified interaction terms, the spectrum-based method [45] is primarily grounded in a site- 2 competition mechanism. Within this approach, the tendency of co-segregation is related to the linear correlation, referred to as the site competition parameter, between segregation energies of different solute species obtained from the dataset in Ref. [33]. Although this treat- ment captures the competition for available sites, it does not fully account for solute-solute interactions, particularly those arising from short-range chemical bonding and local strain coupling at GBs. Therefore, its predictive capability may be limited in systems where, al- though site competition exists, co-segregation behavior is predominantly governed by strong s..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.446488+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.519689+00:00"
   },
   "2604.07979v1": {
     "id": "2604.07979v1",
@@ -12126,7 +12126,7 @@
       ],
       "method_excerpt": "model-centric ecosystem in which the hybrid FF is con- tinuously calibrated by observables at equilibrium, the agentic layer manages the simulation–experiment inter- face, and the resulting experimentally grounded surro- gate gradually evolves from a task-specific predictor into a reusable digital twin for autonomous discovery. Nonetheless, open challenges remain at multiple scales. At the FF level, anisotropic interactions such as halogen bonds andπ-stacking require conformation-dependent atomic multipoles for accurate description, a challenge that can be addressed through equivariant machine learning without sacrificing physical interpretability [55]. Many-body polarization in concentrated aqueous elec- trolytes and in interfacial double layers also remains an active development area [41]. At the measurement level, interfacial layering, concentration gradients, and evolv- ing electrode–electrolyte configurations can distort the ideal response computed from homogeneous MD [61]. This makes top-down calibration from cell-level spec- troscopy more difficult, as matching the experimen- tal geometry is a prerequisite for quantitatively inter- preting the differentiated observable. At the workflow level, bridging FF predictions to cell-level performance requires multiscale coupling with continuum transport models. For example, MD-predicted properties such as ion diffusion coefficients, transference numbers, and vis- cosities can serve as inputs to porous-electrode mod- els (e.g., Doyle–Fuller–Newman-type battery models) or to Nernst–Planck transport equations that describe io..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.401937+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.477506+00:00"
   },
   "2604.02732v1": {
     "id": "2604.02732v1",
@@ -12405,7 +12405,7 @@
       ],
       "method_excerpt": "Methodology Figure 1: The overall architecture of EEP framework The unified explicit electric potential framework consists of three components as shown in Figure 1. The first is a data generation module for producing DFT training datasets with embedded electric potential information. The second is a dual-model training module, 5 wherein PE-MACE for atomic-scale dynamics and PE-EDP for electron density prediction are independently trained on the corresponding dataset. Both models are decoupled and incorporate a potential-embedding mechanism. The third is a model application stage that drives constant-potential molecular dynamics simulations and electron density predictions at arbitrary potentials, providing analytical tools for efficient simulation of electrochemical in- terfaces. Both CP-AIMD and CP-MLMD in this work assume that electrons instantaneously relax to maintain the target potential at each ionic step. A discussion of this approximation and its comparison with potentiostat-type schemes is provided in the Supporting Informa- tion. Hy DFT software introduction Hy DFT (Grand Canonical DFT with Hybrid Solvation Model) is an interface package for performing constant-potential ab initio molecular dynamics (CP-AIMD) simulations. Built upon the Atomic Simulation Environment (ASE) framework, 34 it integrates VASP as the underlying quantum-chemical engine35,36 and employs VASPsol++ as the implicit electrolyte model to implement a hybrid explicit–implicit solvation scheme. 13–15 VASPsol++ adopts a nonlocal cavity definition that effectively mitigates the solvent leakage a..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.398019+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.473853+00:00"
   },
   "2604.06890v1": {
     "id": "2604.06890v1",
@@ -12489,7 +12489,7 @@
       ],
       "method_excerpt": "Computational Details Density functional theory (DFT) based calculations for the structural optimisation of TM/MX2/Si systems (TM = Au, Ag; M = Mo, W and X = S, Se) are performed using the Vienna ab-initio sim- ulation package (vasp) [35]. The interactions between valence electrons and ionic cores are de- scribed using the projector augmented-wave (PAW) method [36]. The generalized gradient approx- imation (GGA) in the Perdew–Burke–Ernzerhof (PBE) form is employed to treat the exchange- correlation energy [37]. The electronic self-consistent field calculations are converged to within 10−8 eV, and the atomic positions are relaxed until the residual forces in each atom are less than 10−2 eV/Å. A7×7×1Monkhorst–Pack𝒌-point mesh [38] is used for Brillouin zone sampling, and the plane-wave basis set is truncated at a kinetic energy cutoff of 500 eV. To accurately capture long-range dispersion interactions, the Grimme DFT-D3 correction [39] is incorporated to account for van der Waals forces between the layers. The ML potential is trained using the DeepMD-kit package with the DeepPot–SE (Deep Potential-Smooth Edition) model [40,41]. The model in- cludes an embedding network and a fitting network. The sizes of these networks are set to (25, 50, 100) and (240, 240, 240), respectively. The cutoff radius is set to 8.0 Å and the descriptors decay smoothly from 0.5 to 8.0 Å. The initial learning rate is set to 0.001 at the beginning of the train- ing process to achieve a final value of 10−8. The total number of training batches are 105 for the training in the initial iterations and t..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.392494+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.468683+00:00"
   },
   "2604.02139v1": {
     "id": "2604.02139v1",
@@ -12571,7 +12571,7 @@
       ],
       "method_excerpt": "n of nuclear fusion systems, where electrically conducting fluids (such as liquid metals or molten salts employed in reactor blankets) interact with magnetic fields of varying intensity and orientation, thereby influencing the resulting flow dynamics. The numerical solution of MHD models entails the resolution of highly nonlinear, multiphysics systems of equations, which can become computationally demanding, particularly in multi-query, parametric, or real-time contexts. This study investigates a fully data-driven framework for MHD state reconstruction that integrates dimensionality reduction through Singular Value Decomposition (SVD) with the SHallow REcurrent Decoder (SHRED), a neural network architecture designed to reconstruct the full spatio- temporal state from sparse time-series measurements of selected observables, including previously unseen parametric configurations. The SHRED methodology is applied to a three-dimensional geometry representative of a portion of a WCLL blanket cell, in which lead–lithium flows around a water-cooled tube. Multiple magnetic field configurations are examined, including constant toroidal fields, combined toroidal–poloidal fields, and time-dependent magnetic fields. Across all considered scenarios, SHRED achieves high reconstruction accuracy, robustness, and strong generalization to magnetic field intensities, orientations, and temporal evolutions not encountered during training. Notably, in the presence of time- varying magnetic fields, the framework accurately infers the temporal evolution of the magnetic field itself using tempera..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.373440+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.455195+00:00"
   },
   "2604.05264v1": {
     "id": "2604.05264v1",
@@ -12754,7 +12754,7 @@
       ],
       "method_excerpt": "ndereditswidespreaduse in reconfigurable metalenses. In this study, we design an all-dielectric polarization-insensitive metasurface based on hybrid Si–GST nanostructures to realize a dynamically tunable bifocal metalens operating at 1.55µm. The device achieves a variable focal length from 70µm to 200 µm, with focusing efficiencies of 30% in the amorphous state and 20% in the crystalline state, as validated through finite-difference time-domain (FDTD) simulations. Using COMSOL Multiphysics, we show that flat-top laser excitation enables uniform, reversible phase transitions within tens of nanoseconds—amorphization in approximately 13 ns and crystallization in approximately 90 ns—without mechanical motion or electrical bias. For next-generation metasurfaces intended for uses including beam steering, dynamic holography, optical routing, multi-depth imaging, and optical communication, this method shows great promise due to its control and stability. 1. Introduction The capability to precisely modulate the amplitude, phase, and polarization of electromagnetic (EM) waves at subwavelength scales has fundamentally transformed modern photonics [1]. Metasurfaces, the two-dimensional analogs of bulk metamaterials, consist of engineered arrays of subwavelength elements, often referred to as meta-atoms, that can locally tailor optical wavefronts with exceptional precision [2,3]. Their compactness, scalability, and flexible design have enabled a broad range of optical functionalities, including holographic imaging [4,5], optical cloaking [6,7], polarization manipulation [8,9], and sp..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.311825+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.397620+00:00"
   },
   "2604.03580v1": {
     "id": "2604.03580v1",
@@ -12944,7 +12944,7 @@
       ],
       "method_excerpt": "High-Fidelity Simulator for Soft Robots Manuel Mekkattu, Mike Y . Michelis, and Robert K. Katzschmann ∗ Abstract— The deployment of complex soft robots in multi- physics environments requires advanced simulation frameworks that not only capture interactions between different types of ma- terial, but also translate accurately to real-world performance. Soft robots pose unique modeling challenges due to their large nonlinear deformations, material incompressibility, and contact interactions, which complicate both numerical stability and physical accuracy. Despite recent progress, robotic simulators often struggle with modeling such phenomena in a scalable and application-relevant manner. We present SORS (Soft Over Rigid Simulator), a versatile, high-fidelity simulator designed to handle these complexities for soft robot applications. Our energy-based framework, built on the finite element method, allows modular extensions, enabling the inclusion of custom- designed material and actuation models. To ensure physically consistent contact handling, we integrate a constrained non- linear optimization based on sequential quadratic program- ming, allowing for stable and accurate modeling of contact phenomena. We validate our simulator through a diverse set of real-world experiments, which include cantilever deflection, pressure-actuation of a soft robotic arm, and contact interac- tions from the PokeFlex dataset. In addition, we showcase the potential of our framework for control optimization of a soft robotic leg. These tests confirm that our simulator can capture both fundament..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.315821+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.401403+00:00"
   },
   "2604.02537v1": {
     "id": "2604.02537v1",
@@ -13105,7 +13105,7 @@
       ],
       "method_excerpt": "model: 𝐸max,𝑖 = 𝑍𝑖 ∗𝐸max,𝑝 (6) where 𝑍𝑖 ∗ is the most-likely charge state. 5. Sheath field strength, ion front velocity and position The Debye length and the sheath field strength are computed, respectively, by [20]: 𝜆𝐷 = √𝜀0𝑘𝐵𝑇𝑒 𝑒2𝑛𝑒 (7) 𝐸𝑓𝑟𝑜𝑛𝑡,𝑖 = √ 2𝑛𝑒𝑘𝐵𝑇𝑒 𝑒𝜀0(1 + 𝑡𝑝,𝑖 2 ) (8) The expansion ion front velocity and position follow the standard self-similar expressions, respectively [8]: 𝑣front,𝑖 = 2𝑐𝑠,𝑖ln (𝑡𝑝,𝑖 + √1 + 𝑡𝑝,𝑖 2 ) (9) 6 𝑧𝑓𝑟𝑜𝑛𝑡,𝑖 = 2√2𝑒 𝜆𝐷 ∙ ∙ [𝑡𝑝,𝑖 𝑣𝑓𝑟𝑜𝑛𝑡,𝑖 2𝑐𝑠,𝑖 − √1 + 𝑡𝑝,𝑖 2 + 1] (10) 6. Over-the-barrier ionization (OBI) criterion Carbon and oxygen charge states are determined by an over-the-barrier ionization (OBI) threshold [21] applied to the computed quasi -static sheath field 𝐸front,i. For each successive ionization potential 𝐼𝑝 (𝑘) the corresponding OBI threshold field 𝐹OBI is computed, and the highest ionization stage with 𝐸front,i ≥ 𝐹OBI is returned, from which we obtain the most-likely charge state 𝑍𝑖 ∗. 7. Beam divergence (half-angle) computation Our model uses a simple transverse-kick model [22] to estimate transverse acceleration as a sheath transverse component proportional to the axial field: 𝐸𝑟,𝑖 = 𝜅 𝐸front,i (11) where the coefficient 𝜅 depends on the electron beam broadening angle 𝜃e [16] and it is estimated by: 𝜅 = sin(𝜃𝑒) (12) The transverse velocity gained is integrated over the effective acceleration time 𝜏𝑒𝑓𝑓,𝑖: 𝑣𝑟 = 𝑍𝑖𝑒𝐸𝑟 𝑚𝑖 𝜏𝑒𝑓𝑓,𝑖 (13) For protons, 𝜏𝑒𝑓𝑓,𝑝 = 𝜏𝑎𝑐𝑐,𝑝. For heavy ions the effective acceleration time is limited by both their ability to reach the front and the duration of the sheath field: 𝜏𝑒𝑓𝑓,𝑖 = 𝑚𝑖𝑛(𝜏𝑎𝑐𝑐,𝑝, 𝑧front,𝑖 𝑣f..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.317817+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.403288+00:00"
   },
   "2511.15549v1": {
     "id": "2511.15549v1",
@@ -13215,7 +13215,7 @@
       ],
       "method_excerpt": "ction. While traditional blanket modeling of liquid metal flows during normal steady operating condi- tions commonly employs the inductionless approximation of the magnetohydrodynamics (MHD) equations, transient scenarios, when the plasma-confining magnetic field varies on millisecond time scales, require a full-induction MHD approach that dynamically evolves the magnetic field via the time-dependent induction equation. This paper presents the formulation, implementation, and initial verification of a full-induction MHD solver integrated within the open- source Vertex-CFD framework, which aims to achieve tight multiphysics coupling, a flexible software design enabling easy extension and addition of physics models, and performance portability across computing platforms. The solver utilizes finite element spatial discretization, implicit Runge–Kutta time integration, and an inexact Newton method to solve the resulting discrete nonlinear system, leveraging Trilinos packages for efficient computation. Verification against selected benchmark problems demonstrates accuracy and robustness of the solver. Furthermore, when the solver is applied to an idealized blanket model in 2.5D and full 3D, results obtained with Vertex-CFD are in good agreement with recently published quasi-2D simulations. These findings establish a computational foundation for fu- ture simulations of transient MHD phenomena in liquid metal blankets with Vertex-CFD, and open avenues for future extensions and performance optimizations. Keywords:Full-induction magnetohydrodynamics; Liquid metal fusion blankets;..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.306424+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.391659+00:00"
   },
   "2404.10431v1": {
     "id": "2404.10431v1",
@@ -13302,7 +13302,7 @@
       ],
       "method_excerpt": "− div(m(φ)∇ ψ ), ψ = δFsh[φ] δφ , 2020 Mathematics Subject Classiﬁcation. 35Q35, 76T20. Key words and phrases. Phase-Field Crystal equation, Navier-Stokes system, weak solutions, strong solutions. 2 C. CA V ATERRA, M. GRASSELLI, M.A. MEHMOOD, R. VOSO in Q × (0,T ), T >0. Here, m(·) is the non-costant mobility coeﬃcient, while u stands for the (volume) averaged ﬂuid velocity whose evolution is g overned by ∂tu + u · ∇ u = div(η(φ)Du) + ∇ P − Mφ ∇ ψ, div u = 0, where η(·) is the variable viscosity, Du is the usual shear strain rate tensor, M >0 is a given constant, and other constants have been set equal to t he unity. Summing up, we have the following Navier-Stokes Phase-Fiel d Crystal (NSPFC) system (see [11, (28)]) ∂tu + u · ∇ u = div(η(φ)Du) + ∇ P − Mφ ∇ ψ, (1.1) div u = 0, (1.2) ∂tφ + u · ∇φ = ∇ · (m(φ)∇ ψ ), (1.3) ψ = ∆ 2φ + 2∆φ +f (φ), (1.4) subject to the initial and the periodic boundary conditions u(·, 0) = u0, φ (·, 0) = φ 0, in Q, (1.5) u(x,t ) = u(x +Lei,t ), φ (x,t ) = φ(x +Lei,t ), x ∈ Rd, i = 1,...,d, (1.6) where ( ei)d i=1 is the canonical basis of Rd and u0, φ 0 are given initial data. Here f (φ) = φ 3 + (r + 1)φ, having set q0 = 1. Moreover, we assume that η andm are smooth enough and bounded from above and below by suitable positive constants (see nex t section for details). The main goal of this work is to analyze the existence and, in d imension two, the uniqueness of solutions to the above problem (1.1)-(1.6). M ore precisely, we ﬁrst estab- lish the existence of a (global) weak solution which is uniqu e in dimension two even in the case of non const..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.305392+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.390657+00:00"
   },
   "2604.13435v1": {
     "id": "2604.13435v1",
@@ -13383,7 +13383,7 @@
       ],
       "method_excerpt": "can be expressed as ← →ε=   2ε∥+ε⊥ 3 ε⊥−ε∥ 3 ε⊥−ε∥ 3ε⊥−ε∥ 3 2ε∥+ε⊥ 3 ε⊥−ε∥ 3ε⊥−ε∥ 3 ε⊥−ε∥ 3 2ε∥+ε⊥ 3   .(12) 3 TABLE I. The values of the deformation potentials in units of eV and their sources. Priority is given to papers in which the values ofΞ (∆) d , Ξ(∆) u ,Ξ (L) d andΞ (L) u are all provided. Deformation Theory Experiment potential[eV] Ref.30 Ref.27 Ref.31 Ref.32 Ref.29 Ref.33 Ref.28 Ref.34 Ref.35 Ref.36 Ref.37 Ref.38 Ref.39 Ref.40 Ref.41 Ref.42 Ref43. Ξ(∆) u 9.0 9.16 8.47 8.0 9.2 8.86 9.29 10.5 9.01 b 9.29 8.84 9.0 10.03 b 8.6 11.1 9.1 Ξ(∆) d a 1.10 1.03 0.63 -1.62 -0.71 1.2 1.1 0.94 b 1.1 1.01 0.8 1.47 b 0.73 Ξ(L) u 15.9 16.14 12.35 18.0 15.1 b 18.1 Ξ(L) d a -6.00 -4.90 -7.0 -6.06 b a Ξd is obtained in the form of the hydrostatic deformation potentialΞ d +Ξ u/3−a(a: the hydrostatic deformation potential at the top of the valence bandΓ). b Due to differences in calculation methods and fitting techniques, multiple values are obtained. Using this ← →ε, we investigate the change in energy in each val- ley∆or L due to biaxial tensile stress, employing the theory of the deformation potential. Let the first-order change in energy in each valleyαbe indi- cated by∆E (α) 1 , the dilatational deformation potential byΞ(α) d , and the uniaxial deformation potential byΞ (α) u .∆E (α) 1 is ex- pressed as44 ∆E(α) 1 = \u0010 Ξ(α) d ← →1+Ξ (α) u \b− →a α − →a α \u0011 : ← →ε,(13) where ← →1 is the unit tensor, − →a α is a unit vector parallel to the − →k(the wave vector defined within the Brillouin zone) of the valleyα, :(colon) denotes a double-dotted product and{} denotes a dyadic pr..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.421659+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.496149+00:00"
   },
   "2604.21222v1": {
     "id": "2604.21222v1",
@@ -13475,7 +13475,7 @@
       ],
       "method_excerpt": "as the Tangney -Scandolo [12] model, which includes self -consistent dipole interactions, have demonstrated improved accuracy for certain structural and dynamical properties of silica compared to the BKS potential [20]. Despite these developments, classical force fields, while capable of reproducing key structural features of amorphous silica, including aspects of medium - range order, remain limited in their quantitative accuracy and transferability. In recent years, machine-learning interatomic potentials (MLIPs) have emerged as a powerful alternative, offering near density functional theory (DFT) accuracy and enabling large -scale simulations of disordered materials [43,44]. Machine-learning interatomic potentials (MLIPs) provide a general framework for atomistic simulations and can be broadly categorized into neural network potentials (NNPs) [21], kernel - based methods such as Gaussian Approximation Potentials (GAP) [22], and linear descriptor -based approaches [23]. These models are trained on DFT datasets to reproduce the underlying potential energy surface with high accuracy while enabling simulations at significantly larger length and time scales. Among these, neural network –based approaches such as DeePMD [24] and message - passing models based on the atomic cluster expansion (ACE), such as MACE [25], have shown great promise for simulating complex materials systems, including glasses [27–29]. Despite their near-DFT accuracy, a central question remains for silica: can machine -learning interatomic potentials reproduce the experimentally observed medium -range..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.449368+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.522386+00:00"
   },
   "2604.20642v1": {
     "id": "2604.20642v1",
@@ -13548,7 +13548,7 @@
       ],
       "method_excerpt": "merons, were reported at temperatures much higher thanT V from diffuse scattering [27], x-ray scatter- ing [28–30], ultrafast electron diffraction [31], and scan- ning near-field optical microscopy [15]. The interplay of electronic and lattice degrees of freedom is the central topic for unveiling the mechanism of the Verwey transi- tion. In that vein, polaronic band [17], electron-phonon coupling [32–34], the order-disorder transition [35], soft electronic modes [36], trimeron-phonon coupling [37], and electronic nematicity [31] are proposed to be crucial for the Verwey transition. In this Letter, we would like to take a novel look at the polaron transport and the Verwey transition via the DFT+U based kinetic Monte Carlo (kMC) and molec- ular dynamics (MD) calculations, extending our previ- ous work on the low-T phase static calculations of mag- netite [38]. The combination of these two methods pro- vides a unique opportunity to study polaron transport at the ab initio level both below and above the Verwey transition. The MD approach allows us to model directly the coupling of polarons with lattice vibrations at finite temperatures, which, to the best of our knowledge, has not been applied to this problem before. Spin-polarized DFT+U calculations are performed us- ing the projector-augmented wave method [39, 40] im- plemented in VASP [41, 42]. The cutoff energy of the plane-wave basis is 550 eV. The exchange-correlation energy is used in the generalized gradient approxima- tion [43]. Strong correlations are taken into account with the HubbardU eff=U−Jcorrection applied t..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.448399+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.521465+00:00"
   },
   "2604.22726v1": {
     "id": "2604.22726v1",
@@ -13669,7 +13669,7 @@
       ],
       "method_excerpt": "and INN, Comisión Nacional de Energía Atómica, CONICET, Av. Gral. Paz 1499, San Martín, B1650KNA, Buenos Aires, Argentina h Instituto Sabato, Comisión Nacional de Energía Atómica, Universidad Nacional de General San Martín, Av. Gral. Paz 1499, San Martín, B1650KNA, Buenos Aires, Argentina iInstituto de Fusión Nuclear \"Guillermo Velarde\", Universidad Politécnica de Madrid (UPM), ETSI Industriales, C/ José Gutierrez Abascal, 2, Madrid, 28006, Madrid, Spain Abstract The mechanical scaling laws of dealloyed nanoporous metals depart from classical Gibson-Ashby predictions for open-cell foams due to a decreased connectivity in their solid network. However, these scaling relations have been established almost exclusively on nanoporous gold produced by electrochemical dealloying, and it is an outstanding question whether the relations apply to nanoporous networks fabricated by other dealloying methods. Here, we investigate the mechanical response of single-crystalline nanoporous tantalum (np-Ta) produced by liquid metal dealloying (LMD) a Email addresses:cecilia.fuertes@conicet.gov.ar(M.C. Fuertes ), cj.ruestes@upm.es(C.J. Ruestes ) arXiv:2604.22726v1 [cond-mat.mtrl-sci] 24 Apr 2026 TiTa alloy in molten CuBi. Nanoindentation of individual microparticles yields an elastic modulus of 10–30 GPa and a hardness of 0.3–1.1 GPa, both scaling with the solid volume fraction in agreement with Gibson-Ashby predictions. This stiffness-density response of np-Ta departs from previous reports on nanoporous gold and is attributed to enhanced ligament connectivity enabled by the thermodynamics o..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.458161+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.530635+00:00"
   },
   "2604.22300v1": {
     "id": "2604.22300v1",
@@ -13760,7 +13760,7 @@
       ],
       "method_excerpt": "structure, lattice dynamics, and electron–phonon-mediated superconducting properties at ambient pressure. We address three key questions within the adopted theoretical framework: (i) whether such a phase can exhibit dynamic stability at ambient pressure, (ii) which electronic and phononic features are responsi- ble for strong electron–phonon coupling, and (iii) how its predicted superconducting behavior compares with that of established high-pressure hydrides. Our analysis of the electronic density of states, phonon dispersion, and elec- tron–phonon coupling reveals exceptionally strong cou- pling (λ= 2.23), leading to a high superconducting crit- ical temperature of up to 73.7 K for a reasonable choice of the Coulomb pseudopotential. These properties origi- nate from the interplay between Al–H covalent bonding and Na-derived metallic states, which enhances phonon- mediated pairing. II. Methods First-principles calculations The electronic and phononic properties of NaAlH 3 were investigated using first-principles calculations based on density functional theory (DFT), as implemented in the Quantum ESPRESSO package [28, 29]. The Perdew- Burke-Ernzerhof functional revised for solids (PBEsol) [30] was employed to accurately describe the exchange- correlation interactions, in conjunction with ultrasoft pseudopotentials [31, 32]. A plane-wave basis set was used with a kinetic energy cutoff of 40 Ry for wave- functions and 430 Ry for charge density, ensuring well- converged total energies and forces. Structural re- laxations were performed using the Broyden-Fletcher- Goldfarb-S..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.452947+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.525742+00:00"
   },
   "2604.22696v1": {
     "id": "2604.22696v1",
@@ -13851,7 +13851,7 @@
       ],
       "method_excerpt": "ement Jr and J. C. Koh, Polymer content of sulfur quenched rapidly from the melt, The Journal of Physical Chem- istry74, 4280 (1970). [36] F. Begum, R. H. Sarker, and S. L. Simon, Modeling ring/chain equilibrium in nanoconfined sulfur, The Journal of Physical Chemistry B117, 3911 (2013). [37] T. Kemper, E. Wimmer, and B. E. Eichinger, Depolymerization of polymeric sulfur, inModern Applications of Flory’s “Statis- tical Mechanics of Chain Molecules”(ACS Publications, 2020) pp. 209–230. [38] H. Flores-Ruiz and M. Micoulaut, Crucial role of S 8-rings in structural, relaxation, vibrational, and electronic properties of liquid sulfur close to theλtransition, The Journal of Chemical Physics157(2022). [39] M. H. M ¨user, S. V . Sukhomlinov, and L. Pastewka, Interatomic potentials: Achievements and challenges, Advances in Physics: X8, 2093129 (2023). [40] W. F. Van Gunsteren and C. Oostenbrink, Methods for classical- mechanical molecular simulation in chemistry: Achievements, limitations, perspectives, Journal of Chemical Information and Modeling64, 6281 (2024). [41] P. Ballone and R. Jones, Density functional and monte carlo studies of sulfur. ii. equilibrium polymerization of the liquid phase, The Journal of chemical physics119, 8704 (2003). [42] R. Jones and P. Ballone, Density functional and monte carlo studies of sulfur. i. structure and bonding in s n rings and chains (n= 2–18), The Journal of chemical physics118, 9257 (2003). [43] M. Wang, S. Md Pratik, N. Nayir, M. S. Tameh, V . Coropceanu, J.-L. Bredas, J. Pyun, A. C. van Duin, and S. Saiev, Atomic- scale mechanistic in..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.456253+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.528859+00:00"
   },
   "2604.22434v1": {
     "id": "2604.22434v1",
@@ -13934,7 +13934,7 @@
       ],
       "method_excerpt": "2 Methods Ion implantation in 4H-SiC was simulated using the Gao-Weber (GW) interatomic potential 13, combined with a Ziegler-Biersack- Littmark (ZBL) potential to accurately describe strong short-range repulsive interactions during high-energy atomic collisions. The GW potential was developed by fitting a Brenner-type po- tential to DFT data, including defect formation and migration energies for silicon and carbon defects in 3C-SiC in the neutral state 14–17. It has been extensively used to investigate irradiation damage in SiC, including displacement cascade-induced cluster formation 18–20 and recrystallization of amorphous 4H-SiC 21,22. Recent benchmark studies confirm that the GW potential remains the most reliable empirical potential currently available for large- scale irradiation simulations in SiC 12,23. Interactions between Al and host atoms (Si or C) were mod- eled using a Morse potential originally proposed by Dandekar and Shin 24. In this work, the Morse parameters were reparameter- ized to DFT results to better reproduce migration and kick-in/-out barriers of Al in the neutral state. The optimized Morse parame- ters are listed in Table 1 using an interaction cutoff of 5 Å. Pure Al- Al interactions were described using an embedded atom method (EAM) potential distributed with the LAMMPS package 25. 2 | 1–15 + P V S O B M \u0001 / B N F \u0001 < Z F B S > \u0001 < W P M \u000f > Table 1 Optimized Morse potential parameters used for Al-Si and Al-C interactions. The interaction cutoff distance was set to5. System Parameters Morse-Potential Al-SiD 0 0.4 α1.6 r0 2.8 Al-CD 0 0.4 α1.4 r..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.454484+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.527208+00:00"
   },
   "2604.20277v1": {
     "id": "2604.20277v1",
@@ -14020,6 +14020,517 @@
       ],
       "method_excerpt": "Methods Density functional theory calculation. All density functional theory (DFT) calculations were performed using the Vienna ab initio simulation package (VASP)56. The projector-augmented wave (PAW) method was employed to describe the electron-ion interactions57. The exchange-correlation functional was described by the generalized gradient approximation (GGA) in the Perdew- 8/13 Burke-Ernzerhof (PBE) formulation58. In all calculations the total energy converged to 10−5 eV and the residual force on each atom was less than 10−2 eV/Å. For all calculations, the plane-wave cutoff energy was set to 600 eV. The Brillouin zone (BZ) was sampled using a 4×4×1 Γ-centered k-point mesh for the 3×3×1 supercell. To prevent interactionsbetweenperiodicimages, avacuumlayerofmorethan20Åwasapplied. ThevanderWaalsinteractions were considered by using the DFT-D3 method59. Construction of moiré superlattices Twisted bilayer 3R-MoS2 moiré superlattices were constructed using a commensurate supercell approach35,60. To obtain a finite moiré supercell compatible with periodic boundary conditions, a common superlattice vector shared by the two rotated layers must be identified. For a given pair of coprime integers(n,m), the superlattice vector of the lower layer is defined as⃗T=n⃗a1 +m⃗a2, where⃗a1 and ⃗a2 are the primitive lattice vectors of monolayer MoS2. A corresponding vector⃗T ′ is then defined in the upper layer, and the twist angleθ is chosen such that⃗T ′ coincides with ⃗T after rotation. In this notation, the commensurate twist angle, moiré multiplicity, and total number of atoms are g..."
     },
-    "last_seen_at": "2026-04-27T04:25:44.443113+00:00"
+    "last_seen_at": "2026-04-28T04:29:48.516557+00:00"
+  },
+  "2604.24288v1": {
+    "id": "2604.24288v1",
+    "title": "Atomistic Mechanisms of Temperature-Dependent Ion Track Formation in Gallium Nitride under Swift Heavy Ion Irradiation",
+    "summary": "The radiation tolerance of gallium nitride under extreme conditions is critical for its deployment in next-generation electronic and optoelectronic devices, yet the microscopic mechanisms governing swift heavy ion induced damage at elevated temperatures remain poorly understood. Therefore, this study employs a coupled approach including the two-temperature model and molecular dynamics simulations to resolve the entire processes of ion track generation induced by swift heavy ions irradiation across a wide temperature range. A temperature-driven morphological transition of ion tracks, evolving from discontinuous segments to continuous tracks composed of isolated nanobubbles, and ultimately to fully continuous channels is observed. Under lower electronic stopping loss of 430 MeV Kr irradiation, increasing temperature significantly enhances track visibility, enlarges track radii and promotes nanobubble formation. For higher electronic stopping conditions of 1171 MeV Ta irradiation, continuous ion tracks consisting of discontinuous nanobubbles (~1.5 nm radius) emerge already at 300 K, followed by a thermally activated transition into continuous channels with further radial expansion. At the atomic scale, SHI irradiation induces decomposition of wurtzite GaN into Ga clusters and N2 molecules along the ion trajectory, with Ga-rich regions and recrystallized wurtzite phases accumulating near bubble interfaces, while N2 preferentially segregates within bubble cores. Additionally, zincblende nanodomains nucleate around ion tracks and exhibit strong spatial correlation with radiation-induced dislocation networks, particularly screw dislocations, providing potential pathways for leakage current and increased susceptibility to single-event burnout.",
+    "authors": [
+      "Jiayu Liang",
+      "Shaowei He",
+      "Wenlong Liao",
+      "Tan Shi",
+      "Hang Zang",
+      "Yonghong Li",
+      "Xiaojun Fu",
+      "Chuanjian Yao",
+      "Chaohui He",
+      "Jianan Wei",
+      "Huan He"
+    ],
+    "published": "2026-04-27T10:21:54Z",
+    "updated": "2026-04-27T10:21:54Z",
+    "link": "https://arxiv.org/abs/2604.24288v1",
+    "tags": [
+      "molecular_dynamics",
+      "multiphysics_coupling"
+    ],
+    "score": 10.5,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "data/notes/2604.24288v1.md",
+    "summary_source": "llm_anthropic",
+    "summary_text": "1) 研究问题与背景\n\n该论文解决氮化镓（GaN）在高温环境下遭受快重离子辐照时的微观损伤机制问题，这对下一代电子和光电器件在极端环境下的应用至关重要。现有研究对高温条件下快重离子诱导损伤的微观机制理解不足，缺乏对离子径迹形成全过程的原子尺度认识。该工作创新性地采用双温度模型与分子动力学耦合方法，系统研究了宽温度范围内离子径迹的形成演化机制。\n\n2) 核心方法与模型细节\n\n研究采用双温度模型（Two-Temperature Model）与分子动力学（MD）耦合的多物理场模拟方法，实现电子-声子-原子三者间的能量传递耦合。摘要未提及具体的势函数类型和软件平台，需查阅全文获取详细信息。模拟涵盖两种辐照条件：430 MeV Kr离子（较低电子阻止本领）和1171 MeV Ta离子（较高电子阻止本领），研究温度范围从300 K到更高温度。双温度模型描述电子温度和晶格温度的独立演化，通过电子-声子耦合参数控制能量交换速率。MD模拟追踪原子尺度的结构演化，包括wurtzite GaN的分解、Ga团簇和N2分子的形成过程。边界条件设置、模拟盒尺寸、原子数量和时间步长等关键参数摘要未提及，需查阅全文。\n\n3) 关键结果与定量结论\n\n研究发现离子径迹形态随温度呈现三阶段演化：从不连续片段到由孤立纳米气泡组成的连续径迹，最终形成完全连续的通道。在430 MeV Kr辐照下，温度升高显著增强径迹可见性并扩大径迹半径。在1171 MeV Ta辐照条件下，300 K时即可形成由不连续纳米气泡（半径约1.5 nm）组成的连续离子径迹，温度升高促进向连续通道的转变并伴随径向扩展。原子尺度分析显示，快重离子辐照导致wurtzite GaN沿离子轨迹分解为Ga团簇和N2分子，Ga富集区和重结晶wurtzite相聚集在气泡界面附近，而N2优先偏析在气泡核心。\n\n4) 对我研究的直接价值\n\n该论文的双温度模型与MD耦合方法可直接应用于我的多物理耦合场模拟研究，特别是在处理电子-声子-原子多尺度能量传递问题时。离子径迹形成的三阶段演化机制为我的金属疲劳模拟提供了缺陷演化的参考模式，特别是纳米气泡的形成和长大过程。1.5 nm的纳米气泡半径数据可作为我在相场晶体模型（XPFC）中设置初始缺陷尺寸的参考值。辐照诱导的闪锌矿纳米畴与位错网络的空间关联性为我的拉伸变形模拟中考虑相变-位错耦合效应提供了重要启发。\n\n5) 可复现性评估与阅读建议\n\n摘要提供了辐照能量（430 MeV Kr、1171 MeV Ta）和纳米气泡半径（1.5 nm）等关键数值，但缺少势函数类型、模拟盒尺寸、原子数量、时间步长和软件平台等复现必需的技术细节。建议重点精读方法学部分以获取双温度模型参数设置和MD模拟的具体实现细节，以及结果部分中离子径迹演化的定量分析数据。",
+    "brief_cn": {
+      "what_done": "该论文解决氮化镓（GaN）在高温环境下遭受快重离子辐照时的微观损伤机制问题，这对下一代电子和光电器件在极端环境下的应用至关重要。现有研究对高温条件下快重离子诱导损伤的微观机制理解不足，缺乏对离子径迹形成全过程的原子尺度认识。该工作创新性地采用双温度模型与分子动力学耦合方法，系统研究了宽温度范围内离子径迹的形成演化机制。",
+      "method": "研究采用双温度模型（Two-Temperature Model）与分子动力学（MD）耦合的多物理场模拟方法，实现电子-声子-原子三者间的能量传递耦合。摘要未提及具体的势函数类型和软件平台，需查阅全文获取详细信息。模拟涵盖两种辐照条件：430 MeV Kr离子（较低电子阻止本领）和1171 MeV Ta离子（较高电子阻止本领），研究温度范围从300 K到更高温度。双温度模型描述电子温度和晶格温度的独立演化，通过电子-声子耦合参数控制能量交换速率。MD模拟追踪原子尺度的结构演化，包括wurtzite GaN的分解、Ga团簇和N2分子的形成过程。边界条件设置、模拟盒尺寸、原子数量和时间步长等关键参数摘要未提及，需查阅全文。",
+      "finding": "研究发现离子径迹形态随温度呈现三阶段演化：从不连续片段到由孤立纳米气泡组成的连续径迹，最终形成完全连续的通道。在430 MeV Kr辐照下，温度升高显著增强径迹可见性并扩大径迹半径。在1171 MeV Ta辐照条件下，300 K时即可形成由不连续纳米气泡（半径约1.5 nm）组成的连续离子径迹，温度升高促进向连续通道的转变并伴随径向扩展。原子尺度分析显示，快重离子辐照导致wurtzite GaN沿离子轨迹分解为Ga团簇和N2分子，Ga富集区和重结晶wurtzite相聚集在气泡界面附近，而N2优先偏析在气泡核心。",
+      "meaning": "该论文的双温度模型与MD耦合方法可直接应用于我的多物理耦合场模拟研究，特别是在处理电子-声子-原子多尺度能量传递问题时。离子径迹形成的三阶段演化机制为我的金属疲劳模拟提供了缺陷演化的参考模式，特别是纳米气泡的形成和长大过程。1.5 nm的纳米气泡半径数据可作为我在相场晶体模型（XPFC）中设置初始缺陷尺寸的参考值。辐照诱导的闪锌矿纳米畴与位错网络的空间关联性为我的拉伸变形模拟中考虑相变-位错耦合效应提供了重要启发。",
+      "topics": "Molecular Dynamics, Multiphysics Coupling"
+    },
+    "keyword_details": [
+      {
+        "keyword": "molecular dynamics",
+        "score": 3.65,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "基于原子相互作用的时间演化模拟，用于揭示微观机理与参数敏感性。"
+      },
+      {
+        "keyword": "dislocation",
+        "score": 2.5,
+        "hits": 2,
+        "source": "keyword_weights",
+        "explanation": "位错是塑性变形核心载体，位错演化直接影响材料强塑性与疲劳行为。"
+      },
+      {
+        "keyword": "coupled",
+        "score": 2.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词对应多场耦合问题，建议关注耦合项、控制方程与场变量映射。"
+      },
+      {
+        "keyword": "atomistic",
+        "score": 1.7,
+        "hits": 1,
+        "source": "taxonomy",
+        "explanation": "该关键词对应原子尺度模拟方法，建议记录势函数、时间步长和边界条件。"
+      },
+      {
+        "keyword": "simulation",
+        "score": 1.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      }
+    ],
+    "keywords": [
+      "molecular dynamics",
+      "dislocation",
+      "coupled",
+      "atomistic",
+      "simulation"
+    ],
+    "focus_areas": [
+      "多物理耦合与跨场耦合机制",
+      "分子动力学与原子尺度机制",
+      "Molecular Dynamics（主题归类）",
+      "Multiphysics Coupling（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Molecular Dynamics, Multiphysics Coupling方向，论文聚焦「Atomistic Mechanisms of Temperature-Dependent Ion Track Formation in Gallium Nitride under Swift Heavy Ion Irradiation」相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
+      "model_setup": "分子动力学（MD）",
+      "model_params": "热力学条件: 2 Methods To investigate the unresolved role of transient high temperatures induced by SHI irradiation, we have adopted a multi-scale simulation approach that combines...；数值参数: 300 to 1800 K；数值参数: 30 nm；数值参数: 50 nm；数值参数: 1800 K；430 MeV",
+      "conclusion": "结果提供了原子尺度机理解释，可辅助参数选型和机理验证。 摘要证据：2 Methods To investigate the unresolved role of transient high temperatures induced by SHI irradiation, we have adopted a multi-scale sim...",
+      "keyword_context": "molecular dynamics, dislocation, coupled, atomistic, simulation"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/2604.24288v1.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.24288v1.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.24288v1.txt",
+      "param_details": [
+        "热力学条件: 2 Methods To investigate the unresolved role of transient high temperatures induced by SHI irradiation, we have adopted a multi-scale simulation approach that combines...",
+        "数值参数: 300 to 1800 K",
+        "数值参数: 30 nm",
+        "数值参数: 50 nm",
+        "数值参数: 1800 K"
+      ],
+      "method_excerpt": "2 Methods To investigate the unresolved role of transient high temperatures induced by SHI irradiation, we have adopted a multi-scale simulation approach that combines two temperature model (TTM) with MD simulations to elucidate the temperature-dependent evolution of latent ion track morphology and microscopic damage mechanisms in GaN. In this work, two typical SHIs including 430 MeV Kr and 1171 MeV Ta ions were employed to simulate the SHI irradiation, corresponding to Se values of 18.2 and 40.2 keV/nm, respectively. The irradiation was performed centrally along the [0001] crystallographic direction in a simulation cell measuring 30 nm × 30 nm × 50 nm. The initial simulation temperatures were set from 300 to 1800 K. Additional simulation details are provided in Section 2 of the supplementary materials."
+    },
+    "last_seen_at": "2026-04-28T04:29:48.535171+00:00"
+  },
+  "2604.23642v1": {
+    "id": "2604.23642v1",
+    "title": "Constitutive relations for colloidal gel",
+    "summary": "The theoretical treatment of depletion gels with central interactions often involves expanding the free energy around a stress-free reference state to derive a constitutive relation between global stress and strain. The premise upon which the previous continuum theories are based, i.e., the stress-free reference state and the affine deformation, both of which do not hold in the context of amorphous gel materials. Gels never reach a true global minimum in the potential energy landscape and contain local regions of significant compressive and tensile stress, interspersed with zero-stress regions. Hence, expansion of free energy around a stressed reference state will produce scalar terms in harmonic expansion, the effects of which are qualitatively different from the terms appearing in the expansion around an unstressed reference state. In this study, we demonstrate the limitations of traditional continuum theories and propose simple constitutive relations that better capture the mechanical response of gel materials. The robustness of the proposed relations is established through large-scale numerical simulations of depletion and frictional gels across a vast parameter space.",
+    "authors": [
+      "Saikat Roy",
+      "Yezaz Ahmed Gadi Man"
+    ],
+    "published": "2026-04-26T10:22:49Z",
+    "updated": "2026-04-26T10:22:49Z",
+    "link": "https://arxiv.org/abs/2604.23642v1",
+    "tags": [
+      "tensile_simulation"
+    ],
+    "score": 8.4667,
+    "status": "auto",
+    "source_topic": "tensile_simulation",
+    "note_path": "data/notes/2604.23642v1.md",
+    "summary_source": "llm_anthropic",
+    "summary_text": "1) 研究问题与背景\n\n该论文解决胶体凝胶材料本构关系建立的理论问题，针对传统连续介质理论在处理无定形凝胶材料时的局限性。现有理论基于无应力参考态和仿射变形假设来推导应力-应变本构关系，但这两个前提在无定形凝胶材料中并不成立。凝胶材料永远无法达到势能面的真正全局最小值，内部存在显著的压应力和拉应力局域区域与零应力区域交替分布的复杂应力状态。该工作的创新点在于提出基于有应力参考态的自由能展开方法，建立更准确描述凝胶材料力学响应的本构关系。\n\n2) 核心方法与模型细节\n\n摘要未提及具体的模拟方法类型，需查阅全文确认是否使用分子动力学、布朗动力学或其他粒子模拟方法。研究采用了耗尽型凝胶和摩擦凝胶两种模型体系进行大规模数值模拟验证。理论框架基于统计力学自由能展开，但将传统的无应力参考态修正为有应力参考态，在调和展开中引入标量项来描述预应力效应。摘要未提及具体的势函数类型、边界条件设置、加载方式等关键参数，需查阅全文获取详细信息。模拟覆盖了广泛的参数空间以验证所提出本构关系的鲁棒性，但具体的模拟尺寸、粒子数、时间步长等数值参数摘要中未给出。使用的软件平台信息摘要未提及，需查阅全文确认。\n\n3) 关键结果与定量结论\n\n摘要未提供具体的定量数值结果，如应力值范围、材料参数数值等，需查阅全文获取详细数据。研究通过大规模数值模拟验证了所提出本构关系在描述耗尽型凝胶和摩擦凝胶力学响应方面的有效性。所提出的简化本构关系相比传统连续介质理论能更好地捕捉凝胶材料的力学行为特征。摘要未提及与实验结果的对比情况以及模型精度的具体量化评估，这些信息需要从全文中获取。\n\n4) 对我研究的直接价值\n\n该论文提出的基于有应力参考态的本构关系建立方法对我的多物理耦合场模拟和金属疲劳模拟研究具有重要启发意义，特别是在处理含有残余应力或预应力的材料体系时。所提出的自由能展开修正方法可以借鉴到相场晶体模型中，用于更准确描述具有复杂内应力分布的金属材料变形行为。该工作强调的非仿射变形特征对我的拉伸变形模拟中边界条件设计和变形机制分析具有指导价值。论文中验证本构关系鲁棒性的大规模参数空间扫描方法可以应用到我的模型验证工作中，提高模拟结果的可靠性。\n\n5) 可复现性评估与阅读建议\n\n摘要提供的参数细节不足以支持完整复现，缺少关键的模拟参数、势函数选择、边界条件等具体信息。建议重点精读理论推导部分以理解有应力参考态自由能展开的数学处理，以及数值模拟验证部分以获取具体的模拟设置和参数选择。",
+    "brief_cn": {
+      "what_done": "该论文解决胶体凝胶材料本构关系建立的理论问题，针对传统连续介质理论在处理无定形凝胶材料时的局限性。现有理论基于无应力参考态和仿射变形假设来推导应力-应变本构关系，但这两个前提在无定形凝胶材料中并不成立。凝胶材料永远无法达到势能面的真正全局最小值，内部存在显著的压应力和拉应力局域区域与零应力区域交替分布的复杂应力状态。该工作的创新点在于提出基于有应力参考态的自由能展开方法，建立更准确描述凝胶材料力学响应的本构关系。",
+      "method": "摘要未提及具体的模拟方法类型，需查阅全文确认是否使用分子动力学、布朗动力学或其他粒子模拟方法。研究采用了耗尽型凝胶和摩擦凝胶两种模型体系进行大规模数值模拟验证。理论框架基于统计力学自由能展开，但将传统的无应力参考态修正为有应力参考态，在调和展开中引入标量项来描述预应力效应。摘要未提及具体的势函数类型、边界条件设置、加载方式等关键参数，需查阅全文获取详细信息。模拟覆盖了广泛的参数空间以验证所提出本构关系的鲁棒性，但具体的模拟尺寸、粒子数、时间步长等数值参数摘要中未给出。使用的软件平台信息摘要未提及，需查阅全文确认。",
+      "finding": "摘要未提供具体的定量数值结果，如应力值范围、材料参数数值等，需查阅全文获取详细数据。研究通过大规模数值模拟验证了所提出本构关系在描述耗尽型凝胶和摩擦凝胶力学响应方面的有效性。所提出的简化本构关系相比传统连续介质理论能更好地捕捉凝胶材料的力学行为特征。摘要未提及与实验结果的对比情况以及模型精度的具体量化评估，这些信息需要从全文中获取。",
+      "meaning": "该论文提出的基于有应力参考态的本构关系建立方法对我的多物理耦合场模拟和金属疲劳模拟研究具有重要启发意义，特别是在处理含有残余应力或预应力的材料体系时。所提出的自由能展开修正方法可以借鉴到相场晶体模型中，用于更准确描述具有复杂内应力分布的金属材料变形行为。该工作强调的非仿射变形特征对我的拉伸变形模拟中边界条件设计和变形机制分析具有指导价值。论文中验证本构关系鲁棒性的大规模参数空间扫描方法可以应用到我的模型验证工作中，提高模拟结果的可靠性。",
+      "topics": "Tensile / Deformation Simulation"
+    },
+    "keyword_details": [
+      {
+        "keyword": "tensile",
+        "score": 2.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "关注拉伸工况下应力-应变响应、屈服行为和断裂特征。"
+      },
+      {
+        "keyword": "materials",
+        "score": 2.2,
+        "hits": 2,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "deformation",
+        "score": 1.8,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "simulation",
+        "score": 1.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      }
+    ],
+    "keywords": [
+      "tensile",
+      "materials",
+      "deformation",
+      "simulation"
+    ],
+    "focus_areas": [
+      "拉伸响应与本构行为",
+      "Tensile / Deformation Simulation（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Tensile / Deformation Simulation方向，论文聚焦「Constitutive relations for colloidal gel」相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
+      "model_setup": "摘要未明确给出模型名称，建议查看 Methods/Model 部分确认。",
+      "model_params": "尺寸/样本规模: Methodology: The simulation begins with the random placement of non-overlappingN= 20000 bi-disperse (1:1.4 size ratio) spheres in a three-dimensional simu- lation box...；载荷路径: Quasistatic uniaxial compression is enforced by the slow axial ( ˆez) mo...",
+      "conclusion": "结果显示该方法在精度或稳定性上优于对比基线。 摘要证据：In this study, we demonstrate the limitations of traditional continuum theories and propose simple constitutive relations that better cap...",
+      "keyword_context": "tensile, materials, deformation, simulation"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/2604.23642v1.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.23642v1.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.23642v1.txt",
+      "param_details": [
+        "尺寸/样本规模: Methodology: The simulation begins with the random placement of non-overlappingN= 20000 bi-disperse (1:1.4 size ratio) spheres in a three-dimensional simu- lation box...",
+        "载荷路径: Quasistatic uniaxial compression is enforced by the slow axial ( ˆez) movement of the top and bottom walls at a constant speed.",
+        "边界条件: The periodic boundary condition is employed on the transverse directions ( ˆex, ˆey).",
+        "势函数/模型版本: The dimensionless strength of the potential minimum,βU 0, is set at 50 and 100 to mimic strong gels[17], whereβ= 1/k BT(k B being the Boltzmann constant).",
+        "网格/离散: The frictional gel simulation incorporates non- hydrodynamic contact friction, and the interparticle interaction is modeled in the spirit of traditional dis- crete ele...",
+        "载荷路径: Hence, we subject the continuum theory to predict the salient features of the uniaxial compression, such as the evolution of NSD[11, 12] withϕ.",
+        "载荷路径: Under the assumption of no correlations betweenξandn i and isotropy in the cluster orientations, the expression forσ ij simplifies to: σij = ˜κNczc 30 ξ2 (ellδij + 2ei...",
+        "载荷路径: To resolve the conun- drum regarding the evolution of NSD and the power law growth of stress during the uniaxial compression of gels, we propose simple constitutive re...",
+        "热力学条件: 6 and integrating over the solid angle: σxx =σ yy = 3P 4 \u0012 − 8 15(an +a t) + 4 3 \u0013 (9) σzz = 3P 4 \u001216 15(an +a t) + 4 3 \u0013 (10) N1 =N2 = 2 5 (an +a t)\u0000 1 3 + 4 15(an +a...",
+        "势函数/模型版本: 8, irrespective of the interaction potential and volume fraction (see also [19])."
+      ],
+      "method_excerpt": "Methodology: The simulation begins with the random placement of non-overlappingN= 20000 bi-disperse (1:1.4 size ratio) spheres in a three-dimensional simu- lation box of sizeL x =L y = 80a, L z = 257a, wherea denotes the radius of the smallest particle. Quasistatic uniaxial compression is enforced by the slow axial ( ˆez) movement of the top and bottom walls at a constant speed. The periodic boundary condition is employed on the transverse directions ( ˆex, ˆey). The hydrodynamic forces are negligible compared to the dominant elastic force in the limit of small strain rates and are therefore not considered in the simulation. For the depletion gel, the pairwise interaction is modeled using the Morse po- tential, with a very short attraction range corresponding to the experimental range of non-adsorbing polymer depletants. The dimensionless strength of the potential minimum,βU 0, is set at 50 and 100 to mimic strong gels[17], whereβ= 1/k BT(k B being the Boltzmann constant). The frictional gel simulation incorporates non- hydrodynamic contact friction, and the interparticle interaction is modeled in the spirit of traditional dis- crete element method (DEM) simulations employed for granular materials [18]. The particles are given random thermal kicks to the translation degrees of freedom, compensated by a viscous damping term. The stochastic Langevin equation is solved to update the particle position and velocities. The gel is slowly compressed to various target volume fractions (ϕ= 0.25−0.5) and then relaxed to ensure mechanical equilibrium. For details of the simulation,..."
+    },
+    "last_seen_at": "2026-04-28T04:29:48.532298+00:00"
+  },
+  "2604.24683v1": {
+    "id": "2604.24683v1",
+    "title": "Improved Electrochemical Performance and Diffusion kinetics by Boron-doping in Na$_{0.66}$Mn$_{0.8}$Fe$_{0.2}$O$_{2}$ Layered Cathodes for Sodium-Ion Batteries",
+    "summary": "We report the electrochemical investigation and study the diffusion kinetics of boron doped Na$_{0.66}$Mn$_{0.8}$Fe$_{0.2}$O$_{2}$ (B-NMFO) cathode materials for sodium-ion batteries. Notably, the B-NMFO cathode exhibits improved specific capacity of 163 mAh g$^{-1}$ as compared to 133 mAhg$^{-1}$ at 0.1~C for the NMFO cathode. Further, we observe better capacity retention of 70\\% for B-NMFO as compared to the NMFO (60\\%) at 1 C after 200 cycles, indicating high structural stability due to the presence of strong B-O bonds. The diffusion coefficient evaluation through galvanostatic intermittent titration technique and cyclic voltammetry, which is found to be in the range of 10$^{-8}$--10$^{-10}$ cm$^{2}$s$^{-1}$. Interestingly, the temperature dependent distribution of relaxation time (DRT) analysis provides a clear understanding about the individual physical processes occurring at different time domains during the electro-chemical testing. Moreover, density functional theory is employed to determine the energetics and the electronic properties of B-NMFO, which suggests that the interstitial tetrahedral sites, especially those next to vacancies, are the dominant incorporation path ways for B in the host structure. Additionally, classical molecular dynamics (MD) simulations are applied to gain insights into the Na-ion transport properties in the bulk structures cathode materials.",
+    "authors": [
+      "Jayashree Pati",
+      "P. Senthilkumar",
+      "Deepak Seth",
+      "Riya Gulati",
+      "Manish Kr. Singh",
+      "Madhav Sharma",
+      "Anita Dhaka",
+      "M. Ali Haider",
+      "Rajendra S. Dhaka"
+    ],
+    "published": "2026-04-27T16:43:25Z",
+    "updated": "2026-04-27T16:43:25Z",
+    "link": "https://arxiv.org/abs/2604.24683v1",
+    "tags": [
+      "molecular_dynamics",
+      "multiphysics_coupling"
+    ],
+    "score": 8.2,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "data/notes/2604.24683v1.md",
+    "summary_source": "llm_anthropic",
+    "summary_text": "1) 研究问题与背景\n\n该论文解决钠离子电池层状阴极材料Na₀.₆₆Mn₀.₈Fe₀.₂O₂的电化学性能不足和离子扩散动力学缓慢的问题。现有NMFO阴极材料存在比容量低（133 mAh g⁻¹）、循环稳定性差（200次循环后容量保持率仅60%）的局限性。该工作的创新点在于通过硼掺杂改性策略，利用强B-O键增强结构稳定性，并结合DFT和分子动力学模拟揭示硼掺杂的微观机制和钠离子传输特性。\n\n2) 核心方法与模型细节\n\n该研究采用密度泛函理论（DFT）计算确定硼掺杂的能量学和电子性质，发现硼主要占据间隙四面体位点，特别是靠近空位的位置。使用经典分子动力学（MD）模拟研究钠离子在块体阴极材料中的传输性质，摘要未提及具体的势函数类型、模拟尺寸和时间步长等关键参数，需查阅全文获取。实验方面采用恒流间歇滴定技术（GITT）和循环伏安法评估扩散系数，温度依赖的弛豫时间分布（DRT）分析用于理解不同时间域的物理过程。摘要未提及使用的DFT和MD软件平台、边界条件设置等技术细节。\n\n3) 关键结果与定量结论\n\n硼掺杂的B-NMFO阴极在0.1C倍率下比容量达到163 mAh g⁻¹，相比未掺杂NMFO的133 mAh g⁻¹提升了22.6%。在1C倍率下经过200次循环后，B-NMFO的容量保持率为70%，明显优于NMFO的60%。通过GITT和CV测试确定的扩散系数范围为10⁻⁸至10⁻¹⁰ cm²s⁻¹。DFT计算表明硼原子倾向于占据间隙四面体位点，特别是邻近空位的位置，这为理解掺杂机制提供了理论依据。\n\n4) 对我研究的直接价值\n\n该论文的分子动力学模拟方法可以直接应用于我的多物理耦合场模拟研究中，特别是在研究离子传输和扩散动力学方面。硼掺杂改性策略和强化学键（B-O键）提升结构稳定性的思路，可以借鉴到金属疲劳模拟中的合金化改性研究。DFT与MD相结合的多尺度模拟方法对我的XPFC模型验证具有重要参考价值，特别是在处理缺陷-掺杂原子相互作用方面。扩散系数的定量测定方法（10⁻⁸-10⁻¹⁰ cm²s⁻¹范围）为我在拉伸变形模拟中设置原子迁移参数提供了数值参考。\n\n5) 可复现性评估与阅读建议\n\n摘要缺少MD模拟的关键技术参数，包括势函数类型、模拟盒子尺寸、原子数量、时间步长和模拟温度等信息，需查阅全文的计算方法部分。建议重点精读DFT计算设置、MD模拟参数和结果分析部分，以及温度依赖DRT分析的具体实施方法，这些内容对复现研究最为关键。",
+    "brief_cn": {
+      "what_done": "该论文解决钠离子电池层状阴极材料Na₀.₆₆Mn₀.₈Fe₀.₂O₂的电化学性能不足和离子扩散动力学缓慢的问题。现有NMFO阴极材料存在比容量低（133 mAh g⁻¹）、循环稳定性差（200次循环后容量保持率仅60%）的局限性。该工作的创新点在于通过硼掺杂改性策略，利用强B-O键增强结构稳定性，并结合DFT和分子动力学模拟揭示硼掺杂的微观机制和钠离子传输特性。",
+      "method": "该研究采用密度泛函理论（DFT）计算确定硼掺杂的能量学和电子性质，发现硼主要占据间隙四面体位点，特别是靠近空位的位置。使用经典分子动力学（MD）模拟研究钠离子在块体阴极材料中的传输性质，摘要未提及具体的势函数类型、模拟尺寸和时间步长等关键参数，需查阅全文获取。实验方面采用恒流间歇滴定技术（GITT）和循环伏安法评估扩散系数，温度依赖的弛豫时间分布（DRT）分析用于理解不同时间域的物理过程。摘要未提及使用的DFT和MD软件平台、边界条件设置等技术细节。",
+      "finding": "硼掺杂的B-NMFO阴极在0.1C倍率下比容量达到163 mAh g⁻¹，相比未掺杂NMFO的133 mAh g⁻¹提升了22.6%。在1C倍率下经过200次循环后，B-NMFO的容量保持率为70%，明显优于NMFO的60%。通过GITT和CV测试确定的扩散系数范围为10⁻⁸至10⁻¹⁰ cm²s⁻¹。DFT计算表明硼原子倾向于占据间隙四面体位点，特别是邻近空位的位置，这为理解掺杂机制提供了理论依据。",
+      "meaning": "该论文的分子动力学模拟方法可以直接应用于我的多物理耦合场模拟研究中，特别是在研究离子传输和扩散动力学方面。硼掺杂改性策略和强化学键（B-O键）提升结构稳定性的思路，可以借鉴到金属疲劳模拟中的合金化改性研究。DFT与MD相结合的多尺度模拟方法对我的XPFC模型验证具有重要参考价值，特别是在处理缺陷-掺杂原子相互作用方面。扩散系数的定量测定方法（10⁻⁸-10⁻¹⁰ cm²s⁻¹范围）为我在拉伸变形模拟中设置原子迁移参数提供了数值参考。",
+      "topics": "Molecular Dynamics, Multiphysics Coupling"
+    },
+    "keyword_details": [
+      {
+        "keyword": "molecular dynamics",
+        "score": 3.65,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "基于原子相互作用的时间演化模拟，用于揭示微观机理与参数敏感性。"
+      },
+      {
+        "keyword": "electrochemical",
+        "score": 2.2,
+        "hits": 2,
+        "source": "taxonomy",
+        "explanation": "电化学耦合常用于电池/腐蚀等场景，研究扩散-应力-反应协同机制。"
+      },
+      {
+        "keyword": "materials",
+        "score": 2.2,
+        "hits": 2,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "simulation",
+        "score": 1.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      }
+    ],
+    "keywords": [
+      "molecular dynamics",
+      "electrochemical",
+      "materials",
+      "simulation"
+    ],
+    "focus_areas": [
+      "多物理耦合与跨场耦合机制",
+      "分子动力学与原子尺度机制",
+      "疲劳损伤与断裂演化",
+      "Molecular Dynamics（主题归类）",
+      "Multiphysics Coupling（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Molecular Dynamics, Multiphysics Coupling方向，论文聚焦「Improved Electrochemical Performance and Diffusion kinetics by Boron-doping in Na$_{0.66}$Mn$_{0.8}$Fe$_{0.2}$O$_{2}$ Layered Cathodes for Sodium-Ion Batteries」相关机理/性...",
+      "model_setup": "分子动力学（MD）；密度泛函理论（DFT）",
+      "model_params": "尺寸/样本规模: EXPERIMENT AL AND THEORETICAL Materials synthesis: The P2-type layered NMFO and B-NMFO samples are prepared using high purity precursors (≥99.99%) from Sigma without a...；尺寸/样本规模: The energy dispersive x-ray spectroscopy (EDX) mea- surement is perf...",
+      "conclusion": "结果显示该方法在精度或稳定性上优于对比基线。 摘要证据：temperatures and anal- ysed the individual electrochemical processes in the time domain.",
+      "keyword_context": "molecular dynamics, electrochemical, materials, simulation"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/2604.24683v1.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.24683v1.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.24683v1.txt",
+      "param_details": [
+        "尺寸/样本规模: EXPERIMENT AL AND THEORETICAL Materials synthesis: The P2-type layered NMFO and B-NMFO samples are prepared using high purity precursors (≥99.99%) from Sigma without a...",
+        "尺寸/样本规模: The energy dispersive x-ray spectroscopy (EDX) mea- surement is performed by using RONTEC’s EDX system Model QuanTax 200 to find the elemental composition 3 and partic...",
+        "尺寸/样本规模: The Ra- man spectroscopy data are collected to understand the microstructure of the active material using a Renishaw inVia confocal Raman microscope 2400 lines/mm grat...",
+        "网格/离散: The X-ray photo-electron spectroscopy (XPS) measurements are carried out with AXIS Supra system having monochromatic Al Kαsource (1486.6 eV) and energy resolution of≈0...",
+        "载荷路径: The as-prepared slurry is coated on an aluminium foil using a doctor blade method with active material mass loading of 2–3 mg cm −2 and then vacuum heated at 120 ◦C fo...",
+        "尺寸/样本规模: After heating, the electrodes are cut into 12 mm diameter discs and again dried under vacuum at 80◦C be- fore inserting in glove box.",
+        "尺寸/样本规模: We use 1M NaPF6 electrolyte dissolved in EC and DEC (50 : 50 by volume), sodium metal foil as a reference electrode, a glass fibre (GB100R) as separator and 12 mm diam...",
+        "尺寸/样本规模: Computational Methodology: The bulk structure of Na 0.66Mn0.8Fe0.2O2 (NMFO) is modeled based on the stoichiometry of the sample.",
+        "尺寸/样本规模: Since atomistic simulations require whole numbers of atoms, the composition is approximated by removing Na atoms and substituting Mn atoms with Fe in the orig- inal Na...",
+        "势函数/模型版本: (ii) grid energy storage in form of chemical potential like batteries, fuel cells and hydrogen;"
+      ],
+      "method_excerpt": "temperatures and anal- ysed the individual electrochemical processes in the time domain. Moreover, density functional theory (DFT) is employed to determine the energetics and the electronic properties of boron-doped NMFO, which suggest that the B doping is site-selective, favouring BO3–type configura- tions under Na-ion vacancies as indicated by the lower energy of formation of B-NMFO structure. Additionally, the classical molecular dynamics (MD) simulations are applied to gain insights into the Na-ion transport prop- erties in both NMFO and B-NMFO structures, which suggest that the B-doped NMFO exhibits enhanced Na- ion diffusivity compared to the pristine NMFO sample. II. EXPERIMENT AL AND THEORETICAL Materials synthesis: The P2-type layered NMFO and B-NMFO samples are prepared using high purity precursors (≥99.99%) from Sigma without any purification process through a typical sol-gel method using citric acid as a chelat- ing agent [22]. The precursor materials such as NaNO3, Mn(CH3COO)2.4H2O, Fe(NO3)3.9H2O, H3BO3 and C6H8O7 in a stoichiometric ratio (0.66:0.8:0.1:0.1:1) with 5% Na excess were dissolved in a 40 ml distilled water and stirred for 1 hr at 25 ◦C until to get a clear so- lution. Further, a 20 ml of citric acid solution was made in order to form a gel matrix with the above solution. Then, the mixed solution was kept at 80 ◦C (oil bath) under a constant stirring for 5 hr leading to the reddish gel which was subjected for overnight aging. After that, as formed gel was dried in oven at 120 ◦C for 24h and then ground and made into discs, which were subjected to..."
+    },
+    "last_seen_at": "2026-04-28T04:29:48.537000+00:00"
+  },
+  "2604.24209v1": {
+    "id": "2604.24209v1",
+    "title": "Phase transformation kinetics in MoS2 governed by S-S repulsive interactions and defect-interface compatibility",
+    "summary": "The metastable T' phase in monolayer MoS2 exhibits remarkable persistence despite a strong thermodynamic driving force toward the stable H phase. Using machine learning-accelerated molecular dynamics and first-principles calculations, we reveal that this kinetic arrest originates from repulsive S-S interactions, which impose high energy barriers during both nucleation and grain boundary propagation. While sulfur vacancies can alleviate these barriers in certain interfaces, they fail to accelerate transformation at the most stable interface, ZZ-Mo|-, due to their thermodynamic instability there. Instead, vacancies migrate into the T' phase, leaving the advancing front defect-free. Direct simulations of nanostructures confirm that H-phase nucleation initiates at corners or edges, and all observed growth fronts adopt the ZZ-Mo|- configuration, consistent with its low interfacial energy but slow kinetics. Our work establishes that phase transformation in 2D materials is governed not by global defect concentration, but by the local compatibility between defects and moving interfaces, offering a new paradigm for controlling structural transitions through interface-specific design.",
+    "authors": [
+      "Pai Li",
+      "Ziao Tian",
+      "ZengFeng Di",
+      "Feng Ding"
+    ],
+    "published": "2026-04-27T09:16:27Z",
+    "updated": "2026-04-27T09:16:27Z",
+    "link": "https://arxiv.org/abs/2604.24209v1",
+    "tags": [
+      "molecular_dynamics"
+    ],
+    "score": 8.2,
+    "status": "auto",
+    "source_topic": "molecular_dynamics",
+    "note_path": "data/notes/2604.24209v1.md",
+    "summary_source": "llm_anthropic",
+    "summary_text": "1) 研究问题与背景\n\n该论文解决二维材料MoS2中亚稳态T'相向稳定H相转变动力学缓慢的科学问题，尽管存在强烈的热力学驱动力，T'相仍表现出异常的持久性。现有理论无法充分解释这种动力学阻滞现象的微观机制，特别是缺陷与界面相互作用对相变过程的影响机制不明确。该工作创新性地提出了S-S排斥相互作用控制相变动力学的理论，并建立了缺陷-界面兼容性的新概念。\n\n2) 核心方法与模型细节\n\n研究采用机器学习加速分子动力学（ML-MD）结合第一性原理计算的多尺度模拟方法。使用基于密度泛函理论的第一性原理计算获得训练数据，构建机器学习势函数用于大规模分子动力学模拟。摘要未提及具体的势函数类型和软件平台，需查阅全文获取详细信息。边界条件设置为周期性边界条件以模拟单层MoS2结构。重点研究了ZZ-Mo|-界面构型的相变动力学，通过直接模拟纳米结构来观察H相成核和晶界传播过程。摘要未提及具体的模拟尺寸、原子数、时间步长等关键参数，需查阅全文。加载方式主要通过温度控制来驱动相变过程，具体温度范围摘要未提及。\n\n3) 关键结果与定量结论\n\n研究发现S-S排斥相互作用在成核和晶界传播过程中都会产生高能垒，这是导致T'相动力学稳定的根本原因。硫空位虽然可以在某些界面降低能垒，但在最稳定的ZZ-Mo|-界面处由于热力学不稳定性而无法加速相变。实验观察到H相成核总是从角落或边缘开始，所有观察到的生长前沿都采用ZZ-Mo|-构型。摘要未提及具体的应力值、能垒数值、缺陷密度等定量数据，需查阅全文获取。模拟结果与界面能低但动力学缓慢的ZZ-Mo|-构型特征一致。\n\n4) 对我研究的直接价值\n\n该论文提出的缺陷-界面兼容性概念对我的多物理耦合场模拟和相场晶体模型研究具有重要启发，可以借鉴其界面-缺陷相互作用的处理方法来改进XPFC模型中的界面动力学描述。机器学习加速分子动力学的方法可以直接应用到我的金属疲劳模拟中，特别是在处理大尺度长时间相变过程时。论文中关于界面构型对相变动力学控制的发现，可以指导我在拉伸变形模拟中设计更合理的边界条件和界面处理方案。S-S排斥相互作用导致的高能垒机制，为我理解金属材料中类似的相变阻滞现象提供了新的理论框架。\n\n5) 可复现性评估与阅读建议\n\n摘要提供的参数细节不足以完全复现研究结果，缺少关键的势函数参数、模拟尺寸、时间步长、温度范围等定量信息。建议重点精读方法学部分以获取ML-MD的具体实现细节，以及结果部分中关于界面能计算和相变动力学分析的内容。",
+    "brief_cn": {
+      "what_done": "该论文解决二维材料MoS2中亚稳态T'相向稳定H相转变动力学缓慢的科学问题，尽管存在强烈的热力学驱动力，T'相仍表现出异常的持久性。现有理论无法充分解释这种动力学阻滞现象的微观机制，特别是缺陷与界面相互作用对相变过程的影响机制不明确。该工作创新性地提出了S-S排斥相互作用控制相变动力学的理论，并建立了缺陷-界面兼容性的新概念。",
+      "method": "研究采用机器学习加速分子动力学（ML-MD）结合第一性原理计算的多尺度模拟方法。使用基于密度泛函理论的第一性原理计算获得训练数据，构建机器学习势函数用于大规模分子动力学模拟。摘要未提及具体的势函数类型和软件平台，需查阅全文获取详细信息。边界条件设置为周期性边界条件以模拟单层MoS2结构。重点研究了ZZ-Mo|-界面构型的相变动力学，通过直接模拟纳米结构来观察H相成核和晶界传播过程。摘要未提及具体的模拟尺寸、原子数、时间步长等关键参数，需查阅全文。加载方式主要通过温度控制来驱动相变过程，具体温度范围摘要未提及。",
+      "finding": "研究发现S-S排斥相互作用在成核和晶界传播过程中都会产生高能垒，这是导致T'相动力学稳定的根本原因。硫空位虽然可以在某些界面降低能垒，但在最稳定的ZZ-Mo|-界面处由于热力学不稳定性而无法加速相变。实验观察到H相成核总是从角落或边缘开始，所有观察到的生长前沿都采用ZZ-Mo|-构型。摘要未提及具体的应力值、能垒数值、缺陷密度等定量数据，需查阅全文获取。模拟结果与界面能低但动力学缓慢的ZZ-Mo|-构型特征一致。",
+      "meaning": "该论文提出的缺陷-界面兼容性概念对我的多物理耦合场模拟和相场晶体模型研究具有重要启发，可以借鉴其界面-缺陷相互作用的处理方法来改进XPFC模型中的界面动力学描述。机器学习加速分子动力学的方法可以直接应用到我的金属疲劳模拟中，特别是在处理大尺度长时间相变过程时。论文中关于界面构型对相变动力学控制的发现，可以指导我在拉伸变形模拟中设计更合理的边界条件和界面处理方案。S-S排斥相互作用导致的高能垒机制，为我理解金属材料中类似的相变阻滞现象提供了新的理论框架。",
+      "topics": "Molecular Dynamics"
+    },
+    "keyword_details": [
+      {
+        "keyword": "molecular dynamics",
+        "score": 3.65,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "基于原子相互作用的时间演化模拟，用于揭示微观机理与参数敏感性。"
+      },
+      {
+        "keyword": "materials",
+        "score": 1.7,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "machine learning",
+        "score": 1.65,
+        "hits": 1,
+        "source": "explanation_map",
+        "explanation": "机器学习用于势函数构建、代理建模或特征提取，可提高精度与效率。"
+      },
+      {
+        "keyword": "simulation",
+        "score": 1.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      }
+    ],
+    "keywords": [
+      "molecular dynamics",
+      "materials",
+      "machine learning",
+      "simulation"
+    ],
+    "focus_areas": [
+      "多物理耦合与跨场耦合机制",
+      "分子动力学与原子尺度机制",
+      "数据驱动与机器学习建模",
+      "Molecular Dynamics（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Molecular Dynamics方向，论文聚焦「Phase transformation kinetics in MoS2 governed by S-S repulsive interactions and defect-interface compatibility」相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
+      "model_setup": "分子动力学（MD）；密度泛函理论（DFT）；机器学习势函数",
+      "model_params": "尺寸/样本规模: For structure optimization, the conjugate gradient method was used until the force on each atom was less than 0.01 eV/Å.；势函数/模型版本: Machine learning potential training.；尺寸/样本规模: We used DeepMD-kit 23 to train our MLFF with a cutoff radius of 6.5 Å f...",
+      "conclusion": "结果提供了原子尺度机理解释，可辅助参数选型和机理验证。 摘要证据：Using machine learning-accelerated molecular dynamics and first-principles calculations, we reveal that this kinetic arrest originates fr...",
+      "keyword_context": "molecular dynamics, materials, machine learning, simulation"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/2604.24209v1.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.24209v1.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.24209v1.txt",
+      "param_details": [
+        "尺寸/样本规模: For structure optimization, the conjugate gradient method was used until the force on each atom was less than 0.01 eV/Å.",
+        "势函数/模型版本: Machine learning potential training.",
+        "尺寸/样本规模: We used DeepMD-kit 23 to train our MLFF with a cutoff radius of 6.5 Å for neighbor searching and a fitting net of 240 × 240 × 240for atomic energy evaluation.",
+        "载荷路径: We have carefully included, in our training set, possible effects of uniaxial/biaxial stresses, different defects, different phases, and temperature effects.",
+        "尺寸/样本规模: 2a–b, we applied the SOAP descriptor, 39 implemented via the DScribe library, 40 to represent each atom’s local coordination as a feature vector.",
+        "热力学条件: For all phase transformation related simulations, Lammps 42 package is adopted to perform the MD simulation with Nose-Hoover thermostat.",
+        "时间步/积分: 43 For these MD simulations, the timestep is set to be 1 fs.",
+        "热力学条件: Kinks are generated in ± pairs at discrete sites along the interface of length L, with a total generation rate 𝑅𝑘𝑔 = 2 𝐿 𝑎 𝑟𝑘𝑔 where a is the lattice constant parallel...",
+        "数值参数: 10 -5 eV",
+        "数值参数: 12-1013 Hz"
+      ],
+      "method_excerpt": "Methods DFT calculations. All the density functional theory (DFT) simulations were implemented in the Vienna ab initio package (V ASP).31,32 The generalized gradient approximation (GGA) to exchange-correlation functional parameterized by Perdew, Burke, and Ernzerhof (PBE) 33 was adopted. The projector augmented wave method 34 was used to describe core-valence interaction. A kinetic energy cutoff of 400 eV was used for the plane-wave basis set. The energy convergence threshold was set to 1×10 -5 eV. The surface model was separated from its neighboring images by a vacuum layer larger than 15 Å. For structure optimization, the conjugate gradient method was used until the force on each atom was less than 0.01 eV/Å. The Monkhorst-Pack method 35 was used for K-point sampling with spacing less than 0.025×2𝜋 Å-1. Machine learning potential training. We used DeepMD-kit 23 to train our MLFF with a cutoff radius of 6.5 Å for neighbor searching and a fitting net of 240 × 240 × 240for atomic energy evaluation. To adequately describe the MoS 2 system, we constructed numerous structures to explore the configuration space. Except for a few ab initio molecular dynamic (AIMD) simulations and structure optimizations, an iterative scheme was adopted to generate most of the training set. 36 That is, we repeatedly train coarse MLFFs for generating new structures, and label new structures via DFT calculations to enlarge the current training set for training a better MLFF in the next round. We have carefully included, in our training set, possible effects of uniaxial/biaxial stresses, different..."
+    },
+    "last_seen_at": "2026-04-28T04:29:48.533718+00:00"
+  },
+  "2604.21842v2": {
+    "id": "2604.21842v2",
+    "title": "Critical role of phase-dependent properties in modeling photothermal sintering of LiCoO2 cathodes",
+    "summary": "Photothermal (photonic) sintering crystallizes as-deposited amorphous LiCoO2 (LCO) cathodes for solid-state thin-film batteries using millisecond, surface-localized heating. However, process design often relies on 1D models with phase-averaged, temperature-independent properties, which can mispredict peak temperatures and thermal damage margins. Here we develop a multiscale, data-driven framework that provides phase- and grain size-resolved thermophysical inputs for stoichiometric LCO. We train an Allegro neural network potential with near-ab initio accuracy, enabling Green-Kubo calculations of thermal conductivity for crystalline and amorphous phases. The low, weakly density-dependent conductivity of amorphous LCO motivates its use as an effective intergranular phase in a thin-interface model that reproduces observed grain-size-dependent thermal transport. Combined with measured wavelength-resolved optical properties in 1D multiphysics simulations, we show amorphous LCO absorbs more strongly and reaches higher peak temperatures than crystalline LCO; thus crystalline, constant-property models systematically overestimate safe operating windows.",
+    "authors": [
+      "Yang Hu",
+      "Benoit Sklénard",
+      "Wouter Vels",
+      "Yaroslav E. Romanyuk",
+      "Vladyslav Turlo"
+    ],
+    "published": "2026-04-23T16:32:18Z",
+    "updated": "2026-04-26T20:57:07Z",
+    "link": "https://arxiv.org/abs/2604.21842v2",
+    "tags": [
+      "multiphysics_coupling"
+    ],
+    "score": 7.8667,
+    "status": "auto",
+    "source_topic": "multiphysics_coupling",
+    "note_path": "data/notes/2604.21842v2.md",
+    "summary_source": "llm_anthropic",
+    "summary_text": "## 技术分析报告\n\n### 1) 研究问题与背景\n\n该论文解决锂钴氧化物（LiCoO2）固态薄膜电池阴极光热烧结过程中的温度预测精度问题。传统工艺设计依赖一维模型，采用相平均、温度无关的材料属性，导致峰值温度预测偏差和热损伤安全裕度误判。现有方法的局限性在于忽略了非晶态和晶态LCO在热物理性质上的显著差异以及晶粒尺寸效应。该工作的创新点是建立了多尺度数据驱动框架，提供相态和晶粒尺寸分辨的热物理参数输入。\n\n### 2) 核心方法与模型细节\n\n研究采用多尺度耦合方法，结合机器学习势函数、分子动力学和多物理场有限元模拟。核心使用Allegro神经网络势函数，通过近第一性原理精度训练，实现对化学计量比LiCoO2的准确描述。基于该势函数进行Green-Kubo方法计算，获得晶态和非晶态相的热导率。建立薄界面模型来描述晶粒尺寸相关的热传输行为，其中非晶态LCO作为有效晶间相。摘要未提及具体的模拟尺寸、原子数、时间步长等关键MD参数，需查阅全文。边界条件设置为表面局域化加热的毫秒级光热处理。将计算得到的热物理参数与实测的波长分辨光学性质结合，构建一维多物理场耦合模拟。摘要未提及使用的具体软件平台。\n\n### 3) 关键结果与定量结论\n\n主要发现非晶态LCO的热导率较低且对密度依赖性较弱，这一特性支持其作为晶间相的薄界面模型应用。非晶态LCO比晶态LCO具有更强的光吸收能力，导致更高的峰值温度。模拟结果表明采用晶态、恒定属性模型会系统性高估安全操作窗口。摘要未提及具体的热导率数值、温度范围或定量的吸收系数对比数据，需查阅全文获取精确数值。该多尺度框架能够重现观察到的晶粒尺寸相关热传输现象。\n\n### 4) 对我研究的直接价值\n\n该论文的Allegro神经网络势函数训练方法和Green-Kubo热导率计算流程可直接应用于我的多物理耦合场模拟工作中。薄界面模型处理晶粒尺寸效应的思路对我的相场晶体模型（XPFC）中晶界热传输建模具有重要参考价值。相态依赖的热物理性质考虑方式可借鉴到我的金属疲劳模拟中，特别是处理相变过程中的热-力耦合效应。多尺度数据驱动框架的构建思路为我当前的拉伸变形模拟提供了从原子尺度到连续介质尺度的参数传递方案。\n\n### 5) 可复现性评估与阅读建议\n\n摘要提供了方法框架但缺少关键的数值参数，如具体的热导率值、模拟盒子尺寸、训练数据集规模等，需查阅全文获取完整的可复现信息。建议重点精读方法部分的Allegro势函数训练细节、Green-Kubo计算参数设置，以及结果部分的定量热物理性质对比数据。",
+    "brief_cn": {
+      "what_done": "该论文解决锂钴氧化物（LiCoO2）固态薄膜电池阴极光热烧结过程中的温度预测精度问题。传统工艺设计依赖一维模型，采用相平均、温度无关的材料属性，导致峰值温度预测偏差和热损伤安全裕度误判。现有方法的局限性在于忽略了非晶态和晶态LCO在热物理性质上的显著差异以及晶粒尺寸效应。该工作的创新点是建立了多尺度数据驱动框架，提供相态和晶粒尺寸分辨的热物理参数输入。 ### 2) 核心方法与模型细节 研究采用多尺度耦合方法，结合机器学习势函数、分子动力学和多物理场有限元模拟。核心使用Allegro神经网络势函数，通过近第一性原理精度训练，实现对化学计量比LiCoO2的准确描述。基于该势函数进行Green-Kubo方法计算，获得晶态和非晶态相的热导率。建立薄界面模型来描述晶粒尺寸相关的热传输行为，其中非晶态LCO作为有效晶间相。摘要未提及具体的模拟尺寸、原子数、时间步长等关键MD参数，需查阅全文。边界条件设置为表面局域化加热的毫秒级光热处理。将计算得到的热物理参数与实测的波长分辨光学性质结合，构建一维多物理场耦合模拟。摘要未提及使用的具体软件平台。 ### 3) 关键结果与定量结论 主要发现非晶...",
+      "method": "研究采用多尺度耦合方法，结合机器学习势函数、分子动力学和多物理场有限元模拟。核心使用Allegro神经网络势函数，通过近第一性原理精度训练，实现对化学计量比LiCoO2的准确描述。基于该势函数进行Green-Kubo方法计算，获得晶态和非晶态相的热导率。建立薄界面模型来描述晶粒尺寸相关的热传输行为，其中非晶态LCO作为有效晶间相。摘要未提及具体的模拟尺寸、原子数、时间步长等关键MD参数，需查阅全文。边界条件设置为表面局域化加热的毫秒级光热处理。将计算得到的热物理参数与实测的波长分辨光学性质结合，构建一维多物理场耦合模拟。摘要未提及使用的具体软件平台。 ### 3) 关键结果与定量结论 主要发现非晶态LCO的热导率较低且对密度依赖性较弱，这一特性支持其作为晶间相的薄界面模型应用。非晶态LCO比晶态LCO具有更强的光吸收能力，导致更高的峰值温度。模拟结果表明采用晶态、恒定属性模型会系统性高估安全操作窗口。摘要未提及具体的热导率数值、温度范围或定量的吸收系数对比数据，需查阅全文获取精确数值。该多尺度框架能够重现观察到的晶粒尺寸相关热传输现象。 ### 4) 对我研究的直接价值 该论文的Allegro神经网络势函数训练方法和Green-Kubo热导率计算流程可直接应用于我的多物理耦合场模拟工作中。薄界面模型处理晶粒尺寸效应的思路对我的相场晶体模型（XPFC）中晶界热传输建模具有重要参考价值。相态依赖的热物理性质考虑方式可借鉴到我的金属疲劳模拟中，特别是处理相变过程中的热-力耦合效应。多尺度数据驱动框架的构建思路为我当前的拉伸变形模拟提供了从原子尺度到连续介质尺度的参数传递方案。 ### 5) 可复现性评估与阅读建议 摘要提供了方法框架但缺少关键的数值参数，如具体的热导率值、模拟盒子尺寸、训练数据集规模等，需查阅全文获取完整的可复现信息。建议重点精读方法部分的Allegro势函...",
+      "finding": "主要发现非晶态LCO的热导率较低且对密度依赖性较弱，这一特性支持其作为晶间相的薄界面模型应用。非晶态LCO比晶态LCO具有更强的光吸收能力，导致更高的峰值温度。模拟结果表明采用晶态、恒定属性模型会系统性高估安全操作窗口。摘要未提及具体的热导率数值、温度范围或定量的吸收系数对比数据，需查阅全文获取精确数值。该多尺度框架能够重现观察到的晶粒尺寸相关热传输现象。 ### 4) 对我研究的直接价值 该论文的Allegro神经网络势函数训练方法和Green-Kubo热导率计算流程可直接应用于我的多物理耦合场模拟工作中。薄界面模型处理晶粒尺寸效应的思路对我的相场晶体模型（XPFC）中晶界热传输建模具有重要参考价值。相态依赖的热物理性质考虑方式可借鉴到我的金属疲劳模拟中，特别是处理相变过程中的热-力耦合效应。多尺度数据驱动框架的构建思路为我当前的拉伸变形模拟提供了从原子尺度到连续介质尺度的参数传递方案。 ### 5) 可复现性评估与阅读建议 摘要提供了方法框架但缺少关键的数值参数，如具体的热导率值、模拟盒子尺寸、训练数据集规模等，需查阅全文获取完整的可复现信息。建议重点精读方法部分的Alleg...",
+      "meaning": "该论文的Allegro神经网络势函数训练方法和Green-Kubo热导率计算流程可直接应用于我的多物理耦合场模拟工作中。薄界面模型处理晶粒尺寸效应的思路对我的相场晶体模型（XPFC）中晶界热传输建模具有重要参考价值。相态依赖的热物理性质考虑方式可借鉴到我的金属疲劳模拟中，特别是处理相变过程中的热-力耦合效应。多尺度数据驱动框架的构建思路为我当前的拉伸变形模拟提供了从原子尺度到连续介质尺度的参数传递方案。 ### 5) 可复现性评估与阅读建议 摘要提供了方法框架但缺少关键的数值参数，如具体的热导率值、模拟盒子尺寸、训练数据集规模等，需查阅全文获取完整的可复现信息。建议重点精读方法部分的Allegro势函数训练细节、Green-Kubo计算参数设置，以及结果部分的定量热物理性质对比数据。",
+      "topics": "Multiphysics Coupling"
+    },
+    "keyword_details": [
+      {
+        "keyword": "multiphysics",
+        "score": 3.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "指热-力-电-化学等多个物理场耦合求解，可用于评估场间耦合效应与失效机制。"
+      },
+      {
+        "keyword": "simulation",
+        "score": 1.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      },
+      {
+        "keyword": "modeling",
+        "score": 1.5,
+        "hits": 1,
+        "source": "keyword_weights",
+        "explanation": "该关键词是论文核心技术要素，建议结合方法与结果章节提取可复现实验/仿真设置。"
+      }
+    ],
+    "keywords": [
+      "multiphysics",
+      "simulation",
+      "modeling"
+    ],
+    "focus_areas": [
+      "多物理耦合与跨场耦合机制",
+      "数据驱动与机器学习建模",
+      "Multiphysics Coupling（主题归类）"
+    ],
+    "group_style_cn": {
+      "problem": "针对Multiphysics Coupling方向，论文聚焦「Critical role of phase-dependent properties in modeling photothermal sintering of LiCoO2 cathodes」相关机理/性能问题，目标是建立可解释的模型并量化关键影响因素。",
+      "model_setup": "分子动力学（MD）；原子间势函数模型",
+      "model_params": "热力学条件: acity for each layer in a stack and computes 1D transient temperature profiles for a prescribed pulse shape and energy [14].；热力学条件: Thermal conductivity is a particularly uncertain input for LCO: reported room-temperature values span nearly an order...",
+      "conclusion": "摘要显示其给出了可复现的模型/仿真结果，建议细读结果与讨论章节获取定量结论。 摘要证据：acity for each layer in a stack and computes 1D transient temperature profiles for a prescribed pulse shape and energy [14].",
+      "keyword_context": "multiphysics, simulation, modeling"
+    },
+    "pdf_parse": {
+      "status": "ok",
+      "source": "pypdf",
+      "download_status": "downloaded_pdf",
+      "pdf_url": "https://arxiv.org/pdf/2604.21842v2.pdf",
+      "pdf_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.21842v2.pdf",
+      "text_path": "/home/runner/work/BJK_readpaper/BJK_readpaper/data/pdf_cache/2604.21842v2.txt",
+      "param_details": [
+        "热力学条件: acity for each layer in a stack and computes 1D transient temperature profiles for a prescribed pulse shape and energy [14].",
+        "热力学条件: Thermal conductivity is a particularly uncertain input for LCO: reported room-temperature values span nearly an order of magnitude (from∼2.1 to∼22 W/(mK) [15, 16, 17,...",
+        "热力学条件: Clas- sical and machine-learning interatomic potentials (MLIPs) can overcome these limitations, yet existing LCO models often have limited accessibility and training c...",
+        "势函数/模型版本: Using these configurations, we computed the lattice thermal conductivity at 300 K via equi- librium MD using the Green–Kubo formalism with the Allegro potential (Metho...",
+        "热力学条件: These values correspond to an approximately 95.89% reduction relative to the room-temperature thermal conductivity of monocrystalline LCO (see Fig.",
+        "尺寸/样本规模: Since we use the average of the two reportedκvalues for the 500 ◦C-annealed film to determine the grain-boundary thickness, our predicted room-temperatureκatd=10 nm na...",
+        "热力学条件: Our model prediction withd∼1µm agrees well with the low-temperature steady-state data (below 300 K), but deviates from the high-temperature laser-flash results (above...",
+        "尺寸/样本规模: In particular, at elevated tempera- tures, the accuracy of the laser-flash method—especially for low-κoxides—can be compromised by radiative heat losses, porosity, non...",
+        "势函数/模型版本: Although demonstrated here for stoichiometric LCO on Al, the overall strategy—foundational- potential sampling, targeted DFT+U+vdW labeling, NequIP/Allegro-based poten...",
+        "势函数/模型版本: It includes: (i) details of thermal cycling simulations with the universal Matlantis potential and its performance against DFT on struc- tures sampled from MD trajecto..."
+      ],
+      "method_excerpt": "acity for each layer in a stack and computes 1D transient temperature profiles for a prescribed pulse shape and energy [14]. However, such models typically neglect the wavelength depen- dence of reflectance/absorption and omit explicit temperature and grain-size dependence of thermal conductivity. Because photothermal sintering often operates close to crystallization, decomposition, or substrate-limiting thresholds, these simplifications can systematically bias predicted peak temperatures and safety margins, especially during early pulses when the film remains largely amorphous. Thermal conductivity is a particularly uncertain input for LCO: reported room-temperature values span nearly an order of magnitude (from∼2.1 to∼22 W/(mK) [15, 16, 17, 18]), elevated- temperature data are scarce [18], and amorphous LCO lacks measurements. On the theoretical side, first-principles lattice-dynamics methods, such as quasi-harmonic phonon calculations and Boltzmann transport equation formalisms built from harmonic and higher-order force constants, are highly sensitive to the treatment of anharmonicity [19, 20, 21] and are not ap- plicable to amorphous phases, where the absence of long-range order precludes a conventional phonon description of heat transport. Equilibrium molecular dynamics (MD) based on the Green-Kubo formula is the golden standard that can treat both crystalline and amorphous heat transport, but directab initioMD is prohibitively expensive at the required scales. Clas- sical and machine-learning interatomic potentials (MLIPs) can overcome these limitations, yet existi..."
+    },
+    "last_seen_at": "2026-04-28T04:29:48.524345+00:00"
   }
 }

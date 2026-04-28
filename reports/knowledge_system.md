@@ -3,12 +3,15 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 142
-- Last rebuilt: 2026-04-27T04:25:44.480362+00:00
+- Total papers in library: 147
+- Last rebuilt: 2026-04-28T04:29:48.559515+00:00
 
 ## Multiphysics Coupling
+- [Improved Electrochemical Performance and Diffusion kinetics by Boron-doping in Na$_{0.66}$Mn$_{0.8}$Fe$_{0.2}$O$_{2}$ Layered Cathodes for Sodium-Ion Batteries](https://arxiv.org/abs/2604.24683v1) | 2026-04-27T16:43:25Z | status: auto | note: `data/notes/2604.24683v1.md`
+- [Atomistic Mechanisms of Temperature-Dependent Ion Track Formation in Gallium Nitride under Swift Heavy Ion Irradiation](https://arxiv.org/abs/2604.24288v1) | 2026-04-27T10:21:54Z | status: auto | note: `data/notes/2604.24288v1.md`
 - [Mechanical Scaling Laws and Deformation Behavior of Nanoporous Tantalum Microparticles](https://arxiv.org/abs/2604.22726v1) | 2026-04-24T17:24:41Z | status: auto | note: `data/notes/2604.22726v1.md`
 - [Critical role of phase-dependent properties in modeling photothermal sintering of LiCoO2 cathodes](https://arxiv.org/abs/2604.21842v1) | 2026-04-23T16:32:18Z | status: auto | note: `data/notes/2604.21842v1.md`
+- [Critical role of phase-dependent properties in modeling photothermal sintering of LiCoO2 cathodes](https://arxiv.org/abs/2604.21842v2) | 2026-04-23T16:32:18Z | status: auto | note: `data/notes/2604.21842v2.md`
 - [Thermo-mechanically coupled phase-field fracture model considering elastocaloric effect of shape memory alloy](https://arxiv.org/abs/2604.18666v1) | 2026-04-20T15:57:17Z | status: auto | note: `data/notes/2604.18666v1.md`
 - [Atomistic Mechanisms of Stress-Dependent Molten Salt Corrosion in NiCr Alloys](https://arxiv.org/abs/2604.16261v1) | 2026-04-17T17:18:51Z | status: auto | note: `data/notes/2604.16261v1.md`
 - [3D Finite Element-Based Multiphysics Simulation of a Shape Memory Alloy Hybrid Composite Module](https://arxiv.org/abs/2604.15211v1) | 2026-04-16T16:41:35Z | status: auto | note: `data/notes/2604.15211v1.md`
@@ -44,11 +47,11 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [SORS: A Modular, High-Fidelity Simulator for Soft Robots](https://arxiv.org/abs/2512.15994v1) | 2025-12-17T21:58:46Z | status: auto | note: `data/notes/2512.15994v1.md`
 - [Magnetic Tactile-Driven Soft Actuator for Intelligent Grasping and Firmness Evaluation](https://arxiv.org/abs/2512.00907v2) | 2025-11-30T14:18:29Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2512.00907v2.md`
 - [All-Optical Varifocal Switching in a Polarization-Insensitive Si--GST Metalens](https://arxiv.org/abs/2511.21138v1) | 2025-11-26T07:42:32Z | status: auto | note: `data/notes/2511.21138v1.md`
-- [SPHaptics: A Real-Time Bidirectional Haptic Interaction Framework for Coupled Rigid-Soft Body and Lagrangian Fluid Simulation in Virtual Environments](https://arxiv.org/abs/2511.15908v1) | 2025-11-19T22:19:27Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2511.15908v1.md`
-- [A Full-Induction Magnetohydrodynamics Solver for Liquid Metal Fusion Blankets in Vertex-CFD](https://arxiv.org/abs/2511.15549v1) | 2025-11-19T15:39:10Z | status: auto | note: `data/notes/2511.15549v1.md`
-- [Process Microstructure Coupling in Reduced Gravity Laser Welding via Open-Source Multiphysics Simulation Framework](https://arxiv.org/abs/2511.15725v1) | 2025-11-16T07:27:51Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2511.15725v1.md`
 
 ## Molecular Dynamics
+- [Improved Electrochemical Performance and Diffusion kinetics by Boron-doping in Na$_{0.66}$Mn$_{0.8}$Fe$_{0.2}$O$_{2}$ Layered Cathodes for Sodium-Ion Batteries](https://arxiv.org/abs/2604.24683v1) | 2026-04-27T16:43:25Z | status: auto | note: `data/notes/2604.24683v1.md`
+- [Atomistic Mechanisms of Temperature-Dependent Ion Track Formation in Gallium Nitride under Swift Heavy Ion Irradiation](https://arxiv.org/abs/2604.24288v1) | 2026-04-27T10:21:54Z | status: auto | note: `data/notes/2604.24288v1.md`
+- [Phase transformation kinetics in MoS2 governed by S-S repulsive interactions and defect-interface compatibility](https://arxiv.org/abs/2604.24209v1) | 2026-04-27T09:16:27Z | status: auto | note: `data/notes/2604.24209v1.md`
 - [Mechanical Scaling Laws and Deformation Behavior of Nanoporous Tantalum Microparticles](https://arxiv.org/abs/2604.22726v1) | 2026-04-24T17:24:41Z | status: auto | note: `data/notes/2604.22726v1.md`
 - [Pressure-Temperature Phase Diagram and $λ$-Transition in Liquid Sulfur](https://arxiv.org/abs/2604.22696v1) | 2026-04-24T16:29:32Z | status: auto | note: `data/notes/2604.22696v1.md`
 - [The influence of implantation conditions on dopant activation in Al-implanted 4H-SiC: A MD study applying an Al potential fitted to DFT barriers](https://arxiv.org/abs/2604.22434v1) | 2026-04-24T10:50:11Z | status: auto | note: `data/notes/2604.22434v1.md`
@@ -86,9 +89,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Development of a 3D-CNN-based Prediction Model for Migration Barriers in Plasma-Wall Interactions](https://arxiv.org/abs/2604.05521v1) | 2026-04-07T07:18:58Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.05521v1.md`
 - [Chemical Short-Range Order Regulates Hydrogen Energetics and Hydrogen-Dislocation Interactions in CoNiV](https://arxiv.org/abs/2604.05352v1) | 2026-04-07T02:47:48Z | status: auto | note: `data/notes/2604.05352v1.md`
 - [Stability and superstructural ordering of alkali-triel-pnictide clathrates A$_8$T$_{27}$Pn$_{19}$](https://arxiv.org/abs/2604.05264v1) | 2026-04-06T23:57:57Z | status: auto | note: `data/notes/2604.05264v1.md`
-- [A molecular dynamics simulation of thermalization of crystalline lattice with harmonic interaction](https://arxiv.org/abs/2604.03913v1) | 2026-04-05T00:47:33Z | status: auto | note: `data/notes/2604.03913v1.md`
-- [Structurally Triggered Breakdown of the Phonon Gas Model in Crystalline Metal-Organic Frameworks](https://arxiv.org/abs/2604.03783v1) | 2026-04-04T16:09:29Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.03783v1.md`
-- [Potential energy landscape picture of zero-temperature avalanche criticality governing dynamics in supercooled liquids](https://arxiv.org/abs/2604.03580v1) | 2026-04-04T04:11:02Z | status: auto | note: `data/notes/2604.03580v1.md`
 
 ## Phase-Field Crystal
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
@@ -109,6 +109,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Bayesian inference and model comparison for metallic fatigue data](https://arxiv.org/abs/1512.01779v1) | 2015-12-06T11:30:34Z | status: auto | note: `data/notes/1512.01779v1.md`
 
 ## Tensile / Deformation Simulation
+- [Constitutive relations for colloidal gel](https://arxiv.org/abs/2604.23642v1) | 2026-04-26T10:22:49Z | status: auto | note: `data/notes/2604.23642v1.md`
 - [Corneal deformation mapping and FE-based strain analysis via digital image correlation: biomechanical changes after CXL and laser refractive surgery](https://arxiv.org/abs/2604.19289v1) | 2026-04-21T09:54:31Z | status: auto | note: `data/notes/2604.19289v1.md`
 - [Thermo-mechanically coupled phase-field fracture model considering elastocaloric effect of shape memory alloy](https://arxiv.org/abs/2604.18666v1) | 2026-04-20T15:57:17Z | status: auto | note: `data/notes/2604.18666v1.md`
 - [Muscle-inspired magnetic actuators that push, pull, crawl, and grasp](https://arxiv.org/abs/2604.18090v1) | 2026-04-20T11:05:27Z | status: auto | note: `data/notes/2604.18090v1.md`
