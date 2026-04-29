@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 147
-- Last rebuilt: 2026-04-28T04:29:48.559515+00:00
+- Total papers in library: 152
+- Last rebuilt: 2026-04-29T04:25:01.874242+00:00
 
 ## Multiphysics Coupling
 - [Improved Electrochemical Performance and Diffusion kinetics by Boron-doping in Na$_{0.66}$Mn$_{0.8}$Fe$_{0.2}$O$_{2}$ Layered Cathodes for Sodium-Ion Batteries](https://arxiv.org/abs/2604.24683v1) | 2026-04-27T16:43:25Z | status: auto | note: `data/notes/2604.24683v1.md`
@@ -49,7 +49,10 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [All-Optical Varifocal Switching in a Polarization-Insensitive Si--GST Metalens](https://arxiv.org/abs/2511.21138v1) | 2025-11-26T07:42:32Z | status: auto | note: `data/notes/2511.21138v1.md`
 
 ## Molecular Dynamics
+- [Proximity Ferroelectricity Driven by Mobile High-Miller-Index Domain Walls](https://arxiv.org/abs/2604.25343v1) | 2026-04-28T07:58:19Z | status: auto | note: `data/notes/2604.25343v1.md`
+- [Benchmarking Universal Machine-Learned Interatomic Potentials for High-Temperature Metal-Organic Framework Chemistry](https://arxiv.org/abs/2604.25262v1) | 2026-04-28T06:11:25Z | status: auto | note: `data/notes/2604.25262v1.md`
 - [Improved Electrochemical Performance and Diffusion kinetics by Boron-doping in Na$_{0.66}$Mn$_{0.8}$Fe$_{0.2}$O$_{2}$ Layered Cathodes for Sodium-Ion Batteries](https://arxiv.org/abs/2604.24683v1) | 2026-04-27T16:43:25Z | status: auto | note: `data/notes/2604.24683v1.md`
+- [Trillion-atom molecular dynamics simulations with ab initio accuracy](https://arxiv.org/abs/2604.24816v1) | 2026-04-27T13:06:23Z | status: auto | note: `data/notes/2604.24816v1.md`
 - [Atomistic Mechanisms of Temperature-Dependent Ion Track Formation in Gallium Nitride under Swift Heavy Ion Irradiation](https://arxiv.org/abs/2604.24288v1) | 2026-04-27T10:21:54Z | status: auto | note: `data/notes/2604.24288v1.md`
 - [Phase transformation kinetics in MoS2 governed by S-S repulsive interactions and defect-interface compatibility](https://arxiv.org/abs/2604.24209v1) | 2026-04-27T09:16:27Z | status: auto | note: `data/notes/2604.24209v1.md`
 - [Mechanical Scaling Laws and Deformation Behavior of Nanoporous Tantalum Microparticles](https://arxiv.org/abs/2604.22726v1) | 2026-04-24T17:24:41Z | status: auto | note: `data/notes/2604.22726v1.md`
@@ -86,13 +89,11 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Influence of Manganese Content on Plastic Deformation Mechanisms in Polycrystalline α-Ti-Mn Alloys](https://arxiv.org/abs/2604.06360v1) | 2026-04-07T18:37:54Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.06360v1.md`
 - [Large Language Model Assisted Discovery of Optimal Dopants for Enhanced Thermoelectric Performance in CoSb$_3$ Based Skutterudites](https://arxiv.org/abs/2604.06048v1) | 2026-04-07T16:38:13Z | status: auto | note: `data/notes/2604.06048v1.md`
 - [ORION: Unifying Top-Down and Bottom-Up Chemical Space Sampling for a Universal Organic Force Field](https://arxiv.org/abs/2604.05769v1) | 2026-04-07T12:11:06Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.05769v1.md`
-- [Development of a 3D-CNN-based Prediction Model for Migration Barriers in Plasma-Wall Interactions](https://arxiv.org/abs/2604.05521v1) | 2026-04-07T07:18:58Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.05521v1.md`
-- [Chemical Short-Range Order Regulates Hydrogen Energetics and Hydrogen-Dislocation Interactions in CoNiV](https://arxiv.org/abs/2604.05352v1) | 2026-04-07T02:47:48Z | status: auto | note: `data/notes/2604.05352v1.md`
-- [Stability and superstructural ordering of alkali-triel-pnictide clathrates A$_8$T$_{27}$Pn$_{19}$](https://arxiv.org/abs/2604.05264v1) | 2026-04-06T23:57:57Z | status: auto | note: `data/notes/2604.05264v1.md`
 
 ## Phase-Field Crystal
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
 - [Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1) | 2026-02-15T23:32:39Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.14348v1.md`
+- [Deformation assisted precipitation in binary alloys: A competition of time-scales](https://arxiv.org/abs/2410.06099v2) | 2024-10-08T14:52:57Z | status: auto | note: `data/notes/2410.06099v2.md`
 - [Analysis of a Navier-Stokes phase-field crystal system](https://arxiv.org/abs/2404.10431v1) | 2024-04-16T09:52:26Z | status: auto | note: `data/notes/2404.10431v1.md`
 - [Mesoscale modeling of deformations and defects in thin crystalline sheets](https://arxiv.org/abs/2309.11371v3) | 2023-09-20T14:54:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2309.11371v3.md`
 - [Amplitude phase-field crystal model for the hexagonal close-packed lattice](https://arxiv.org/abs/2307.02955v1) | 2023-07-06T12:40:50Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2307.02955v1.md`
@@ -125,6 +126,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Elastic softening and fracture in randomly perforated solids](https://arxiv.org/abs/2604.01858v1) | 2026-04-02T10:15:20Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.01858v1.md`
 - [Molecular dynamics study of the role of anisotropy in radiation-driven embrittlement](https://arxiv.org/abs/2603.25617v2) | 2026-03-26T16:32:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.25617v2.md`
 - [Emerging hierarchical dislocation structures: Insights from scanning electron microscopy-electron backscatter diffraction in situ tensile testing and multifractal analysis](https://arxiv.org/abs/2603.20689v1) | 2026-03-21T07:08:22Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.20689v1.md`
+- [Towards the Multiscale Design of Pressure Sensitive Adhesives](https://arxiv.org/abs/2603.16287v1) | 2026-03-17T09:20:54Z | status: auto | note: `data/notes/2603.16287v1.md`
 - [Effects of uniaxial strain on monolayer transition-metal dichalcogenides revisited](https://arxiv.org/abs/2603.14138v1) | 2026-03-14T22:06:06Z | status: auto | note: `data/notes/2603.14138v1.md`
 - [Lattice Discrete Particle Model (LDPM): Comparison of Various Time Integration Solvers and Implementations](https://arxiv.org/abs/2603.13190v1) | 2026-03-13T17:24:51Z | status: auto | note: `data/notes/2603.13190v1.md`
 - [Microstructural origins of energy storage during plastic deformation of 310S TWIP steel](https://arxiv.org/abs/2603.07352v1) | 2026-03-07T21:36:55Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.07352v1.md`
