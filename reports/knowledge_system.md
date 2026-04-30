@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 152
-- Last rebuilt: 2026-04-29T04:25:01.874242+00:00
+- Total papers in library: 157
+- Last rebuilt: 2026-04-30T04:27:24.448330+00:00
 
 ## Multiphysics Coupling
 - [Improved Electrochemical Performance and Diffusion kinetics by Boron-doping in Na$_{0.66}$Mn$_{0.8}$Fe$_{0.2}$O$_{2}$ Layered Cathodes for Sodium-Ion Batteries](https://arxiv.org/abs/2604.24683v1) | 2026-04-27T16:43:25Z | status: auto | note: `data/notes/2604.24683v1.md`
@@ -49,6 +49,8 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [All-Optical Varifocal Switching in a Polarization-Insensitive Si--GST Metalens](https://arxiv.org/abs/2511.21138v1) | 2025-11-26T07:42:32Z | status: auto | note: `data/notes/2511.21138v1.md`
 
 ## Molecular Dynamics
+- [Molecular Dynamics simulations of Al-Ti metallic alloy melts using a transferable machine-learning potential](https://arxiv.org/abs/2604.26362v1) | 2026-04-29T07:17:17Z | status: auto | note: `data/notes/2604.26362v1.md`
+- [Strain and Twist Engineering of Interfacial Thermal Transport in Homo- and Hetero-Interfaces of Graphene and Hexagonal Boron Nitride](https://arxiv.org/abs/2604.26300v1) | 2026-04-29T04:58:38Z | status: auto | note: `data/notes/2604.26300v1.md`
 - [Proximity Ferroelectricity Driven by Mobile High-Miller-Index Domain Walls](https://arxiv.org/abs/2604.25343v1) | 2026-04-28T07:58:19Z | status: auto | note: `data/notes/2604.25343v1.md`
 - [Benchmarking Universal Machine-Learned Interatomic Potentials for High-Temperature Metal-Organic Framework Chemistry](https://arxiv.org/abs/2604.25262v1) | 2026-04-28T06:11:25Z | status: auto | note: `data/notes/2604.25262v1.md`
 - [Improved Electrochemical Performance and Diffusion kinetics by Boron-doping in Na$_{0.66}$Mn$_{0.8}$Fe$_{0.2}$O$_{2}$ Layered Cathodes for Sodium-Ion Batteries](https://arxiv.org/abs/2604.24683v1) | 2026-04-27T16:43:25Z | status: auto | note: `data/notes/2604.24683v1.md`
@@ -64,6 +66,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Predicting co-segregation in multicomponent alloys with solute-solute interactions](https://arxiv.org/abs/2604.20593v1) | 2026-04-22T14:11:24Z | status: auto | note: `data/notes/2604.20593v1.md`
 - [Fluctuation-driven multi-step charge density wave transition in monolayer TiSe$_2$](https://arxiv.org/abs/2604.20355v1) | 2026-04-22T08:57:42Z | status: auto | note: `data/notes/2604.20355v1.md`
 - [Domain-Wall-Mediated Ultralow-Barrier Sliding and Pinning in Ferroelectric Moiré Superlattices Revealed by Machine Learning](https://arxiv.org/abs/2604.20277v1) | 2026-04-22T07:24:55Z | status: auto | note: `data/notes/2604.20277v1.md`
+- [Lattice thermal transport from phonon spectra beyond perturbation theory](https://arxiv.org/abs/2604.19615v1) | 2026-04-21T16:02:13Z | status: auto | note: `data/notes/2604.19615v1.md`
 - [Evaluating dispersion models for ab initio simulation of G-I and G-II molten fluoride salts](https://arxiv.org/abs/2604.18139v1) | 2026-04-20T12:06:21Z | status: auto | note: `data/notes/2604.18139v1.md`
 - [Evaluating dispersion models for ab initio simulation of G-I and G-II molten fluoride salts](https://arxiv.org/abs/2604.18139v2) | 2026-04-20T12:06:21Z | status: auto | note: `data/notes/2604.18139v2.md`
 - [Revealing full molecular orientation distributions in organic thin films by nonlinear polarimetry](https://arxiv.org/abs/2604.16692v1) | 2026-04-17T20:49:02Z | status: auto | note: `data/notes/2604.16692v1.md`
@@ -86,14 +89,12 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Physics-Informed 3D Atomic Reconstruction and Dynamics of Free-Standing Graphene from Single Low-Dose TEM Images](https://arxiv.org/abs/2604.07271v1) | 2026-04-08T16:33:40Z | status: auto | note: `data/notes/2604.07271v1.md`
 - [Unveiling Mechanisms of SEI Formation and Sodium Loss in Sodium Batteries via Interface Reactor Sampling](https://arxiv.org/abs/2604.07077v1) | 2026-04-08T13:34:33Z | status: auto | note: `data/notes/2604.07077v1.md`
 - [Microscopic contributions to the deviation from Amontons friction law](https://arxiv.org/abs/2604.06890v1) | 2026-04-08T09:46:20Z | status: auto | note: `data/notes/2604.06890v1.md`
-- [Influence of Manganese Content on Plastic Deformation Mechanisms in Polycrystalline α-Ti-Mn Alloys](https://arxiv.org/abs/2604.06360v1) | 2026-04-07T18:37:54Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.06360v1.md`
-- [Large Language Model Assisted Discovery of Optimal Dopants for Enhanced Thermoelectric Performance in CoSb$_3$ Based Skutterudites](https://arxiv.org/abs/2604.06048v1) | 2026-04-07T16:38:13Z | status: auto | note: `data/notes/2604.06048v1.md`
-- [ORION: Unifying Top-Down and Bottom-Up Chemical Space Sampling for a Universal Organic Force Field](https://arxiv.org/abs/2604.05769v1) | 2026-04-07T12:11:06Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.05769v1.md`
 
 ## Phase-Field Crystal
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
 - [Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1) | 2026-02-15T23:32:39Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.14348v1.md`
 - [Deformation assisted precipitation in binary alloys: A competition of time-scales](https://arxiv.org/abs/2410.06099v2) | 2024-10-08T14:52:57Z | status: auto | note: `data/notes/2410.06099v2.md`
+- [Generalizing the structural phase field crystal approach for modeling solid-liquid-vapor phase transformations in pure materials](https://arxiv.org/abs/2408.10992v1) | 2024-08-20T16:41:07Z | status: auto | note: `data/notes/2408.10992v1.md`
 - [Analysis of a Navier-Stokes phase-field crystal system](https://arxiv.org/abs/2404.10431v1) | 2024-04-16T09:52:26Z | status: auto | note: `data/notes/2404.10431v1.md`
 - [Mesoscale modeling of deformations and defects in thin crystalline sheets](https://arxiv.org/abs/2309.11371v3) | 2023-09-20T14:54:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2309.11371v3.md`
 - [Amplitude phase-field crystal model for the hexagonal close-packed lattice](https://arxiv.org/abs/2307.02955v1) | 2023-07-06T12:40:50Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2307.02955v1.md`
@@ -110,6 +111,8 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Bayesian inference and model comparison for metallic fatigue data](https://arxiv.org/abs/1512.01779v1) | 2015-12-06T11:30:34Z | status: auto | note: `data/notes/1512.01779v1.md`
 
 ## Tensile / Deformation Simulation
+- [Anomalous, pre-yield grain-boundary sliding in copper revealed with in-situ high-resolution strain mapping](https://arxiv.org/abs/2604.26515v1) | 2026-04-29T10:31:45Z | status: auto | note: `data/notes/2604.26515v1.md`
+- [Strain and Twist Engineering of Interfacial Thermal Transport in Homo- and Hetero-Interfaces of Graphene and Hexagonal Boron Nitride](https://arxiv.org/abs/2604.26300v1) | 2026-04-29T04:58:38Z | status: auto | note: `data/notes/2604.26300v1.md`
 - [Constitutive relations for colloidal gel](https://arxiv.org/abs/2604.23642v1) | 2026-04-26T10:22:49Z | status: auto | note: `data/notes/2604.23642v1.md`
 - [Corneal deformation mapping and FE-based strain analysis via digital image correlation: biomechanical changes after CXL and laser refractive surgery](https://arxiv.org/abs/2604.19289v1) | 2026-04-21T09:54:31Z | status: auto | note: `data/notes/2604.19289v1.md`
 - [Thermo-mechanically coupled phase-field fracture model considering elastocaloric effect of shape memory alloy](https://arxiv.org/abs/2604.18666v1) | 2026-04-20T15:57:17Z | status: auto | note: `data/notes/2604.18666v1.md`
