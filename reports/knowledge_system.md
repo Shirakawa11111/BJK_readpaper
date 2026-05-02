@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 162
-- Last rebuilt: 2026-05-01T04:43:35.735385+00:00
+- Total papers in library: 167
+- Last rebuilt: 2026-05-02T04:15:19.268420+00:00
 
 ## Multiphysics Coupling
 - [Fragment-Constrained Charge Equilibration for Charge-Aware Machine Learning Potentials at Electrochemical Interfaces](https://arxiv.org/abs/2604.27910v1) | 2026-04-30T14:18:47Z | status: auto | note: `data/notes/2604.27910v1.md`
@@ -16,6 +16,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Critical role of phase-dependent properties in modeling photothermal sintering of LiCoO2 cathodes](https://arxiv.org/abs/2604.21842v2) | 2026-04-23T16:32:18Z | status: auto | note: `data/notes/2604.21842v2.md`
 - [Thermo-mechanically coupled phase-field fracture model considering elastocaloric effect of shape memory alloy](https://arxiv.org/abs/2604.18666v1) | 2026-04-20T15:57:17Z | status: auto | note: `data/notes/2604.18666v1.md`
 - [Atomistic Mechanisms of Stress-Dependent Molten Salt Corrosion in NiCr Alloys](https://arxiv.org/abs/2604.16261v1) | 2026-04-17T17:18:51Z | status: auto | note: `data/notes/2604.16261v1.md`
+- [Electronic Signature of Melting Onset in Polycrystalline Copper at Extreme Conditions](https://arxiv.org/abs/2604.15491v1) | 2026-04-16T19:47:57Z | status: auto | note: `data/notes/2604.15491v1.md`
 - [3D Finite Element-Based Multiphysics Simulation of a Shape Memory Alloy Hybrid Composite Module](https://arxiv.org/abs/2604.15211v1) | 2026-04-16T16:41:35Z | status: auto | note: `data/notes/2604.15211v1.md`
 - [EMSpice 3: Full-chip Temperature-Aware Multiphysics Electromigration and IR-Drop Analysis](https://arxiv.org/abs/2604.10743v3) | 2026-04-12T17:34:31Z | status: auto | note: `data/notes/2604.10743v3.md`
 - [Explicit Electric Potential-Embedded Machine Learning Framework: A Unified Description from Atomic to Electronic Scales](https://arxiv.org/abs/2604.07322v2) | 2026-04-08T17:37:11Z | status: auto | note: `data/notes/2604.07322v2.md`
@@ -46,7 +47,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1) | 2026-02-15T23:32:39Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.14348v1.md`
 - [Electrohydrodynamic instability of Cu, W and Ti metal nanomelts under radiofrequency E-fields from multiphysics molecular dynamics simulations with coarse-grained density field analysis](https://arxiv.org/abs/2602.12558v1) | 2026-02-13T03:12:59Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.12558v1.md`
 - [Fully Coupled Multiphysics Modelling of Fracture Behaviour in Silicon Particles During Lithiation Delithiation Using the Phase Field Method](https://arxiv.org/abs/2601.01443v1) | 2026-01-04T09:12:19Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2601.01443v1.md`
-- [Multivariate scaling of proton and ion energies, divergence, and charge states in Target Normal Sheath Acceleration](https://arxiv.org/abs/2512.21279v1) | 2025-12-24T16:58:25Z | status: auto | note: `data/notes/2512.21279v1.md`
 
 ## Molecular Dynamics
 - [Fragment-Constrained Charge Equilibration for Charge-Aware Machine Learning Potentials at Electrochemical Interfaces](https://arxiv.org/abs/2604.27910v1) | 2026-04-30T14:18:47Z | status: auto | note: `data/notes/2604.27910v1.md`
@@ -95,10 +95,13 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1) | 2026-02-15T23:32:39Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.14348v1.md`
 - [Deformation assisted precipitation in binary alloys: A competition of time-scales](https://arxiv.org/abs/2410.06099v2) | 2024-10-08T14:52:57Z | status: auto | note: `data/notes/2410.06099v2.md`
 - [Generalizing the structural phase field crystal approach for modeling solid-liquid-vapor phase transformations in pure materials](https://arxiv.org/abs/2408.10992v1) | 2024-08-20T16:41:07Z | status: auto | note: `data/notes/2408.10992v1.md`
+- [Hybrid-PFC: coupling the phase-field crystal model and its amplitude-equation formulation](https://arxiv.org/abs/2407.17283v1) | 2024-07-24T13:48:44Z | status: auto | note: `data/notes/2407.17283v1.md`
 - [Analysis of a Navier-Stokes phase-field crystal system](https://arxiv.org/abs/2404.10431v1) | 2024-04-16T09:52:26Z | status: auto | note: `data/notes/2404.10431v1.md`
+- [Gradient elasticity in Swift-Hohenberg and phase-field crystal models](https://arxiv.org/abs/2312.08154v2) | 2023-12-13T14:05:38Z | status: auto | note: `data/notes/2312.08154v2.md`
 - [Mesoscale modeling of deformations and defects in thin crystalline sheets](https://arxiv.org/abs/2309.11371v3) | 2023-09-20T14:54:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2309.11371v3.md`
 - [Amplitude phase-field crystal model for the hexagonal close-packed lattice](https://arxiv.org/abs/2307.02955v1) | 2023-07-06T12:40:50Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2307.02955v1.md`
 - [Evaluation of the elastic field in phase-field crystal simulations](https://arxiv.org/abs/2307.00981v2) | 2023-07-03T12:54:21Z | status: auto | note: `data/notes/2307.00981v2.md`
+- [Amplitude expansion of the phase-field crystal model for complex crystal structures](https://arxiv.org/abs/2301.04917v2) | 2023-01-12T10:25:03Z | status: auto | note: `data/notes/2301.04917v2.md`
 
 ## Metal Fatigue Simulation
 - [Muscle-inspired magnetic actuators that push, pull, crawl, and grasp](https://arxiv.org/abs/2604.18090v1) | 2026-04-20T11:05:27Z | status: auto | note: `data/notes/2604.18090v1.md`
@@ -107,6 +110,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Work-hardening exhaustion as the origin of low toughness in L-PBF alloys: A case study on the role of intrinsic vs. extrinsic defects in SS316L](https://arxiv.org/abs/2602.18954v1) | 2026-02-21T20:24:28Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.18954v1.md`
 - [Fully Coupled Multiphysics Modelling of Fracture Behaviour in Silicon Particles During Lithiation Delithiation Using the Phase Field Method](https://arxiv.org/abs/2601.01443v1) | 2026-01-04T09:12:19Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2601.01443v1.md`
 - [Magnetic Tactile-Driven Soft Actuator for Intelligent Grasping and Firmness Evaluation](https://arxiv.org/abs/2512.00907v2) | 2025-11-30T14:18:29Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2512.00907v2.md`
+- [A frequency-domain enhanced multi-view network for metal fatigue life prediction](https://arxiv.org/abs/2405.07507v2) | 2024-05-13T07:00:42Z | status: auto | note: `data/notes/2405.07507v2.md`
 - [Modeling metallic fatigue data using the Birnbaum--Saunders distribution](https://arxiv.org/abs/2303.05040v3) | 2023-03-09T05:22:14Z | status: auto | note: `data/notes/2303.05040v3.md`
 - [Bayesian inference and model comparison for metallic fatigue data](https://arxiv.org/abs/1512.01779v1) | 2015-12-06T11:30:34Z | status: auto | note: `data/notes/1512.01779v1.md`
 - [Multiaxial Kitagawa analysis of A356-T6](https://arxiv.org/abs/1206.2343v1) | 2012-06-10T00:53:20Z | status: auto | note: `data/notes/1206.2343v1.md`
