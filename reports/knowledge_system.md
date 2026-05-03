@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 167
-- Last rebuilt: 2026-05-02T04:15:19.268420+00:00
+- Total papers in library: 172
+- Last rebuilt: 2026-05-03T04:36:17.329792+00:00
 
 ## Multiphysics Coupling
 - [Fragment-Constrained Charge Equilibration for Charge-Aware Machine Learning Potentials at Electrochemical Interfaces](https://arxiv.org/abs/2604.27910v1) | 2026-04-30T14:18:47Z | status: auto | note: `data/notes/2604.27910v1.md`
@@ -93,6 +93,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 ## Phase-Field Crystal
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
 - [Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1) | 2026-02-15T23:32:39Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.14348v1.md`
+- [Elastically Buckled Film-Substrate System as a Two-dimensional Crystal](https://arxiv.org/abs/2502.13864v1) | 2025-02-19T16:32:24Z | status: auto | note: `data/notes/2502.13864v1.md`
 - [Deformation assisted precipitation in binary alloys: A competition of time-scales](https://arxiv.org/abs/2410.06099v2) | 2024-10-08T14:52:57Z | status: auto | note: `data/notes/2410.06099v2.md`
 - [Generalizing the structural phase field crystal approach for modeling solid-liquid-vapor phase transformations in pure materials](https://arxiv.org/abs/2408.10992v1) | 2024-08-20T16:41:07Z | status: auto | note: `data/notes/2408.10992v1.md`
 - [Hybrid-PFC: coupling the phase-field crystal model and its amplitude-equation formulation](https://arxiv.org/abs/2407.17283v1) | 2024-07-24T13:48:44Z | status: auto | note: `data/notes/2407.17283v1.md`
@@ -132,6 +133,8 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [A multiphysics deep energy method for fourth-order phase-field fracture with piezoresistive self-sensing](https://arxiv.org/abs/2604.03453v1) | 2026-04-03T20:55:03Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.03453v1.md`
 - [Engineering Electrochromism in Ni-Deficient NiO through Defect, Dopant, and Strain Coupling](https://arxiv.org/abs/2604.02952v1) | 2026-04-03T10:35:26Z | status: auto | note: `data/notes/2604.02952v1.md`
 - [Elastic softening and fracture in randomly perforated solids](https://arxiv.org/abs/2604.01858v1) | 2026-04-02T10:15:20Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.01858v1.md`
+- [Pentagonal PdTe2 Monolayer for Sustainable Solar-driven Hydrogen Production](https://arxiv.org/abs/2603.28726v1) | 2026-03-30T17:44:03Z | status: auto | note: `data/notes/2603.28726v1.md`
+- [Single-material 4D-printed shape-morphing structures via spatially patterned strain trapping](https://arxiv.org/abs/2603.27152v1) | 2026-03-28T06:30:15Z | status: auto | note: `data/notes/2603.27152v1.md`
 - [Molecular dynamics study of the role of anisotropy in radiation-driven embrittlement](https://arxiv.org/abs/2603.25617v2) | 2026-03-26T16:32:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.25617v2.md`
 - [Emerging hierarchical dislocation structures: Insights from scanning electron microscopy-electron backscatter diffraction in situ tensile testing and multifractal analysis](https://arxiv.org/abs/2603.20689v1) | 2026-03-21T07:08:22Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.20689v1.md`
 - [Towards the Multiscale Design of Pressure Sensitive Adhesives](https://arxiv.org/abs/2603.16287v1) | 2026-03-17T09:20:54Z | status: auto | note: `data/notes/2603.16287v1.md`
@@ -147,10 +150,10 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [From Connectivity to Rupture: A Coarse-Grained Stochastic Network Dynamics Approach to Polymer Network Mechanics](https://arxiv.org/abs/2602.08089v1) | 2026-02-08T19:14:52Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.08089v1.md`
 - [Enhanced Elevated-Temperature Strength in Refractory Complex Concentrated Alloys via Temperature-Induced Transition from Screw-to-Edge Dislocation Control](https://arxiv.org/abs/2602.06225v1) | 2026-02-05T22:04:35Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.06225v1.md`
 - [Atomistic and data-driven insights into the local slip resistances in random refractory multi-principal element alloys](https://arxiv.org/abs/2602.04827v1) | 2026-02-04T18:15:07Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.04827v1.md`
+- [Constitutive parameter inference using physics-based data-driven modeling in full volume datasets of intact and torn rotator cuff tendons](https://arxiv.org/abs/2601.09660v1) | 2026-01-14T17:51:44Z | status: auto | note: `data/notes/2601.09660v1.md`
 - [Fully Coupled Multiphysics Modelling of Fracture Behaviour in Silicon Particles During Lithiation Delithiation Using the Phase Field Method](https://arxiv.org/abs/2601.01443v1) | 2026-01-04T09:12:19Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2601.01443v1.md`
 - [High-Temperature Deformation Behavior of Co-Free Non-Equiatomic CrMnFeNi Alloy](https://arxiv.org/abs/2601.00619v1) | 2026-01-02T09:23:26Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2601.00619v1.md`
 - [Kagome Topology in Two-Dimensional Noble-Metal Monolayers](https://arxiv.org/abs/2512.14850v1) | 2025-12-16T19:13:37Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2512.14850v1.md`
 - [Topological Defect Mediated Helical Phase Reorientation by Uniaxial Stress](https://arxiv.org/abs/2512.06481v1) | 2025-12-06T16:12:22Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2512.06481v1.md`
 - [Fast machine learned $α$-Fe-H interatomic potential for hydrogen embrittlement](https://arxiv.org/abs/2511.21464v1) | 2025-11-26T14:56:02Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2511.21464v1.md`
 - [Revealing the innate sub-nanometer porous structure of carbon nanomembranes with molecular dynamics simulations and highly charged ion spectroscopy](https://arxiv.org/abs/2511.04266v1) | 2025-11-06T10:58:26Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2511.04266v1.md`
-- [Mesoscale modeling of deformations and defects in thin crystalline sheets](https://arxiv.org/abs/2309.11371v3) | 2023-09-20T14:54:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2309.11371v3.md`
