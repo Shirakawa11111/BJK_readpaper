@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 172
-- Last rebuilt: 2026-05-03T04:36:17.329792+00:00
+- Total papers in library: 177
+- Last rebuilt: 2026-05-04T04:36:32.097953+00:00
 
 ## Multiphysics Coupling
 - [Fragment-Constrained Charge Equilibration for Charge-Aware Machine Learning Potentials at Electrochemical Interfaces](https://arxiv.org/abs/2604.27910v1) | 2026-04-30T14:18:47Z | status: auto | note: `data/notes/2604.27910v1.md`
@@ -43,12 +43,14 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Electrostatic Gating of Ionic Conductance Through Heterogeneous van der Waals Nanopores](https://arxiv.org/abs/2602.21419v1) | 2026-02-24T22:46:30Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.21419v1.md`
 - [Strain-Rate- and Line-Length-Dependent Screw Dislocation Glide Mechanisms in BCC Refractory Metals and Alloys](https://arxiv.org/abs/2602.16883v1) | 2026-02-18T21:10:16Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16883v1.md`
 - [Dislocation-ledge coupling drives non-conservative migration of semicoherent precipitate interfaces](https://arxiv.org/abs/2602.16158v1) | 2026-02-18T03:16:02Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16158v1.md`
+- [Dislocation-ledge coupling governs semicoherent precipitate growth](https://arxiv.org/abs/2602.16158v2) | 2026-02-18T03:16:02Z | status: auto | note: `data/notes/2602.16158v2.md`
 - [From Coils to Surface Recession: Fully Coupled Simulation of Ablation in ICP Wind Tunnels](https://arxiv.org/abs/2602.15500v1) | 2026-02-17T11:13:00Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.15500v1.md`
 - [Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1) | 2026-02-15T23:32:39Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.14348v1.md`
 - [Electrohydrodynamic instability of Cu, W and Ti metal nanomelts under radiofrequency E-fields from multiphysics molecular dynamics simulations with coarse-grained density field analysis](https://arxiv.org/abs/2602.12558v1) | 2026-02-13T03:12:59Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.12558v1.md`
-- [Fully Coupled Multiphysics Modelling of Fracture Behaviour in Silicon Particles During Lithiation Delithiation Using the Phase Field Method](https://arxiv.org/abs/2601.01443v1) | 2026-01-04T09:12:19Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2601.01443v1.md`
 
 ## Molecular Dynamics
+- [Oxygen Vacancies at Dislocation Core Modulate Plasticity in Strontium Titanate](https://arxiv.org/abs/2605.00801v1) | 2026-05-01T17:39:50Z | status: auto | note: `data/notes/2605.00801v1.md`
+- [Kinetically Arrested Twin-Domain State in Formamidinium Lead Iodide](https://arxiv.org/abs/2605.00427v1) | 2026-05-01T05:56:44Z | status: auto | note: `data/notes/2605.00427v1.md`
 - [Fragment-Constrained Charge Equilibration for Charge-Aware Machine Learning Potentials at Electrochemical Interfaces](https://arxiv.org/abs/2604.27910v1) | 2026-04-30T14:18:47Z | status: auto | note: `data/notes/2604.27910v1.md`
 - [VibroML: an automated toolkit for high-throughput vibrational analysis and dynamic instability remediation of crystalline materials using machine-learned potentials](https://arxiv.org/abs/2604.27685v1) | 2026-04-30T10:20:58Z | status: auto | note: `data/notes/2604.27685v1.md`
 - [Ultrafast Sliding Ferroelectric Switching in Bilayer Hexagonal Boron Nitride Revealed by Deep Learning Molecular Dynamics](https://arxiv.org/abs/2604.27342v1) | 2026-04-30T02:46:43Z | status: auto | note: `data/notes/2604.27342v1.md`
@@ -87,14 +89,13 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Force Field-Agnostic Phase Classification of Zeolitic Imidazolate Framework Polymorphs](https://arxiv.org/abs/2604.09084v1) | 2026-04-10T08:11:13Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.09084v1.md`
 - [Bulk versus interface nucleation of CO$_2$ hydrates from computer simulations](https://arxiv.org/abs/2604.08187v1) | 2026-04-09T12:40:03Z | status: auto | note: `data/notes/2604.08187v1.md`
 - [Machine Learning the order-disorder Jahn-Teller transition in LaMnO$_3$](https://arxiv.org/abs/2604.08058v1) | 2026-04-09T10:17:36Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.08058v1.md`
-- [Differentiable hybrid force fields support scalable autonomous electrolyte discovery](https://arxiv.org/abs/2604.07979v1) | 2026-04-09T08:51:15Z | status: auto | note: `data/notes/2604.07979v1.md`
-- [Explicit Electric Potential-Embedded Machine Learning Framework: A Unified Description from Atomic to Electronic Scales](https://arxiv.org/abs/2604.07322v2) | 2026-04-08T17:37:11Z | status: auto | note: `data/notes/2604.07322v2.md`
 
 ## Phase-Field Crystal
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
 - [Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1) | 2026-02-15T23:32:39Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.14348v1.md`
 - [Elastically Buckled Film-Substrate System as a Two-dimensional Crystal](https://arxiv.org/abs/2502.13864v1) | 2025-02-19T16:32:24Z | status: auto | note: `data/notes/2502.13864v1.md`
 - [Deformation assisted precipitation in binary alloys: A competition of time-scales](https://arxiv.org/abs/2410.06099v2) | 2024-10-08T14:52:57Z | status: auto | note: `data/notes/2410.06099v2.md`
+- [A Non-Isothermal Phase-Field Crystal Model with Lattice Expansion: Analysis and Benchmarks](https://arxiv.org/abs/2408.16449v1) | 2024-08-29T11:28:34Z | status: auto | note: `data/notes/2408.16449v1.md`
 - [Generalizing the structural phase field crystal approach for modeling solid-liquid-vapor phase transformations in pure materials](https://arxiv.org/abs/2408.10992v1) | 2024-08-20T16:41:07Z | status: auto | note: `data/notes/2408.10992v1.md`
 - [Hybrid-PFC: coupling the phase-field crystal model and its amplitude-equation formulation](https://arxiv.org/abs/2407.17283v1) | 2024-07-24T13:48:44Z | status: auto | note: `data/notes/2407.17283v1.md`
 - [Analysis of a Navier-Stokes phase-field crystal system](https://arxiv.org/abs/2404.10431v1) | 2024-04-16T09:52:26Z | status: auto | note: `data/notes/2404.10431v1.md`
