@@ -4,7 +4,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
 - Total papers in library: 177
-- Last rebuilt: 2026-05-04T04:36:32.097953+00:00
+- Last rebuilt: 2026-05-05T04:12:14.457620+00:00
 
 ## Multiphysics Coupling
 - [Fragment-Constrained Charge Equilibration for Charge-Aware Machine Learning Potentials at Electrochemical Interfaces](https://arxiv.org/abs/2604.27910v1) | 2026-04-30T14:18:47Z | status: auto | note: `data/notes/2604.27910v1.md`
