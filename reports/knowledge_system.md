@@ -3,10 +3,11 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 177
-- Last rebuilt: 2026-05-05T04:12:14.457620+00:00
+- Total papers in library: 182
+- Last rebuilt: 2026-05-06T04:29:14.506979+00:00
 
 ## Multiphysics Coupling
+- [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
 - [Fragment-Constrained Charge Equilibration for Charge-Aware Machine Learning Potentials at Electrochemical Interfaces](https://arxiv.org/abs/2604.27910v1) | 2026-04-30T14:18:47Z | status: auto | note: `data/notes/2604.27910v1.md`
 - [Ultrafast Sliding Ferroelectric Switching in Bilayer Hexagonal Boron Nitride Revealed by Deep Learning Molecular Dynamics](https://arxiv.org/abs/2604.27342v1) | 2026-04-30T02:46:43Z | status: auto | note: `data/notes/2604.27342v1.md`
 - [Improved Electrochemical Performance and Diffusion kinetics by Boron-doping in Na$_{0.66}$Mn$_{0.8}$Fe$_{0.2}$O$_{2}$ Layered Cathodes for Sodium-Ion Batteries](https://arxiv.org/abs/2604.24683v1) | 2026-04-27T16:43:25Z | status: auto | note: `data/notes/2604.24683v1.md`
@@ -46,9 +47,12 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Dislocation-ledge coupling governs semicoherent precipitate growth](https://arxiv.org/abs/2602.16158v2) | 2026-02-18T03:16:02Z | status: auto | note: `data/notes/2602.16158v2.md`
 - [From Coils to Surface Recession: Fully Coupled Simulation of Ablation in ICP Wind Tunnels](https://arxiv.org/abs/2602.15500v1) | 2026-02-17T11:13:00Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.15500v1.md`
 - [Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1) | 2026-02-15T23:32:39Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.14348v1.md`
-- [Electrohydrodynamic instability of Cu, W and Ti metal nanomelts under radiofrequency E-fields from multiphysics molecular dynamics simulations with coarse-grained density field analysis](https://arxiv.org/abs/2602.12558v1) | 2026-02-13T03:12:59Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.12558v1.md`
 
 ## Molecular Dynamics
+- [Defect-Engineered Beryllium Dinitride (BeN2) Monolayer with Light-Metal Decoration for Reversible High-Capacity Hydrogen Storage](https://arxiv.org/abs/2605.03738v1) | 2026-05-05T13:25:09Z | status: auto | note: `data/notes/2605.03738v1.md`
+- [Energy dissipation at the atomic scale explains how fracture energy depends on crack velocity in silica glass](https://arxiv.org/abs/2605.03457v1) | 2026-05-05T07:44:11Z | status: auto | note: `data/notes/2605.03457v1.md`
+- [Revisiting the Rheology of Neutron Star Crusts with Molecular Dynamics](https://arxiv.org/abs/2605.02101v1) | 2026-05-03T23:45:33Z | status: auto | note: `data/notes/2605.02101v1.md`
+- [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
 - [Oxygen Vacancies at Dislocation Core Modulate Plasticity in Strontium Titanate](https://arxiv.org/abs/2605.00801v1) | 2026-05-01T17:39:50Z | status: auto | note: `data/notes/2605.00801v1.md`
 - [Kinetically Arrested Twin-Domain State in Formamidinium Lead Iodide](https://arxiv.org/abs/2605.00427v1) | 2026-05-01T05:56:44Z | status: auto | note: `data/notes/2605.00427v1.md`
 - [Fragment-Constrained Charge Equilibration for Charge-Aware Machine Learning Potentials at Electrochemical Interfaces](https://arxiv.org/abs/2604.27910v1) | 2026-04-30T14:18:47Z | status: auto | note: `data/notes/2604.27910v1.md`
@@ -85,12 +89,9 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Machine-learning modeling of magnetization dynamics in quasi-equilibrium and driven metallic spin systems](https://arxiv.org/abs/2604.11513v1) | 2026-04-13T14:18:34Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.11513v1.md`
 - [Ru Alloying in Ni/Al Reactive Multilayers: Experimental Observations and Molecular Dynamics Simulations](https://arxiv.org/abs/2604.11370v1) | 2026-04-13T12:12:25Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.11370v1.md`
 - [Location of the liquid-vapor critical point in aluminum](https://arxiv.org/abs/2604.10561v1) | 2026-04-12T10:09:15Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.10561v1.md`
-- [Miscibility and Transport Properties in Hydrogen-Neon Mixtures](https://arxiv.org/abs/2604.10355v1) | 2026-04-11T21:47:23Z | status: auto | note: `data/notes/2604.10355v1.md`
-- [Force Field-Agnostic Phase Classification of Zeolitic Imidazolate Framework Polymorphs](https://arxiv.org/abs/2604.09084v1) | 2026-04-10T08:11:13Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.09084v1.md`
-- [Bulk versus interface nucleation of CO$_2$ hydrates from computer simulations](https://arxiv.org/abs/2604.08187v1) | 2026-04-09T12:40:03Z | status: auto | note: `data/notes/2604.08187v1.md`
-- [Machine Learning the order-disorder Jahn-Teller transition in LaMnO$_3$](https://arxiv.org/abs/2604.08058v1) | 2026-04-09T10:17:36Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.08058v1.md`
 
 ## Phase-Field Crystal
+- [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
 - [Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1) | 2026-02-15T23:32:39Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.14348v1.md`
 - [Elastically Buckled Film-Substrate System as a Two-dimensional Crystal](https://arxiv.org/abs/2502.13864v1) | 2025-02-19T16:32:24Z | status: auto | note: `data/notes/2502.13864v1.md`
