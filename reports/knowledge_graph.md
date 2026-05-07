@@ -1,6 +1,6 @@
 # 论文知识体系图谱
 
-> 自动生成 | 总论文数: 182 | 更新时间: 2026-05-06 04:29 UTC
+> 自动生成 | 总论文数: 187 | 更新时间: 2026-05-07 04:29 UTC
 
 ## 知识体系思维导图
 
@@ -28,7 +28,7 @@ mindmap
         molecular dynamics
         dislocation
         metal
-    Molecular Dynamics [111篇]
+    Molecular Dynamics [114篇]
       Molecular dynamics study of t...
         molecular dynamics
         dislocation
@@ -91,7 +91,7 @@ mindmap
         multiphysics
         fatigue
         deformation
-    Tensile / Deformation Simulation [41篇]
+    Tensile / Deformation Simulation [43篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -130,7 +130,7 @@ timeline
     2026-02 : Electrohydrodynamic insta... : Dislocation dynamics on d... : Strain-Rate- and Line-Len...
     2026-03 : Molecular dynamics study... : Defect dependent dynamic... : Laser Powder Bed Fusion M...
     2026-04 : A multiphysics deep energ... : Atomistic Mechanisms of S... : Mechanical Scaling Laws a...
-    2026-05 : Surface segregation of li... : Energy dissipation at the... : Defect-Engineered Berylli...
+    2026-05 : Surface segregation of li... : Energy dissipation at the... : Unveiling the Atomistic M...
 ```
 
 ## 主题-侧重点交叉分析
@@ -138,7 +138,7 @@ timeline
 | 主题方向 | 论文数 | 主要侧重点 | 代表论文 |
 |----------|--------|------------|----------|
 | Multiphysics Coupling | 55 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 数据驱动与机器学习建模 | Fully Coupled Multiphysics Model... |
-| Molecular Dynamics | 111 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
+| Molecular Dynamics | 114 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
 | Phase-Field Crystal | 14 | 相场晶体与组织演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Dislocation dynamics on deformab... |
 | Metal Fatigue Simulation | 10 | 疲劳损伤与断裂演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
-| Tensile / Deformation Simulation | 41 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制 | Fully Coupled Multiphysics Model... |
+| Tensile / Deformation Simulation | 43 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |

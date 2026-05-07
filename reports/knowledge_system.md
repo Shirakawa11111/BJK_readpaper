@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 182
-- Last rebuilt: 2026-05-06T04:29:14.506979+00:00
+- Total papers in library: 187
+- Last rebuilt: 2026-05-07T04:29:20.485944+00:00
 
 ## Multiphysics Coupling
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
@@ -49,8 +49,11 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1) | 2026-02-15T23:32:39Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.14348v1.md`
 
 ## Molecular Dynamics
+- [Unveiling the Atomistic Mechanisms of Shear-Induced LDA$\leftrightarrow$HDA Transformations and Shear Banding in Amorphous Silicon under High Pressures](https://arxiv.org/abs/2605.04521v1) | 2026-05-06T06:02:37Z | status: auto | note: `data/notes/2605.04521v1.md`
+- [Spin Dynamics from Atomistic Quantum Simulations](https://arxiv.org/abs/2605.04294v1) | 2026-05-05T20:55:35Z | status: auto | note: `data/notes/2605.04294v1.md`
 - [Defect-Engineered Beryllium Dinitride (BeN2) Monolayer with Light-Metal Decoration for Reversible High-Capacity Hydrogen Storage](https://arxiv.org/abs/2605.03738v1) | 2026-05-05T13:25:09Z | status: auto | note: `data/notes/2605.03738v1.md`
 - [Energy dissipation at the atomic scale explains how fracture energy depends on crack velocity in silica glass](https://arxiv.org/abs/2605.03457v1) | 2026-05-05T07:44:11Z | status: auto | note: `data/notes/2605.03457v1.md`
+- [A Unified microscopic picture of cation and anion migration in MAPbI$_3$](https://arxiv.org/abs/2605.02685v2) | 2026-05-04T15:01:39Z | status: auto | note: `data/notes/2605.02685v2.md`
 - [Revisiting the Rheology of Neutron Star Crusts with Molecular Dynamics](https://arxiv.org/abs/2605.02101v1) | 2026-05-03T23:45:33Z | status: auto | note: `data/notes/2605.02101v1.md`
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
 - [Oxygen Vacancies at Dislocation Core Modulate Plasticity in Strontium Titanate](https://arxiv.org/abs/2605.00801v1) | 2026-05-01T17:39:50Z | status: auto | note: `data/notes/2605.00801v1.md`
@@ -86,9 +89,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Uncovering the role of ionic doping in hydroxyapatite: The building blocks of tooth enamel and bones](https://arxiv.org/abs/2604.13339v1) | 2026-04-14T23:02:33Z | status: auto | note: `data/notes/2604.13339v1.md`
 - [Stress field modification near linear complexions increases the effective obstacle size and strengthening effect](https://arxiv.org/abs/2604.12730v1) | 2026-04-14T13:45:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.12730v1.md`
 - [Effect of Pre-Shear and Dispersity on Crystallization of a Model Polymer with Soft Pair Interactions using Molecular Dynamics Simulations](https://arxiv.org/abs/2604.11706v1) | 2026-04-13T16:42:46Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.11706v1.md`
-- [Machine-learning modeling of magnetization dynamics in quasi-equilibrium and driven metallic spin systems](https://arxiv.org/abs/2604.11513v1) | 2026-04-13T14:18:34Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.11513v1.md`
-- [Ru Alloying in Ni/Al Reactive Multilayers: Experimental Observations and Molecular Dynamics Simulations](https://arxiv.org/abs/2604.11370v1) | 2026-04-13T12:12:25Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.11370v1.md`
-- [Location of the liquid-vapor critical point in aluminum](https://arxiv.org/abs/2604.10561v1) | 2026-04-12T10:09:15Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.10561v1.md`
 
 ## Phase-Field Crystal
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
@@ -119,6 +119,8 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Multiaxial Kitagawa analysis of A356-T6](https://arxiv.org/abs/1206.2343v1) | 2012-06-10T00:53:20Z | status: auto | note: `data/notes/1206.2343v1.md`
 
 ## Tensile / Deformation Simulation
+- [Plastic deformation of B19' martensite where -- where it matters in NiTi technology](https://arxiv.org/abs/2605.04669v1) | 2026-05-06T09:18:29Z | status: auto | note: `data/notes/2605.04669v1.md`
+- [Microscale bending plasticity and fracture behavior of amorphous aluminum oxide films](https://arxiv.org/abs/2605.01917v1) | 2026-05-03T14:57:25Z | status: auto | note: `data/notes/2605.01917v1.md`
 - [Anomalous, pre-yield grain-boundary sliding in copper revealed with in-situ high-resolution strain mapping](https://arxiv.org/abs/2604.26515v1) | 2026-04-29T10:31:45Z | status: auto | note: `data/notes/2604.26515v1.md`
 - [Strain and Twist Engineering of Interfacial Thermal Transport in Homo- and Hetero-Interfaces of Graphene and Hexagonal Boron Nitride](https://arxiv.org/abs/2604.26300v1) | 2026-04-29T04:58:38Z | status: auto | note: `data/notes/2604.26300v1.md`
 - [Constitutive relations for colloidal gel](https://arxiv.org/abs/2604.23642v1) | 2026-04-26T10:22:49Z | status: auto | note: `data/notes/2604.23642v1.md`
@@ -157,5 +159,3 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [High-Temperature Deformation Behavior of Co-Free Non-Equiatomic CrMnFeNi Alloy](https://arxiv.org/abs/2601.00619v1) | 2026-01-02T09:23:26Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2601.00619v1.md`
 - [Kagome Topology in Two-Dimensional Noble-Metal Monolayers](https://arxiv.org/abs/2512.14850v1) | 2025-12-16T19:13:37Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2512.14850v1.md`
 - [Topological Defect Mediated Helical Phase Reorientation by Uniaxial Stress](https://arxiv.org/abs/2512.06481v1) | 2025-12-06T16:12:22Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2512.06481v1.md`
-- [Fast machine learned $α$-Fe-H interatomic potential for hydrogen embrittlement](https://arxiv.org/abs/2511.21464v1) | 2025-11-26T14:56:02Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2511.21464v1.md`
-- [Revealing the innate sub-nanometer porous structure of carbon nanomembranes with molecular dynamics simulations and highly charged ion spectroscopy](https://arxiv.org/abs/2511.04266v1) | 2025-11-06T10:58:26Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2511.04266v1.md`
