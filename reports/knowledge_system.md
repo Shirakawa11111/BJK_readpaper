@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 187
-- Last rebuilt: 2026-05-07T04:29:20.485944+00:00
+- Total papers in library: 192
+- Last rebuilt: 2026-05-08T04:13:45.452945+00:00
 
 ## Multiphysics Coupling
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
@@ -49,6 +49,10 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1) | 2026-02-15T23:32:39Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.14348v1.md`
 
 ## Molecular Dynamics
+- [Molecular dynamics simulation study of mechanical properties of 3C-SiC with extended defects](https://arxiv.org/abs/2605.06574v1) | 2026-05-07T17:04:33Z | status: auto | note: `data/notes/2605.06574v1.md`
+- [Physics-Grounded Understanding of Thermal Boundary Conductance between Ga$_2$O$_3$ and SiC from a Feedforward Neural Network Potential](https://arxiv.org/abs/2605.05620v1) | 2026-05-07T03:19:00Z | status: auto | note: `data/notes/2605.05620v1.md`
+- [Strain-Dependent Ionic Transport in Li3YCl6 Solid Electrolytes](https://arxiv.org/abs/2605.05603v1) | 2026-05-07T02:38:40Z | status: auto | note: `data/notes/2605.05603v1.md`
+- [From Bulk to Surface: Structure and Dynamics of Amorphous Alumina from Deep Potential Molecular Dynamics](https://arxiv.org/abs/2605.05361v1) | 2026-05-06T18:40:17Z | status: auto | note: `data/notes/2605.05361v1.md`
 - [Unveiling the Atomistic Mechanisms of Shear-Induced LDA$\leftrightarrow$HDA Transformations and Shear Banding in Amorphous Silicon under High Pressures](https://arxiv.org/abs/2605.04521v1) | 2026-05-06T06:02:37Z | status: auto | note: `data/notes/2605.04521v1.md`
 - [Spin Dynamics from Atomistic Quantum Simulations](https://arxiv.org/abs/2605.04294v1) | 2026-05-05T20:55:35Z | status: auto | note: `data/notes/2605.04294v1.md`
 - [Defect-Engineered Beryllium Dinitride (BeN2) Monolayer with Light-Metal Decoration for Reversible High-Capacity Hydrogen Storage](https://arxiv.org/abs/2605.03738v1) | 2026-05-05T13:25:09Z | status: auto | note: `data/notes/2605.03738v1.md`
@@ -85,10 +89,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Atomistic Mechanisms of Stress-Dependent Molten Salt Corrosion in NiCr Alloys](https://arxiv.org/abs/2604.16261v1) | 2026-04-17T17:18:51Z | status: auto | note: `data/notes/2604.16261v1.md`
 - [Persistent Free Volume Governs (Anti-)plasticization in Chitosan-Water Mixtures](https://arxiv.org/abs/2604.14559v1) | 2026-04-16T02:42:25Z | status: auto | note: `data/notes/2604.14559v1.md`
 - [Anion Ordering and Phase Stability Govern Optical Band Gaps in BaZr(S,Se)3](https://arxiv.org/abs/2604.13768v1) | 2026-04-15T11:53:52Z | status: auto | note: `data/notes/2604.13768v1.md`
-- [Universal thermometry of solid-liquid interfacial thermal conductance](https://arxiv.org/abs/2604.13741v1) | 2026-04-15T11:28:53Z | status: auto | note: `data/notes/2604.13741v1.md`
-- [Uncovering the role of ionic doping in hydroxyapatite: The building blocks of tooth enamel and bones](https://arxiv.org/abs/2604.13339v1) | 2026-04-14T23:02:33Z | status: auto | note: `data/notes/2604.13339v1.md`
-- [Stress field modification near linear complexions increases the effective obstacle size and strengthening effect](https://arxiv.org/abs/2604.12730v1) | 2026-04-14T13:45:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.12730v1.md`
-- [Effect of Pre-Shear and Dispersity on Crystallization of a Model Polymer with Soft Pair Interactions using Molecular Dynamics Simulations](https://arxiv.org/abs/2604.11706v1) | 2026-04-13T16:42:46Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.11706v1.md`
 
 ## Phase-Field Crystal
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
@@ -119,7 +119,9 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Multiaxial Kitagawa analysis of A356-T6](https://arxiv.org/abs/1206.2343v1) | 2012-06-10T00:53:20Z | status: auto | note: `data/notes/1206.2343v1.md`
 
 ## Tensile / Deformation Simulation
+- [Strain-Dependent Ionic Transport in Li3YCl6 Solid Electrolytes](https://arxiv.org/abs/2605.05603v1) | 2026-05-07T02:38:40Z | status: auto | note: `data/notes/2605.05603v1.md`
 - [Plastic deformation of B19' martensite where -- where it matters in NiTi technology](https://arxiv.org/abs/2605.04669v1) | 2026-05-06T09:18:29Z | status: auto | note: `data/notes/2605.04669v1.md`
+- [Tensegrity crutches with compliance from a pre-stressed self-tensile module improve ground reaction force profiles, speed, effort, comfort, and perceived stability](https://arxiv.org/abs/2605.02710v1) | 2026-05-04T15:16:35Z | status: auto | note: `data/notes/2605.02710v1.md`
 - [Microscale bending plasticity and fracture behavior of amorphous aluminum oxide films](https://arxiv.org/abs/2605.01917v1) | 2026-05-03T14:57:25Z | status: auto | note: `data/notes/2605.01917v1.md`
 - [Anomalous, pre-yield grain-boundary sliding in copper revealed with in-situ high-resolution strain mapping](https://arxiv.org/abs/2604.26515v1) | 2026-04-29T10:31:45Z | status: auto | note: `data/notes/2604.26515v1.md`
 - [Strain and Twist Engineering of Interfacial Thermal Transport in Homo- and Hetero-Interfaces of Graphene and Hexagonal Boron Nitride](https://arxiv.org/abs/2604.26300v1) | 2026-04-29T04:58:38Z | status: auto | note: `data/notes/2604.26300v1.md`
@@ -157,5 +159,3 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Constitutive parameter inference using physics-based data-driven modeling in full volume datasets of intact and torn rotator cuff tendons](https://arxiv.org/abs/2601.09660v1) | 2026-01-14T17:51:44Z | status: auto | note: `data/notes/2601.09660v1.md`
 - [Fully Coupled Multiphysics Modelling of Fracture Behaviour in Silicon Particles During Lithiation Delithiation Using the Phase Field Method](https://arxiv.org/abs/2601.01443v1) | 2026-01-04T09:12:19Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2601.01443v1.md`
 - [High-Temperature Deformation Behavior of Co-Free Non-Equiatomic CrMnFeNi Alloy](https://arxiv.org/abs/2601.00619v1) | 2026-01-02T09:23:26Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2601.00619v1.md`
-- [Kagome Topology in Two-Dimensional Noble-Metal Monolayers](https://arxiv.org/abs/2512.14850v1) | 2025-12-16T19:13:37Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2512.14850v1.md`
-- [Topological Defect Mediated Helical Phase Reorientation by Uniaxial Stress](https://arxiv.org/abs/2512.06481v1) | 2025-12-06T16:12:22Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2512.06481v1.md`
