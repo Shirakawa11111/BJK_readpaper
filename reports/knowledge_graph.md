@@ -1,6 +1,6 @@
 # 论文知识体系图谱
 
-> 自动生成 | 总论文数: 197 | 更新时间: 2026-05-12 04:31 UTC
+> 自动生成 | 总论文数: 202 | 更新时间: 2026-05-13 04:39 UTC
 
 ## 知识体系思维导图
 
@@ -28,7 +28,7 @@ mindmap
         molecular dynamics
         dislocation
         metal
-    Molecular Dynamics [123篇]
+    Molecular Dynamics [128篇]
       Molecular dynamics study of t...
         molecular dynamics
         dislocation
@@ -138,7 +138,7 @@ timeline
 | 主题方向 | 论文数 | 主要侧重点 | 代表论文 |
 |----------|--------|------------|----------|
 | Multiphysics Coupling | 56 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 数据驱动与机器学习建模 | Fully Coupled Multiphysics Model... |
-| Molecular Dynamics | 123 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
+| Molecular Dynamics | 128 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
 | Phase-Field Crystal | 14 | 相场晶体与组织演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Dislocation dynamics on deformab... |
 | Metal Fatigue Simulation | 10 | 疲劳损伤与断裂演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
 | Tensile / Deformation Simulation | 46 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |

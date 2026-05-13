@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 197
-- Last rebuilt: 2026-05-12T04:31:19.702150+00:00
+- Total papers in library: 202
+- Last rebuilt: 2026-05-13T04:39:39.919778+00:00
 
 ## Multiphysics Coupling
 - [Polarizable Embedding QM/MM for Periodic Systems](https://arxiv.org/abs/2605.09752v1) | 2026-05-10T21:00:21Z | status: auto | note: `data/notes/2605.09752v1.md`
@@ -49,11 +49,15 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [From Coils to Surface Recession: Fully Coupled Simulation of Ablation in ICP Wind Tunnels](https://arxiv.org/abs/2602.15500v1) | 2026-02-17T11:13:00Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.15500v1.md`
 
 ## Molecular Dynamics
+- [Designing Coulombic Contact Interactions between Polarizable Particles through Asymmetry](https://arxiv.org/abs/2605.12489v1) | 2026-05-12T17:59:04Z | status: auto | note: `data/notes/2605.12489v1.md`
+- [Gel-Chemistry-Dependent Heavy-Metal Ion Transport and Immobilization in Cementitious Nanopores: A Molecular Dynamics Study](https://arxiv.org/abs/2605.11604v1) | 2026-05-12T06:32:49Z | status: auto | note: `data/notes/2605.11604v1.md`
 - [Polarizable Embedding QM/MM for Periodic Systems](https://arxiv.org/abs/2605.09752v1) | 2026-05-10T21:00:21Z | status: auto | note: `data/notes/2605.09752v1.md`
 - [Enabling Structure-Only Initialization and Out-of-Distribution Generalization in GNN-based Molecular Dynamics Simulators](https://arxiv.org/abs/2605.09495v1) | 2026-05-10T12:00:21Z | status: auto | note: `data/notes/2605.09495v1.md`
 - [Systematic Fine-Tuning of MACE Interatomic Potentials for Catalysis](https://arxiv.org/abs/2605.09394v1) | 2026-05-10T07:43:42Z | status: auto | note: `data/notes/2605.09394v1.md`
 - [Teaching Molecular Dynamics to a Non-Autoregressive Ionic Transport Predictor](https://arxiv.org/abs/2605.09311v1) | 2026-05-10T04:09:01Z | status: auto | note: `data/notes/2605.09311v1.md`
 - [Benchmarking Compositional Generalisation for Machine Learning Interatomic Potentials](https://arxiv.org/abs/2605.08988v1) | 2026-05-09T15:12:59Z | status: auto | note: `data/notes/2605.08988v1.md`
+- [Machine learning the non-radiative decay modes in photochemical processes](https://arxiv.org/abs/2605.08381v1) | 2026-05-08T18:40:36Z | status: auto | note: `data/notes/2605.08381v1.md`
+- [Anisotropic Defect Diffusion in Layered CsPbBr$_\mathrm{x}$I$_\mathrm{3-x}$ Perovskites](https://arxiv.org/abs/2605.08055v2) | 2026-05-08T17:43:42Z | status: auto | note: `data/notes/2605.08055v2.md`
 - [Molecular dynamics simulation study of mechanical properties of 3C-SiC with extended defects](https://arxiv.org/abs/2605.06574v1) | 2026-05-07T17:04:33Z | status: auto | note: `data/notes/2605.06574v1.md`
 - [Physics-Grounded Understanding of Thermal Boundary Conductance between Ga$_2$O$_3$ and SiC from a Feedforward Neural Network Potential](https://arxiv.org/abs/2605.05620v1) | 2026-05-07T03:19:00Z | status: auto | note: `data/notes/2605.05620v1.md`
 - [Strain-Dependent Ionic Transport in Li3YCl6 Solid Electrolytes](https://arxiv.org/abs/2605.05603v1) | 2026-05-07T02:38:40Z | status: auto | note: `data/notes/2605.05603v1.md`
@@ -67,6 +71,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
 - [Oxygen Vacancies at Dislocation Core Modulate Plasticity in Strontium Titanate](https://arxiv.org/abs/2605.00801v1) | 2026-05-01T17:39:50Z | status: auto | note: `data/notes/2605.00801v1.md`
 - [Kinetically Arrested Twin-Domain State in Formamidinium Lead Iodide](https://arxiv.org/abs/2605.00427v1) | 2026-05-01T05:56:44Z | status: auto | note: `data/notes/2605.00427v1.md`
+- [Kinetically Arrested Twin-Domain State in Formamidinium Lead Iodide](https://arxiv.org/abs/2605.00427v2) | 2026-05-01T05:56:44Z | status: auto | note: `data/notes/2605.00427v2.md`
 - [Fragment-Constrained Charge Equilibration for Charge-Aware Machine Learning Potentials at Electrochemical Interfaces](https://arxiv.org/abs/2604.27910v1) | 2026-04-30T14:18:47Z | status: auto | note: `data/notes/2604.27910v1.md`
 - [VibroML: an automated toolkit for high-throughput vibrational analysis and dynamic instability remediation of crystalline materials using machine-learned potentials](https://arxiv.org/abs/2604.27685v1) | 2026-04-30T10:20:58Z | status: auto | note: `data/notes/2604.27685v1.md`
 - [Ultrafast Sliding Ferroelectric Switching in Bilayer Hexagonal Boron Nitride Revealed by Deep Learning Molecular Dynamics](https://arxiv.org/abs/2604.27342v1) | 2026-04-30T02:46:43Z | status: auto | note: `data/notes/2604.27342v1.md`
@@ -84,11 +89,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Theoretical prediction of strong-coupling superconductivity in a hypothetical NaAlH3 phase at ambient pressure](https://arxiv.org/abs/2604.22300v1) | 2026-04-24T07:30:07Z | status: auto | note: `data/notes/2604.22300v1.md`
 - [Neutron and X-ray Diffraction Reveal the Limits of Long-Range Machine Learning Potentials for Medium-Range Order in Silica Glass](https://arxiv.org/abs/2604.21222v1) | 2026-04-23T02:37:29Z | status: auto | note: `data/notes/2604.21222v1.md`
 - [Polaron transport and Verwey transition in magnetite](https://arxiv.org/abs/2604.20642v1) | 2026-04-22T14:54:23Z | status: auto | note: `data/notes/2604.20642v1.md`
-- [Predicting co-segregation in multicomponent alloys with solute-solute interactions](https://arxiv.org/abs/2604.20593v1) | 2026-04-22T14:11:24Z | status: auto | note: `data/notes/2604.20593v1.md`
-- [Fluctuation-driven multi-step charge density wave transition in monolayer TiSe$_2$](https://arxiv.org/abs/2604.20355v1) | 2026-04-22T08:57:42Z | status: auto | note: `data/notes/2604.20355v1.md`
-- [Domain-Wall-Mediated Ultralow-Barrier Sliding and Pinning in Ferroelectric Moiré Superlattices Revealed by Machine Learning](https://arxiv.org/abs/2604.20277v1) | 2026-04-22T07:24:55Z | status: auto | note: `data/notes/2604.20277v1.md`
-- [Lattice thermal transport from phonon spectra beyond perturbation theory](https://arxiv.org/abs/2604.19615v1) | 2026-04-21T16:02:13Z | status: auto | note: `data/notes/2604.19615v1.md`
-- [Evaluating dispersion models for ab initio simulation of G-I and G-II molten fluoride salts](https://arxiv.org/abs/2604.18139v1) | 2026-04-20T12:06:21Z | status: auto | note: `data/notes/2604.18139v1.md`
 
 ## Phase-Field Crystal
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
