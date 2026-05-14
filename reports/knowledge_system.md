@@ -3,10 +3,11 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 202
-- Last rebuilt: 2026-05-13T04:39:39.919778+00:00
+- Total papers in library: 207
+- Last rebuilt: 2026-05-14T04:36:56.255658+00:00
 
 ## Multiphysics Coupling
+- [Elastica++: A high-performance, multiphysics framework for large interacting assemblies of Cosserat rods](https://arxiv.org/abs/2605.13766v1) | 2026-05-13T16:47:05Z | status: auto | note: `data/notes/2605.13766v1.md`
 - [Polarizable Embedding QM/MM for Periodic Systems](https://arxiv.org/abs/2605.09752v1) | 2026-05-10T21:00:21Z | status: auto | note: `data/notes/2605.09752v1.md`
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
 - [Fragment-Constrained Charge Equilibration for Charge-Aware Machine Learning Potentials at Electrochemical Interfaces](https://arxiv.org/abs/2604.27910v1) | 2026-04-30T14:18:47Z | status: auto | note: `data/notes/2604.27910v1.md`
@@ -46,9 +47,10 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Strain-Rate- and Line-Length-Dependent Screw Dislocation Glide Mechanisms in BCC Refractory Metals and Alloys](https://arxiv.org/abs/2602.16883v1) | 2026-02-18T21:10:16Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16883v1.md`
 - [Dislocation-ledge coupling drives non-conservative migration of semicoherent precipitate interfaces](https://arxiv.org/abs/2602.16158v1) | 2026-02-18T03:16:02Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16158v1.md`
 - [Dislocation-ledge coupling governs semicoherent precipitate growth](https://arxiv.org/abs/2602.16158v2) | 2026-02-18T03:16:02Z | status: auto | note: `data/notes/2602.16158v2.md`
-- [From Coils to Surface Recession: Fully Coupled Simulation of Ablation in ICP Wind Tunnels](https://arxiv.org/abs/2602.15500v1) | 2026-02-17T11:13:00Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.15500v1.md`
 
 ## Molecular Dynamics
+- [Nonlinear dynamic elastic moduli from equilibrium stress fluctuations](https://arxiv.org/abs/2605.13703v1) | 2026-05-13T15:52:40Z | status: auto | note: `data/notes/2605.13703v1.md`
+- [Helium Bubbles in Liquid Lead Lithium Solutions: Pressure Inhomogeneities at Interfaces and Non Ideal Mixture Effects](https://arxiv.org/abs/2605.13164v1) | 2026-05-13T08:28:00Z | status: auto | note: `data/notes/2605.13164v1.md`
 - [Designing Coulombic Contact Interactions between Polarizable Particles through Asymmetry](https://arxiv.org/abs/2605.12489v1) | 2026-05-12T17:59:04Z | status: auto | note: `data/notes/2605.12489v1.md`
 - [Gel-Chemistry-Dependent Heavy-Metal Ion Transport and Immobilization in Cementitious Nanopores: A Molecular Dynamics Study](https://arxiv.org/abs/2605.11604v1) | 2026-05-12T06:32:49Z | status: auto | note: `data/notes/2605.11604v1.md`
 - [Polarizable Embedding QM/MM for Periodic Systems](https://arxiv.org/abs/2605.09752v1) | 2026-05-10T21:00:21Z | status: auto | note: `data/notes/2605.09752v1.md`
@@ -87,8 +89,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Pressure-Temperature Phase Diagram and $λ$-Transition in Liquid Sulfur](https://arxiv.org/abs/2604.22696v1) | 2026-04-24T16:29:32Z | status: auto | note: `data/notes/2604.22696v1.md`
 - [The influence of implantation conditions on dopant activation in Al-implanted 4H-SiC: A MD study applying an Al potential fitted to DFT barriers](https://arxiv.org/abs/2604.22434v1) | 2026-04-24T10:50:11Z | status: auto | note: `data/notes/2604.22434v1.md`
 - [Theoretical prediction of strong-coupling superconductivity in a hypothetical NaAlH3 phase at ambient pressure](https://arxiv.org/abs/2604.22300v1) | 2026-04-24T07:30:07Z | status: auto | note: `data/notes/2604.22300v1.md`
-- [Neutron and X-ray Diffraction Reveal the Limits of Long-Range Machine Learning Potentials for Medium-Range Order in Silica Glass](https://arxiv.org/abs/2604.21222v1) | 2026-04-23T02:37:29Z | status: auto | note: `data/notes/2604.21222v1.md`
-- [Polaron transport and Verwey transition in magnetite](https://arxiv.org/abs/2604.20642v1) | 2026-04-22T14:54:23Z | status: auto | note: `data/notes/2604.20642v1.md`
 
 ## Phase-Field Crystal
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
@@ -107,6 +107,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Amplitude expansion of the phase-field crystal model for complex crystal structures](https://arxiv.org/abs/2301.04917v2) | 2023-01-12T10:25:03Z | status: auto | note: `data/notes/2301.04917v2.md`
 
 ## Metal Fatigue Simulation
+- [Bridging perturbation and variational approaches in brittle fracture](https://arxiv.org/abs/2605.12631v1) | 2026-05-12T18:12:55Z | status: auto | note: `data/notes/2605.12631v1.md`
 - [Muscle-inspired magnetic actuators that push, pull, crawl, and grasp](https://arxiv.org/abs/2604.18090v1) | 2026-04-20T11:05:27Z | status: auto | note: `data/notes/2604.18090v1.md`
 - [Neural operator accelerated atomistic to continuum concurrent multiscale simulations of viscoelasticity](https://arxiv.org/abs/2603.27430v1) | 2026-03-28T22:10:25Z | status: auto | note: `data/notes/2603.27430v1.md`
 - [Computational Insights into PEMFC Durability: Degradation Mechanisms, Interfacial Chemistry, and the Emerging Role of Machine Learning Potentials](https://arxiv.org/abs/2603.26022v1) | 2026-03-27T02:37:16Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26022v1.md`
@@ -119,6 +120,8 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Multiaxial Kitagawa analysis of A356-T6](https://arxiv.org/abs/1206.2343v1) | 2012-06-10T00:53:20Z | status: auto | note: `data/notes/1206.2343v1.md`
 
 ## Tensile / Deformation Simulation
+- [Bridging perturbation and variational approaches in brittle fracture](https://arxiv.org/abs/2605.12631v1) | 2026-05-12T18:12:55Z | status: auto | note: `data/notes/2605.12631v1.md`
+- [How sea level paces faulting at fast-spreading mid-ocean ridges](https://arxiv.org/abs/2605.10342v1) | 2026-05-11T10:43:43Z | status: auto | note: `data/notes/2605.10342v1.md`
 - [Enabling Structure-Only Initialization and Out-of-Distribution Generalization in GNN-based Molecular Dynamics Simulators](https://arxiv.org/abs/2605.09495v1) | 2026-05-10T12:00:21Z | status: auto | note: `data/notes/2605.09495v1.md`
 - [Strain-Dependent Ionic Transport in Li3YCl6 Solid Electrolytes](https://arxiv.org/abs/2605.05603v1) | 2026-05-07T02:38:40Z | status: auto | note: `data/notes/2605.05603v1.md`
 - [Plastic deformation of B19' martensite where -- where it matters in NiTi technology](https://arxiv.org/abs/2605.04669v1) | 2026-05-06T09:18:29Z | status: auto | note: `data/notes/2605.04669v1.md`
@@ -157,5 +160,3 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [From Connectivity to Rupture: A Coarse-Grained Stochastic Network Dynamics Approach to Polymer Network Mechanics](https://arxiv.org/abs/2602.08089v1) | 2026-02-08T19:14:52Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.08089v1.md`
 - [Enhanced Elevated-Temperature Strength in Refractory Complex Concentrated Alloys via Temperature-Induced Transition from Screw-to-Edge Dislocation Control](https://arxiv.org/abs/2602.06225v1) | 2026-02-05T22:04:35Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.06225v1.md`
 - [Atomistic and data-driven insights into the local slip resistances in random refractory multi-principal element alloys](https://arxiv.org/abs/2602.04827v1) | 2026-02-04T18:15:07Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.04827v1.md`
-- [Constitutive parameter inference using physics-based data-driven modeling in full volume datasets of intact and torn rotator cuff tendons](https://arxiv.org/abs/2601.09660v1) | 2026-01-14T17:51:44Z | status: auto | note: `data/notes/2601.09660v1.md`
-- [Fully Coupled Multiphysics Modelling of Fracture Behaviour in Silicon Particles During Lithiation Delithiation Using the Phase Field Method](https://arxiv.org/abs/2601.01443v1) | 2026-01-04T09:12:19Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2601.01443v1.md`
