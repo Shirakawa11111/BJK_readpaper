@@ -87,14 +87,14 @@ python3 paper_agent.py ingest-known --root . --config config.json --csv ./known_
 ## 知识图谱（自动更新）
 
 <!-- KNOWLEDGE_GRAPH_START -->
-> 自动更新 | 总论文数: 207 | 最后更新: 2026-05-14 04:36 UTC
+> 自动更新 | 总论文数: 212 | 最后更新: 2026-05-15 04:43 UTC
 
 ### 知识体系思维导图
 
 ```mermaid
 mindmap
   root((材料模拟论文体系))
-    Multiphysics Coupling [57篇]
+    Multiphysics Coupling [59篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -115,7 +115,7 @@ mindmap
         molecular dynamics
         dislocation
         metal
-    Molecular Dynamics [130篇]
+    Molecular Dynamics [133篇]
       Molecular dynamics study of t...
         molecular dynamics
         dislocation
@@ -178,7 +178,7 @@ mindmap
         crack
         tensile
         simulation
-    Tensile / Deformation Simulation [48篇]
+    Tensile / Deformation Simulation [49篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -211,18 +211,18 @@ timeline
     2026-02 : Electrohydrodynamic insta... : Dislocation dynamics on d... : Strain-Rate- and Line-Len...
     2026-03 : Molecular dynamics study... : Defect dependent dynamic... : Laser Powder Bed Fusion M...
     2026-04 : A multiphysics deep energ... : Atomistic Mechanisms of S... : Mechanical Scaling Laws a...
-    2026-05 : Surface segregation of li... : Energy dissipation at the... : Unveiling the Atomistic M...
+    2026-05 : N-Graphdiyne as a Tunable... : Surface segregation of li... : Energy dissipation at the...
 ```
 
 ### 主题-侧重点交叉分析
 
 | 主题方向 | 论文数 | 主要侧重点 | 代表论文 |
 |----------|--------|------------|----------|
-| Multiphysics Coupling | 57 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 数据驱动与机器学习建模 | Fully Coupled Multiphysics Model... |
-| Molecular Dynamics | 130 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
+| Multiphysics Coupling | 59 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 数据驱动与机器学习建模 | Fully Coupled Multiphysics Model... |
+| Molecular Dynamics | 133 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
 | Phase-Field Crystal | 14 | 相场晶体与组织演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Dislocation dynamics on deformab... |
 | Metal Fatigue Simulation | 11 | 疲劳损伤与断裂演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Fully Coupled Multiphysics Model... |
-| Tensile / Deformation Simulation | 48 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
+| Tensile / Deformation Simulation | 49 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
 
 ### 高相关度论文 Top 10
 

@@ -3,13 +3,15 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 207
-- Last rebuilt: 2026-05-14T04:36:56.255658+00:00
+- Total papers in library: 212
+- Last rebuilt: 2026-05-15T04:43:08.389168+00:00
 
 ## Multiphysics Coupling
+- [Three dimensional simulation of fluid-driven frictional and tensile ruptures on existing discontinuities](https://arxiv.org/abs/2605.14397v1) | 2026-05-14T05:25:28Z | status: auto | note: `data/notes/2605.14397v1.md`
 - [Elastica++: A high-performance, multiphysics framework for large interacting assemblies of Cosserat rods](https://arxiv.org/abs/2605.13766v1) | 2026-05-13T16:47:05Z | status: auto | note: `data/notes/2605.13766v1.md`
 - [Polarizable Embedding QM/MM for Periodic Systems](https://arxiv.org/abs/2605.09752v1) | 2026-05-10T21:00:21Z | status: auto | note: `data/notes/2605.09752v1.md`
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
+- [Differentiable Multiphysics Co-Optimization via Implicit Neural Representations: A Transient Hamburger-Cooking Benchmark](https://arxiv.org/abs/2605.01040v1) | 2026-05-01T19:08:14Z | status: auto | note: `data/notes/2605.01040v1.md`
 - [Fragment-Constrained Charge Equilibration for Charge-Aware Machine Learning Potentials at Electrochemical Interfaces](https://arxiv.org/abs/2604.27910v1) | 2026-04-30T14:18:47Z | status: auto | note: `data/notes/2604.27910v1.md`
 - [Ultrafast Sliding Ferroelectric Switching in Bilayer Hexagonal Boron Nitride Revealed by Deep Learning Molecular Dynamics](https://arxiv.org/abs/2604.27342v1) | 2026-04-30T02:46:43Z | status: auto | note: `data/notes/2604.27342v1.md`
 - [Improved Electrochemical Performance and Diffusion kinetics by Boron-doping in Na$_{0.66}$Mn$_{0.8}$Fe$_{0.2}$O$_{2}$ Layered Cathodes for Sodium-Ion Batteries](https://arxiv.org/abs/2604.24683v1) | 2026-04-27T16:43:25Z | status: auto | note: `data/notes/2604.24683v1.md`
@@ -45,10 +47,10 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Computational Frameworks for Patterned Two-Dimensional Magnetism](https://arxiv.org/abs/2602.21575v1) | 2026-02-25T04:57:54Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.21575v1.md`
 - [Electrostatic Gating of Ionic Conductance Through Heterogeneous van der Waals Nanopores](https://arxiv.org/abs/2602.21419v1) | 2026-02-24T22:46:30Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.21419v1.md`
 - [Strain-Rate- and Line-Length-Dependent Screw Dislocation Glide Mechanisms in BCC Refractory Metals and Alloys](https://arxiv.org/abs/2602.16883v1) | 2026-02-18T21:10:16Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16883v1.md`
-- [Dislocation-ledge coupling drives non-conservative migration of semicoherent precipitate interfaces](https://arxiv.org/abs/2602.16158v1) | 2026-02-18T03:16:02Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.16158v1.md`
-- [Dislocation-ledge coupling governs semicoherent precipitate growth](https://arxiv.org/abs/2602.16158v2) | 2026-02-18T03:16:02Z | status: auto | note: `data/notes/2602.16158v2.md`
 
 ## Molecular Dynamics
+- [Melting Behavior and Phase Stability of CaO from Neural Network Potentials: a Molecular Dynamics Study](https://arxiv.org/abs/2605.14793v1) | 2026-05-14T13:04:11Z | status: auto | note: `data/notes/2605.14793v1.md`
+- [N-Graphdiyne as a Tunable Platform for Stabilizing Light Metals toward High-Capacity Reversible Hydrogen Storage](https://arxiv.org/abs/2605.14646v1) | 2026-05-14T10:03:41Z | status: auto | note: `data/notes/2605.14646v1.md`
 - [Nonlinear dynamic elastic moduli from equilibrium stress fluctuations](https://arxiv.org/abs/2605.13703v1) | 2026-05-13T15:52:40Z | status: auto | note: `data/notes/2605.13703v1.md`
 - [Helium Bubbles in Liquid Lead Lithium Solutions: Pressure Inhomogeneities at Interfaces and Non Ideal Mixture Effects](https://arxiv.org/abs/2605.13164v1) | 2026-05-13T08:28:00Z | status: auto | note: `data/notes/2605.13164v1.md`
 - [Designing Coulombic Contact Interactions between Polarizable Particles through Asymmetry](https://arxiv.org/abs/2605.12489v1) | 2026-05-12T17:59:04Z | status: auto | note: `data/notes/2605.12489v1.md`
@@ -58,6 +60,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Systematic Fine-Tuning of MACE Interatomic Potentials for Catalysis](https://arxiv.org/abs/2605.09394v1) | 2026-05-10T07:43:42Z | status: auto | note: `data/notes/2605.09394v1.md`
 - [Teaching Molecular Dynamics to a Non-Autoregressive Ionic Transport Predictor](https://arxiv.org/abs/2605.09311v1) | 2026-05-10T04:09:01Z | status: auto | note: `data/notes/2605.09311v1.md`
 - [Benchmarking Compositional Generalisation for Machine Learning Interatomic Potentials](https://arxiv.org/abs/2605.08988v1) | 2026-05-09T15:12:59Z | status: auto | note: `data/notes/2605.08988v1.md`
+- [A putative, computationally stable structure of homotrimeric BP180/collagen XVII](https://arxiv.org/abs/2605.08953v1) | 2026-05-09T13:50:11Z | status: auto | note: `data/notes/2605.08953v1.md`
 - [Machine learning the non-radiative decay modes in photochemical processes](https://arxiv.org/abs/2605.08381v1) | 2026-05-08T18:40:36Z | status: auto | note: `data/notes/2605.08381v1.md`
 - [Anisotropic Defect Diffusion in Layered CsPbBr$_\mathrm{x}$I$_\mathrm{3-x}$ Perovskites](https://arxiv.org/abs/2605.08055v2) | 2026-05-08T17:43:42Z | status: auto | note: `data/notes/2605.08055v2.md`
 - [Molecular dynamics simulation study of mechanical properties of 3C-SiC with extended defects](https://arxiv.org/abs/2605.06574v1) | 2026-05-07T17:04:33Z | status: auto | note: `data/notes/2605.06574v1.md`
@@ -86,9 +89,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Atomistic Mechanisms of Temperature-Dependent Ion Track Formation in Gallium Nitride under Swift Heavy Ion Irradiation](https://arxiv.org/abs/2604.24288v1) | 2026-04-27T10:21:54Z | status: auto | note: `data/notes/2604.24288v1.md`
 - [Phase transformation kinetics in MoS2 governed by S-S repulsive interactions and defect-interface compatibility](https://arxiv.org/abs/2604.24209v1) | 2026-04-27T09:16:27Z | status: auto | note: `data/notes/2604.24209v1.md`
 - [Mechanical Scaling Laws and Deformation Behavior of Nanoporous Tantalum Microparticles](https://arxiv.org/abs/2604.22726v1) | 2026-04-24T17:24:41Z | status: auto | note: `data/notes/2604.22726v1.md`
-- [Pressure-Temperature Phase Diagram and $λ$-Transition in Liquid Sulfur](https://arxiv.org/abs/2604.22696v1) | 2026-04-24T16:29:32Z | status: auto | note: `data/notes/2604.22696v1.md`
-- [The influence of implantation conditions on dopant activation in Al-implanted 4H-SiC: A MD study applying an Al potential fitted to DFT barriers](https://arxiv.org/abs/2604.22434v1) | 2026-04-24T10:50:11Z | status: auto | note: `data/notes/2604.22434v1.md`
-- [Theoretical prediction of strong-coupling superconductivity in a hypothetical NaAlH3 phase at ambient pressure](https://arxiv.org/abs/2604.22300v1) | 2026-04-24T07:30:07Z | status: auto | note: `data/notes/2604.22300v1.md`
 
 ## Phase-Field Crystal
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
@@ -120,6 +120,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Multiaxial Kitagawa analysis of A356-T6](https://arxiv.org/abs/1206.2343v1) | 2012-06-10T00:53:20Z | status: auto | note: `data/notes/1206.2343v1.md`
 
 ## Tensile / Deformation Simulation
+- [Three dimensional simulation of fluid-driven frictional and tensile ruptures on existing discontinuities](https://arxiv.org/abs/2605.14397v1) | 2026-05-14T05:25:28Z | status: auto | note: `data/notes/2605.14397v1.md`
 - [Bridging perturbation and variational approaches in brittle fracture](https://arxiv.org/abs/2605.12631v1) | 2026-05-12T18:12:55Z | status: auto | note: `data/notes/2605.12631v1.md`
 - [How sea level paces faulting at fast-spreading mid-ocean ridges](https://arxiv.org/abs/2605.10342v1) | 2026-05-11T10:43:43Z | status: auto | note: `data/notes/2605.10342v1.md`
 - [Enabling Structure-Only Initialization and Out-of-Distribution Generalization in GNN-based Molecular Dynamics Simulators](https://arxiv.org/abs/2605.09495v1) | 2026-05-10T12:00:21Z | status: auto | note: `data/notes/2605.09495v1.md`
@@ -159,4 +160,3 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Topological constraints suppress shear localization in granular chain ensembles](https://arxiv.org/abs/2602.09588v1) | 2026-02-10T09:40:37Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.09588v1.md`
 - [From Connectivity to Rupture: A Coarse-Grained Stochastic Network Dynamics Approach to Polymer Network Mechanics](https://arxiv.org/abs/2602.08089v1) | 2026-02-08T19:14:52Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.08089v1.md`
 - [Enhanced Elevated-Temperature Strength in Refractory Complex Concentrated Alloys via Temperature-Induced Transition from Screw-to-Edge Dislocation Control](https://arxiv.org/abs/2602.06225v1) | 2026-02-05T22:04:35Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.06225v1.md`
-- [Atomistic and data-driven insights into the local slip resistances in random refractory multi-principal element alloys](https://arxiv.org/abs/2602.04827v1) | 2026-02-04T18:15:07Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.04827v1.md`
