@@ -4,7 +4,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
 - Total papers in library: 212
-- Last rebuilt: 2026-05-15T04:43:08.389168+00:00
+- Last rebuilt: 2026-05-18T05:00:23.180833+00:00
 
 ## Multiphysics Coupling
 - [Three dimensional simulation of fluid-driven frictional and tensile ruptures on existing discontinuities](https://arxiv.org/abs/2605.14397v1) | 2026-05-14T05:25:28Z | status: auto | note: `data/notes/2605.14397v1.md`
