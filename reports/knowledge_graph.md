@@ -1,13 +1,13 @@
 # 论文知识体系图谱
 
-> 自动生成 | 总论文数: 212 | 更新时间: 2026-05-21 05:02 UTC
+> 自动生成 | 总论文数: 217 | 更新时间: 2026-05-22 04:55 UTC
 
 ## 知识体系思维导图
 
 ```mermaid
 mindmap
   root((材料模拟论文体系))
-    Multiphysics Coupling [59篇]
+    Multiphysics Coupling [61篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -28,7 +28,7 @@ mindmap
         molecular dynamics
         dislocation
         metal
-    Molecular Dynamics [133篇]
+    Molecular Dynamics [136篇]
       Molecular dynamics study of t...
         molecular dynamics
         dislocation
@@ -41,14 +41,14 @@ mindmap
         molecular dynamics
         dislocation
         deformation
+      Delineating the interplay eff...
+        molecular dynamics
+        tensile
+        deformation
       Strain-Rate- and Line-Length-...
         molecular dynamics
         dislocation
         metal
-      Atomistic Mechanisms of Stres...
-        molecular dynamics
-        tensile
-        coupled
     Phase-Field Crystal [14篇]
       Dislocation dynamics on defor...
         phase-field crystal
@@ -91,7 +91,7 @@ mindmap
         crack
         tensile
         simulation
-    Tensile / Deformation Simulation [49篇]
+    Tensile / Deformation Simulation [51篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -104,14 +104,14 @@ mindmap
         multiphysics
         crack
         coupled
+      Delineating the interplay eff...
+        molecular dynamics
+        tensile
+        deformation
       Atomistic Mechanisms of Stres...
         molecular dynamics
         tensile
         coupled
-      From Connectivity to Rupture...
-        molecular dynamics
-        tensile
-        deformation
 ```
 
 ## 论文发布时间线（近12个月）
@@ -130,15 +130,15 @@ timeline
     2026-02 : Electrohydrodynamic insta... : Dislocation dynamics on d... : Strain-Rate- and Line-Len...
     2026-03 : Molecular dynamics study... : Defect dependent dynamic... : Laser Powder Bed Fusion M...
     2026-04 : A multiphysics deep energ... : Atomistic Mechanisms of S... : Mechanical Scaling Laws a...
-    2026-05 : N-Graphdiyne as a Tunable... : Surface segregation of li... : Energy dissipation at the...
+    2026-05 : Delineating the interplay... : N-Graphdiyne as a Tunable... : Surface segregation of li...
 ```
 
 ## 主题-侧重点交叉分析
 
 | 主题方向 | 论文数 | 主要侧重点 | 代表论文 |
 |----------|--------|------------|----------|
-| Multiphysics Coupling | 59 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 数据驱动与机器学习建模 | Fully Coupled Multiphysics Model... |
-| Molecular Dynamics | 133 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
+| Multiphysics Coupling | 61 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 拉伸响应与本构行为 | Fully Coupled Multiphysics Model... |
+| Molecular Dynamics | 136 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
 | Phase-Field Crystal | 14 | 相场晶体与组织演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Dislocation dynamics on deformab... |
 | Metal Fatigue Simulation | 11 | 疲劳损伤与断裂演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Fully Coupled Multiphysics Model... |
-| Tensile / Deformation Simulation | 49 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
+| Tensile / Deformation Simulation | 51 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |

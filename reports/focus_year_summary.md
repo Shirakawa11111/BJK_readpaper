@@ -3,11 +3,11 @@
 该汇总由 `data/paper_db.json` 自动重建。
 
 ## 总览
-- 论文总数: 212
-- 最近更新: 2026-05-21T05:02:57.800478+00:00
+- 论文总数: 217
+- 最近更新: 2026-05-22T04:55:03.886698+00:00
 
 ## 按年份统计
-- 2026: 182
+- 2026: 187
 - 2025: 16
 - 2024: 6
 - 2023: 6
@@ -15,39 +15,39 @@
 - 2012: 1
 
 ## 按研究侧重点统计
-- 分子动力学与原子尺度机制: 133
-- 多物理耦合与跨场耦合机制: 97
-- 拉伸响应与本构行为: 67
-- 数据驱动与机器学习建模: 50
-- 疲劳损伤与断裂演化: 26
+- 分子动力学与原子尺度机制: 136
+- 多物理耦合与跨场耦合机制: 99
+- 拉伸响应与本构行为: 70
+- 数据驱动与机器学习建模: 52
+- 疲劳损伤与断裂演化: 27
 - 相场晶体与组织演化: 20
 
 ## 按主题标签统计
-- Molecular Dynamics: 133
-- Multiphysics Coupling: 59
-- Tensile / Deformation Simulation: 49
+- Molecular Dynamics: 136
+- Multiphysics Coupling: 61
+- Tensile / Deformation Simulation: 51
 - Phase-Field Crystal: 14
 - Metal Fatigue Simulation: 11
 
 ## 高频关键词 (Top 30)
-- simulation: 155
-- molecular dynamics: 130
-- materials: 76
-- deformation: 54
-- metal: 50
-- modeling: 45
-- tensile: 44
-- multiphysics: 35
-- coupled: 33
+- simulation: 160
+- molecular dynamics: 133
+- materials: 78
+- deformation: 56
+- metal: 51
+- modeling: 48
+- tensile: 46
+- multiphysics: 36
+- coupled: 34
 - dislocation: 33
-- machine learning: 31
-- atomistic: 30
-- interatomic potential: 22
-- crack: 14
+- machine learning: 33
+- atomistic: 32
+- interatomic potential: 23
+- crack: 15
 - phase-field crystal: 13
+- finite element: 11
 - pfc: 10
 - uniaxial: 10
-- finite element: 10
 - electrochemical: 9
 - fatigue: 8
 - thermo-mechanical: 6
@@ -63,11 +63,11 @@
 
 ## 年份-侧重点分布
 ### 2026
-- 分子动力学与原子尺度机制: 129
-- 多物理耦合与跨场耦合机制: 83
-- 拉伸响应与本构行为: 55
-- 数据驱动与机器学习建模: 47
-- 疲劳损伤与断裂演化: 20
+- 分子动力学与原子尺度机制: 132
+- 多物理耦合与跨场耦合机制: 85
+- 拉伸响应与本构行为: 58
+- 数据驱动与机器学习建模: 49
+- 疲劳损伤与断裂演化: 21
 - 相场晶体与组织演化: 9
 
 ### 2025
