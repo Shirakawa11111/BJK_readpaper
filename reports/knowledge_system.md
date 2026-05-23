@@ -3,11 +3,12 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 217
-- Last rebuilt: 2026-05-22T04:55:03.885429+00:00
+- Total papers in library: 222
+- Last rebuilt: 2026-05-23T04:32:31.391697+00:00
 
 ## Multiphysics Coupling
 - [Geometry-Dependent Crack Interaction and Toughening in Graphene](https://arxiv.org/abs/2605.20017v1) | 2026-05-19T15:45:36Z | status: auto | note: `data/notes/2605.20017v1.md`
+- [Accelerated "on-the-fly" coupled-cluster path-integral molecular dynamics: Impact of nuclear quantum effects on an asymmetric proton](https://arxiv.org/abs/2605.19858v1) | 2026-05-19T13:50:02Z | status: auto | note: `data/notes/2605.19858v1.md`
 - [Non-linear diffusion and inhomogeneity of the magnetic field in single-turn coils: Insights from 3D multiphysics modeling](https://arxiv.org/abs/2605.16659v1) | 2026-05-15T21:54:17Z | status: auto | note: `data/notes/2605.16659v1.md`
 - [Three dimensional simulation of fluid-driven frictional and tensile ruptures on existing discontinuities](https://arxiv.org/abs/2605.14397v1) | 2026-05-14T05:25:28Z | status: auto | note: `data/notes/2605.14397v1.md`
 - [Elastica++: A high-performance, multiphysics framework for large interacting assemblies of Cosserat rods](https://arxiv.org/abs/2605.13766v1) | 2026-05-13T16:47:05Z | status: auto | note: `data/notes/2605.13766v1.md`
@@ -36,6 +37,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Computational Insights into PEMFC Durability: Degradation Mechanisms, Interfacial Chemistry, and the Emerging Role of Machine Learning Potentials](https://arxiv.org/abs/2603.26022v1) | 2026-03-27T02:37:16Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26022v1.md`
 - [Multi-GPU fast Fourier transforms in MATLAB (for large-scale phase-field crystal simulations)](https://arxiv.org/abs/2603.26818v1) | 2026-03-26T20:40:45Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.26818v1.md`
 - [Physics-Informed AI for Laser-Enhanced Contact Optimization in Silicon PV: Electrothermal Activation, Degradation Regimes, and Process Control](https://arxiv.org/abs/2603.23351v1) | 2026-03-24T15:52:34Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.23351v1.md`
+- [Laser-Enhanced Contact Optimization in Silicon Photovoltaics: Mechanisms, Reliability, and Predictive Process Design](https://arxiv.org/abs/2603.23351v2) | 2026-03-24T15:52:34Z | status: auto | note: `data/notes/2603.23351v2.md`
 - [AutoMOOSE: An Agentic AI for Autonomous Phase-Field Simulation](https://arxiv.org/abs/2603.20986v1) | 2026-03-22T00:11:19Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.20986v1.md`
 - [Understanding inhomogeneous crystallization dynamics of phase-change materials in the vicinity of metallic nanoantennas](https://arxiv.org/abs/2603.20901v1) | 2026-03-21T18:23:49Z | status: auto | note: `data/notes/2603.20901v1.md`
 - [An Optically Addressable Transmissive Liquid Crystal Metasurface Spatial Light Modulator](https://arxiv.org/abs/2603.20574v1) | 2026-03-21T00:10:58Z | status: auto | note: `data/notes/2603.20574v1.md`
@@ -45,12 +47,13 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Consistent initialization of mixed-dimensional multiphysics models for fractured reservoirs under geomechanical constraints and field measurements](https://arxiv.org/abs/2603.01835v1) | 2026-03-02T13:09:15Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.01835v1.md`
 - [Thermodynamic effects of solid electrolyte interphase formation from solvation and ionic association in water-in-salt electrolytes](https://arxiv.org/abs/2602.23875v1) | 2026-02-27T10:17:29Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.23875v1.md`
 - [Composite based magnetoelectric scaled devices with large output voltages](https://arxiv.org/abs/2602.23562v1) | 2026-02-27T00:10:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.23562v1.md`
-- [Tracking the Lithiation State of Li$_x$Si from Machine-Learned XPS Binding Energies](https://arxiv.org/abs/2602.23028v1) | 2026-02-26T14:09:00Z | status: auto | note: `/Users/bojingkai/Desktop/Read_paper/data/notes/2602.23028v1.md`
-- [Computational Frameworks for Patterned Two-Dimensional Magnetism](https://arxiv.org/abs/2602.21575v1) | 2026-02-25T04:57:54Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.21575v1.md`
 
 ## Molecular Dynamics
 - [Delineating the interplay effects of microstructure topology and residual stresses in ultrafast laser irradiated thin films](https://arxiv.org/abs/2605.22229v1) | 2026-05-21T09:31:45Z | status: auto | note: `data/notes/2605.22229v1.md`
+- [Silicate cosmic dust grain collisions in the interstellar medium: A molecular dynamics study](https://arxiv.org/abs/2605.22225v1) | 2026-05-21T09:28:23Z | status: auto | note: `data/notes/2605.22225v1.md`
+- [Transferable 3D Convolutional Neural Networks for Elastic Constants Prediction in Nanoporous Metals](https://arxiv.org/abs/2605.20890v1) | 2026-05-20T08:30:23Z | status: auto | note: `data/notes/2605.20890v1.md`
 - [Modeling phase separation in polymer-derived carbonitride ceramics through extended machine learning molecular dynamics](https://arxiv.org/abs/2605.20358v1) | 2026-05-19T18:12:25Z | status: auto | note: `data/notes/2605.20358v1.md`
+- [Accelerated "on-the-fly" coupled-cluster path-integral molecular dynamics: Impact of nuclear quantum effects on an asymmetric proton](https://arxiv.org/abs/2605.19858v1) | 2026-05-19T13:50:02Z | status: auto | note: `data/notes/2605.19858v1.md`
 - [Bridging Atomistic Simulation and Experimental Processing Timescales with Goal-Directed Deep Reinforcement Learning](https://arxiv.org/abs/2605.16214v1) | 2026-05-15T17:28:06Z | status: auto | note: `data/notes/2605.16214v1.md`
 - [Melting Behavior and Phase Stability of CaO from Neural Network Potentials: a Molecular Dynamics Study](https://arxiv.org/abs/2605.14793v1) | 2026-05-14T13:04:11Z | status: auto | note: `data/notes/2605.14793v1.md`
 - [N-Graphdiyne as a Tunable Platform for Stabilizing Light Metals toward High-Capacity Reversible Hydrogen Storage](https://arxiv.org/abs/2605.14646v1) | 2026-05-14T10:03:41Z | status: auto | note: `data/notes/2605.14646v1.md`
@@ -67,6 +70,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Machine learning the non-radiative decay modes in photochemical processes](https://arxiv.org/abs/2605.08381v1) | 2026-05-08T18:40:36Z | status: auto | note: `data/notes/2605.08381v1.md`
 - [Anisotropic Defect Diffusion in Layered CsPbBr$_\mathrm{x}$I$_\mathrm{3-x}$ Perovskites](https://arxiv.org/abs/2605.08055v2) | 2026-05-08T17:43:42Z | status: auto | note: `data/notes/2605.08055v2.md`
 - [Molecular dynamics simulation study of mechanical properties of 3C-SiC with extended defects](https://arxiv.org/abs/2605.06574v1) | 2026-05-07T17:04:33Z | status: auto | note: `data/notes/2605.06574v1.md`
+- [Anomalous Diffusion as Structural Memory: An Extended Structural Dynamics Approach](https://arxiv.org/abs/2605.16337v1) | 2026-05-07T06:16:17Z | status: auto | note: `data/notes/2605.16337v1.md`
 - [Physics-Grounded Understanding of Thermal Boundary Conductance between Ga$_2$O$_3$ and SiC from a Feedforward Neural Network Potential](https://arxiv.org/abs/2605.05620v1) | 2026-05-07T03:19:00Z | status: auto | note: `data/notes/2605.05620v1.md`
 - [Strain-Dependent Ionic Transport in Li3YCl6 Solid Electrolytes](https://arxiv.org/abs/2605.05603v1) | 2026-05-07T02:38:40Z | status: auto | note: `data/notes/2605.05603v1.md`
 - [From Bulk to Surface: Structure and Dynamics of Amorphous Alumina from Deep Potential Molecular Dynamics](https://arxiv.org/abs/2605.05361v1) | 2026-05-06T18:40:17Z | status: auto | note: `data/notes/2605.05361v1.md`
@@ -85,10 +89,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Ultrafast Sliding Ferroelectric Switching in Bilayer Hexagonal Boron Nitride Revealed by Deep Learning Molecular Dynamics](https://arxiv.org/abs/2604.27342v1) | 2026-04-30T02:46:43Z | status: auto | note: `data/notes/2604.27342v1.md`
 - [Molecular Dynamics simulations of Al-Ti metallic alloy melts using a transferable machine-learning potential](https://arxiv.org/abs/2604.26362v1) | 2026-04-29T07:17:17Z | status: auto | note: `data/notes/2604.26362v1.md`
 - [Strain and Twist Engineering of Interfacial Thermal Transport in Homo- and Hetero-Interfaces of Graphene and Hexagonal Boron Nitride](https://arxiv.org/abs/2604.26300v1) | 2026-04-29T04:58:38Z | status: auto | note: `data/notes/2604.26300v1.md`
-- [Proximity Ferroelectricity Driven by Mobile High-Miller-Index Domain Walls](https://arxiv.org/abs/2604.25343v1) | 2026-04-28T07:58:19Z | status: auto | note: `data/notes/2604.25343v1.md`
-- [Benchmarking Universal Machine-Learned Interatomic Potentials for High-Temperature Metal-Organic Framework Chemistry](https://arxiv.org/abs/2604.25262v1) | 2026-04-28T06:11:25Z | status: auto | note: `data/notes/2604.25262v1.md`
-- [Improved Electrochemical Performance and Diffusion kinetics by Boron-doping in Na$_{0.66}$Mn$_{0.8}$Fe$_{0.2}$O$_{2}$ Layered Cathodes for Sodium-Ion Batteries](https://arxiv.org/abs/2604.24683v1) | 2026-04-27T16:43:25Z | status: auto | note: `data/notes/2604.24683v1.md`
-- [Trillion-atom molecular dynamics simulations with ab initio accuracy](https://arxiv.org/abs/2604.24816v1) | 2026-04-27T13:06:23Z | status: auto | note: `data/notes/2604.24816v1.md`
 
 ## Phase-Field Crystal
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
