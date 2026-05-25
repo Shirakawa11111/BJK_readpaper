@@ -3,13 +3,14 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 227
-- Last rebuilt: 2026-05-24T04:57:38.372728+00:00
+- Total papers in library: 232
+- Last rebuilt: 2026-05-25T05:14:45.299091+00:00
 
 ## Multiphysics Coupling
 - [Toward the Rational Design of Molecular Field-Coupled Nanocomputing Candidates](https://arxiv.org/abs/2605.22196v1) | 2026-05-21T09:00:35Z | status: auto | note: `data/notes/2605.22196v1.md`
 - [Geometry-Dependent Crack Interaction and Toughening in Graphene](https://arxiv.org/abs/2605.20017v1) | 2026-05-19T15:45:36Z | status: auto | note: `data/notes/2605.20017v1.md`
 - [Accelerated "on-the-fly" coupled-cluster path-integral molecular dynamics: Impact of nuclear quantum effects on an asymmetric proton](https://arxiv.org/abs/2605.19858v1) | 2026-05-19T13:50:02Z | status: auto | note: `data/notes/2605.19858v1.md`
+- [Structure of Molten FeCl2 and FeCl3](https://arxiv.org/abs/2605.17207v1) | 2026-05-17T00:42:27Z | status: auto | note: `data/notes/2605.17207v1.md`
 - [Non-linear diffusion and inhomogeneity of the magnetic field in single-turn coils: Insights from 3D multiphysics modeling](https://arxiv.org/abs/2605.16659v1) | 2026-05-15T21:54:17Z | status: auto | note: `data/notes/2605.16659v1.md`
 - [Interface Piezoelectric Loss in Superconducting Qubits](https://arxiv.org/abs/2605.15554v1) | 2026-05-15T02:46:29Z | status: auto | note: `data/notes/2605.15554v1.md`
 - [Three dimensional simulation of fluid-driven frictional and tensile ruptures on existing discontinuities](https://arxiv.org/abs/2605.14397v1) | 2026-05-14T05:25:28Z | status: auto | note: `data/notes/2605.14397v1.md`
@@ -46,7 +47,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Surrogate models for nuclear fusion with parametric Shallow Recurrent Decoder Networks: applications to magnetohydrodynamics](https://arxiv.org/abs/2603.10678v1) | 2026-03-11T11:43:39Z | status: auto | note: `data/notes/2603.10678v1.md`
 - [Microstructural origins of energy storage during plastic deformation of 310S TWIP steel](https://arxiv.org/abs/2603.07352v1) | 2026-03-07T21:36:55Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.07352v1.md`
 - [Beam Geometry-Controlled Nonequilibrium Formation of WS2/CsPbBr3 Hybrids and Interfacial Carrier Dynamics](https://arxiv.org/abs/2603.04990v1) | 2026-03-05T09:33:34Z | status: auto | note: `data/notes/2603.04990v1.md`
-- [Consistent initialization of mixed-dimensional multiphysics models for fractured reservoirs under geomechanical constraints and field measurements](https://arxiv.org/abs/2603.01835v1) | 2026-03-02T13:09:15Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.01835v1.md`
 
 ## Molecular Dynamics
 - [Delineating the interplay effects of microstructure topology and residual stresses in ultrafast laser irradiated thin films](https://arxiv.org/abs/2605.22229v1) | 2026-05-21T09:31:45Z | status: auto | note: `data/notes/2605.22229v1.md`
@@ -54,11 +54,15 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Toward the Rational Design of Molecular Field-Coupled Nanocomputing Candidates](https://arxiv.org/abs/2605.22196v1) | 2026-05-21T09:00:35Z | status: auto | note: `data/notes/2605.22196v1.md`
 - [Transferable 3D Convolutional Neural Networks for Elastic Constants Prediction in Nanoporous Metals](https://arxiv.org/abs/2605.20890v1) | 2026-05-20T08:30:23Z | status: auto | note: `data/notes/2605.20890v1.md`
 - [DynaMate2: Democratization of Agentic AI for Expert-Designed Custom Workflows](https://arxiv.org/abs/2605.20819v1) | 2026-05-20T07:14:18Z | status: auto | note: `data/notes/2605.20819v1.md`
+- [Dataset-aware entropy-maximized active learning for machine-learned interatomic potentials](https://arxiv.org/abs/2605.20384v1) | 2026-05-19T18:33:13Z | status: auto | note: `data/notes/2605.20384v1.md`
 - [Modeling phase separation in polymer-derived carbonitride ceramics through extended machine learning molecular dynamics](https://arxiv.org/abs/2605.20358v1) | 2026-05-19T18:12:25Z | status: auto | note: `data/notes/2605.20358v1.md`
 - [Accelerated "on-the-fly" coupled-cluster path-integral molecular dynamics: Impact of nuclear quantum effects on an asymmetric proton](https://arxiv.org/abs/2605.19858v1) | 2026-05-19T13:50:02Z | status: auto | note: `data/notes/2605.19858v1.md`
+- [Partially reactive force field for the UiO-66 metal-organic framework](https://arxiv.org/abs/2605.19808v1) | 2026-05-19T13:06:38Z | status: auto | note: `data/notes/2605.19808v1.md`
 - [Direct Simulation of LiNi0.8Mn0.1Co0.1O2 Transport Properties Using an Efficient and Accurate Machine Learning Potential](https://arxiv.org/abs/2605.19747v1) | 2026-05-19T12:16:08Z | status: auto | note: `data/notes/2605.19747v1.md`
+- [Structure of Molten FeCl2 and FeCl3](https://arxiv.org/abs/2605.17207v1) | 2026-05-17T00:42:27Z | status: auto | note: `data/notes/2605.17207v1.md`
 - [An Efficient Approach for Calculating Free Energy in Molecular Dynamics: Demineralization of Hydroxyapatite as a Case Study](https://arxiv.org/abs/2605.16957v1) | 2026-05-16T12:18:08Z | status: auto | note: `data/notes/2605.16957v1.md`
 - [Bridging Atomistic Simulation and Experimental Processing Timescales with Goal-Directed Deep Reinforcement Learning](https://arxiv.org/abs/2605.16214v1) | 2026-05-15T17:28:06Z | status: auto | note: `data/notes/2605.16214v1.md`
+- [WorldParticle: Unified World Simulation of Lagrangian Particle Dynamics via Transformer](https://arxiv.org/abs/2605.15305v4) | 2026-05-14T18:18:12Z | status: auto | note: `data/notes/2605.15305v4.md`
 - [Melting Behavior and Phase Stability of CaO from Neural Network Potentials: a Molecular Dynamics Study](https://arxiv.org/abs/2605.14793v1) | 2026-05-14T13:04:11Z | status: auto | note: `data/notes/2605.14793v1.md`
 - [N-Graphdiyne as a Tunable Platform for Stabilizing Light Metals toward High-Capacity Reversible Hydrogen Storage](https://arxiv.org/abs/2605.14646v1) | 2026-05-14T10:03:41Z | status: auto | note: `data/notes/2605.14646v1.md`
 - [Nonlinear dynamic elastic moduli from equilibrium stress fluctuations](https://arxiv.org/abs/2605.13703v1) | 2026-05-13T15:52:40Z | status: auto | note: `data/notes/2605.13703v1.md`
@@ -85,10 +89,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [A Unified microscopic picture of cation and anion migration in MAPbI$_3$](https://arxiv.org/abs/2605.02685v2) | 2026-05-04T15:01:39Z | status: auto | note: `data/notes/2605.02685v2.md`
 - [Revisiting the Rheology of Neutron Star Crusts with Molecular Dynamics](https://arxiv.org/abs/2605.02101v1) | 2026-05-03T23:45:33Z | status: auto | note: `data/notes/2605.02101v1.md`
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
-- [Oxygen Vacancies at Dislocation Core Modulate Plasticity in Strontium Titanate](https://arxiv.org/abs/2605.00801v1) | 2026-05-01T17:39:50Z | status: auto | note: `data/notes/2605.00801v1.md`
-- [Kinetically Arrested Twin-Domain State in Formamidinium Lead Iodide](https://arxiv.org/abs/2605.00427v1) | 2026-05-01T05:56:44Z | status: auto | note: `data/notes/2605.00427v1.md`
-- [Kinetically Arrested Twin-Domain State in Formamidinium Lead Iodide](https://arxiv.org/abs/2605.00427v2) | 2026-05-01T05:56:44Z | status: auto | note: `data/notes/2605.00427v2.md`
-- [Fragment-Constrained Charge Equilibration for Charge-Aware Machine Learning Potentials at Electrochemical Interfaces](https://arxiv.org/abs/2604.27910v1) | 2026-04-30T14:18:47Z | status: auto | note: `data/notes/2604.27910v1.md`
 
 ## Phase-Field Crystal
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
@@ -120,6 +120,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Multiaxial Kitagawa analysis of A356-T6](https://arxiv.org/abs/1206.2343v1) | 2012-06-10T00:53:20Z | status: auto | note: `data/notes/1206.2343v1.md`
 
 ## Tensile / Deformation Simulation
+- [Summarizing Time-Varying Digital Image Correlation Strain Fields Using Sankey Diagrams](https://arxiv.org/abs/2605.22627v1) | 2026-05-21T15:36:38Z | status: auto | note: `data/notes/2605.22627v1.md`
 - [Delineating the interplay effects of microstructure topology and residual stresses in ultrafast laser irradiated thin films](https://arxiv.org/abs/2605.22229v1) | 2026-05-21T09:31:45Z | status: auto | note: `data/notes/2605.22229v1.md`
 - [Geometry-Dependent Crack Interaction and Toughening in Graphene](https://arxiv.org/abs/2605.20017v1) | 2026-05-19T15:45:36Z | status: auto | note: `data/notes/2605.20017v1.md`
 - [Three dimensional simulation of fluid-driven frictional and tensile ruptures on existing discontinuities](https://arxiv.org/abs/2605.14397v1) | 2026-05-14T05:25:28Z | status: auto | note: `data/notes/2605.14397v1.md`
@@ -159,4 +160,3 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Work-hardening exhaustion as the origin of low toughness in L-PBF alloys: A case study on the role of intrinsic vs. extrinsic defects in SS316L](https://arxiv.org/abs/2602.18954v1) | 2026-02-21T20:24:28Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.18954v1.md`
 - [Fracture Properties of Green Nano Fibrous Network with Random and Aligned Fibre Distribution: A Hierarchical Molecular Dynamics and Peridynamics Approach](https://arxiv.org/abs/2602.17740v1) | 2026-02-19T10:49:39Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.17740v1.md`
 - [Stochastic Modeling of Anisotropic Strength Surfaces from Atomistic Simulations](https://arxiv.org/abs/2602.16007v1) | 2026-02-17T20:58:06Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.16007v1.md`
-- [Topological constraints suppress shear localization in granular chain ensembles](https://arxiv.org/abs/2602.09588v1) | 2026-02-10T09:40:37Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2602.09588v1.md`
