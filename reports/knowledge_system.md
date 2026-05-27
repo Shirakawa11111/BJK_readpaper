@@ -3,10 +3,11 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 237
-- Last rebuilt: 2026-05-26T04:56:29.237407+00:00
+- Total papers in library: 242
+- Last rebuilt: 2026-05-27T05:07:29.686355+00:00
 
 ## Multiphysics Coupling
+- [Microstructure-Aware Deep Learning Bridges Atomistics to Macroscale for Shock-to-Detonation Prediction](https://arxiv.org/abs/2605.27325v1) | 2026-05-26T17:35:53Z | status: auto | note: `data/notes/2605.27325v1.md`
 - [Proton-electron coupled catalyst for ionomer-free electrochemical energy conversion](https://arxiv.org/abs/2605.24757v1) | 2026-05-23T22:34:10Z | status: auto | note: `data/notes/2605.24757v1.md`
 - [Toward the Rational Design of Molecular Field-Coupled Nanocomputing Candidates](https://arxiv.org/abs/2605.22196v1) | 2026-05-21T09:00:35Z | status: auto | note: `data/notes/2605.22196v1.md`
 - [Geometry-Dependent Crack Interaction and Toughening in Graphene](https://arxiv.org/abs/2605.20017v1) | 2026-05-19T15:45:36Z | status: auto | note: `data/notes/2605.20017v1.md`
@@ -46,9 +47,12 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Understanding inhomogeneous crystallization dynamics of phase-change materials in the vicinity of metallic nanoantennas](https://arxiv.org/abs/2603.20901v1) | 2026-03-21T18:23:49Z | status: auto | note: `data/notes/2603.20901v1.md`
 - [An Optically Addressable Transmissive Liquid Crystal Metasurface Spatial Light Modulator](https://arxiv.org/abs/2603.20574v1) | 2026-03-21T00:10:58Z | status: auto | note: `data/notes/2603.20574v1.md`
 - [Surrogate models for nuclear fusion with parametric Shallow Recurrent Decoder Networks: applications to magnetohydrodynamics](https://arxiv.org/abs/2603.10678v1) | 2026-03-11T11:43:39Z | status: auto | note: `data/notes/2603.10678v1.md`
-- [Microstructural origins of energy storage during plastic deformation of 310S TWIP steel](https://arxiv.org/abs/2603.07352v1) | 2026-03-07T21:36:55Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.07352v1.md`
 
 ## Molecular Dynamics
+- [Microstructure-Aware Deep Learning Bridges Atomistics to Macroscale for Shock-to-Detonation Prediction](https://arxiv.org/abs/2605.27325v1) | 2026-05-26T17:35:53Z | status: auto | note: `data/notes/2605.27325v1.md`
+- [Amorphous vs. Short-Range-Ordered Complexions: Consequences for Grain-Boundary-Mediated Plasticity in Nanocrystalline Al-Ni Alloys](https://arxiv.org/abs/2605.27218v1) | 2026-05-26T16:06:59Z | status: auto | note: `data/notes/2605.27218v1.md`
+- [Active learning of collinear magnetic Moment Tensor Potentials using the spin-MLIP package from soft-constrained spin-polarized DFT calculations: a case study of Fe-Pd](https://arxiv.org/abs/2605.26897v1) | 2026-05-26T11:57:56Z | status: auto | note: `data/notes/2605.26897v1.md`
+- [Finite Temperature Stacking Fault Stability in Random and Locally Ordered CoCrNi beyond the Harmonic Approximation](https://arxiv.org/abs/2605.26364v1) | 2026-05-25T22:20:10Z | status: auto | note: `data/notes/2605.26364v1.md`
 - [Transition from Homogeneous to Domain-Wall-Mediated Polarization Switching in BaTiO3: A Machine-Learning Molecular Dynamics Study](https://arxiv.org/abs/2605.25485v1) | 2026-05-25T06:40:13Z | status: auto | note: `data/notes/2605.25485v1.md`
 - [Machine-learned atomistic simulations reveal the basis of hydrogen-induced crack-plane transition in alpha-Fe](https://arxiv.org/abs/2605.24880v1) | 2026-05-24T05:44:59Z | status: auto | note: `data/notes/2605.24880v1.md`
 - [Proton-electron coupled catalyst for ionomer-free electrochemical energy conversion](https://arxiv.org/abs/2605.24757v1) | 2026-05-23T22:34:10Z | status: auto | note: `data/notes/2605.24757v1.md`
@@ -60,6 +64,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [DynaMate2: Democratization of Agentic AI for Expert-Designed Custom Workflows](https://arxiv.org/abs/2605.20819v1) | 2026-05-20T07:14:18Z | status: auto | note: `data/notes/2605.20819v1.md`
 - [Dataset-aware entropy-maximized active learning for machine-learned interatomic potentials](https://arxiv.org/abs/2605.20384v1) | 2026-05-19T18:33:13Z | status: auto | note: `data/notes/2605.20384v1.md`
 - [Modeling phase separation in polymer-derived carbonitride ceramics through extended machine learning molecular dynamics](https://arxiv.org/abs/2605.20358v1) | 2026-05-19T18:12:25Z | status: auto | note: `data/notes/2605.20358v1.md`
+- [Modeling phase separation in polymer-derived silicon carbonitride ceramics through extended machine learning molecular dynamics](https://arxiv.org/abs/2605.20358v2) | 2026-05-19T18:12:25Z | status: auto | note: `data/notes/2605.20358v2.md`
 - [Accelerated "on-the-fly" coupled-cluster path-integral molecular dynamics: Impact of nuclear quantum effects on an asymmetric proton](https://arxiv.org/abs/2605.19858v1) | 2026-05-19T13:50:02Z | status: auto | note: `data/notes/2605.19858v1.md`
 - [Partially reactive force field for the UiO-66 metal-organic framework](https://arxiv.org/abs/2605.19808v1) | 2026-05-19T13:06:38Z | status: auto | note: `data/notes/2605.19808v1.md`
 - [Direct Simulation of LiNi0.8Mn0.1Co0.1O2 Transport Properties Using an Efficient and Accurate Machine Learning Potential](https://arxiv.org/abs/2605.19747v1) | 2026-05-19T12:16:08Z | status: auto | note: `data/notes/2605.19747v1.md`
@@ -84,11 +89,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Molecular dynamics simulation study of mechanical properties of 3C-SiC with extended defects](https://arxiv.org/abs/2605.06574v1) | 2026-05-07T17:04:33Z | status: auto | note: `data/notes/2605.06574v1.md`
 - [Anomalous Diffusion as Structural Memory: An Extended Structural Dynamics Approach](https://arxiv.org/abs/2605.16337v1) | 2026-05-07T06:16:17Z | status: auto | note: `data/notes/2605.16337v1.md`
 - [Physics-Grounded Understanding of Thermal Boundary Conductance between Ga$_2$O$_3$ and SiC from a Feedforward Neural Network Potential](https://arxiv.org/abs/2605.05620v1) | 2026-05-07T03:19:00Z | status: auto | note: `data/notes/2605.05620v1.md`
-- [Strain-Dependent Ionic Transport in Li3YCl6 Solid Electrolytes](https://arxiv.org/abs/2605.05603v1) | 2026-05-07T02:38:40Z | status: auto | note: `data/notes/2605.05603v1.md`
-- [From Bulk to Surface: Structure and Dynamics of Amorphous Alumina from Deep Potential Molecular Dynamics](https://arxiv.org/abs/2605.05361v1) | 2026-05-06T18:40:17Z | status: auto | note: `data/notes/2605.05361v1.md`
-- [Unveiling the Atomistic Mechanisms of Shear-Induced LDA$\leftrightarrow$HDA Transformations and Shear Banding in Amorphous Silicon under High Pressures](https://arxiv.org/abs/2605.04521v1) | 2026-05-06T06:02:37Z | status: auto | note: `data/notes/2605.04521v1.md`
-- [Spin Dynamics from Atomistic Quantum Simulations](https://arxiv.org/abs/2605.04294v1) | 2026-05-05T20:55:35Z | status: auto | note: `data/notes/2605.04294v1.md`
-- [Defect-Engineered Beryllium Dinitride (BeN2) Monolayer with Light-Metal Decoration for Reversible High-Capacity Hydrogen Storage](https://arxiv.org/abs/2605.03738v1) | 2026-05-05T13:25:09Z | status: auto | note: `data/notes/2605.03738v1.md`
 
 ## Phase-Field Crystal
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
