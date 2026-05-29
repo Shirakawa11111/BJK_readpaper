@@ -4,7 +4,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
 - Total papers in library: 247
-- Last rebuilt: 2026-05-28T05:03:27.621401+00:00
+- Last rebuilt: 2026-05-29T05:03:19.137185+00:00
 
 ## Multiphysics Coupling
 - [How reproducible are first-principles simulations of liquid water?](https://arxiv.org/abs/2605.28798v1) | 2026-05-27T17:53:03Z | status: auto | note: `data/notes/2605.28798v1.md`
