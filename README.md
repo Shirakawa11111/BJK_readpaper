@@ -87,14 +87,14 @@ python3 paper_agent.py ingest-known --root . --config config.json --csv ./known_
 ## 知识图谱（自动更新）
 
 <!-- KNOWLEDGE_GRAPH_START -->
-> 自动更新 | 总论文数: 252 | 最后更新: 2026-05-30 04:43 UTC
+> 自动更新 | 总论文数: 257 | 最后更新: 2026-06-01 05:53 UTC
 
 ### 知识体系思维导图
 
 ```mermaid
 mindmap
   root((材料模拟论文体系))
-    Multiphysics Coupling [71篇]
+    Multiphysics Coupling [73篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -115,7 +115,11 @@ mindmap
         molecular dynamics
         dislocation
         metal
-    Molecular Dynamics [164篇]
+    Molecular Dynamics [167篇]
+      Crystal Dislocations as Atomi...
+        molecular dynamics
+        fatigue
+        dislocation
       Molecular dynamics study of t...
         molecular dynamics
         dislocation
@@ -132,10 +136,6 @@ mindmap
         molecular dynamics
         tensile
         deformation
-      Strain-Rate- and Line-Length-...
-        molecular dynamics
-        dislocation
-        metal
     Phase-Field Crystal [14篇]
       Dislocation dynamics on defor...
         phase-field crystal
@@ -157,11 +157,15 @@ mindmap
         phase-field crystal
         dislocation
         deformation
-    Metal Fatigue Simulation [11篇]
+    Metal Fatigue Simulation [12篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
         crack
+      Crystal Dislocations as Atomi...
+        molecular dynamics
+        fatigue
+        dislocation
       Computational Insights into P...
         molecular dynamics
         fatigue
@@ -174,11 +178,7 @@ mindmap
         fatigue
         tensile
         deformation
-      Bridging perturbation and var...
-        crack
-        tensile
-        simulation
-    Tensile / Deformation Simulation [54篇]
+    Tensile / Deformation Simulation [55篇]
       Fully Coupled Multiphysics Mo...
         fatigue
         multiphysics
@@ -211,31 +211,31 @@ timeline
     2026-02 : Electrohydrodynamic insta... : Dislocation dynamics on d... : Strain-Rate- and Line-Len...
     2026-03 : Molecular dynamics study... : Defect dependent dynamic... : Laser Powder Bed Fusion M...
     2026-04 : A multiphysics deep energ... : Atomistic Mechanisms of S... : Mechanical Scaling Laws a...
-    2026-05 : Delineating the interplay... : N-Graphdiyne as a Tunable... : Microstructure-Aware Deep...
+    2026-05 : Crystal Dislocations as A... : Delineating the interplay... : N-Graphdiyne as a Tunable...
 ```
 
 ### 主题-侧重点交叉分析
 
 | 主题方向 | 论文数 | 主要侧重点 | 代表论文 |
 |----------|--------|------------|----------|
-| Multiphysics Coupling | 71 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 数据驱动与机器学习建模 | Fully Coupled Multiphysics Model... |
-| Molecular Dynamics | 164 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
+| Multiphysics Coupling | 73 | 多物理耦合与跨场耦合机制, 分子动力学与原子尺度机制, 数据驱动与机器学习建模 | Fully Coupled Multiphysics Model... |
+| Molecular Dynamics | 167 | 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制, 数据驱动与机器学习建模 | Electrohydrodynamic instability... |
 | Phase-Field Crystal | 14 | 相场晶体与组织演化, 多物理耦合与跨场耦合机制, 拉伸响应与本构行为 | Dislocation dynamics on deformab... |
-| Metal Fatigue Simulation | 11 | 疲劳损伤与断裂演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Fully Coupled Multiphysics Model... |
-| Tensile / Deformation Simulation | 54 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 疲劳损伤与断裂演化 | Fully Coupled Multiphysics Model... |
+| Metal Fatigue Simulation | 12 | 疲劳损伤与断裂演化, 拉伸响应与本构行为, 多物理耦合与跨场耦合机制 | Fully Coupled Multiphysics Model... |
+| Tensile / Deformation Simulation | 55 | 拉伸响应与本构行为, 分子动力学与原子尺度机制, 多物理耦合与跨场耦合机制 | Fully Coupled Multiphysics Model... |
 
 ### 高相关度论文 Top 10
 
 1. **[Fully Coupled Multiphysics Modelling of Fracture Behaviou...](https://arxiv.org/abs/2601.01443v1)** (score: 14.0) — Metal Fatigue Simulation, Multiphysics Coupling
-2. **[Molecular dynamics study of the role of anisotropy in rad...](https://arxiv.org/abs/2603.25617v2)** (score: 13.9) — Molecular Dynamics, Tensile / Deformation Simulation
-3. **[A multiphysics deep energy method for fourth-order phase-...](https://arxiv.org/abs/2604.03453v1)** (score: 13.6) — Multiphysics Coupling, Tensile / Deformation Simulation
-4. **[Electrohydrodynamic instability of Cu, W and Ti metal nan...](https://arxiv.org/abs/2602.12558v1)** (score: 12.7) — Molecular Dynamics, Multiphysics Coupling
-5. **[Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1)** (score: 12.4) — Multiphysics Coupling, Phase-Field Crystal
-6. **[Defect dependent dynamic nanoindentation hardness of copp...](https://arxiv.org/abs/2603.01845v1)** (score: 12.2) — Molecular Dynamics
-7. **[Delineating the interplay effects of microstructure topol...](https://arxiv.org/abs/2605.22229v1)** (score: 11.5) — Molecular Dynamics, Tensile / Deformation Simulation
-8. **[Strain-Rate- and Line-Length-Dependent Screw Dislocation...](https://arxiv.org/abs/2602.16883v1)** (score: 11.4) — Molecular Dynamics, Multiphysics Coupling
-9. **[Atomistic Mechanisms of Stress-Dependent Molten Salt Corr...](https://arxiv.org/abs/2604.16261v1)** (score: 10.9) — Molecular Dynamics, Multiphysics Coupling
-10. **[Mechanical Scaling Laws and Deformation Behavior of Nanop...](https://arxiv.org/abs/2604.22726v1)** (score: 10.9) — Molecular Dynamics, Multiphysics Coupling
+2. **[Crystal Dislocations as Atomic Scale Ratchets](https://arxiv.org/abs/2605.30764v1)** (score: 13.9) — Metal Fatigue Simulation, Molecular Dynamics
+3. **[Molecular dynamics study of the role of anisotropy in rad...](https://arxiv.org/abs/2603.25617v2)** (score: 13.9) — Molecular Dynamics, Tensile / Deformation Simulation
+4. **[A multiphysics deep energy method for fourth-order phase-...](https://arxiv.org/abs/2604.03453v1)** (score: 13.6) — Multiphysics Coupling, Tensile / Deformation Simulation
+5. **[Electrohydrodynamic instability of Cu, W and Ti metal nan...](https://arxiv.org/abs/2602.12558v1)** (score: 12.7) — Molecular Dynamics, Multiphysics Coupling
+6. **[Dislocation dynamics on deformable surfaces](https://arxiv.org/abs/2602.14348v1)** (score: 12.4) — Multiphysics Coupling, Phase-Field Crystal
+7. **[Defect dependent dynamic nanoindentation hardness of copp...](https://arxiv.org/abs/2603.01845v1)** (score: 12.2) — Molecular Dynamics
+8. **[Delineating the interplay effects of microstructure topol...](https://arxiv.org/abs/2605.22229v1)** (score: 11.5) — Molecular Dynamics, Tensile / Deformation Simulation
+9. **[Strain-Rate- and Line-Length-Dependent Screw Dislocation...](https://arxiv.org/abs/2602.16883v1)** (score: 11.4) — Molecular Dynamics, Multiphysics Coupling
+10. **[Atomistic Mechanisms of Stress-Dependent Molten Salt Corr...](https://arxiv.org/abs/2604.16261v1)** (score: 10.9) — Molecular Dynamics, Multiphysics Coupling
 <!-- KNOWLEDGE_GRAPH_END -->
 
 ## 可视化
