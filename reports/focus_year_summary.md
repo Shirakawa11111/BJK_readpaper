@@ -3,11 +3,11 @@
 该汇总由 `data/paper_db.json` 自动重建。
 
 ## 总览
-- 论文总数: 262
-- 最近更新: 2026-06-02T05:20:25.145196+00:00
+- 论文总数: 267
+- 最近更新: 2026-06-03T05:54:34.793540+00:00
 
 ## 按年份统计
-- 2026: 232
+- 2026: 237
 - 2025: 16
 - 2024: 6
 - 2023: 6
@@ -15,37 +15,37 @@
 - 2012: 1
 
 ## 按研究侧重点统计
-- 分子动力学与原子尺度机制: 172
-- 多物理耦合与跨场耦合机制: 119
-- 拉伸响应与本构行为: 76
-- 数据驱动与机器学习建模: 63
+- 分子动力学与原子尺度机制: 176
+- 多物理耦合与跨场耦合机制: 120
+- 拉伸响应与本构行为: 77
+- 数据驱动与机器学习建模: 65
 - 疲劳损伤与断裂演化: 29
 - 相场晶体与组织演化: 20
 
 ## 按主题标签统计
-- Molecular Dynamics: 172
+- Molecular Dynamics: 176
 - Multiphysics Coupling: 74
-- Tensile / Deformation Simulation: 55
+- Tensile / Deformation Simulation: 56
 - Phase-Field Crystal: 14
 - Metal Fatigue Simulation: 12
 
 ## 高频关键词 (Top 30)
-- simulation: 194
-- molecular dynamics: 169
-- materials: 99
+- simulation: 199
+- molecular dynamics: 173
+- materials: 102
 - deformation: 60
-- metal: 59
+- metal: 60
 - modeling: 56
-- tensile: 49
+- tensile: 50
 - coupled: 43
 - multiphysics: 42
-- machine learning: 39
+- machine learning: 41
+- atomistic: 38
 - dislocation: 38
-- atomistic: 37
-- interatomic potential: 31
+- interatomic potential: 33
 - crack: 16
 - phase-field crystal: 13
-- finite element: 12
+- finite element: 13
 - electrochemical: 12
 - uniaxial: 11
 - pfc: 10
@@ -63,10 +63,10 @@
 
 ## 年份-侧重点分布
 ### 2026
-- 分子动力学与原子尺度机制: 168
-- 多物理耦合与跨场耦合机制: 105
-- 拉伸响应与本构行为: 64
-- 数据驱动与机器学习建模: 60
+- 分子动力学与原子尺度机制: 172
+- 多物理耦合与跨场耦合机制: 106
+- 拉伸响应与本构行为: 65
+- 数据驱动与机器学习建模: 62
 - 疲劳损伤与断裂演化: 23
 - 相场晶体与组织演化: 9
 
