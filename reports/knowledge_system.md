@@ -4,7 +4,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
 - Total papers in library: 272
-- Last rebuilt: 2026-06-04T05:29:17.150491+00:00
+- Last rebuilt: 2026-06-05T05:06:10.053156+00:00
 
 ## Multiphysics Coupling
 - [An Octahedral Fibrous Constitutive Model for Heart Valve Mechanics and Function](https://arxiv.org/abs/2606.04234v1) | 2026-06-02T21:34:11Z | status: auto | note: `data/notes/2606.04234v1.md`
