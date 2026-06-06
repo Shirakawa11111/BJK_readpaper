@@ -3,10 +3,11 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 272
-- Last rebuilt: 2026-06-05T05:06:10.053156+00:00
+- Total papers in library: 277
+- Last rebuilt: 2026-06-06T04:43:52.272057+00:00
 
 ## Multiphysics Coupling
+- [Coupled simulation of plasma-surface interactions during early stages of vacuum arcing](https://arxiv.org/abs/2606.05893v1) | 2026-06-04T09:00:33Z | status: auto | note: `data/notes/2606.05893v1.md`
 - [An Octahedral Fibrous Constitutive Model for Heart Valve Mechanics and Function](https://arxiv.org/abs/2606.04234v1) | 2026-06-02T21:34:11Z | status: auto | note: `data/notes/2606.04234v1.md`
 - [The influence of volumetric shrinkage on the metal solidification process under localized energy deposition](https://arxiv.org/abs/2606.04200v1) | 2026-06-02T20:36:45Z | status: auto | note: `data/notes/2606.04200v1.md`
 - [Polaron Transport in TiO$_{2}$ from Machine Learning Molecular Dynamics](https://arxiv.org/abs/2606.01763v1) | 2026-06-01T06:43:24Z | status: auto | note: `data/notes/2606.01763v1.md`
@@ -46,9 +47,10 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Application of parametric Shallow Recurrent Decoder Network to magnetohydrodynamic flows in liquid metal blankets of fusion reactors](https://arxiv.org/abs/2604.02139v1) | 2026-04-02T15:12:24Z | status: auto | note: `data/notes/2604.02139v1.md`
 - [A multiphysics model for triboelectric nanogenerator design with explicit surface roughness representation](https://arxiv.org/abs/2604.01119v1) | 2026-04-01T16:42:24Z | status: auto | note: `data/notes/2604.01119v1.md`
 - [Laser Powder Bed Fusion Melt Pool Dynamics for Different Geometric Variations and Powder Layer Heights: High-Fidelity Multiphysics Modeling vs 2025 NIST Experiments](https://arxiv.org/abs/2604.07359v1) | 2026-03-29T02:53:32Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.07359v1.md`
-- [Identification and Prediction of Photoplasticity in Semiconductors Using Feature Engineering and Machine learning](https://arxiv.org/abs/2603.27316v1) | 2026-03-28T15:44:06Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.27316v1.md`
 
 ## Molecular Dynamics
+- [Optical Signature of Moiré Superlattices Formed by Twisted SrTiO$_3$ Membranes](https://arxiv.org/abs/2606.06289v1) | 2026-06-04T15:25:58Z | status: auto | note: `data/notes/2606.06289v1.md`
+- [Coupled simulation of plasma-surface interactions during early stages of vacuum arcing](https://arxiv.org/abs/2606.05893v1) | 2026-06-04T09:00:33Z | status: auto | note: `data/notes/2606.05893v1.md`
 - [SLUSCHI-UP: A Web Infrastructure for SLUSCHI Melting-Temperature Calculations Using Universal Machine-Learning Interatomic Potentials](https://arxiv.org/abs/2606.04973v1) | 2026-06-03T14:54:38Z | status: auto | note: `data/notes/2606.04973v1.md`
 - [Mechanical bistability and hysteresis in graphene-CNT hybrid systems: from atomistic simulations to macroscale structural responses](https://arxiv.org/abs/2606.04504v1) | 2026-06-03T06:35:31Z | status: auto | note: `data/notes/2606.04504v1.md`
 - [Quantum annealing for materials](https://arxiv.org/abs/2606.03405v1) | 2026-06-02T09:47:31Z | status: auto | note: `data/notes/2606.03405v1.md`
@@ -79,6 +81,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Upscaling DFT-trained machine-learning interatomic potential toward Quantum Monte Carlo accuracy: Sulfur-vacancy migration in monolayer MoS$_2$ as a testbed](https://arxiv.org/abs/2605.22601v1) | 2026-05-21T15:15:35Z | status: auto | note: `data/notes/2605.22601v1.md`
 - [Delineating the interplay effects of microstructure topology and residual stresses in ultrafast laser irradiated thin films](https://arxiv.org/abs/2605.22229v1) | 2026-05-21T09:31:45Z | status: auto | note: `data/notes/2605.22229v1.md`
 - [Silicate cosmic dust grain collisions in the interstellar medium: A molecular dynamics study](https://arxiv.org/abs/2605.22225v1) | 2026-05-21T09:28:23Z | status: auto | note: `data/notes/2605.22225v1.md`
+- [Silicate cosmic dust grain collisions in the interstellar medium: A molecular dynamics study](https://arxiv.org/abs/2605.22225v2) | 2026-05-21T09:28:23Z | status: auto | note: `data/notes/2605.22225v2.md`
 - [Toward the Rational Design of Molecular Field-Coupled Nanocomputing Candidates](https://arxiv.org/abs/2605.22196v1) | 2026-05-21T09:00:35Z | status: auto | note: `data/notes/2605.22196v1.md`
 - [High-performance linear-scaling electronic structure method via chromatic superposition states](https://arxiv.org/abs/2605.20918v1) | 2026-05-20T09:04:05Z | status: auto | note: `data/notes/2605.20918v1.md`
 - [Transferable 3D Convolutional Neural Networks for Elastic Constants Prediction in Nanoporous Metals](https://arxiv.org/abs/2605.20890v1) | 2026-05-20T08:30:23Z | status: auto | note: `data/notes/2605.20890v1.md`
@@ -86,9 +89,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Anisotropic Crystallization Kinetics and Interfacial Dynamics of Phase-Change Material Sb$_2$S$_3$ from Machine Learning Force Field Simulations](https://arxiv.org/abs/2605.20785v1) | 2026-05-20T06:29:29Z | status: auto | note: `data/notes/2605.20785v1.md`
 - [Dataset-aware entropy-maximized active learning for machine-learned interatomic potentials](https://arxiv.org/abs/2605.20384v1) | 2026-05-19T18:33:13Z | status: auto | note: `data/notes/2605.20384v1.md`
 - [Modeling phase separation in polymer-derived carbonitride ceramics through extended machine learning molecular dynamics](https://arxiv.org/abs/2605.20358v1) | 2026-05-19T18:12:25Z | status: auto | note: `data/notes/2605.20358v1.md`
-- [Modeling phase separation in polymer-derived silicon carbonitride ceramics through extended machine learning molecular dynamics](https://arxiv.org/abs/2605.20358v2) | 2026-05-19T18:12:25Z | status: auto | note: `data/notes/2605.20358v2.md`
-- [Accelerated "on-the-fly" coupled-cluster path-integral molecular dynamics: Impact of nuclear quantum effects on an asymmetric proton](https://arxiv.org/abs/2605.19858v1) | 2026-05-19T13:50:02Z | status: auto | note: `data/notes/2605.19858v1.md`
-- [Partially reactive force field for the UiO-66 metal-organic framework](https://arxiv.org/abs/2605.19808v1) | 2026-05-19T13:06:38Z | status: auto | note: `data/notes/2605.19808v1.md`
 
 ## Phase-Field Crystal
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
@@ -121,8 +121,10 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Multiaxial Kitagawa analysis of A356-T6](https://arxiv.org/abs/1206.2343v1) | 2012-06-10T00:53:20Z | status: auto | note: `data/notes/1206.2343v1.md`
 
 ## Tensile / Deformation Simulation
+- [Influence of anisotropy on the expansion performance of auxetic skin meshing geometries: a finite element study](https://arxiv.org/abs/2606.04893v1) | 2026-06-03T13:54:05Z | status: auto | note: `data/notes/2606.04893v1.md`
 - [An Octahedral Fibrous Constitutive Model for Heart Valve Mechanics and Function](https://arxiv.org/abs/2606.04234v1) | 2026-06-02T21:34:11Z | status: auto | note: `data/notes/2606.04234v1.md`
 - [Mechanochemical Nano-Writing of an Atomically Thin Metal](https://arxiv.org/abs/2606.03710v1) | 2026-06-02T14:31:11Z | status: auto | note: `data/notes/2606.03710v1.md`
+- [Zero-Poisson Ratio Elastomeric Substrates for Distortion-Free Stretchable Displays](https://arxiv.org/abs/2606.03000v1) | 2026-06-02T01:16:18Z | status: auto | note: `data/notes/2606.03000v1.md`
 - [Strain-Engineered s-C$_3$N$_6$ Monolayer for Efficient Water Splitting: A first-principles study](https://arxiv.org/abs/2605.31447v1) | 2026-05-29T15:41:24Z | status: auto | note: `data/notes/2605.31447v1.md`
 - [Edge Dislocation Mediated Anomalous Charge Transfer in Face Centered Cubic High Entropy Alloys](https://arxiv.org/abs/2605.24887v1) | 2026-05-24T06:08:05Z | status: auto | note: `data/notes/2605.24887v1.md`
 - [Nonlinear Wave Propagation in 1D Polycatenated Ring Chains](https://arxiv.org/abs/2605.23001v1) | 2026-05-21T20:13:30Z | status: auto | note: `data/notes/2605.23001v1.md`
@@ -159,5 +161,3 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Emerging hierarchical dislocation structures: Insights from scanning electron microscopy-electron backscatter diffraction in situ tensile testing and multifractal analysis](https://arxiv.org/abs/2603.20689v1) | 2026-03-21T07:08:22Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.20689v1.md`
 - [Towards the Multiscale Design of Pressure Sensitive Adhesives](https://arxiv.org/abs/2603.16287v1) | 2026-03-17T09:20:54Z | status: auto | note: `data/notes/2603.16287v1.md`
 - [Effects of uniaxial strain on monolayer transition-metal dichalcogenides revisited](https://arxiv.org/abs/2603.14138v1) | 2026-03-14T22:06:06Z | status: auto | note: `data/notes/2603.14138v1.md`
-- [Lattice Discrete Particle Model (LDPM): Comparison of Various Time Integration Solvers and Implementations](https://arxiv.org/abs/2603.13190v1) | 2026-03-13T17:24:51Z | status: auto | note: `data/notes/2603.13190v1.md`
-- [Microstructural origins of energy storage during plastic deformation of 310S TWIP steel](https://arxiv.org/abs/2603.07352v1) | 2026-03-07T21:36:55Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.07352v1.md`
