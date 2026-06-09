@@ -3,10 +3,11 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 287
-- Last rebuilt: 2026-06-08T05:20:54.946064+00:00
+- Total papers in library: 292
+- Last rebuilt: 2026-06-09T04:56:45.690172+00:00
 
 ## Multiphysics Coupling
+- [Deviations from Debye's specific heat due to excess energy fluctuations](https://arxiv.org/abs/2606.09566v1) | 2026-06-08T14:40:08Z | status: auto | note: `data/notes/2606.09566v1.md`
 - [Resolving Light-Induced Structural Rearrangements in Responsive Microgels](https://arxiv.org/abs/2606.07371v1) | 2026-06-05T15:13:50Z | status: auto | note: `data/notes/2606.07371v1.md`
 - [Coupled simulation of plasma-surface interactions during early stages of vacuum arcing](https://arxiv.org/abs/2606.05893v1) | 2026-06-04T09:00:33Z | status: auto | note: `data/notes/2606.05893v1.md`
 - [An Octahedral Fibrous Constitutive Model for Heart Valve Mechanics and Function](https://arxiv.org/abs/2606.04234v1) | 2026-06-02T21:34:11Z | status: auto | note: `data/notes/2606.04234v1.md`
@@ -46,9 +47,13 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Explicit Electric Potential-Embedded Machine Learning Framework: A Unified Description from Atomic to Electronic Scales](https://arxiv.org/abs/2604.07322v2) | 2026-04-08T17:37:11Z | status: auto | note: `data/notes/2604.07322v2.md`
 - [Unveiling Mechanisms of SEI Formation and Sodium Loss in Sodium Batteries via Interface Reactor Sampling](https://arxiv.org/abs/2604.07077v1) | 2026-04-08T13:34:33Z | status: auto | note: `data/notes/2604.07077v1.md`
 - [A multiphysics deep energy method for fourth-order phase-field fracture with piezoresistive self-sensing](https://arxiv.org/abs/2604.03453v1) | 2026-04-03T20:55:03Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.03453v1.md`
-- [Application of parametric Shallow Recurrent Decoder Network to magnetohydrodynamic flows in liquid metal blankets of fusion reactors](https://arxiv.org/abs/2604.02139v1) | 2026-04-02T15:12:24Z | status: auto | note: `data/notes/2604.02139v1.md`
 
 ## Molecular Dynamics
+- [k-Means Clustering in Fingerprint-Based Configuration Selection for Fitting Interatomic Potentials](https://arxiv.org/abs/2606.09575v1) | 2026-06-08T14:51:40Z | status: auto | note: `data/notes/2606.09575v1.md`
+- [Deviations from Debye's specific heat due to excess energy fluctuations](https://arxiv.org/abs/2606.09566v1) | 2026-06-08T14:40:08Z | status: auto | note: `data/notes/2606.09566v1.md`
+- [Hydride formation and phase separation in palladium nanoparticles from a transferable atomic cluster expansion potential](https://arxiv.org/abs/2606.09341v1) | 2026-06-08T11:07:29Z | status: auto | note: `data/notes/2606.09341v1.md`
+- [Molecular dynamic simulation of multicomponent CoCrFeNiMn high-entropy alloy thin film deposition](https://arxiv.org/abs/2606.09146v1) | 2026-06-08T07:42:47Z | status: auto | note: `data/notes/2606.09146v1.md`
+- [Machine learning assisted molecular dynamics of charge-transfer mechanisms at Li/Ga-doped Li$_7$La$_3$Zr$_2$O$_{12}$ (LLZO) interfaces](https://arxiv.org/abs/2606.07772v1) | 2026-06-05T18:29:55Z | status: auto | note: `data/notes/2606.07772v1.md`
 - [Resolving Light-Induced Structural Rearrangements in Responsive Microgels](https://arxiv.org/abs/2606.07371v1) | 2026-06-05T15:13:50Z | status: auto | note: `data/notes/2606.07371v1.md`
 - [Atomic-scale phase-field modeling for 2D ferroelectrics including non-Gaussian fluctuations](https://arxiv.org/abs/2606.06771v1) | 2026-06-04T23:30:11Z | status: auto | note: `data/notes/2606.06771v1.md`
 - [Plasticity of Neutron Star Crusts](https://arxiv.org/abs/2606.06706v1) | 2026-06-04T20:45:42Z | status: auto | note: `data/notes/2606.06706v1.md`
@@ -84,11 +89,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Proton-electron coupled catalyst for ionomer-free electrochemical energy conversion](https://arxiv.org/abs/2605.24757v1) | 2026-05-23T22:34:10Z | status: auto | note: `data/notes/2605.24757v1.md`
 - [The structure of a melt: The case of liquid bismuth](https://arxiv.org/abs/2605.24234v1) | 2026-05-22T21:22:34Z | status: auto | note: `data/notes/2605.24234v1.md`
 - [A Metadynamics-Based Framework for Free Energy Surface Mapping of Multiparticle Diffusion in Crystals](https://arxiv.org/abs/2605.23360v1) | 2026-05-22T08:25:20Z | status: auto | note: `data/notes/2605.23360v1.md`
-- [Upscaling DFT-trained machine-learning interatomic potential toward Quantum Monte Carlo accuracy: Sulfur-vacancy migration in monolayer MoS$_2$ as a testbed](https://arxiv.org/abs/2605.22601v1) | 2026-05-21T15:15:35Z | status: auto | note: `data/notes/2605.22601v1.md`
-- [Delineating the interplay effects of microstructure topology and residual stresses in ultrafast laser irradiated thin films](https://arxiv.org/abs/2605.22229v1) | 2026-05-21T09:31:45Z | status: auto | note: `data/notes/2605.22229v1.md`
-- [Silicate cosmic dust grain collisions in the interstellar medium: A molecular dynamics study](https://arxiv.org/abs/2605.22225v1) | 2026-05-21T09:28:23Z | status: auto | note: `data/notes/2605.22225v1.md`
-- [Silicate cosmic dust grain collisions in the interstellar medium: A molecular dynamics study](https://arxiv.org/abs/2605.22225v2) | 2026-05-21T09:28:23Z | status: auto | note: `data/notes/2605.22225v2.md`
-- [Toward the Rational Design of Molecular Field-Coupled Nanocomputing Candidates](https://arxiv.org/abs/2605.22196v1) | 2026-05-21T09:00:35Z | status: auto | note: `data/notes/2605.22196v1.md`
 
 ## Phase-Field Crystal
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
