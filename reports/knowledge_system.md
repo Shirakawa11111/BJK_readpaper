@@ -3,8 +3,8 @@
 This map is rebuilt automatically from `data/paper_db.json`.
 
 ## Overview
-- Total papers in library: 292
-- Last rebuilt: 2026-06-09T04:56:45.690172+00:00
+- Total papers in library: 297
+- Last rebuilt: 2026-06-10T05:08:08.598593+00:00
 
 ## Multiphysics Coupling
 - [Deviations from Debye's specific heat due to excess energy fluctuations](https://arxiv.org/abs/2606.09566v1) | 2026-06-08T14:40:08Z | status: auto | note: `data/notes/2606.09566v1.md`
@@ -23,6 +23,7 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Proton-electron coupled catalyst for ionomer-free electrochemical energy conversion](https://arxiv.org/abs/2605.24757v1) | 2026-05-23T22:34:10Z | status: auto | note: `data/notes/2605.24757v1.md`
 - [Toward the Rational Design of Molecular Field-Coupled Nanocomputing Candidates](https://arxiv.org/abs/2605.22196v1) | 2026-05-21T09:00:35Z | status: auto | note: `data/notes/2605.22196v1.md`
 - [Geometry-Dependent Crack Interaction and Toughening in Graphene](https://arxiv.org/abs/2605.20017v1) | 2026-05-19T15:45:36Z | status: auto | note: `data/notes/2605.20017v1.md`
+- [GELATO: Multi-Material Topology Optimization of Programmable Gel-Elastomer Structures](https://arxiv.org/abs/2605.19888v1) | 2026-05-19T14:17:36Z | status: auto | note: `data/notes/2605.19888v1.md`
 - [Accelerated "on-the-fly" coupled-cluster path-integral molecular dynamics: Impact of nuclear quantum effects on an asymmetric proton](https://arxiv.org/abs/2605.19858v1) | 2026-05-19T13:50:02Z | status: auto | note: `data/notes/2605.19858v1.md`
 - [Structure of Molten FeCl2 and FeCl3](https://arxiv.org/abs/2605.17207v1) | 2026-05-17T00:42:27Z | status: auto | note: `data/notes/2605.17207v1.md`
 - [Non-linear diffusion and inhomogeneity of the magnetic field in single-turn coils: Insights from 3D multiphysics modeling](https://arxiv.org/abs/2605.16659v1) | 2026-05-15T21:54:17Z | status: auto | note: `data/notes/2605.16659v1.md`
@@ -46,13 +47,14 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [EMSpice 3: Full-chip Temperature-Aware Multiphysics Electromigration and IR-Drop Analysis](https://arxiv.org/abs/2604.10743v3) | 2026-04-12T17:34:31Z | status: auto | note: `data/notes/2604.10743v3.md`
 - [Explicit Electric Potential-Embedded Machine Learning Framework: A Unified Description from Atomic to Electronic Scales](https://arxiv.org/abs/2604.07322v2) | 2026-04-08T17:37:11Z | status: auto | note: `data/notes/2604.07322v2.md`
 - [Unveiling Mechanisms of SEI Formation and Sodium Loss in Sodium Batteries via Interface Reactor Sampling](https://arxiv.org/abs/2604.07077v1) | 2026-04-08T13:34:33Z | status: auto | note: `data/notes/2604.07077v1.md`
-- [A multiphysics deep energy method for fourth-order phase-field fracture with piezoresistive self-sensing](https://arxiv.org/abs/2604.03453v1) | 2026-04-03T20:55:03Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.03453v1.md`
 
 ## Molecular Dynamics
+- [Finite-temperature Fe K-edge X-ray absorption simulations reveal local structural dynamics of an iron(II) photosensitizer in solution and the crystalline phase](https://arxiv.org/abs/2606.10221v1) | 2026-06-08T22:22:33Z | status: auto | note: `data/notes/2606.10221v1.md`
 - [k-Means Clustering in Fingerprint-Based Configuration Selection for Fitting Interatomic Potentials](https://arxiv.org/abs/2606.09575v1) | 2026-06-08T14:51:40Z | status: auto | note: `data/notes/2606.09575v1.md`
 - [Deviations from Debye's specific heat due to excess energy fluctuations](https://arxiv.org/abs/2606.09566v1) | 2026-06-08T14:40:08Z | status: auto | note: `data/notes/2606.09566v1.md`
 - [Hydride formation and phase separation in palladium nanoparticles from a transferable atomic cluster expansion potential](https://arxiv.org/abs/2606.09341v1) | 2026-06-08T11:07:29Z | status: auto | note: `data/notes/2606.09341v1.md`
 - [Molecular dynamic simulation of multicomponent CoCrFeNiMn high-entropy alloy thin film deposition](https://arxiv.org/abs/2606.09146v1) | 2026-06-08T07:42:47Z | status: auto | note: `data/notes/2606.09146v1.md`
+- [Novel 2D Altermagnetic Vanadium Oxide with a Buckled Lieb Structure](https://arxiv.org/abs/2606.08637v1) | 2026-06-07T13:59:29Z | status: auto | note: `data/notes/2606.08637v1.md`
 - [Machine learning assisted molecular dynamics of charge-transfer mechanisms at Li/Ga-doped Li$_7$La$_3$Zr$_2$O$_{12}$ (LLZO) interfaces](https://arxiv.org/abs/2606.07772v1) | 2026-06-05T18:29:55Z | status: auto | note: `data/notes/2606.07772v1.md`
 - [Resolving Light-Induced Structural Rearrangements in Responsive Microgels](https://arxiv.org/abs/2606.07371v1) | 2026-06-05T15:13:50Z | status: auto | note: `data/notes/2606.07371v1.md`
 - [Atomic-scale phase-field modeling for 2D ferroelectrics including non-Gaussian fluctuations](https://arxiv.org/abs/2606.06771v1) | 2026-06-04T23:30:11Z | status: auto | note: `data/notes/2606.06771v1.md`
@@ -87,8 +89,6 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Target-Distribution-Guided Cross-Functional Fine-Tuning of Machine-Learning Interatomic Potentials](https://arxiv.org/abs/2605.25032v1) | 2026-05-24T12:18:50Z | status: auto | note: `data/notes/2605.25032v1.md`
 - [Machine-learned atomistic simulations reveal the basis of hydrogen-induced crack-plane transition in alpha-Fe](https://arxiv.org/abs/2605.24880v1) | 2026-05-24T05:44:59Z | status: auto | note: `data/notes/2605.24880v1.md`
 - [Proton-electron coupled catalyst for ionomer-free electrochemical energy conversion](https://arxiv.org/abs/2605.24757v1) | 2026-05-23T22:34:10Z | status: auto | note: `data/notes/2605.24757v1.md`
-- [The structure of a melt: The case of liquid bismuth](https://arxiv.org/abs/2605.24234v1) | 2026-05-22T21:22:34Z | status: auto | note: `data/notes/2605.24234v1.md`
-- [A Metadynamics-Based Framework for Free Energy Surface Mapping of Multiparticle Diffusion in Crystals](https://arxiv.org/abs/2605.23360v1) | 2026-05-22T08:25:20Z | status: auto | note: `data/notes/2605.23360v1.md`
 
 ## Phase-Field Crystal
 - [Surface segregation of liquid metal plasma-facing component alloys: A ReaxFF investigation](https://arxiv.org/abs/2605.01863v1) | 2026-05-03T13:13:23Z | status: auto | note: `data/notes/2605.01863v1.md`
@@ -121,6 +121,8 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Multiaxial Kitagawa analysis of A356-T6](https://arxiv.org/abs/1206.2343v1) | 2012-06-10T00:53:20Z | status: auto | note: `data/notes/1206.2343v1.md`
 
 ## Tensile / Deformation Simulation
+- [A phase-field modeling approach to sea-ice fracturing](https://arxiv.org/abs/2606.10545v1) | 2026-06-09T08:11:46Z | status: auto | note: `data/notes/2606.10545v1.md`
+- [Energetics of Nucleation in Finitely Deformed, Phase-Transforming Soft Solids](https://arxiv.org/abs/2606.10427v1) | 2026-06-09T04:58:21Z | status: auto | note: `data/notes/2606.10427v1.md`
 - [Influence of anisotropy on the expansion performance of auxetic skin meshing geometries: a finite element study](https://arxiv.org/abs/2606.04893v1) | 2026-06-03T13:54:05Z | status: auto | note: `data/notes/2606.04893v1.md`
 - [An Octahedral Fibrous Constitutive Model for Heart Valve Mechanics and Function](https://arxiv.org/abs/2606.04234v1) | 2026-06-02T21:34:11Z | status: auto | note: `data/notes/2606.04234v1.md`
 - [Mechanochemical Nano-Writing of an Atomically Thin Metal](https://arxiv.org/abs/2606.03710v1) | 2026-06-02T14:31:11Z | status: auto | note: `data/notes/2606.03710v1.md`
@@ -159,5 +161,3 @@ This map is rebuilt automatically from `data/paper_db.json`.
 - [Elastic softening and fracture in randomly perforated solids](https://arxiv.org/abs/2604.01858v1) | 2026-04-02T10:15:20Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2604.01858v1.md`
 - [Pentagonal PdTe2 Monolayer for Sustainable Solar-driven Hydrogen Production](https://arxiv.org/abs/2603.28726v1) | 2026-03-30T17:44:03Z | status: auto | note: `data/notes/2603.28726v1.md`
 - [Single-material 4D-printed shape-morphing structures via spatially patterned strain trapping](https://arxiv.org/abs/2603.27152v1) | 2026-03-28T06:30:15Z | status: auto | note: `data/notes/2603.27152v1.md`
-- [Molecular dynamics study of the role of anisotropy in radiation-driven embrittlement](https://arxiv.org/abs/2603.25617v2) | 2026-03-26T16:32:08Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.25617v2.md`
-- [Emerging hierarchical dislocation structures: Insights from scanning electron microscopy-electron backscatter diffraction in situ tensile testing and multifractal analysis](https://arxiv.org/abs/2603.20689v1) | 2026-03-21T07:08:22Z | status: auto | note: `/home/runner/work/BJK_readpaper/BJK_readpaper/data/notes/2603.20689v1.md`
